@@ -7,6 +7,11 @@
 :toc-title: Inhalt
 :toclevels: 10
 
+== Status
+
+https://github.com/sknull/jackson-hybrid-xml/actions/workflows/github-ci.yml[image:https://github.com/sknull/jackson-hybrid-xml/actions/workflows/github-ci.yml/badge.svg[Jackson
+Hybrid Xml]]
+
 == Introduction
 
 The problem to work with XML which consists of the usual predefined beans but also contains polymorphic parts (such as HTML markup) is now long time with me in my professional career.

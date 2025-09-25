@@ -1,6 +1,5 @@
 package de.visualdigits.hybridxml.module.hybrid
 
-import com.fasterxml.jackson.annotation.JsonIgnoreProperties
 import com.fasterxml.jackson.dataformat.xml.annotation.JacksonXmlProperty
 import com.fasterxml.jackson.dataformat.xml.annotation.JacksonXmlRootElement
 import de.visualdigits.hybridxml.model.BaseNode
@@ -63,7 +62,6 @@ class HybridNodeModelTest {
 }
 
 @JacksonXmlRootElement(localName = "demo")
-@JsonIgnoreProperties(ignoreUnknown = true)
 class Demo(
     @field:JacksonXmlProperty(isAttribute = true) val name: String? = null,
     val subDemo: SubDemo? = null

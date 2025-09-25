@@ -1,6 +1,6 @@
 package de.visualdigits.hybridxml.model
 
-import com.fasterxml.jackson.annotation.JsonIgnoreProperties
+import com.fasterxml.jackson.annotation.JsonIgnore
 import java.lang.reflect.ParameterizedType
 import java.lang.reflect.WildcardType
 import java.util.List
@@ -10,24 +10,23 @@ import java.util.List
  * It takes care about calculating indent levels after the complete tree is read.
  * We need this to properly indent any polymorphic stuff within bean objects.
  */
-@JsonIgnoreProperties("level", "baseNodeParent", "baseNodeChildren")
 abstract class BaseNode<T : BaseNode<T>> {
 
-    protected var level: Int = 0
+    @JsonIgnore var baseNodeLevel: Int = 0
 
-    protected var baseNodeParent: BaseNode<*>? = null
+    @JsonIgnore var baseNodeParent: BaseNode<*>? = null
 
-    protected var baseNodeChildren: MutableList<BaseNode<*>> = mutableListOf()
+    @JsonIgnore val baseNodeChildren: MutableList<BaseNode<*>> = mutableListOf()
 
     /**
      * Calculate indent levels for all nodes not being polymorphic
      * in a reflective manner.
      */
-    open fun indent(level: Int = 0) {
-        this.level = level
+    open fun indent(parent: BaseNode<*>? = null, level: Int = 0) {
+        this.baseNodeLevel = level
 
         // process all fields which we can directly determine
-        val baseNodes = javaClass.declaredFields
+        val baseNodeChildren = javaClass.declaredFields
             .filter { field ->
                 BaseNode::class.java.isAssignableFrom(field.type)
             }
@@ -37,7 +36,7 @@ abstract class BaseNode<T : BaseNode<T>> {
             }.toMutableList()
 
         // process lists
-        baseNodes.addAll(javaClass.declaredFields
+        baseNodeChildren.addAll(javaClass.declaredFields
             .filter { field ->
                 val isCandidate = (field.genericType as? ParameterizedType)?.let { pt ->
                     pt.actualTypeArguments.any { ata ->
@@ -59,10 +58,15 @@ abstract class BaseNode<T : BaseNode<T>> {
                     (elem as? BaseNode<*>)
                 }
             }.flatten())
-        baseNodes.forEach { bn -> bn.indent(level + 1) }
+
+        baseNodeChildren.forEach { bn ->
+            bn.baseNodeParent = this
+            bn.indent(this, level + 1)
+        }
+        this.baseNodeChildren.addAll(baseNodeChildren)
     }
 
-    fun currentLevel(): Int = level
+    fun currentLevel(): Int = baseNodeLevel
 
     open fun postProcessXml() {
         // nothing to do here

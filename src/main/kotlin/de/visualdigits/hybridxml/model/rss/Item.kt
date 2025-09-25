@@ -2,7 +2,6 @@ package de.visualdigits.hybridxml.model.rss
 
 import de.visualdigits.hybridxml.model.BaseNode
 
-//@JsonIgnoreProperties("content")
 class Item(
     val guid: Guid? = null,
     val identifier: String? = null,

@@ -1,6 +1,6 @@
 package de.visualdigits.hybridxml.model.polymorphic
 
-import com.fasterxml.jackson.annotation.JsonIgnoreProperties
+import com.fasterxml.jackson.annotation.JsonIgnore
 import com.fasterxml.jackson.dataformat.xml.annotation.JacksonXmlElementWrapper
 import de.visualdigits.hybridxml.model.BaseNode
 import de.visualdigits.hybridxml.model.polymorphic.text.PolymorphicTextNode
@@ -15,12 +15,11 @@ import org.jsoup.nodes.Element
  * Jackson XML would consider both as the same because the underlying
  * JSON logic cannot distinguish the two (and in JSON it is in fact the same).
  */
-@JsonIgnoreProperties("parent", "label", "attributes")
 @Suppress("UNCHECKED_CAST")
 open class PolymorphicNode<T : PolymorphicNode<T>>(
-    var label: String,
-    val attributes: MutableMap<String, String?> = mutableMapOf(),
-    var parent: PolymorphicNode<*>? = null,
+    @JsonIgnore var label: String,
+    @JsonIgnore val attributes: MutableMap<String, String?> = mutableMapOf(),
+    @JsonIgnore var parent: PolymorphicNode<*>? = null,
     @field:JacksonXmlElementWrapper(useWrapping = false) val children: MutableList<PolymorphicNode<*>> = mutableListOf(),
     var text: String? = null
 ) : BaseNode<T>() {
@@ -86,8 +85,13 @@ open class PolymorphicNode<T : PolymorphicNode<T>>(
         return this as T
     }
 
-    override fun indent(level: Int) {
-        this.level = level
-        children.forEach { child -> child.indent((level + 1)) }
+    override fun indent(parent: BaseNode<*>?, level: Int) {
+        this.baseNodeLevel = level
+        children.forEach { child ->
+            child.baseNodeParent = this
+            child.indent(this, level + 1)
+        }
+        baseNodeChildren.clear()
+        baseNodeChildren.addAll(children)
     }
 }

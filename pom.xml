@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="http://maven.apache.org/POM/4.0.0"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>de.visualdigits</groupId>
+  <artifactId>jackson-hybrid-xml</artifactId>
+  <version>1.0.0-SNAPSHOT</version>
+  <packaging>jar</packaging>
+
+  <properties>
+    <java-version>21</java-version>
+    <compilerVersion>21</compilerVersion>
+    <project.build.source>21</project.build.source>
+    <project.build.target>21</project.build.target>
+    <kotlin.compiler.jvmTarget>21</kotlin.compiler.jvmTarget>
+    <version.kotlin.maven>2.2.0</version.kotlin.maven>
+    <version.kotlin.language>2.2</version.kotlin.language>
+
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+
+    <kotlin.code.style>official</kotlin.code.style>
+
+    <version.jackson>2.17.2</version.jackson>
+    <version.junit.jupiter>5.10.1</version.junit.jupiter>
+    <version.log4j>1.2.17</version.log4j>
+    <version.mysql>8.0.30</version.mysql>
+    <version.slf4j>2.0.9</version.slf4j>
+    <version.telegram>6.3.0</version.telegram>
+    <version.tikxml>0.8.13</version.tikxml>
+  </properties>
+
+  <repositories>
+    <repository>
+      <id>github</id>
+      <url>https://github.com/sknull/essence</url>
+    </repository>
+
+    <repository>
+      <id>jitpack.io</id>
+      <url>https://jitpack.io</url>
+    </repository>
+
+    <repository>
+      <id>mavenCentral</id>
+      <url>https://repo1.maven.org/maven2/</url>
+    </repository>
+  </repositories>
+
+  <dependencies>
+    <!-- kotlin -->
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib</artifactId>
+      <version>${version.kotlin.maven}</version>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlinx</groupId>
+      <artifactId>kotlinx-coroutines-core</artifactId>
+      <version>1.7.3</version>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlinx</groupId>
+      <artifactId>kotlinx-coroutines-test</artifactId>
+      <version>1.7.3</version>
+    </dependency>
+
+    <!-- html -->
+    <dependency>
+      <groupId>org.jsoup</groupId>
+      <artifactId>jsoup</artifactId>
+      <version>1.18.1</version>
+    </dependency>
+
+    <!-- jackson -->
+    <dependency>
+      <groupId>com.fasterxml.jackson.core</groupId>
+      <artifactId>jackson-core</artifactId>
+      <version>${version.jackson}</version>
+    </dependency>
+    <dependency>
+      <groupId>com.fasterxml.jackson.core</groupId>
+      <artifactId>jackson-annotations</artifactId>
+      <version>${version.jackson}</version>
+    </dependency>
+    <dependency>
+      <groupId>com.fasterxml.jackson.core</groupId>
+      <artifactId>jackson-databind</artifactId>
+      <version>${version.jackson}</version>
+    </dependency>
+    <dependency>
+      <groupId>com.fasterxml.jackson.dataformat</groupId>
+      <artifactId>jackson-dataformat-xml</artifactId>
+      <version>${version.jackson}</version>
+    </dependency>
+    <dependency>
+      <groupId>com.fasterxml.jackson.module</groupId>
+      <artifactId>jackson-module-kotlin</artifactId>
+      <version>${version.jackson}</version>
+    </dependency>
+    <dependency>
+      <groupId>com.fasterxml.jackson.datatype</groupId>
+      <artifactId>jackson-datatype-jsr310</artifactId>
+      <version>${version.jackson}</version>
+    </dependency>
+
+    <!-- logging -->
+    <dependency>
+      <groupId>org.slf4j</groupId>
+      <artifactId>slf4j-reload4j</artifactId>
+      <version>${version.slf4j}</version>
+    </dependency>
+    <dependency>
+      <groupId>log4j</groupId>
+      <artifactId>log4j</artifactId>
+      <version>${version.log4j}</version>
+    </dependency>
+
+    <!-- testing -->
+    <dependency>
+      <groupId>org.junit.jupiter</groupId>
+      <artifactId>junit-jupiter-api</artifactId>
+      <version>${version.junit.jupiter}</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.junit.jupiter</groupId>
+      <artifactId>junit-jupiter-engine</artifactId>
+      <version>${version.junit.jupiter}</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.junit.platform</groupId>
+      <artifactId>junit-platform-launcher</artifactId>
+      <version>1.10.1</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+
+  <build>
+    <sourceDirectory>src/main/kotlin</sourceDirectory>
+    <testSourceDirectory>src/test/kotlin</testSourceDirectory>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-enforcer-plugin</artifactId>
+        <version>3.6.1</version>
+        <executions>
+          <execution>
+            <id>enforce-maven</id>
+            <goals>
+              <goal>enforce</goal>
+            </goals>
+            <configuration>
+              <rules>
+                <requireMavenVersion>
+                  <version>3.8.1</version>
+                </requireMavenVersion>
+              </rules>
+            </configuration>
+          </execution>
+        </executions>
+      </plugin>
+
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-source-plugin</artifactId>
+        <version>3.3.1</version>
+        <executions>
+          <execution>
+            <id>attach-sources</id>
+            <phase>package</phase>
+            <goals>
+              <goal>jar-no-fork</goal>
+            </goals>
+          </execution>
+        </executions>
+      </plugin>
+
+      <plugin>
+        <groupId>org.jetbrains.kotlin</groupId>
+        <artifactId>kotlin-maven-plugin</artifactId>
+        <version>${version.kotlin.maven}</version>
+        <configuration>
+          <languageVersion>${version.kotlin.language}</languageVersion>
+          <jvmTarget>${project.build.target}</jvmTarget>
+          <args>
+            <arg>-Xannotation-default-target=param-property</arg>
+          </args>
+        </configuration>
+        <executions>
+          <execution>
+            <id>kapt</id>
+            <goals>
+              <goal>kapt</goal>
+            </goals>
+          </execution>
+          <execution>
+            <id>compile</id>
+            <phase>compile</phase>
+            <goals>
+              <goal>compile</goal>
+            </goals>
+          </execution>
+          <execution>
+            <id>test-compile</id>
+            <phase>test-compile</phase>
+            <goals>
+              <goal>test-compile</goal>
+            </goals>
+          </execution>
+        </executions>
+      </plugin>
+
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <version>3.14.0</version>
+        <configuration>
+          <source>${project.build.source}</source>
+          <target>${project.build.target}</target>
+        </configuration>
+        <executions>
+          <execution>
+            <id>default-compile</id>
+            <phase>none</phase>
+          </execution>
+          <execution>
+            <id>default-testCompile</id>
+            <phase>none</phase>
+          </execution>
+          <execution>
+            <id>java-compile</id>
+            <phase>compile</phase>
+            <goals>
+              <goal>compile</goal>
+            </goals>
+          </execution>
+          <execution>
+            <id>java-test-compile</id>
+            <phase>test-compile</phase>
+            <goals>
+              <goal>testCompile</goal>
+            </goals>
+          </execution>
+        </executions>
+      </plugin>
+
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-surefire-plugin</artifactId>
+        <version>3.5.3</version>
+      </plugin>
+
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-failsafe-plugin</artifactId>
+        <version>3.5.2</version>
+      </plugin>
+    </plugins>
+  </build>
+</project>

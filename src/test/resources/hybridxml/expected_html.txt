@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<demo name="Hello World!">
+  <subDemo foo="foo" bar="bar" baz="baz">
+    <description>
+      <html>
+        <head>
+          <title>Hello World!</title>
+        </head>
+        <body>
+          <!--this is a comment-->
+          <div id="the-div" class="foo">
+            Hello World!
+          </div>
+        </body><![CDATA[data data and mor data]]>
+      </html>
+    </description>
+  </subDemo>
+</demo>

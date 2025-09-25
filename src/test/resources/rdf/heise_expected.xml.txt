@@ -1,0 +1,1181 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Rss version="2.0">
+  <channel>
+    <title>heise online News</title>
+    <link>https://www.heise.de/</link>
+    <description>Nachrichten nicht nur aus der Welt der Computer</description>
+    <language>de</language>
+    <lastBuildDate>Sun, 03 May 2020 19:52:00 +0200</lastBuildDate>
+    <item>
+      <guid isPermaLink="true">https://techstage.de/-4713443</guid>
+      <pubDate>Sun, 03 May 2020 19:52:00 +0200</pubDate>
+      <content>
+        <html>
+          <p><a href="https://www.techstage.de/news/Samsung-Galaxy-A71-Das-bessere-A51-im-Test-4713443.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag"><img src="https://www.heise.de/scale/geometry/450/q80//imgs/18/2/8/8/8/5/4/8/A71_Dachbild-b7b874655b630416.jpeg" class="webfeedsFeaturedVisual" alt="" /></a></p>
+          <p>Wenn's ein bisschen mehr sein darf: Samsungs Galaxy A71 ist größer, schneller, mit besserer Kamera ausgestattet und teurer. Lohnt die Mehrausgabe?</p>
+        </html>
+      </content>
+      <title>TechStage | Samsung Galaxy A71: Das bessere A51 im Test</title>
+      <link>
+        https://www.techstage.de/news/Samsung-Galaxy-A71-Das-bessere-A51-im-Test-4713443.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag
+      </link>
+      <description>Wenn's ein bisschen mehr sein darf: Samsungs Galaxy A71 ist größer, schneller, mit besserer Kamera
+        ausgestattet und teurer. Lohnt die Mehrausgabe?
+      </description>
+    </item>
+    <item>
+      <guid isPermaLink="true">https://techstage.de/-4713439</guid>
+      <pubDate>Sun, 03 May 2020 19:20:00 +0200</pubDate>
+      <content>
+        <html>
+          <p><a href="https://www.techstage.de/news/Actioncams-von-30-bis-ueber-400-Euro-Was-ist-wirklich-noetig-4713439.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag"><img src="https://www.heise.de/scale/geometry/450/q80//imgs/18/2/8/8/8/5/7/7/acs_dach-65caa93ef544f983.jpeg" class="webfeedsFeaturedVisual" alt="" /></a></p>
+          <p>4K, Timelapse, Slowmo, HDR oder EIS sind nur einige Funktionen aktueller Actioncams. TechStage zeigt, worauf es ankommt und welche Kamera für wen geeignet ist.</p>
+        </html>
+      </content>
+      <title>TechStage | Actioncams von 30 bis über 400 Euro: Was ist wirklich nötig?</title>
+      <link>
+        https://www.techstage.de/news/Actioncams-von-30-bis-ueber-400-Euro-Was-ist-wirklich-noetig-4713439.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag
+      </link>
+      <description>4K, Timelapse, Slowmo, HDR oder EIS sind nur einige Funktionen aktueller Actioncams. TechStage zeigt,
+        worauf es ankommt und welche Kamera für wen geeignet ist.
+      </description>
+    </item>
+    <item>
+      <guid isPermaLink="true">http://heise.de/-4713485</guid>
+      <pubDate>Sun, 03 May 2020 16:52:00 +0200</pubDate>
+      <content>
+        <html>
+          <p><a href="https://www.heise.de/newsticker/meldung/Experten-Smartphone-Verkaeufe-fielen-in-Corona-Krise-um-17-Prozent-4713485.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag"><img src="https://www.heise.de/scale/geometry/450/q80//imgs/18/2/8/8/8/5/5/9/shutterstock_1396636169-f1a1648a3b196426.jpeg" class="webfeedsFeaturedVisual" alt="" /></a></p>
+          <p>Die Pandemie drückt auch auf die Smartphone-Verkäufe. Neben Samsung traf es Huawei ziemlich hart, Apple wiederum behauptete sich vergleichsweise gut.</p>
+        </html>
+      </content>
+      <title>Experten: Smartphone-Verkäufe fielen in Corona-Krise um 17 Prozent</title>
+      <link>
+        https://www.heise.de/newsticker/meldung/Experten-Smartphone-Verkaeufe-fielen-in-Corona-Krise-um-17-Prozent-4713485.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag
+      </link>
+      <description>Die Pandemie drückt auch auf die Smartphone-Verkäufe. Neben Samsung traf es Huawei ziemlich hart,
+        Apple wiederum behauptete sich vergleichsweise gut.
+      </description>
+    </item>
+    <item>
+      <guid isPermaLink="true">http://heise.de/-4713482</guid>
+      <pubDate>Sun, 03 May 2020 16:20:00 +0200</pubDate>
+      <content>
+        <html>
+          <p><a href="https://www.heise.de/newsticker/meldung/Brandenburg-Schneller-surfen-5G-Mobilfunk-breitet-sich-aus-4713482.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag"><img src="https://www.heise.de/scale/geometry/450/q80//imgs/18/2/8/8/8/5/5/6/shutterstock_1291282390-6ca5903a24851f42.jpeg" class="webfeedsFeaturedVisual" alt="" /></a></p>
+          <p>Noch immer erschweren Funklöcher den Mobilfunk in Teilen Brandenburgs. Mit den schnellen 5G-Funknetzen wird auch die LTE-Technik flächendeckend ausgebaut.</p>
+        </html>
+      </content>
+      <title>Brandenburg: Schneller surfen – 5G-Mobilfunk breitet sich aus</title>
+      <link>
+        https://www.heise.de/newsticker/meldung/Brandenburg-Schneller-surfen-5G-Mobilfunk-breitet-sich-aus-4713482.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag
+      </link>
+      <description>Noch immer erschweren Funklöcher den Mobilfunk in Teilen Brandenburgs. Mit den schnellen
+        5G-Funknetzen wird auch die LTE-Technik flächendeckend ausgebaut.
+      </description>
+    </item>
+    <item>
+      <guid isPermaLink="true">http://heise.de/-4407315</guid>
+      <pubDate>Sun, 03 May 2020 14:00:00 +0200</pubDate>
+      <content>
+        <html>
+          <p><a href="https://www.heise.de/ratgeber/Selbstgebautes-Platinen-Bohrsystem-mit-Raspberry-Pi-und-Arduino-vorgestellt-4407315.html?wt_mc=rss.red.ho.ho.rdf.beitrag_plus.beitrag_plus"><img src="https://www.heise.de/scale/geometry/450/q80//imgs/02/2/6/6/7/6/9/8/image-1523255346375621-c1b986e64d7e38c2.jpeg" class="webfeedsFeaturedVisual" alt="" /></a></p>
+          <p>Selbstgeätzte Platinen händisch zu bohren ist oft ungenau. Das Platinen-Bohrsystem bohrt präszise von unten, unterstützt durch eine visuelle Positionierhilfe.</p>
+        </html>
+      </content>
+      <title>heise+ | Platinen-Bohrsystem mit Raspberry Pi und Arduino selbstgebaut</title>
+      <link>
+        https://www.heise.de/ratgeber/Selbstgebautes-Platinen-Bohrsystem-mit-Raspberry-Pi-und-Arduino-vorgestellt-4407315.html?wt_mc=rss.red.ho.ho.rdf.beitrag_plus.beitrag_plus
+      </link>
+      <description>Selbstgeätzte Platinen händisch zu bohren ist oft ungenau. Das Platinen-Bohrsystem bohrt präszise von
+        unten, unterstützt durch eine visuelle Positionierhilfe.
+      </description>
+    </item>
+    <item>
+      <guid isPermaLink="true">http://heise.de/-4713428</guid>
+      <pubDate>Sun, 03 May 2020 13:49:00 +0200</pubDate>
+      <content>
+        <html>
+          <p><a href="https://www.heise.de/newsticker/meldung/Bericht-Xiaomi-Smartphones-spionieren-ihre-Benutzer-aus-4713428.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag"><img src="https://www.heise.de/scale/geometry/450/q80//imgs/18/2/8/8/8/5/1/4/shutterstock_273128801-354729d197388c56.jpeg" class="webfeedsFeaturedVisual" alt="" /></a></p>
+          <p>Browserverlauf, Apps, Musik: Zwei Security-Spezialisten haben aufgedeckt, dass Smartphones von Xiaomi das Benutzerverhalten aufzeichnen und weiterleiten.</p>
+        </html>
+      </content>
+      <title>Bericht: Xiaomi-Smartphones spionieren ihre Benutzer aus</title>
+      <link>
+        https://www.heise.de/newsticker/meldung/Bericht-Xiaomi-Smartphones-spionieren-ihre-Benutzer-aus-4713428.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag
+      </link>
+      <description>Browserverlauf, Apps, Musik: Zwei Security-Spezialisten haben aufgedeckt, dass Smartphones von Xiaomi
+        das Benutzerverhalten aufzeichnen und weiterleiten.
+      </description>
+    </item>
+    <item>
+      <guid isPermaLink="true">http://heise.de/-4713435</guid>
+      <pubDate>Sun, 03 May 2020 13:18:00 +0200</pubDate>
+      <content>
+        <html>
+          <p><a href="https://www.heise.de/newsticker/meldung/Das-Ruhrgebiet-wird-zur-Startup-Szene-4713435.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag"><img src="https://www.heise.de/scale/geometry/450/q80//imgs/18/2/8/8/8/5/2/1/shutterstock_790043191-d70e01b14250b411.jpeg" class="webfeedsFeaturedVisual" alt="" /></a></p>
+          <p>Das Ruhrgebiet ist spät auf den Startup-Zug aufgesprungen. Inzwischen hat die Region den Rückstand wettgemacht und bietet Vorteile für Unternehmensgründer.</p>
+        </html>
+      </content>
+      <title>Das Ruhrgebiet wird zur Startup-Szene</title>
+      <link>
+        https://www.heise.de/newsticker/meldung/Das-Ruhrgebiet-wird-zur-Startup-Szene-4713435.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag
+      </link>
+      <description>Das Ruhrgebiet ist spät auf den Startup-Zug aufgesprungen. Inzwischen hat die Region den Rückstand
+        wettgemacht und bietet Vorteile für Unternehmensgründer.
+      </description>
+    </item>
+    <item>
+      <guid isPermaLink="true">http://heise.de/-4713419</guid>
+      <pubDate>Sun, 03 May 2020 11:30:00 +0200</pubDate>
+      <content>
+        <html>
+          <p><a href="https://www.heise.de/newsticker/meldung/Mit-Tablet-und-Drohne-Winzer-machen-sich-digitale-Technik-zunutze-4713419.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag"><img src="https://www.heise.de/scale/geometry/450/q80//imgs/18/2/8/8/8/5/0/5/shutterstock_1720013638-50e3db4927d82eed.jpeg" class="webfeedsFeaturedVisual" alt="" /></a></p>
+          <p>Auch im Winzer-Handwerk ist die Digitalisierung angekommen: Ob Drohnentechnik oder Maschinen für intelligentes Düngen – Weinbauern setzen auf neue Technik.</p>
+        </html>
+      </content>
+      <title>Mit Tablet und Drohne – Winzer machen sich digitale Technik zunutze</title>
+      <link>
+        https://www.heise.de/newsticker/meldung/Mit-Tablet-und-Drohne-Winzer-machen-sich-digitale-Technik-zunutze-4713419.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag
+      </link>
+      <description>Auch im Winzer-Handwerk ist die Digitalisierung angekommen: Ob Drohnentechnik oder Maschinen für
+        intelligentes Düngen – Weinbauern setzen auf neue Technik.
+      </description>
+    </item>
+    <item>
+      <guid isPermaLink="true">http://heise.de/-4713414</guid>
+      <pubDate>Sun, 03 May 2020 11:12:00 +0200</pubDate>
+      <content>
+        <html>
+          <p><a href="https://www.heise.de/newsticker/meldung/Tag-der-Pressefreiheit-Europa-als-Schlachtfeld-der-freien-Meinungsaeusserung-4713414.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag"><img src="https://www.heise.de/scale/geometry/450/q80//imgs/18/2/8/8/8/5/0/0/shutterstock_424107595-1a5a100ad6a6b31d.jpeg" class="webfeedsFeaturedVisual" alt="" /></a></p>
+          <p>Eine Allianz für den Schutz des Journalismus schlägt Alarm angesichts zunehmender Versuche, Pressevertreter einzuschüchtern und zum Schweigen zu bringen.</p>
+        </html>
+      </content>
+      <title>Tag der Pressefreiheit: Europa als "Schlachtfeld" der freien Meinungsäußerung</title>
+      <link>
+        https://www.heise.de/newsticker/meldung/Tag-der-Pressefreiheit-Europa-als-Schlachtfeld-der-freien-Meinungsaeusserung-4713414.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag
+      </link>
+      <description>Eine Allianz für den Schutz des Journalismus schlägt Alarm angesichts zunehmender Versuche,
+        Pressevertreter einzuschüchtern und zum Schweigen zu bringen.
+      </description>
+    </item>
+    <item>
+      <guid isPermaLink="true">http://heise.de/-4590024</guid>
+      <pubDate>Sun, 03 May 2020 10:00:00 +0200</pubDate>
+      <content>
+        <html>
+          <p><a href="https://www.heise.de/tests/FIDO2-Sicherheitsschluessel-zum-Einloggen-mit-und-ohne-Passwort-4590024.html?wt_mc=rss.red.ho.ho.rdf.beitrag_plus.beitrag_plus"><img src="https://www.heise.de/scale/geometry/450/q80//imgs/02/2/7/9/1/0/7/7/image-1574147540958437-17c8f81cb18f3c8e.jpeg" class="webfeedsFeaturedVisual" alt="" /></a></p>
+          <p>Mit einem Sicherheitsschlüssel schützen Sie Ihre Accounts effektiv vor Phishing und Trojanern. Wir haben die derzeit erhältlichen Modelle getestet.</p>
+        </html>
+      </content>
+      <title>heise+ | FIDO2-Sticks zum Einloggen mit und ohne Passwort</title>
+      <link>
+        https://www.heise.de/tests/FIDO2-Sicherheitsschluessel-zum-Einloggen-mit-und-ohne-Passwort-4590024.html?wt_mc=rss.red.ho.ho.rdf.beitrag_plus.beitrag_plus
+      </link>
+      <description>Mit einem Sicherheitsschlüssel schützen Sie Ihre Accounts effektiv vor Phishing und Trojanern. Wir
+        haben die derzeit erhältlichen Modelle getestet.
+      </description>
+    </item>
+    <item>
+      <guid isPermaLink="true">http://heise.de/-4707011</guid>
+      <pubDate>Sun, 03 May 2020 08:05:00 +0200</pubDate>
+      <content>
+        <html>
+          <p><a href="https://www.heise.de/newsticker/meldung/Missing-Link-Es-braeuchte-einen-Aufstand-gegen-die-Smartphone-Epidemie-4707011.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag"><img src="https://www.heise.de/scale/geometry/450/q80//imgs/18/2/8/8/2/7/1/8/shutterstock_1389008027-f0207099fe04c2d7.jpeg" class="webfeedsFeaturedVisual" alt="" /></a></p>
+          <p>Auf einem endlichen Planeten kann man nicht leben, als gebe es unendliches Wachstum, sagt Ökonom Niko Paech und plädiert für eine "Postwachstumsökonomie".</p>
+        </html>
+      </content>
+      <title>Missing Link: "Es bräuchte einen Aufstand gegen die Smartphone-Epidemie"</title>
+      <link>
+        https://www.heise.de/newsticker/meldung/Missing-Link-Es-braeuchte-einen-Aufstand-gegen-die-Smartphone-Epidemie-4707011.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag
+      </link>
+      <description>Auf einem endlichen Planeten kann man nicht leben, als gebe es unendliches Wachstum, sagt Ökonom Niko
+        Paech und plädiert für eine "Postwachstumsökonomie".
+      </description>
+    </item>
+    <item>
+      <guid isPermaLink="true">http://heise.de/-4713378</guid>
+      <pubDate>Sun, 03 May 2020 00:09:00 +0200</pubDate>
+      <content>
+        <html>
+          <p><a href="https://www.heise.de/newsticker/meldung/Was-war-Was-wird-Wenn-nicht-nur-die-Baeume-ausschlagen-4713378.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag"><img src="https://www.heise.de/scale/geometry/450/q80//imgs/18/2/8/8/8/4/6/4/Fritz_KampftagDerArbeiterklasse-76240e2d7f636765.jpeg" class="webfeedsFeaturedVisual" alt="" /></a></p>
+          <p>Frieden, Krieg, was ist da schon der Unterschied? Hauptsache, man erfährt nichts davon, mäkelt Hal Faber, der eigentlich auch nur seine Ruhe haben will.</p>
+        </html>
+      </content>
+      <title>4W: Was war. Was wird. Wenn nicht nur die Bäume ausschlagen.</title>
+      <link>
+        https://www.heise.de/newsticker/meldung/Was-war-Was-wird-Wenn-nicht-nur-die-Baeume-ausschlagen-4713378.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag
+      </link>
+      <description>Frieden, Krieg, was ist da schon der Unterschied? Hauptsache, man erfährt nichts davon, mäkelt Hal
+        Faber, der eigentlich auch nur seine Ruhe haben will.
+      </description>
+    </item>
+    <item>
+      <guid isPermaLink="true">https://techstage.de/-4713141</guid>
+      <pubDate>Sat, 02 May 2020 18:06:00 +0200</pubDate>
+      <content>
+        <html>
+          <p><a href="https://www.techstage.de/news/Netgear-Nighthawk-RAX80-Router-mit-Wifi-6-im-Test-4713141.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag"><img src="https://www.heise.de/scale/geometry/450/q80//imgs/18/2/8/8/8/4/0/8/Netgear_RAX80_ho-94676b69d55dfeb6.png" class="webfeedsFeaturedVisual" alt="" /></a></p>
+          <p>Der Netgear Nighthawk AX6000 AX8 (RAX80) WLAN-Router funkt Wifi-6 bis 4800 MBit/s. TechStage testet, was in der schicken Hülle steckt.</p>
+        </html>
+      </content>
+      <title>TechStage | Netgear Nighthawk RAX80: Router mit Wifi-6 im Test</title>
+      <link>
+        https://www.techstage.de/news/Netgear-Nighthawk-RAX80-Router-mit-Wifi-6-im-Test-4713141.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag
+      </link>
+      <description>Der Netgear Nighthawk AX6000 AX8 (RAX80) WLAN-Router funkt Wifi-6 bis 4800 MBit/s. TechStage testet,
+        was in der schicken Hülle steckt.
+      </description>
+    </item>
+    <item>
+      <guid isPermaLink="true">http://heise.de/-4713372</guid>
+      <pubDate>Sat, 02 May 2020 17:43:00 +0200</pubDate>
+      <content>
+        <html>
+          <p><a href="https://www.heise.de/newsticker/meldung/Mail-vom-falschen-Chef-4713372.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag"><img src="https://www.heise.de/scale/geometry/450/q80//imgs/18/2/8/8/8/4/5/8/shutterstock_1038184249-c02c548e22980eec.jpeg" class="webfeedsFeaturedVisual" alt="" /></a></p>
+          <p>In Corona-Zeiten läuft die Kommunikation per Telefon, Video und Mail. Das nutzen Cyberkriminelle – Mail von falschen Vorgesetzten häuft sich.</p>
+        </html>
+      </content>
+      <title>Mail vom falschen Chef – verstärktes Phishing in Homeoffice-Zeiten</title>
+      <link>
+        https://www.heise.de/newsticker/meldung/Mail-vom-falschen-Chef-4713372.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag
+      </link>
+      <description>In Corona-Zeiten läuft die Kommunikation per Telefon, Video und Mail. Das nutzen Cyberkriminelle –
+        Mail von falschen Vorgesetzten häuft sich.
+      </description>
+    </item>
+    <item>
+      <guid isPermaLink="true">http://heise.de/-4713366</guid>
+      <pubDate>Sat, 02 May 2020 16:22:00 +0200</pubDate>
+      <content>
+        <html>
+          <p><a href="https://www.heise.de/newsticker/meldung/Wirtschaft-fordert-Lockerungen-bei-Datenschutzverordnung-wegen-Coronakrise-4713366.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag"><img src="https://www.heise.de/scale/geometry/450/q80//imgs/18/2/8/8/8/4/5/2/shutterstock_1132528373-35b67f8e2d0067ab.jpeg" class="webfeedsFeaturedVisual" alt="" /></a></p>
+          <p>Mehrere Wirtschaftsverbände beklagen Aufwand und Kosten durch die Umsetzung der DSGVO. Wegen der derzeitigen Krisenlage sollen Vorgaben gelockert werden.</p>
+        </html>
+      </content>
+      <title>Wirtschaft fordert Lockerungen bei Datenschutzverordnung wegen Coronakrise</title>
+      <link>
+        https://www.heise.de/newsticker/meldung/Wirtschaft-fordert-Lockerungen-bei-Datenschutzverordnung-wegen-Coronakrise-4713366.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag
+      </link>
+      <description>Mehrere Wirtschaftsverbände beklagen Aufwand und Kosten durch die Umsetzung der DSGVO. Wegen der
+        derzeitigen Krisenlage sollen Vorgaben gelockert werden.
+      </description>
+    </item>
+    <item>
+      <guid isPermaLink="true">http://heise.de/-4713352</guid>
+      <pubDate>Sat, 02 May 2020 15:40:00 +0200</pubDate>
+      <content>
+        <html>
+          <p><a href="https://www.heise.de/newsticker/meldung/Boeing-treibt-25-Milliarden-Dollar-auf-keine-Staatshilfen-4713352.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag"><img src="https://www.heise.de/scale/geometry/450/q80//imgs/18/2/8/8/8/4/3/8/179451196_f42bb27104-f49a76fddbaac8ad.jpeg" class="webfeedsFeaturedVisual" alt="" /></a></p>
+          <p>Dem Airbus-Erzrivalen Boeing steht das Wasser bis zum Hals. Doch Investoren geben dem US-Konzern weiter Kredit, wie eine Anleihenplatzierung nun zeigt.</p>
+        </html>
+      </content>
+      <title>Boeing treibt 25 Milliarden Dollar auf – keine Staatshilfen</title>
+      <link>
+        https://www.heise.de/newsticker/meldung/Boeing-treibt-25-Milliarden-Dollar-auf-keine-Staatshilfen-4713352.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag
+      </link>
+      <description>Dem Airbus-Erzrivalen Boeing steht das Wasser bis zum Hals. Doch Investoren geben dem US-Konzern
+        weiter Kredit, wie eine Anleihenplatzierung nun zeigt.
+      </description>
+    </item>
+    <item>
+      <guid isPermaLink="true">http://heise.de/-4713355</guid>
+      <pubDate>Sat, 02 May 2020 15:05:00 +0200</pubDate>
+      <content>
+        <html>
+          <p><a href="https://www.heise.de/newsticker/meldung/Corona-Lagebild-Hessen-verwirft-Entscheidung-fuer-Palantir-Software-4713355.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag"><img src="https://www.heise.de/scale/geometry/450/q80//imgs/18/2/8/8/8/4/4/1/shutterstock_1411294787-5d2f0944107a7aea.jpeg" class="webfeedsFeaturedVisual" alt="" /></a></p>
+          <p>Die hessische Landesregierung hat sich jetzt doch dagegen entschieden, gratis ein Analysesystem der Big-Data-Firma im Kampf gegen die Corona-Pandemie zu nutzen.</p>
+        </html>
+      </content>
+      <title>Corona-Lagebild: Hessen verwirft Entscheidung für Palantir-Software</title>
+      <link>
+        https://www.heise.de/newsticker/meldung/Corona-Lagebild-Hessen-verwirft-Entscheidung-fuer-Palantir-Software-4713355.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag
+      </link>
+      <description>Die hessische Landesregierung hat sich jetzt doch dagegen entschieden, gratis ein Analysesystem der
+        Big-Data-Firma im Kampf gegen die Corona-Pandemie zu nutzen.
+      </description>
+    </item>
+    <item>
+      <guid isPermaLink="true">http://heise.de/-4713335</guid>
+      <pubDate>Sat, 02 May 2020 14:01:00 +0200</pubDate>
+      <content>
+        <html>
+          <p><a href="https://www.heise.de/newsticker/meldung/Schneller-5G-Mobilfunk-Empfang-auf-dem-hoechsten-Berg-der-Erde-4713335.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag"><img src="https://www.heise.de/scale/geometry/450/q80//imgs/18/2/8/8/8/4/2/1/xBildschirmfoto_2020-05-02_um_13-58c1c034290e4564.jpeg" class="webfeedsFeaturedVisual" alt="" /></a></p>
+          <p>Auch auf dem Mount Everest gibt es nun 5G-Mobilfunkempfang, aber wohl nur vorübergehend. Auf der Nordseite des Bergs arbeiten drei Basisstationen.</p>
+        </html>
+      </content>
+      <title>Schneller 5G-Mobilfunk-Empfang auf dem höchsten Berg der Erde</title>
+      <link>
+        https://www.heise.de/newsticker/meldung/Schneller-5G-Mobilfunk-Empfang-auf-dem-hoechsten-Berg-der-Erde-4713335.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag
+      </link>
+      <description>Auch auf dem Mount Everest gibt es nun 5G-Mobilfunkempfang, aber wohl nur vorübergehend. Auf der
+        Nordseite des Bergs arbeiten drei Basisstationen.
+      </description>
+    </item>
+    <item>
+      <guid isPermaLink="true">http://heise.de/-4699500</guid>
+      <pubDate>Sat, 02 May 2020 14:00:00 +0200</pubDate>
+      <content>
+        <html>
+          <p><a href="https://www.heise.de/ratgeber/Der-richtige-Lichtschalter-fuers-Smart-Home-4699500.html?wt_mc=rss.red.ho.ho.rdf.beitrag_plus.beitrag_plus"><img src="https://www.heise.de/scale/geometry/450/q80//imgs/02/2/8/7/6/0/9/6/Titelbild-Lichtschalter-Smart-Home-eccfa71b668b1677.jpeg" class="webfeedsFeaturedVisual" alt="" /></a></p>
+          <p>Statt mit App und Sprache bedienen viele Menschen smarte Lampen lieber per Lichtschalter. Welche fünf Varianten es gibt und was bei der Montage zu beachten ist.</p>
+        </html>
+      </content>
+      <title>heise+ | Der richtige Lichtschalter fürs Smart Home</title>
+      <link>
+        https://www.heise.de/ratgeber/Der-richtige-Lichtschalter-fuers-Smart-Home-4699500.html?wt_mc=rss.red.ho.ho.rdf.beitrag_plus.beitrag_plus
+      </link>
+      <description>Statt mit App und Sprache bedienen viele Menschen smarte Lampen lieber per Lichtschalter. Welche fünf
+        Varianten es gibt und was bei der Montage zu beachten ist.
+      </description>
+    </item>
+    <item>
+      <guid isPermaLink="true">http://heise.de/-4713291</guid>
+      <pubDate>Sat, 02 May 2020 12:50:00 +0200</pubDate>
+      <content>
+        <html>
+          <p><a href="https://www.heise.de/newsticker/meldung/GPS-Der-magische-Kompass-mit-eingebauer-Ungenauigkeit-4713291.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag"><img src="https://www.heise.de/scale/geometry/450/q80//imgs/18/2/8/8/8/3/7/7/Cockpit_GPS_Pilot_Flugzeug_Cessna-46d665eb869249b5.jpeg" class="webfeedsFeaturedVisual" alt="" /></a></p>
+          <p>GPS ist ein Service der US-Luftwaffe. Doch ein Jahrzehnt lang amputierte sie es absichtlich. Lesen Sie, warum Sie Bill Clinton Ihr Frühstück verdanken.</p>
+        </html>
+      </content>
+      <title>GPS – Der "magische Kompass" mit gewollter Ungenauigkeit</title>
+      <link>
+        https://www.heise.de/newsticker/meldung/GPS-Der-magische-Kompass-mit-eingebauer-Ungenauigkeit-4713291.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag
+      </link>
+      <description>GPS ist ein Service der US-Luftwaffe. Doch ein Jahrzehnt lang amputierte sie es absichtlich. Lesen
+        Sie, warum Sie Bill Clinton Ihr Frühstück verdanken.
+      </description>
+    </item>
+    <item>
+      <guid isPermaLink="true">http://heise.de/-4713293</guid>
+      <pubDate>Sat, 02 May 2020 11:58:00 +0200</pubDate>
+      <content>
+        <html>
+          <p><a href="https://www.heise.de/newsticker/meldung/Politiker-fordern-Videokonferenz-Systeme-fuer-Schulen-und-Pflegeheime-4713293.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag"><img src="https://www.heise.de/scale/geometry/450/q80//imgs/18/2/8/8/8/3/7/9/shutterstock_1390309433-d32b36e5f5ad3e20.jpeg" class="webfeedsFeaturedVisual" alt="" /></a></p>
+          <p>Politiker fordern Videokonferenzen für Schulunterricht und Senioren in Pflegeheimen. Für Bayerns Kliniken wird kostenloses Internet für Patienten gefordert.</p>
+        </html>
+      </content>
+      <title>Politiker fordern Videokonferenz-Systeme für Schulen und Pflegeheime</title>
+      <link>
+        https://www.heise.de/newsticker/meldung/Politiker-fordern-Videokonferenz-Systeme-fuer-Schulen-und-Pflegeheime-4713293.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag
+      </link>
+      <description>Politiker fordern Videokonferenzen für Schulunterricht und Senioren in Pflegeheimen. Für Bayerns
+        Kliniken wird kostenloses Internet für Patienten gefordert.
+      </description>
+    </item>
+    <item>
+      <guid isPermaLink="true">http://heise.de/-4713289</guid>
+      <pubDate>Sat, 02 May 2020 11:24:00 +0200</pubDate>
+      <content>
+        <html>
+          <p><a href="https://www.heise.de/newsticker/meldung/Paketzustellung-Kunden-muessen-wegen-Schutzmassnahmen-laenger-warten-4713289.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag"><img src="https://www.heise.de/scale/geometry/450/q80//imgs/18/2/8/8/8/3/7/5/shutterstock_375286210-b86694076c0c4b33-343d7bb7197bd75b.jpeg" class="webfeedsFeaturedVisual" alt="" /></a></p>
+          <p>Der Online-Handel erlebt während der Pandemie einen Boom. Doch der notwendige Schutz vor Infektion macht die Arbeit schwieriger.</p>
+        </html>
+      </content>
+      <title>Paketzustellung: Kunden müssen wegen Schutzmaßnahmen länger warten</title>
+      <link>
+        https://www.heise.de/newsticker/meldung/Paketzustellung-Kunden-muessen-wegen-Schutzmassnahmen-laenger-warten-4713289.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag
+      </link>
+      <description>Der Online-Handel erlebt während der Pandemie einen Boom. Doch der notwendige Schutz vor Infektion
+        macht die Arbeit schwieriger.
+      </description>
+    </item>
+    <item>
+      <guid isPermaLink="true">http://heise.de/-4713241</guid>
+      <pubDate>Sat, 02 May 2020 10:45:00 +0200</pubDate>
+      <content>
+        <html>
+          <p><a href="https://www.heise.de/developer/artikel/PowerShell-7-Mehrere-Zufallszahlen-erzeugen-4713241.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag"><img src="https://www.heise.de/scale/geometry/450/q80//imgs/18/2/8/8/8/3/5/0/shutterstock_1156249783-4b012b552050a914.jpeg" class="webfeedsFeaturedVisual" alt="" /></a></p>
+          <p>Mit der neuen PowerShell 7.0 kann man anfordern, dass mehr als eine Zufallszahl geliefert wird. So erzeugt man schnell die Lottozahlen oder ein Zufallskennwort.</p>
+        </html>
+      </content>
+      <title>PowerShell 7: Mehrere Zufallszahlen erzeugen</title>
+      <link>
+        https://www.heise.de/developer/artikel/PowerShell-7-Mehrere-Zufallszahlen-erzeugen-4713241.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag
+      </link>
+      <description>Mit der neuen PowerShell 7.0 kann man anfordern, dass mehr als eine Zufallszahl geliefert wird. So
+        erzeugt man schnell die Lottozahlen oder ein Zufallskennwort.
+      </description>
+    </item>
+    <item>
+      <guid isPermaLink="true">http://heise.de/-4713255</guid>
+      <pubDate>Sat, 02 May 2020 10:24:00 +0200</pubDate>
+      <content>
+        <html>
+          <p><a href="https://www.heise.de/newsticker/meldung/Corona-Immunitaet-Bundesdatenschutzbeauftragter-lehnt-Impfpass-App-ab-4713255.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag"><img src="https://www.heise.de/scale/geometry/450/q80//imgs/18/2/8/8/8/3/4/1/Coronavirus-5eacb283301c6c18.jpeg" class="webfeedsFeaturedVisual" alt="" /></a></p>
+          <p>Die Bundesregierung will die rechtliche Basis für einen digitalen Immunitätsausweis schaffen. Ulrich Kelber warnt vor einer Diskriminierungswelle.</p>
+        </html>
+      </content>
+      <title>Corona-Immunität: Bundesdatenschutzbeauftragter lehnt Impfpass-App ab</title>
+      <link>
+        https://www.heise.de/newsticker/meldung/Corona-Immunitaet-Bundesdatenschutzbeauftragter-lehnt-Impfpass-App-ab-4713255.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag
+      </link>
+      <description>Die Bundesregierung will die rechtliche Basis für einen digitalen Immunitätsausweis schaffen. Ulrich
+        Kelber warnt vor einer Diskriminierungswelle.
+      </description>
+    </item>
+    <item>
+      <guid isPermaLink="true">http://heise.de/-4712093</guid>
+      <pubDate>Sat, 02 May 2020 10:00:00 +0200</pubDate>
+      <content>
+        <html>
+          <p><a href="https://www.heise.de/tests/Fitness-Apps-fuer-Apple-Watch-und-iPhone-Loslegen-4712093.html?wt_mc=rss.red.ho.ho.rdf.beitrag_plus.beitrag_plus"><img src="https://www.heise.de/scale/geometry/450/q80//imgs/02/2/8/8/7/2/5/2/image-1585221104264281-ebbe9b52d1fe69a2.jpeg" class="webfeedsFeaturedVisual" alt="" /></a></p>
+          <p>Apples Apps Aktivität und Training sind eher einfach ausgelegt. Andere Apps spezialisieren sich auf bestimmte Sportarten und tracken auch die Ernährung.</p>
+        </html>
+      </content>
+      <title>heise+ | Fitness-Apps für Apple Watch und iPhone: Loslegen!</title>
+      <link>
+        https://www.heise.de/tests/Fitness-Apps-fuer-Apple-Watch-und-iPhone-Loslegen-4712093.html?wt_mc=rss.red.ho.ho.rdf.beitrag_plus.beitrag_plus
+      </link>
+      <description>Apples Apps Aktivität und Training sind eher einfach ausgelegt. Andere Apps spezialisieren sich auf
+        bestimmte Sportarten und tracken auch die Ernährung.
+      </description>
+    </item>
+    <item>
+      <guid isPermaLink="true">http://heise.de/-4712182</guid>
+      <pubDate>Sat, 02 May 2020 08:39:00 +0200</pubDate>
+      <content>
+        <html>
+          <p><a href="https://www.heise.de/foto/meldung/Fantastische-Welten-Die-Bilder-des-Tages-KW-18-4712182.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag"><img src="https://www.heise.de/scale/geometry/450/q80//imgs/18/2/8/8/7/3/3/8/0501_Ein-sonniger-Tag-a2c4a2abee9b0816.jpeg" class="webfeedsFeaturedVisual" alt="" /></a></p>
+          <p>Licht und Schatten erschaffen diese Woche geheimnisvolle Landschaften und fantasievolle Welten.</p>
+        </html>
+      </content>
+      <title>Fantastische Welten: Die Bilder des Tages (KW 18)</title>
+      <link>
+        https://www.heise.de/foto/meldung/Fantastische-Welten-Die-Bilder-des-Tages-KW-18-4712182.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag
+      </link>
+      <description>Licht und Schatten erschaffen diese Woche geheimnisvolle Landschaften und fantasievolle Welten.
+      </description>
+    </item>
+    <item>
+      <guid isPermaLink="true">http://heise.de/-4712727</guid>
+      <pubDate>Sat, 02 May 2020 07:56:00 +0200</pubDate>
+      <content>
+        <html>
+          <p><a href="https://www.heise.de/ix/meldung/Videokonferenzen-Hilfestellungen-zum-datenschutzkonformen-Betrieb-4712727.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag"><img src="https://www.heise.de/scale/geometry/450/q80//imgs/18/2/8/8/7/8/1/5/rgb_ct0810Videofon1_64385-akr-A-083dbb4b3b96ef75.jpeg" class="webfeedsFeaturedVisual" alt="" /></a></p>
+          <p>Videokonferenzen führten viele Unternehmen mit der Corona-Krise ohne Vorbereitung ein. Kein Grund, Sicherheit und Datenschutz zu vernachlässigen.</p>
+        </html>
+      </content>
+      <title>Videokonferenzen: Hilfestellungen zum datenschutzkonformen Betrieb</title>
+      <link>
+        https://www.heise.de/ix/meldung/Videokonferenzen-Hilfestellungen-zum-datenschutzkonformen-Betrieb-4712727.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag
+      </link>
+      <description>Videokonferenzen führten viele Unternehmen mit der Corona-Krise ohne Vorbereitung ein. Kein Grund,
+        Sicherheit und Datenschutz zu vernachlässigen.
+      </description>
+    </item>
+    <item>
+      <guid isPermaLink="true">https://techstage.de/-4712443</guid>
+      <pubDate>Fri, 01 May 2020 19:22:00 +0200</pubDate>
+      <content>
+        <html>
+          <p><a href="https://www.techstage.de/news/Fitbit-Charge-4-im-Test-Fitness-Tracker-mit-GPS-4712443.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag"><img src="https://www.heise.de/scale/geometry/450/q80//imgs/18/2/8/8/8/2/4/1/Fitbit_Charge_4_ho-b273e699b265d84d.png" class="webfeedsFeaturedVisual" alt="" /></a></p>
+          <p>Fitbit will mit dem Tracker Charge 4 alte und neue Sportfans ansprechen. TechStage testet den Fitness-Tracker mit integriertem GPS.</p>
+        </html>
+      </content>
+      <title>TechStage | Fitbit Charge 4 im Test: Fitness-Tracker mit GPS</title>
+      <link>
+        https://www.techstage.de/news/Fitbit-Charge-4-im-Test-Fitness-Tracker-mit-GPS-4712443.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag
+      </link>
+      <description>Fitbit will mit dem Tracker Charge 4 alte und neue Sportfans ansprechen. TechStage testet den
+        Fitness-Tracker mit integriertem GPS.
+      </description>
+    </item>
+    <item>
+      <guid isPermaLink="true">https://techstage.de/-4712546</guid>
+      <pubDate>Fri, 01 May 2020 19:17:00 +0200</pubDate>
+      <content>
+        <html>
+          <p><a href="https://www.techstage.de/news/iPhone-SE-2020-Zubehoer-Gut-muss-nicht-teuer-sein-4712546.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag"><img src="https://www.heise.de/scale/geometry/450/q80//imgs/18/2/8/8/8/2/3/7/iphone_se_zubehoer_DB-0d0d9b95ab48983a.jpeg" class="webfeedsFeaturedVisual" alt="" /></a></p>
+          <p>Das richtige Zubehör wird das iPhone SE muss nicht teuer sein. TechStage zeigt Fake-Airpods, Apple-Watch-Klone, Hüllen, Schnellladekabel und Qi-Ladegeräte.</p>
+        </html>
+      </content>
+      <title>TechStage | iPhone SE 2020: Das wichtigste Zubehör zum Budget-iPhone</title>
+      <link>
+        https://www.techstage.de/news/iPhone-SE-2020-Zubehoer-Gut-muss-nicht-teuer-sein-4712546.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag
+      </link>
+      <description>Das richtige Zubehör wird das iPhone SE muss nicht teuer sein. TechStage zeigt Fake-Airpods,
+        Apple-Watch-Klone, Hüllen, Schnellladekabel und Qi-Ladegeräte.
+      </description>
+    </item>
+    <item>
+      <guid isPermaLink="true">http://heise.de/-4713193</guid>
+      <pubDate>Fri, 01 May 2020 18:04:00 +0200</pubDate>
+      <content>
+        <html>
+          <p><a href="https://www.heise.de/newsticker/meldung/Corona-Pandemie-Bahn-braucht-acht-bis-zehn-Milliarden-Euro-4713193.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag"><img src="https://www.heise.de/scale/geometry/450/q80//imgs/18/2/8/8/8/2/7/9/bahn-d80f34649c4b7777.jpeg" class="webfeedsFeaturedVisual" alt="" /></a></p>
+          <p>Nachdem das Passagieraufkommen auf 10 bis 15 Prozent gesunken ist, will der bundeseigene Konzern mehr Geld vom Staat. Oppositionspolitiker zweifeln.</p>
+        </html>
+      </content>
+      <title>Corona-Pandemie: Bahn braucht acht bis zehn Milliarden Euro</title>
+      <link>
+        https://www.heise.de/newsticker/meldung/Corona-Pandemie-Bahn-braucht-acht-bis-zehn-Milliarden-Euro-4713193.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag
+      </link>
+      <description>Nachdem das Passagieraufkommen auf 10 bis 15 Prozent gesunken ist, will der bundeseigene Konzern mehr
+        Geld vom Staat. Oppositionspolitiker zweifeln.
+      </description>
+    </item>
+    <item>
+      <guid isPermaLink="true">http://heise.de/-4713190</guid>
+      <pubDate>Fri, 01 May 2020 17:56:00 +0200</pubDate>
+      <content>
+        <html>
+          <p><a href="https://www.heise.de/newsticker/meldung/NASA-beauftragt-Bezos-und-Musk-Unternehmen-mit-Mondlandefaehre-4713190.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag"><img src="https://www.heise.de/scale/geometry/450/q80//imgs/18/2/8/8/8/2/7/6/nasa-dynetics-moon-artemis-lunar-lander-design-eb6693b1a1ae5542.jpeg" class="webfeedsFeaturedVisual" alt="" /></a></p>
+          <p>Blue Origin von Amazon-Chef Jeff Bezos, SpaceX von Tesla-Gründer Elon Musk und Dynetics sollen Systeme für die nächste Mondlandung entwickeln.</p>
+        </html>
+      </content>
+      <title>NASA beauftragt Bezos- und Musk-Unternehmen mit Mondlandefähre</title>
+      <link>
+        https://www.heise.de/newsticker/meldung/NASA-beauftragt-Bezos-und-Musk-Unternehmen-mit-Mondlandefaehre-4713190.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag
+      </link>
+      <description>Blue Origin von Amazon-Chef Jeff Bezos, SpaceX von Tesla-Gründer Elon Musk und Dynetics sollen
+        Systeme für die nächste Mondlandung entwickeln.
+      </description>
+    </item>
+    <item>
+      <guid isPermaLink="true">http://heise.de/-4713180</guid>
+      <pubDate>Fri, 01 May 2020 17:38:00 +0200</pubDate>
+      <content>
+        <html>
+          <p><a href="https://www.heise.de/newsticker/meldung/BMW-startet-Software-Upgrade-per-Download-fuer-500-000-Fahrzeuge-4713180.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag"><img src="https://www.heise.de/scale/geometry/450/q80//imgs/18/2/8/8/8/2/6/7/shutterstock_1024271563-03dd7aadfa38c878.jpeg" class="webfeedsFeaturedVisual" alt="" /></a></p>
+          <p>BMW verteilt ein Software-Upgrade für die Vorbereitung des "Drive-Recorders" per Download. Die Funktion kann per Online-Kauf freigeschaltet werden.</p>
+        </html>
+      </content>
+      <title>BMW startet Software-Upgrade per Download für 500 000 Fahrzeuge</title>
+      <link>
+        https://www.heise.de/newsticker/meldung/BMW-startet-Software-Upgrade-per-Download-fuer-500-000-Fahrzeuge-4713180.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag
+      </link>
+      <description>BMW verteilt ein Software-Upgrade für die Vorbereitung des "Drive-Recorders" per Download.
+        Die Funktion kann per Online-Kauf freigeschaltet werden.
+      </description>
+    </item>
+    <item>
+      <guid isPermaLink="true">http://heise.de/-4713172</guid>
+      <pubDate>Fri, 01 May 2020 16:12:00 +0200</pubDate>
+      <content>
+        <html>
+          <p><a href="https://www.heise.de/newsticker/meldung/Staatshilfe-Gespraeche-bei-Lufthansa-Piloten-bieten-Gehaltsverzicht-4713172.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag"><img src="https://www.heise.de/scale/geometry/450/q80//imgs/18/2/8/8/8/2/5/9/Lufthansa-aba79b67874df5a5.jpeg" class="webfeedsFeaturedVisual" alt="" /></a></p>
+          <p>Während die Fluggesellschaft mit dem Staat über ein Rettungspaket verhandelt, bieten die Piloten einen freiwilligen Gehaltsverzicht bis zum Sommer 2022.</p>
+        </html>
+      </content>
+      <title>Staatshilfe-Gespräche bei Lufthansa: Piloten bieten Gehaltsverzicht</title>
+      <link>
+        https://www.heise.de/newsticker/meldung/Staatshilfe-Gespraeche-bei-Lufthansa-Piloten-bieten-Gehaltsverzicht-4713172.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag
+      </link>
+      <description>Während die Fluggesellschaft mit dem Staat über ein Rettungspaket verhandelt, bieten die Piloten
+        einen freiwilligen Gehaltsverzicht bis zum Sommer 2022.
+      </description>
+    </item>
+    <item>
+      <guid isPermaLink="true">http://heise.de/-4713167</guid>
+      <pubDate>Fri, 01 May 2020 16:10:00 +0200</pubDate>
+      <content>
+        <html>
+          <p><a href="https://www.heise.de/newsticker/meldung/Raspberry-Pi-Kamera-mit-12-Megapixeln-und-Objektivanschluss-4713167.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag"><img src="https://www.heise.de/scale/geometry/450/q80//imgs/18/2/8/8/8/2/5/4/FULL-KIT-1-scaled-5e5dd37f10de808b.jpeg" class="webfeedsFeaturedVisual" alt="" /></a></p>
+          <p>Die Raspberry Pi Foundation stellt ein Kameramodul mit 12-MP-Sensor und einem Anschluss für Objektive nach dem C-/CS-Mount-Standard vor.</p>
+        </html>
+      </content>
+      <title>Raspberry-Pi-Kamera mit 12 Megapixeln und Objektivanschluss</title>
+      <link>
+        https://www.heise.de/newsticker/meldung/Raspberry-Pi-Kamera-mit-12-Megapixeln-und-Objektivanschluss-4713167.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag
+      </link>
+      <description>Die Raspberry Pi Foundation stellt ein Kameramodul mit 12-MP-Sensor und einem Anschluss für Objektive
+        nach dem C-/CS-Mount-Standard vor.
+      </description>
+    </item>
+    <item>
+      <guid isPermaLink="true">http://heise.de/-4713108</guid>
+      <pubDate>Fri, 01 May 2020 15:23:00 +0200</pubDate>
+      <content>
+        <html>
+          <p><a href="https://www.heise.de/newsticker/meldung/Nach-anhaltender-Kritik-ICANN-stoppt-Verkauf-der-org-Registry-an-Ethos-Capital-4713108.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag"><img src="https://www.heise.de/scale/geometry/450/q80//imgs/18/2/8/8/8/1/9/5/shutterstock_1089991652-90df5c594447fdc1-221f6d69bdd54147.jpeg" class="webfeedsFeaturedVisual" alt="" /></a></p>
+          <p>Die Entscheidung gilt als Sieg für gemeinnützige Organisationen. Auch die Bundesregierung hatte Einwände gegen den lange verheimlichten Deal.</p>
+        </html>
+      </content>
+      <title>Nach anhaltender Kritik: ICANN stoppt Verkauf der .org-Registry an Ethos Capital</title>
+      <link>
+        https://www.heise.de/newsticker/meldung/Nach-anhaltender-Kritik-ICANN-stoppt-Verkauf-der-org-Registry-an-Ethos-Capital-4713108.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag
+      </link>
+      <description>Die Entscheidung gilt als Sieg für gemeinnützige Organisationen. Auch die Bundesregierung hatte
+        Einwände gegen den lange verheimlichten Deal.
+      </description>
+    </item>
+    <item>
+      <guid isPermaLink="true">http://heise.de/-4708890</guid>
+      <pubDate>Fri, 01 May 2020 14:00:00 +0200</pubDate>
+      <content>
+        <html>
+          <p><a href="https://www.heise.de/ratgeber/Den-400fach-CD-Wechsler-Sony-CDP-CX450-flott-machen-4708890.html?wt_mc=rss.red.ho.ho.rdf.beitrag_plus.beitrag_plus"><img src="https://www.heise.de/scale/geometry/450/q80//imgs/02/2/8/8/4/3/6/9/image-1581672544443685-56a73938a881b8f9.jpeg" class="webfeedsFeaturedVisual" alt="" /></a></p>
+          <p>Der gebraucht erhältliche CD-Player ist eine Mega-Musikbox für 400 CDs. Die oft als defekt angebotenen Geräte lassen sich meist mit wenig Aufwand reparieren.</p>
+        </html>
+      </content>
+      <title>heise+ | Den 400fach-CD-Wechsler Sony CDP CX450 flott machen</title>
+      <link>
+        https://www.heise.de/ratgeber/Den-400fach-CD-Wechsler-Sony-CDP-CX450-flott-machen-4708890.html?wt_mc=rss.red.ho.ho.rdf.beitrag_plus.beitrag_plus
+      </link>
+      <description>Der gebraucht erhältliche CD-Player ist eine Mega-Musikbox für 400 CDs. Die oft als defekt
+        angebotenen Geräte lassen sich meist mit wenig Aufwand reparieren.
+      </description>
+    </item>
+    <item>
+      <guid isPermaLink="true">http://heise.de/-4713156</guid>
+      <pubDate>Fri, 01 May 2020 13:59:00 +0200</pubDate>
+      <content>
+        <html>
+          <p><a href="https://www.heise.de/newsticker/meldung/GVU-Insolvenz-Die-Piratenjaeger-sind-pleite-4713156.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag"><img src="https://www.heise.de/scale/geometry/450/q80//imgs/18/2/8/8/8/2/4/3/shutterstock_1715549293-156621ced14375c9.jpeg" class="webfeedsFeaturedVisual" alt="" /></a></p>
+          <p>Über 35 Jahre jagte die GVU Raubkopierer und Filesharer, sorgte dabei auch selbst für Schlagzeilen. Jetzt ist der Verein insolvent.</p>
+        </html>
+      </content>
+      <title>GVU-Insolvenz: Die Piratenjäger sind pleite</title>
+      <link>
+        https://www.heise.de/newsticker/meldung/GVU-Insolvenz-Die-Piratenjaeger-sind-pleite-4713156.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag
+      </link>
+      <description>Über 35 Jahre jagte die GVU Raubkopierer und Filesharer, sorgte dabei auch selbst für Schlagzeilen.
+        Jetzt ist der Verein insolvent.
+      </description>
+    </item>
+    <item>
+      <guid isPermaLink="true">http://heise.de/-4713133</guid>
+      <pubDate>Fri, 01 May 2020 13:31:00 +0200</pubDate>
+      <content>
+        <html>
+          <p><a href="https://www.heise.de/newsticker/meldung/Microsoft-veroeffentlicht-PowerToys-0-17-4713133.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag"><img src="https://www.heise.de/scale/geometry/450/q80//imgs/18/2/8/8/8/2/2/0/powertoys-1_1-1-30-275d03f2510824f0.jpeg" class="webfeedsFeaturedVisual" alt="" /></a></p>
+          <p>Microsoft hat die Version 0.17 der PowerToys für Windows 10 freigegeben. Die Kult-Tools aktualisieren sich nun automatisch und bringen Telemetriefunktionen mit.</p>
+        </html>
+      </content>
+      <title>Microsoft veröffentlicht PowerToys 0.17</title>
+      <link>
+        https://www.heise.de/newsticker/meldung/Microsoft-veroeffentlicht-PowerToys-0-17-4713133.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag
+      </link>
+      <description>Microsoft hat die Version 0.17 der PowerToys für Windows 10 freigegeben. Die Kult-Tools aktualisieren
+        sich nun automatisch und bringen Telemetriefunktionen mit.
+      </description>
+    </item>
+    <item>
+      <guid isPermaLink="true">http://heise.de/-4713128</guid>
+      <pubDate>Fri, 01 May 2020 12:55:00 +0200</pubDate>
+      <content>
+        <html>
+          <p><a href="https://www.heise.de/newsticker/meldung/Twitter-mit-Quartalsverlust-in-Corona-Krise-4713128.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag"><img src="https://www.heise.de/scale/geometry/450/q80//imgs/18/2/8/8/8/2/1/5/shutterstock_1451740445-494df388e2367458.jpeg" class="webfeedsFeaturedVisual" alt="" /></a></p>
+          <p>Twitter schließt das erste Quartal während der Corona-Krise mit einem Millionenverlust ab. Der Quartalsumsatz und auch die Zahl der Nutzer wuchsen allerdings.</p>
+        </html>
+      </content>
+      <title>Twitter mit Quartalsverlust in Corona-Krise</title>
+      <link>
+        https://www.heise.de/newsticker/meldung/Twitter-mit-Quartalsverlust-in-Corona-Krise-4713128.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag
+      </link>
+      <description>Twitter schließt das erste Quartal während der Corona-Krise mit einem Millionenverlust ab. Der
+        Quartalsumsatz und auch die Zahl der Nutzer wuchsen allerdings.
+      </description>
+    </item>
+    <item>
+      <guid isPermaLink="true">http://heise.de/-4713114</guid>
+      <pubDate>Fri, 01 May 2020 12:02:00 +0200</pubDate>
+      <content>
+        <html>
+          <p><a href="https://www.heise.de/newsticker/meldung/Corona-Tracing-Apps-Freiwilligkeit-bedeutet-nicht-Freiwilligkeit-4713114.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag"><img src="https://www.heise.de/scale/geometry/450/q80//imgs/18/2/8/8/8/2/0/1/Corona-App-2035bab4ff6fe555.jpeg" class="webfeedsFeaturedVisual" alt="" /></a></p>
+          <p>Experten warnen vor Haftungsfolgen und potenziellen strafrechtlichen Ermittlungen beim Einsatz von Lösungen zur Kontaktverfolgung. Eine Pflicht sei undenkbar.</p>
+        </html>
+      </content>
+      <title>Corona-Tracing-Apps: Freiwilligkeit bedeutet nicht Freiwilligkeit</title>
+      <link>
+        https://www.heise.de/newsticker/meldung/Corona-Tracing-Apps-Freiwilligkeit-bedeutet-nicht-Freiwilligkeit-4713114.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag
+      </link>
+      <description>Experten warnen vor Haftungsfolgen und potenziellen strafrechtlichen Ermittlungen beim Einsatz von
+        Lösungen zur Kontaktverfolgung. Eine Pflicht sei undenkbar.
+      </description>
+    </item>
+    <item>
+      <guid isPermaLink="true">http://heise.de/-4712610</guid>
+      <pubDate>Fri, 01 May 2020 11:47:00 +0200</pubDate>
+      <content>
+        <html>
+          <p><a href="https://www.heise.de/newsticker/meldung/TGIQF-Das-XCOM-Quiz-4712610.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag"><img src="https://www.heise.de/scale/geometry/450/q80//imgs/18/2/8/8/7/7/0/3/X-Com_TGIQF2-a2d904015fe5413f.jpeg" class="webfeedsFeaturedVisual" alt="" /></a></p>
+          <p>Die legendäre XCOM-Reihe gilt als Referenz in den rundenbasierten Taktik-Spielen. Kennen Sie sich rund um die Alienschlachten aus? Dann testen Sie ihr Wissen!</p>
+        </html>
+      </content>
+      <title>#TGIQF - Das XCOM-Quiz</title>
+      <link>
+        https://www.heise.de/newsticker/meldung/TGIQF-Das-XCOM-Quiz-4712610.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag
+      </link>
+      <description>Die legendäre XCOM-Reihe gilt als Referenz in den rundenbasierten Taktik-Spielen. Kennen Sie sich
+        rund um die Alienschlachten aus? Dann testen Sie ihr Wissen!
+      </description>
+    </item>
+    <item>
+      <guid isPermaLink="true">http://heise.de/-4682406</guid>
+      <pubDate>Fri, 01 May 2020 10:00:00 +0200</pubDate>
+      <content>
+        <html>
+          <p><a href="https://www.heise.de/hintergrund/Steuerrecht-IT-Fachleute-als-Freiberufler-oder-gewerbliche-Selbststaendige-4682406.html?wt_mc=rss.red.ho.ho.rdf.beitrag_plus.beitrag_plus"><img src="https://www.heise.de/scale/geometry/450/q80//imgs/02/2/8/6/1/6/5/9/ct0720recht_fre_thorsten_huebner_v2_107437_psz_-a0932a4cd4ed1741.jpeg" class="webfeedsFeaturedVisual" alt="" /></a></p>
+          <p>Je nach gewerblicher oder freiberuflicher Tätigkeit kann sich die Steuerlast von Selbstständigen in der IT deutlich unterscheiden. Wir haben das verglichen.</p>
+        </html>
+      </content>
+      <title>heise+ | Steuerrecht: IT-Fachleute als Freiberufler oder gewerbliche Selbstständige</title>
+      <link>
+        https://www.heise.de/hintergrund/Steuerrecht-IT-Fachleute-als-Freiberufler-oder-gewerbliche-Selbststaendige-4682406.html?wt_mc=rss.red.ho.ho.rdf.beitrag_plus.beitrag_plus
+      </link>
+      <description>Je nach gewerblicher oder freiberuflicher Tätigkeit kann sich die Steuerlast von Selbstständigen in
+        der IT deutlich unterscheiden. Wir haben das verglichen.
+      </description>
+    </item>
+    <item>
+      <guid isPermaLink="true">http://heise.de/-4712666</guid>
+      <pubDate>Fri, 01 May 2020 09:31:00 +0200</pubDate>
+      <content>
+        <html>
+          <p><a href="https://www.heise.de/ix/meldung/Genauer-Blick-aufs-Update-Was-Ubuntu-20-04-fuer-Server-bringt-4712666.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag"><img src="https://www.heise.de/scale/geometry/450/q80//imgs/18/2/8/8/7/7/5/8/focal_fossa-f9290a8daf604142.png" class="webfeedsFeaturedVisual" alt="" /></a></p>
+          <p>Ubuntu 20.04 alias Focal Fossa steht in den Startlöchern und bringt auch auf Servern viele wichtige Neuerungen mit sich.</p>
+        </html>
+      </content>
+      <title>Genauer Blick aufs Update: Was Ubuntu 20.04 für Server bringt</title>
+      <link>
+        https://www.heise.de/ix/meldung/Genauer-Blick-aufs-Update-Was-Ubuntu-20-04-fuer-Server-bringt-4712666.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag
+      </link>
+      <description>Ubuntu 20.04 alias Focal Fossa steht in den Startlöchern und bringt auch auf Servern viele wichtige
+        Neuerungen mit sich.
+      </description>
+    </item>
+    <item>
+      <guid isPermaLink="true">http://heise.de/-4712393</guid>
+      <pubDate>Fri, 01 May 2020 09:15:00 +0200</pubDate>
+      <content>
+        <html>
+          <p><a href="https://www.heise.de/newsticker/meldung/USA-Gesetze-duerfen-nicht-hinter-Paywall-versteckt-werden-4712393.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag"><img src="https://www.heise.de/scale/geometry/450/q80//imgs/18/2/8/8/7/5/1/7/Recht_USA-d693a2def82a7240.jpeg" class="webfeedsFeaturedVisual" alt="" /></a></p>
+          <p>Gesetze und andere Werke von US-Gesetzgebern dürfen frei verbreitet werden. Dafür mussten Bürgerrechtler bis zum obersten Gericht ziehen.</p>
+        </html>
+      </content>
+      <title>USA: Gesetze dürfen nicht hinter Paywall versteckt werden</title>
+      <link>
+        https://www.heise.de/newsticker/meldung/USA-Gesetze-duerfen-nicht-hinter-Paywall-versteckt-werden-4712393.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag
+      </link>
+      <description>Gesetze und andere Werke von US-Gesetzgebern dürfen frei verbreitet werden. Dafür mussten
+        Bürgerrechtler bis zum obersten Gericht ziehen.
+      </description>
+    </item>
+    <item>
+      <guid isPermaLink="true">http://heise.de/-4712708</guid>
+      <pubDate>Fri, 01 May 2020 09:00:00 +0200</pubDate>
+      <content>
+        <html>
+          <p><a href="https://www.heise.de/newsticker/meldung/IEA-Energieverbrauch-und-CO2-Ausstoss-sinken-weltweit-drastisch-4712708.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag"><img src="https://www.heise.de/scale/geometry/450/q80//imgs/18/2/8/8/7/7/9/6/shutterstock_722347258-d5a32c59369be01f.jpeg" class="webfeedsFeaturedVisual" alt="" /></a></p>
+          <p>Der globale Energieverbrauch soll 2020 so stark zurückgehen wie seit 70 Jahren nicht mehr. Der Rückgang beim CO2-Ausstoß dürfte immens sein.</p>
+        </html>
+      </content>
+      <title>IEA: Energieverbrauch und CO2-Ausstoß sinken weltweit drastisch</title>
+      <link>
+        https://www.heise.de/newsticker/meldung/IEA-Energieverbrauch-und-CO2-Ausstoss-sinken-weltweit-drastisch-4712708.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag
+      </link>
+      <description>Der globale Energieverbrauch soll 2020 so stark zurückgehen wie seit 70 Jahren nicht mehr. Der
+        Rückgang beim CO2-Ausstoß dürfte immens sein.
+      </description>
+    </item>
+    <item>
+      <guid isPermaLink="true">http://heise.de/-4709283</guid>
+      <pubDate>Fri, 01 May 2020 08:47:00 +0200</pubDate>
+      <content>
+        <html>
+          <p><a href="https://www.heise.de/newsticker/meldung/Die-Highlights-bei-Netflix-Disney-und-Amazon-Prime-Video-im-Mai-2020-4709283.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag"><img src="https://www.heise.de/scale/geometry/450/q80//imgs/18/2/8/8/4/7/2/3/amazon-netflix-disney_-vorschau-aufmacher-2020-05-334e5065d182a29c.jpeg" class="webfeedsFeaturedVisual" alt="" /></a></p>
+          <p>Disney+ zeigt im Mai die finale Episode der Star-Wars-Saga. Bei Netflix geht die Comedy-Serie "Space Force" an den Start. Amazon setzt mit "Mile 22" auf Action.</p>
+        </html>
+      </content>
+      <title>Die Highlights bei Netflix, Disney+ und Amazon Prime Video im Mai 2020</title>
+      <link>
+        https://www.heise.de/newsticker/meldung/Die-Highlights-bei-Netflix-Disney-und-Amazon-Prime-Video-im-Mai-2020-4709283.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag
+      </link>
+      <description>Disney+ zeigt im Mai die finale Episode der Star-Wars-Saga. Bei Netflix geht die Comedy-Serie "Space
+        Force" an den Start. Amazon setzt mit "Mile 22" auf Action.
+      </description>
+    </item>
+    <item>
+      <guid isPermaLink="true">http://heise.de/-4712560</guid>
+      <pubDate>Fri, 01 May 2020 08:30:00 +0200</pubDate>
+      <content>
+        <html>
+          <p><a href="https://www.heise.de/newsticker/meldung/Digitalwirtschaft-erwartet-Wachstumsschub-nach-Corona-Schock-4712560.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag"><img src="https://www.heise.de/scale/geometry/450/q80//imgs/18/2/8/8/7/6/5/7/shutterstock_735743386-6d528112ec61442d.jpeg" class="webfeedsFeaturedVisual" alt="" /></a></p>
+          <p>Selbst die Digitalbranche muss in der Corona-Krise einen Dämpfer hinnehmen. Doch im Gegensatz zu vielen anderen Branchen sieht sie eine rosige Perspektive.</p>
+        </html>
+      </content>
+      <title>Digitalwirtschaft erwartet Wachstumsschub nach Corona-Schock</title>
+      <link>
+        https://www.heise.de/newsticker/meldung/Digitalwirtschaft-erwartet-Wachstumsschub-nach-Corona-Schock-4712560.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag
+      </link>
+      <description>Selbst die Digitalbranche muss in der Corona-Krise einen Dämpfer hinnehmen. Doch im Gegensatz zu
+        vielen anderen Branchen sieht sie eine rosige Perspektive.
+      </description>
+    </item>
+    <item>
+      <guid isPermaLink="true">http://heise.de/-4712669</guid>
+      <pubDate>Fri, 01 May 2020 08:07:00 +0200</pubDate>
+      <content>
+        <html>
+          <p><a href="https://www.heise.de/ct/artikel/Retrogaming-Rundschau-Original-Emulation-FPGA-c-t-uplink-32-5-4712669.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag"><img src="https://www.heise.de/scale/geometry/450/q80//imgs/18/2/8/8/8/1/0/9/uplink_retro_snap2-9e0399e3f8fddde6.jpeg" class="webfeedsFeaturedVisual" alt="" /></a></p>
+          <p>Diesmal sprechen wir über verschiedene Wege zum Retro-Gaming, ausgehend von der Playstation Classic, die kinderleicht zur Universal-Emulationskonsole wird.</p>
+        </html>
+      </content>
+      <title>Retrogaming-Rundschau: Original, Emulation, FPGA | c't uplink 32.5</title>
+      <link>
+        https://www.heise.de/ct/artikel/Retrogaming-Rundschau-Original-Emulation-FPGA-c-t-uplink-32-5-4712669.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag
+      </link>
+      <description>Diesmal sprechen wir über verschiedene Wege zum Retro-Gaming, ausgehend von der Playstation Classic,
+        die kinderleicht zur Universal-­Emulationskonsole wird.
+      </description>
+    </item>
+    <item>
+      <guid isPermaLink="true">http://heise.de/-4712676</guid>
+      <pubDate>Fri, 01 May 2020 08:00:00 +0200</pubDate>
+      <content>
+        <html>
+          <p><a href="https://www.heise.de/newsticker/meldung/Corona-Pandemie-Die-Mathematik-hinter-den-Reproduktionszahlen-R-4712676.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag"><img src="https://www.heise.de/scale/geometry/450/q80//imgs/18/2/8/8/7/7/6/8/Unbenannt-2-b416dbb94fabe31d.jpeg" class="webfeedsFeaturedVisual" alt="" /></a></p>
+          <p>In den vergangenen Tagen ist bei den Debatten über das Coronavirus die Reproduktionszahl in den Fokus gerückt. Zeit, ein bisschen was zu erklären.</p>
+        </html>
+      </content>
+      <title>Corona-Pandemie: Die Mathematik hinter den Reproduktionszahlen R</title>
+      <link>
+        https://www.heise.de/newsticker/meldung/Corona-Pandemie-Die-Mathematik-hinter-den-Reproduktionszahlen-R-4712676.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag
+      </link>
+      <description>In den vergangenen Tagen ist bei den Debatten über das Coronavirus die Reproduktionszahl in den Fokus
+        gerückt. Zeit, ein bisschen was zu erklären.
+      </description>
+    </item>
+    <item>
+      <guid isPermaLink="true">http://heise.de/-4712565</guid>
+      <pubDate>Fri, 01 May 2020 07:33:00 +0200</pubDate>
+      <content>
+        <html>
+          <p><a href="https://www.heise.de/newsticker/meldung/Google-kuendigt-neue-Regeln-fuer-den-Chrome-Web-Store-an-4712565.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag"><img src="https://www.heise.de/scale/geometry/450/q80//imgs/18/2/8/8/7/6/6/2/shutterstock_517582159-23f8669d11b557a5.jpeg" class="webfeedsFeaturedVisual" alt="" /></a></p>
+          <p>Der Chrome-Web-Store bekommt neue Regeln. Erweiterungen, die dem nicht entsprechen, löscht Google.</p>
+        </html>
+      </content>
+      <title>Google kündigt neue Regeln für den Chrome-Web-Store an</title>
+      <link>
+        https://www.heise.de/newsticker/meldung/Google-kuendigt-neue-Regeln-fuer-den-Chrome-Web-Store-an-4712565.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag
+      </link>
+      <description>Der Chrome-Web-Store bekommt neue Regeln. Erweiterungen, die dem nicht entsprechen, löscht Google.
+      </description>
+    </item>
+    <item>
+      <guid isPermaLink="true">http://heise.de/-4713058</guid>
+      <pubDate>Fri, 01 May 2020 04:07:00 +0200</pubDate>
+      <content>
+        <html>
+          <p><a href="https://www.heise.de/mac-and-i/meldung/Apple-trotzt-Coronakrise-mit-Abo-Diensten-und-Wearables-4713058.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag"><img src="https://www.heise.de/scale/geometry/450/q80//imgs/18/2/8/8/8/1/4/5/shutterstock_1301039230-d0467d95c284e706.jpeg" class="webfeedsFeaturedVisual" alt="" /></a></p>
+          <p>Die Auswirkungen der Coronavirus-Pandemie schlagen auch bei Apple aufs Hardware-Geschäft durch. Dennoch wächst der Umsatz – minimal.</p>
+        </html>
+      </content>
+      <title>Apple trotzt Coronakrise mit Abo-Diensten und Wearables</title>
+      <link>
+        https://www.heise.de/mac-and-i/meldung/Apple-trotzt-Coronakrise-mit-Abo-Diensten-und-Wearables-4713058.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag
+      </link>
+      <description>Die Auswirkungen der Coronavirus-Pandemie schlagen auch bei Apple aufs Hardware-Geschäft durch.
+        Dennoch wächst der Umsatz – minimal.
+      </description>
+    </item>
+    <item>
+      <guid isPermaLink="true">http://heise.de/-4713047</guid>
+      <pubDate>Fri, 01 May 2020 00:03:00 +0200</pubDate>
+      <content>
+        <html>
+          <p><a href="https://www.heise.de/newsticker/meldung/Amazon-Chef-warnt-Aktionaere-Setzen-Sie-sich-4713047.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag"><img src="https://www.heise.de/scale/geometry/450/q80//imgs/18/2/8/8/8/1/3/4/Jeff_Bezos_2019-dfc1fa2b95df8037.jpeg" class="webfeedsFeaturedVisual" alt="" /></a></p>
+          <p>Die Corona-Pandemie beschert Amazon einen Umsatzsprung. Doch CEO Jeff Bezos gibt das Geld gleich wieder für Corona-Hilfen aus. Im 2. Quartal droht Verlust.</p>
+        </html>
+      </content>
+      <title>Amazon-Chef warnt Aktionäre: "Setzen Sie sich!"</title>
+      <link>
+        https://www.heise.de/newsticker/meldung/Amazon-Chef-warnt-Aktionaere-Setzen-Sie-sich-4713047.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag
+      </link>
+      <description>Die Corona-Pandemie beschert Amazon einen Umsatzsprung. Doch CEO Jeff Bezos gibt das Geld gleich
+        wieder für Corona-Hilfen aus. Im 2. Quartal droht Verlust.
+      </description>
+    </item>
+    <item>
+      <guid isPermaLink="true">http://heise.de/-4703868</guid>
+      <pubDate>Thu, 30 Apr 2020 20:00:00 +0200</pubDate>
+      <content>
+        <html>
+          <p><a href="https://www.heise.de/ratgeber/Fotografie-Mehrfachbelichtung-fuer-effektvolle-Naturaufnahmen-4703868.html?wt_mc=rss.red.ho.ho.rdf.beitrag_plus.beitrag_plus"><img src="https://www.heise.de/scale/geometry/450/q80//imgs/02/2/8/8/0/0/1/0/000_Mehrfachbelichtung-eb39dd0353965440.jpeg" class="webfeedsFeaturedVisual" alt="" /></a></p>
+          <p>Fotos schon während der Aufnahme bearbeiten: Mehrfachbelichtungen erweitern den kreativen Spielraum. Selbst sachliche Bilder bekommen so einen besonderen Look.</p>
+        </html>
+      </content>
+      <title>heise+ | Fotografie: Mehrfachbelichtung für effektvolle Naturaufnahmen</title>
+      <link>
+        https://www.heise.de/ratgeber/Fotografie-Mehrfachbelichtung-fuer-effektvolle-Naturaufnahmen-4703868.html?wt_mc=rss.red.ho.ho.rdf.beitrag_plus.beitrag_plus
+      </link>
+      <description>Fotos schon während der Aufnahme bearbeiten: Mehrfachbelichtungen erweitern den kreativen Spielraum.
+        Selbst sachliche Bilder bekommen so einen besonderen Look.
+      </description>
+    </item>
+    <item>
+      <guid isPermaLink="true">https://techstage.de/-4712698</guid>
+      <pubDate>Thu, 30 Apr 2020 19:50:00 +0200</pubDate>
+      <content>
+        <html>
+          <p><a href="https://www.techstage.de/news/Honor-9X-Pro-im-Test-Kampfansage-mit-256-GByte-Speicher-4712698.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag"><img src="https://www.heise.de/scale/geometry/450/q80//imgs/18/2/8/8/7/8/3/9/9XP_Dachbild-76665170edf1c659.jpeg" class="webfeedsFeaturedVisual" alt="" /></a></p>
+          <p>Mehr Speicher, mehr Leistung, aber keine Google Dienste mehr. Geht das Rezept des Honor 9X Pro auf? Der Techstage-Test gibt Antworten.</p>
+        </html>
+      </content>
+      <title>TechStage | Honor 9X Pro im Test: Kampfansage mit 256 GByte Speicher</title>
+      <link>
+        https://www.techstage.de/news/Honor-9X-Pro-im-Test-Kampfansage-mit-256-GByte-Speicher-4712698.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag
+      </link>
+      <description>Mehr Speicher, mehr Leistung, aber keine Google Dienste mehr. Geht das Rezept des Honor 9X Pro auf?
+        Der Techstage-Test gibt Antworten.
+      </description>
+    </item>
+    <item>
+      <guid isPermaLink="true">http://heise.de/-4712689</guid>
+      <pubDate>Thu, 30 Apr 2020 19:17:00 +0200</pubDate>
+      <content>
+        <html>
+          <p><a href="https://www.heise.de/newsticker/meldung/AGESA-1-0-0-5-BIOS-Updates-fuer-AMDs-Ryzen-Prozessoren-4712689.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag"><img src="https://www.heise.de/scale/geometry/450/q80//imgs/18/2/8/8/7/7/8/1/Ryzen_Aufmacher_ct-f89da3ec46276153.jpeg" class="webfeedsFeaturedVisual" alt="" /></a></p>
+          <p>Die neue AMD Generic Encapsulated Software Architecture (AGESA) 1.0.0.5 macht Schluss mit dem bisherigen Namenschaos und bringt Stabilitätsverbesserungen.</p>
+        </html>
+      </content>
+      <title>AGESA 1.0.0.5: BIOS-Updates für AMDs Ryzen-Prozessoren</title>
+      <link>
+        https://www.heise.de/newsticker/meldung/AGESA-1-0-0-5-BIOS-Updates-fuer-AMDs-Ryzen-Prozessoren-4712689.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag
+      </link>
+      <description>Die neue AMD Generic Encapsulated Software Architecture (AGESA) 1.0.0.5 macht Schluss mit dem
+        bisherigen Namenschaos und bringt Stabilitätsverbesserungen.
+      </description>
+    </item>
+    <item>
+      <guid isPermaLink="true">http://heise.de/-4712447</guid>
+      <pubDate>Thu, 30 Apr 2020 18:55:00 +0200</pubDate>
+      <content>
+        <html>
+          <p><a href="https://www.heise.de/newsticker/meldung/Kurz-informiert-NINA-Face-ID-Diesel-Skandal-Kurzarbeit-4712447.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag"><img src="https://www.heise.de/scale/geometry/450/q80//imgs/18/2/8/8/7/5/6/2/Einzelbild-a7fd841768968826.jpeg" class="webfeedsFeaturedVisual" alt="" /></a></p>
+          <p>Unser werktäglicher News-Überblick fasst die wichtigsten Nachrichten des Tages kurz und knapp zusammen.</p>
+        </html>
+      </content>
+      <title>Kurz informiert: NINA, Face-ID, Diesel-Skandal, Kurzarbeit</title>
+      <link>
+        https://www.heise.de/newsticker/meldung/Kurz-informiert-NINA-Face-ID-Diesel-Skandal-Kurzarbeit-4712447.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag
+      </link>
+      <description>Unser werktäglicher News-Überblick fasst die wichtigsten Nachrichten des Tages kurz und knapp
+        zusammen.
+      </description>
+    </item>
+    <item>
+      <guid isPermaLink="true">https://techstage.de/-4711777</guid>
+      <pubDate>Thu, 30 Apr 2020 18:45:00 +0200</pubDate>
+      <content>
+        <html>
+          <p><a href="https://www.techstage.de/news/Smarte-Tuerschloesser-Beschlaege-mit-Fingerabdruckscanner-Co-4711777.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag"><img src="https://www.heise.de/scale/geometry/450/q80//imgs/18/2/8/8/7/8/0/2/smarte-tuer-169-1e7e1b477d266e17.jpeg" class="webfeedsFeaturedVisual" alt="" /></a></p>
+          <p>Ein äußerst kostengünstiger Weg zu klugen Türschlössern mit App-Anbindung &amp; Co. geht über den Beschlag: Türklinken, die den Weg nur für Berechtigte freigeben.</p>
+        </html>
+      </content>
+      <title>TechStage | Smarte Türschlösser: Beschläge mit Fingerabdruckscanner &amp; Co.</title>
+      <link>
+        https://www.techstage.de/news/Smarte-Tuerschloesser-Beschlaege-mit-Fingerabdruckscanner-Co-4711777.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag
+      </link>
+      <description>Ein äußerst kostengünstiger Weg zu klugen Türschlössern mit App-Anbindung &amp; Co. geht über den
+        Beschlag: Türklinken, die den Weg nur für Berechtigte freigeben.
+      </description>
+    </item>
+    <item>
+      <guid isPermaLink="true">http://heise.de/-4712716</guid>
+      <pubDate>Thu, 30 Apr 2020 18:45:00 +0200</pubDate>
+      <content>
+        <html>
+          <p><a href="https://www.heise.de/mac-and-i/meldung/Google-Sicherheitsforscher-Apples-zentrales-Bild-Framework-schlecht-abgesichert-4712716.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag"><img src="https://www.heise.de/scale/geometry/450/q80//imgs/18/2/8/8/7/8/0/4/shutterstock_582843328-55bde4d45c529567.jpeg" class="webfeedsFeaturedVisual" alt="" /></a></p>
+          <p>Fehler in dem Framework können Angriffe auf iPhones aus der Ferne möglich machen, warnen die Forscher. Apple müsse besser auf Schwachstellen testen.</p>
+        </html>
+      </content>
+      <title>Google-Sicherheitsforscher: Apples zentrales Bild-Framework schlecht abgesichert</title>
+      <link>
+        https://www.heise.de/mac-and-i/meldung/Google-Sicherheitsforscher-Apples-zentrales-Bild-Framework-schlecht-abgesichert-4712716.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag
+      </link>
+      <description>Fehler in dem Framework können Angriffe auf iPhones aus der Ferne möglich machen, warnen die
+        Forscher. Apple müsse besser auf Schwachstellen testen.
+      </description>
+    </item>
+    <item>
+      <guid isPermaLink="true">http://heise.de/-4712956</guid>
+      <pubDate>Thu, 30 Apr 2020 18:44:00 +0200</pubDate>
+      <content>
+        <html>
+          <p><a href="https://www.heise.de/newsticker/meldung/Ueberwachung-BKA-und-Interpol-weiten-Einsatz-von-Gesichtserkennung-deutlich-aus-4712956.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag"><img src="https://www.heise.de/scale/geometry/450/q80//imgs/18/2/8/8/8/0/4/3/shutterstock_617131424-28becec2db3ab03a.jpeg" class="webfeedsFeaturedVisual" alt="" /></a></p>
+          <p>Deutsche Polizeibehörden haben im BKA-Gesichtserkennungssystem GES 2019 fast 54.000 Recherchen durchgeführt, während es 2017 noch 27.000 waren.</p>
+        </html>
+      </content>
+      <title>Überwachung: BKA und LKAs weiten Einsatz von Gesichtserkennung deutlich aus</title>
+      <link>
+        https://www.heise.de/newsticker/meldung/Ueberwachung-BKA-und-Interpol-weiten-Einsatz-von-Gesichtserkennung-deutlich-aus-4712956.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag
+      </link>
+      <description>Deutsche Polizeibehörden haben im BKA-Gesichtserkennungssystem GES 2019 fast 54.000 Recherchen
+        durchgeführt, während es 2017 noch 27.000 waren.
+      </description>
+    </item>
+    <item>
+      <guid isPermaLink="true">http://heise.de/-4712594</guid>
+      <pubDate>Thu, 30 Apr 2020 18:06:00 +0200</pubDate>
+      <content>
+        <html>
+          <p><a href="https://www.heise.de/newsticker/meldung/Folding-home-Team-Heise-Falter-in-Top-100-mit-den-zehntmeisten-Punkten-pro-Tag-4712594.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag"><img src="https://www.heise.de/scale/geometry/450/q80//imgs/18/2/8/8/7/6/8/7/08_1-480c3d4c43710c2f.jpeg" class="webfeedsFeaturedVisual" alt="" /></a></p>
+          <p>Geballte Faltgewalt: Fast 4500 Mitglieder helfen in unserem F@H-Team bei der Bekämpfung des Coronavirus.</p>
+        </html>
+      </content>
+      <title>Folding@home: Team Heise Falter in Top 100</title>
+      <link>
+        https://www.heise.de/newsticker/meldung/Folding-home-Team-Heise-Falter-in-Top-100-mit-den-zehntmeisten-Punkten-pro-Tag-4712594.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag
+      </link>
+      <description>Geballte Faltgewalt: Fast 4500 Mitglieder helfen in unserem F@H-Team bei der Bekämpfung des
+        Coronavirus.
+      </description>
+    </item>
+    <item>
+      <guid isPermaLink="true">http://heise.de/-4712436</guid>
+      <pubDate>Thu, 30 Apr 2020 18:00:00 +0200</pubDate>
+      <content>
+        <html>
+          <p><a href="https://www.heise.de/tests/Sparfuchs-Edition-Apples-iPhone-SE-2020-im-Test-4712436.html?wt_mc=rss.red.ho.ho.rdf.beitrag_plus.beitrag_plus"><img src="https://www.heise.de/scale/geometry/450/q80//imgs/02/2/8/8/7/5/5/1/Bildschirmfoto_2020-04-30_um_13-7d4710cbe717bc02.png" class="webfeedsFeaturedVisual" alt="" /></a></p>
+          <p>Das iPhone SE ist zwar günstig, doch dank des A13-Prozessors rasend schnell. Die Qualität der aufgenommenen Videos kommt sogar ans teure iPhone 11 Pro ran.</p>
+        </html>
+      </content>
+      <title>heise+ | iPhone SE 2020 im Test: Sparfuchs-Edition mit viel Power</title>
+      <link>
+        https://www.heise.de/tests/Sparfuchs-Edition-Apples-iPhone-SE-2020-im-Test-4712436.html?wt_mc=rss.red.ho.ho.rdf.beitrag_plus.beitrag_plus
+      </link>
+      <description>Das iPhone SE ist zwar günstig, doch dank des A13-Prozessors rasend schnell. Die Qualität der
+        aufgenommenen Videos kommt sogar ans teure iPhone 11 Pro ran.
+      </description>
+    </item>
+    <item>
+      <guid isPermaLink="true">http://heise.de/-4712753</guid>
+      <pubDate>Thu, 30 Apr 2020 17:51:00 +0200</pubDate>
+      <content>
+        <html>
+          <p><a href="https://www.heise.de/newsticker/meldung/Metall-auf-Metall-BGH-bleibt-im-Sampling-Streit-auf-EU-Linie-4712753.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag"><img src="https://www.heise.de/scale/geometry/450/q80//imgs/18/2/8/8/7/8/4/1/shutterstock_242921476-5973e8c442811c87.jpeg" class="webfeedsFeaturedVisual" alt="" /></a></p>
+          <p>Auch nach dem BGH-Urteil bleibts kompliziert: Moses Pelham durfte ein Kraftwerk-Sample benutzen, die Aufnahme aber unter EU-Recht nicht mehr vervielfältigen.</p>
+        </html>
+      </content>
+      <title>Metall auf Metall: BGH bleibt im Sampling-Streit auf EuGH-Linie</title>
+      <link>
+        https://www.heise.de/newsticker/meldung/Metall-auf-Metall-BGH-bleibt-im-Sampling-Streit-auf-EU-Linie-4712753.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag
+      </link>
+      <description>Auch nach dem BGH-Urteil bleibts kompliziert: Moses Pelham durfte ein Kraftwerk-Sample benutzen, die
+        Aufnahme aber unter EU-Recht nicht mehr vervielfältigen.
+      </description>
+    </item>
+    <item>
+      <guid isPermaLink="true">http://heise.de/-4712641</guid>
+      <pubDate>Thu, 30 Apr 2020 17:39:00 +0200</pubDate>
+      <content>
+        <html>
+          <p><a href="https://www.heise.de/newsticker/meldung/Corona-Hilfe-vom-Staat-Milliardenkredit-fuer-Media-Saturn-Mutter-Ceconomy-4712641.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag"><img src="https://www.heise.de/scale/geometry/450/q80//imgs/18/2/8/8/7/7/3/4/Saturn-Fahnen-fa6f969927be19fb.jpeg" class="webfeedsFeaturedVisual" alt="" /></a></p>
+          <p>1,7 Milliarden Euro Kreditlinie will die staatliche KfW-Bank für den Handelskonzern Ceconomy als Hilfe in der Coronakrise bereitstellen.</p>
+        </html>
+      </content>
+      <title>Corona-Hilfe vom Staat: Milliardenkredit für Media-Saturn-Mutter Ceconomy</title>
+      <link>
+        https://www.heise.de/newsticker/meldung/Corona-Hilfe-vom-Staat-Milliardenkredit-fuer-Media-Saturn-Mutter-Ceconomy-4712641.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag
+      </link>
+      <description>1,7 Milliarden Euro Kreditlinie will die staatliche KfW-Bank für den Handelskonzern Ceconomy als
+        Hilfe in der Coronakrise bereitstellen.
+      </description>
+    </item>
+    <item>
+      <guid isPermaLink="true">http://heise.de/-4712682</guid>
+      <pubDate>Thu, 30 Apr 2020 17:38:00 +0200</pubDate>
+      <content>
+        <html>
+          <p><a href="https://www.heise.de/newsticker/meldung/Fernseher-Traditionsmarke-Loewe-produziert-wieder-in-Kronach-4712682.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag"><img src="https://www.heise.de/scale/geometry/450/q80//imgs/18/2/8/8/7/7/7/4/UDxRW-NU-47a95569a0dbfe9a.png" class="webfeedsFeaturedVisual" alt="" /></a></p>
+          <p>Nach der Insolvenz ist vor dem Neustart: Die Kronacher Traditionsmarke Loewe nimmt den Manufakturbetrieb auf.</p>
+        </html>
+      </content>
+      <title>Fernseher: Traditionsmarke Loewe produziert wieder in Kronach</title>
+      <link>
+        https://www.heise.de/newsticker/meldung/Fernseher-Traditionsmarke-Loewe-produziert-wieder-in-Kronach-4712682.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag
+      </link>
+      <description>Nach der Insolvenz ist vor dem Neustart: Die Kronacher Traditionsmarke Loewe nimmt den
+        Manufakturbetrieb auf.
+      </description>
+    </item>
+    <item>
+      <guid isPermaLink="true">http://heise.de/-4711911</guid>
+      <pubDate>Thu, 30 Apr 2020 09:27:00 +0200</pubDate>
+      <content>
+        <html>
+          <p><a href="https://www.heise.de/newsticker/meldung/Assassin-s-Creed-Valhalla-Die-Wikinger-kommen-4711911.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag"><img src="https://www.heise.de/scale/geometry/450/q80//imgs/18/2/8/8/7/0/7/2/ACV_screen_Announce_Iconic_England_Female_Eivor_200430_5pm_CET_Paris_Time_S-985f35d1a1d513be.jpeg" class="webfeedsFeaturedVisual" alt="" /></a></p>
+          <p>Assassin's Creed mit Wikingern: Ubisoft hat mit "Valhalla" einen neuen Serienableger vorgestellt. Ein erster Render-Trailer stellt die historische Kulisse vor.</p>
+        </html>
+      </content>
+      <title>Assassin's Creed Valhalla: Die Wikinger zeigen sich im Trailer</title>
+      <link>
+        https://www.heise.de/newsticker/meldung/Assassin-s-Creed-Valhalla-Die-Wikinger-kommen-4711911.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag
+      </link>
+      <description>Assassin's Creed mit Wikingern: Ubisoft hat mit "Valhalla" einen neuen Serienableger
+        vorgestellt. Ein erster Render-Trailer stellt die historische Kulisse vor.
+      </description>
+    </item>
+    <item>
+      <guid isPermaLink="true">http://heise.de/-4706550</guid>
+      <pubDate>Thu, 30 Apr 2020 17:00:00 +0200</pubDate>
+      <content>
+        <html>
+          <p><a href="https://www.heise.de/ratgeber/Online-Fotogalerien-mit-der-kostenlosen-Web-Anwendung-Piwigo-erstellen-4706550.html?wt_mc=rss.red.ho.ho.rdf.beitrag_plus.beitrag_plus"><img src="https://www.heise.de/scale/geometry/450/q80//imgs/02/2/8/8/2/3/9/0/aufmacher_05-fdcaf2c814d745bb.jpeg" class="webfeedsFeaturedVisual" alt="" /></a></p>
+          <p>Piwigo präsentiert Fotos in einer Online-Galerie, öffentlich oder privat. Durchs Einrichten auf dem eigenen Server ist Piwigo auch für Unternehmen interessant.</p>
+        </html>
+      </content>
+      <title>heise+ | Online-Fotogalerien mit der kostenlosen Web-Anwendung Piwigo erstellen</title>
+      <link>
+        https://www.heise.de/ratgeber/Online-Fotogalerien-mit-der-kostenlosen-Web-Anwendung-Piwigo-erstellen-4706550.html?wt_mc=rss.red.ho.ho.rdf.beitrag_plus.beitrag_plus
+      </link>
+      <description>Piwigo präsentiert Fotos in einer Online-Galerie, öffentlich oder privat. Durchs Einrichten auf dem
+        eigenen Server ist Piwigo auch für Unternehmen interessant.
+      </description>
+    </item>
+    <item>
+      <guid isPermaLink="true">http://heise.de/-4712623</guid>
+      <pubDate>Thu, 30 Apr 2020 16:20:00 +0200</pubDate>
+      <content>
+        <html>
+          <p><a href="https://www.heise.de/ix/meldung/Windows-10-mit-Googles-G-Suite-verwalten-und-ueberwachen-4712623.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag"><img src="https://www.heise.de/scale/geometry/450/q80//imgs/18/2/8/8/7/7/1/6/g_suite_update-ca49ee58ad952342.png" class="webfeedsFeaturedVisual" alt="" /></a></p>
+          <p>Google führt für seine G Suite mehrere neue Funktionen ein. Unter anderem lassen sich nun Windows-10-Clients administrieren.</p>
+        </html>
+      </content>
+      <title>Windows 10 mit Googles G Suite verwalten und überwachen</title>
+      <link>
+        https://www.heise.de/ix/meldung/Windows-10-mit-Googles-G-Suite-verwalten-und-ueberwachen-4712623.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag
+      </link>
+      <description>Google führt für seine G Suite mehrere neue Funktionen ein. Unter anderem lassen sich nun
+        Windows-10-Clients administrieren.
+      </description>
+    </item>
+    <item>
+      <guid isPermaLink="true">http://heise.de/-4712509</guid>
+      <pubDate>Thu, 30 Apr 2020 15:37:00 +0200</pubDate>
+      <content>
+        <html>
+          <p><a href="https://www.heise.de/newsticker/meldung/Zoom-korrigiert-runter-Nicht-300-Millionen-Nutzer-sondern-Teilnehmer-4712509.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag"><img src="https://www.heise.de/scale/geometry/450/q80//imgs/18/2/8/8/7/6/2/0/shutterstock_1697045347-cfb643f4a5bf7d34.jpeg" class="webfeedsFeaturedVisual" alt="" /></a></p>
+          <p>Videokonferenz-Anbieter Zoom behauptete, in wenigen Monaten auf 300 Millionen tägliche Nutzer geklettert zu sein – und musste da jetzt zurückrudern.</p>
+        </html>
+      </content>
+      <title>Zoom korrigiert runter: Nicht 300 Millionen Nutzer, sondern Teilnehmer</title>
+      <link>
+        https://www.heise.de/newsticker/meldung/Zoom-korrigiert-runter-Nicht-300-Millionen-Nutzer-sondern-Teilnehmer-4712509.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag
+      </link>
+      <description>Videokonferenz-Anbieter Zoom behauptete, in wenigen Monaten auf 300 Millionen tägliche Nutzer
+        geklettert zu sein – und musste da jetzt zurückrudern.
+      </description>
+    </item>
+    <item>
+      <guid isPermaLink="true">http://heise.de/-4712627</guid>
+      <pubDate>Thu, 30 Apr 2020 15:21:00 +0200</pubDate>
+      <content>
+        <html>
+          <p><a href="https://www.heise.de/news/Verkehrsminister-Scheuer-fuer-Fiebermessungen-an-Flughaefen-4712627.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag"><img src="https://www.heise.de/scale/geometry/450/q80//imgs/18/2/8/8/7/7/2/0/024-a56e129426a22e7b-aa8d6cb1b1719af5.jpeg" class="webfeedsFeaturedVisual" alt="" /></a></p>
+          <p>Zur Erkennung eventuell an Covid-19 erkrankter Reisender könnte man an den Flughäfen Fieber messen, schlug Verkehrsminister Scheuer in einem Interview vor.</p>
+        </html>
+      </content>
+      <title>Verkehrsminister Scheuer für Fiebermessungen an Flughäfen</title>
+      <link>
+        https://www.heise.de/news/Verkehrsminister-Scheuer-fuer-Fiebermessungen-an-Flughaefen-4712627.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag
+      </link>
+      <description>Zur Erkennung eventuell an Covid-19 erkrankter Reisender könnte man an den Flughäfen Fieber messen,
+        schlug Verkehrsminister Scheuer in einem Interview vor.
+      </description>
+    </item>
+  </channel>
+</Rss>

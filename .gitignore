@@ -1,0 +1,7 @@
+.idea/
+**/target/
+lsp/
+*.log
+*.iml
+**/application-local.yml
+

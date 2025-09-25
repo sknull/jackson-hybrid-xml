@@ -1,0 +1,3143 @@
+<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:mp="http://www.tagesschau.de/rss/1.0/modules/metaplus/1.2.0/" xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns="http://purl.org/rss/1.0/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="https://www.ndr.de/nachrichten/hamburg/nachrichtenhhindex111-rss.xml">
+    <title>Nachrichten aus Hamburg</title>
+    <link>https://www.ndr.de/nachrichten/hamburg/Nachrichten-aus-Hamburg,nachrichtenhhindex111.html</link>
+    <image rdf:resource="http://www.ndr.de/resources/images/top_logo.gif"/>
+    <description>Die aktuellen Beiträge der Seite
+      https://www.ndr.de/nachrichten/hamburg/Nachrichten-aus-Hamburg,nachrichtenhhindex111.html
+    </description>
+    <dc:source>NDR.de</dc:source>
+    <dc:publisher>NDR.de</dc:publisher>
+    <dc:rights>Copyright 2020 ndr.de</dc:rights>
+    <dc:date>2020-05-03T19:09:38+01:00</dc:date>
+    <sy:updatePeriod>hourly</sy:updatePeriod>
+    <sy:updateFrequency>12</sy:updateFrequency>
+    <sy:updateBase>2020-05-03T19:09:38+01:00</sy:updateBase>
+    <mp:broadcasting>NDR</mp:broadcasting>
+    <items>
+      <rdf:Seq>
+        <rdf:li resource="https://www.ndr.de/nachrichten/hamburg/SPD-und-Gruene-verhandeln-ueber-Innenpolitik,rotgruen146.html"/>
+        <rdf:li resource="https://www.ndr.de/nachrichten/hamburg/Corona-Hamburgs-Schulen-fahren-langsam-hoch,schulecorona102.html"/>
+        <rdf:li resource="https://www.ndr.de/nachrichten/hamburg/75-Jahre-Kriegsende-Hamburg-Gedenken-am-KZ-Neuengamme,neuengamme344.html"/>
+        <rdf:li resource="https://www.ndr.de/nachrichten/hamburg/Coronavirus-Nur-drei-neue-Faelle-in-Hamburg,coronazahlen200.html"/>
+        <rdf:li resource="https://www.ndr.de/nachrichten/hamburg/Hamburg-75-Jahre-Kriegsende,kriegsende526.html"/>
+        <rdf:li resource="https://www.ndr.de/mediathek/hamburgvideos100.html"/>
+        <rdf:li resource="https://www.ndr.de/nachrichten/hamburg/hamburgjournalstream100.html"/>
+        <rdf:li resource="https://www.ndr.de/nachrichten/hamburg/Auto-stoesst-auf-Kattwykbruecke-mit-Zug-zusammen,kattwykbruecke156.html"/>
+        <rdf:li resource="https://www.ndr.de/nachrichten/hamburg/Corona-Krise-bringt-Hamburgs-Clubs-ins-Wanken,coronakiez100.html"/>
+        <rdf:li resource="https://www.ndr.de/nachrichten/hamburg/Online-Gottesdienst-aus-Lohbruegge-mit-Daniel-Kaiser-,gottesdienst646.html"/>
+        <rdf:li resource="https://www.ndr.de/nachrichten/hamburg/Corona-Friseursalons-oeffnen-wieder,friseur320.html"/>
+        <rdf:li resource="https://www.ndr.de/nachrichten/hamburg/Corona-Hamburg-naeht-Schutzmasken-fuer-soziale-Einrichtungen,coronamasken100.html"/>
+        <rdf:li resource="https://www.ndr.de/nachrichten/info/Tag-der-Pressefreiheit-Journalisten-unter-Druck,pressefreiheit278.html"/>
+        <rdf:li resource="https://www.ndr.de/nachrichten/hamburg/Radfahrer-demonstrieren-fuer-mehr-Radwege,kurzehh334.html"/>
+        <rdf:li resource="https://www.ndr.de/nachrichten/hamburg/Mann-in-Billstedt-vor-seiner-Haustuer-ueberfallen,kurzehh364.html"/>
+        <rdf:li resource="https://www.ndr.de/nachrichten/hamburg/Polizei-verhindert-offenbar-Massenschlaegerei,kurzehh342.html"/>
+        <rdf:li resource="https://www.ndr.de/nachrichten/hamburg/83-Jaehrige-mit-Covid-19-Infektion-im-UKE-gestorben,kurzehh330.html"/>
+        <rdf:li resource="https://www.ndr.de/nachrichten/hamburg/Impfgegner-protestieren-mit-Autokorso,kurzehh316.html"/>
+        <rdf:li resource="https://www.ndr.de/nachrichten/hamburg/Coronavirus-in-Hamburg-Informationen-und-Hintergruende,corona1546.html"/>
+        <rdf:li resource="https://www.ndr.de/nachrichten/hamburg/Coronavirus-in-Hamburg-Hier-bekommen-Sie-Hilfe,coronaservice102.html"/>
+        <rdf:li resource="https://www.ndr.de/nachrichten/hamburg/Coronavirus-in-Hamburg-Hilfe-in-sechs-Sprachen,coronahilfe106.html"/>
+        <rdf:li resource="https://www.ndr.de/nachrichten/hamburg/360-Grad-Rundgang-durch-Hamburger-Rathaus,rathaustour100.html"/>
+      </rdf:Seq>
+    </items>
+  </channel>
+  <image rdf:about="http://www.ndr.de/resources/images/top_logo.gif">
+    <title>NDR.de</title>
+    <link>http://www.ndr.de</link>
+    <url>http://www.ndr.de/resources/images/top_logo.gif</url>
+  </image>
+  <item rdf:about="https://www.ndr.de/nachrichten/hamburg/SPD-und-Gruene-verhandeln-ueber-Innenpolitik,rotgruen146.html">
+    <title>SPD und Grüne verhandeln über Innenpolitik</title>
+    <link>https://www.ndr.de/nachrichten/hamburg/SPD-und-Gruene-verhandeln-ueber-Innenpolitik,rotgruen146.html</link>
+    <description>In Hamburg verhandeln SPD und Grüne heute über Inneres, Rechtsextremismus und Sport. Nach den ersten
+      harmonischen Runden zur Schule und Kultur bahnen sich jetzt Unstimmigkeiten an.
+    </description>
+    <dc:type>Artikel</dc:type>
+    <dc:date>2020-05-03T19:05:46.419+02:00</dc:date>
+    <dc:format>text/html</dc:format>
+    <dc:identifier>rotgruen146</dc:identifier>
+    <dc:source/>
+    <dc:language>de</dc:language>
+    <dc:publisher>ndr.de</dc:publisher>
+    <dc:rights>ndr.de. Alle Rechte vorbehalten.</dc:rights>
+    <dc:subject/>
+    <dcterms:audience>all</dcterms:audience>
+    <dcterms:isFormatOf rdf:resource=""/>
+    <mp:keywords>Hamburg Koalitionsverhandlungen Innere Sicherheit Innenpolitik Cannabis Sport</mp:keywords>
+    <mp:topline>Hamburg</mp:topline>
+    <mp:states/>
+    <mp:image>
+      <mp:alt>Die Verhandlungsgruppen von Bündnis 90/Die Grünen (l) und SPD sitzen sich bei der Fortsetzung der
+        Koalitionsverhandlungen der Parteien im Kaisersaal des Rathauses gegenüber.
+      </mp:alt>
+      <mp:caption/>
+      <mp:source>dpa-Bildfunk</mp:source>
+      <mp:data>https://www.ndr.de/nachrichten/hamburg/koalitionsverhandlungen232_v-contentgross.jpg</mp:data>
+      <mp:width>568</mp:width>
+      <mp:height>320</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Die Verhandlungsgruppen von Bündnis 90/Die Grünen (l) und SPD sitzen sich bei der Fortsetzung der
+        Koalitionsverhandlungen der Parteien im Kaisersaal des Rathauses gegenüber.
+      </mp:alt>
+      <mp:caption/>
+      <mp:source>dpa-Bildfunk</mp:source>
+      <mp:data>https://www.ndr.de/nachrichten/hamburg/koalitionsverhandlungen232_v-dreispaltig.jpg</mp:data>
+      <mp:width>568</mp:width>
+      <mp:height>144</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Die Verhandlungsgruppen von Bündnis 90/Die Grünen (l) und SPD sitzen sich bei der Fortsetzung der
+        Koalitionsverhandlungen der Parteien im Kaisersaal des Rathauses gegenüber.
+      </mp:alt>
+      <mp:caption/>
+      <mp:source>dpa-Bildfunk</mp:source>
+      <mp:data>https://www.ndr.de/nachrichten/hamburg/koalitionsverhandlungen232_v-zweispaltig.jpg</mp:data>
+      <mp:width>376</mp:width>
+      <mp:height>212</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Die Verhandlungsgruppen von Bündnis 90/Die Grünen (l) und SPD sitzen sich bei der Fortsetzung der
+        Koalitionsverhandlungen der Parteien im Kaisersaal des Rathauses gegenüber.
+      </mp:alt>
+      <mp:caption/>
+      <mp:source>dpa-Bildfunk</mp:source>
+      <mp:data>https://www.ndr.de/nachrichten/hamburg/koalitionsverhandlungen232_v-einspaltig.jpg</mp:data>
+      <mp:width>184</mp:width>
+      <mp:height>104</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Die Verhandlungsgruppen von Bündnis 90/Die Grünen (l) und SPD sitzen sich bei der Fortsetzung der
+        Koalitionsverhandlungen der Parteien im Kaisersaal des Rathauses gegenüber.
+      </mp:alt>
+      <mp:caption/>
+      <mp:source>dpa-Bildfunk</mp:source>
+      <mp:data>https://www.ndr.de/nachrichten/hamburg/koalitionsverhandlungen232_v-contentklein.jpg</mp:data>
+      <mp:width>256</mp:width>
+      <mp:height>144</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Die Verhandlungsgruppen von Bündnis 90/Die Grünen (l) und SPD sitzen sich bei der Fortsetzung der
+        Koalitionsverhandlungen der Parteien im Kaisersaal des Rathauses gegenüber.
+      </mp:alt>
+      <mp:caption/>
+      <mp:source>dpa-Bildfunk</mp:source>
+      <mp:data>https://www.ndr.de/nachrichten/hamburg/koalitionsverhandlungen232_v-ardteaserwidescreen.jpg</mp:data>
+      <mp:width>256</mp:width>
+      <mp:height>144</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Die Verhandlungsgruppen von Bündnis 90/Die Grünen (l) und SPD sitzen sich bei der Fortsetzung der
+        Koalitionsverhandlungen der Parteien im Kaisersaal des Rathauses gegenüber.
+      </mp:alt>
+      <mp:caption/>
+      <mp:source>dpa-Bildfunk</mp:source>
+      <mp:data>https://www.ndr.de/nachrichten/hamburg/koalitionsverhandlungen232_v-ardgrosswidescreen.jpg</mp:data>
+      <mp:width>512</mp:width>
+      <mp:height>288</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Die Verhandlungsgruppen von Bündnis 90/Die Grünen (l) und SPD sitzen sich bei der Fortsetzung der
+        Koalitionsverhandlungen der Parteien im Kaisersaal des Rathauses gegenüber.
+      </mp:alt>
+      <mp:caption/>
+      <mp:source>dpa-Bildfunk</mp:source>
+      <mp:data>https://www.ndr.de/nachrichten/hamburg/koalitionsverhandlungen232_v-contentwidescreen.jpg</mp:data>
+      <mp:width>192</mp:width>
+      <mp:height>108</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Die Verhandlungsgruppen von Bündnis 90/Die Grünen (l) und SPD sitzen sich bei der Fortsetzung der
+        Koalitionsverhandlungen der Parteien im Kaisersaal des Rathauses gegenüber.
+      </mp:alt>
+      <mp:caption/>
+      <mp:source>dpa-Bildfunk</mp:source>
+      <mp:data>https://www.ndr.de/nachrichten/hamburg/koalitionsverhandlungen230_v-contentgross.jpg</mp:data>
+      <mp:width>568</mp:width>
+      <mp:height>320</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Die Verhandlungsgruppen von Bündnis 90/Die Grünen (l) und SPD sitzen sich bei der Fortsetzung der
+        Koalitionsverhandlungen der Parteien im Kaisersaal des Rathauses gegenüber.
+      </mp:alt>
+      <mp:caption/>
+      <mp:source>dpa-Bildfunk</mp:source>
+      <mp:data>https://www.ndr.de/nachrichten/hamburg/koalitionsverhandlungen230_v-dreispaltig.jpg</mp:data>
+      <mp:width>568</mp:width>
+      <mp:height>144</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Die Verhandlungsgruppen von Bündnis 90/Die Grünen (l) und SPD sitzen sich bei der Fortsetzung der
+        Koalitionsverhandlungen der Parteien im Kaisersaal des Rathauses gegenüber.
+      </mp:alt>
+      <mp:caption/>
+      <mp:source>dpa-Bildfunk</mp:source>
+      <mp:data>https://www.ndr.de/nachrichten/hamburg/koalitionsverhandlungen230_v-zweispaltig.jpg</mp:data>
+      <mp:width>376</mp:width>
+      <mp:height>212</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Die Verhandlungsgruppen von Bündnis 90/Die Grünen (l) und SPD sitzen sich bei der Fortsetzung der
+        Koalitionsverhandlungen der Parteien im Kaisersaal des Rathauses gegenüber.
+      </mp:alt>
+      <mp:caption/>
+      <mp:source>dpa-Bildfunk</mp:source>
+      <mp:data>https://www.ndr.de/nachrichten/hamburg/koalitionsverhandlungen230_v-einspaltig.jpg</mp:data>
+      <mp:width>184</mp:width>
+      <mp:height>104</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Die Verhandlungsgruppen von Bündnis 90/Die Grünen (l) und SPD sitzen sich bei der Fortsetzung der
+        Koalitionsverhandlungen der Parteien im Kaisersaal des Rathauses gegenüber.
+      </mp:alt>
+      <mp:caption/>
+      <mp:source>dpa-Bildfunk</mp:source>
+      <mp:data>https://www.ndr.de/nachrichten/hamburg/koalitionsverhandlungen230_v-contentklein.jpg</mp:data>
+      <mp:width>256</mp:width>
+      <mp:height>144</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Die Verhandlungsgruppen von Bündnis 90/Die Grünen (l) und SPD sitzen sich bei der Fortsetzung der
+        Koalitionsverhandlungen der Parteien im Kaisersaal des Rathauses gegenüber.
+      </mp:alt>
+      <mp:caption/>
+      <mp:source>dpa-Bildfunk</mp:source>
+      <mp:data>https://www.ndr.de/nachrichten/hamburg/koalitionsverhandlungen230_v-ardteaserwidescreen.jpg</mp:data>
+      <mp:width>256</mp:width>
+      <mp:height>144</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Die Verhandlungsgruppen von Bündnis 90/Die Grünen (l) und SPD sitzen sich bei der Fortsetzung der
+        Koalitionsverhandlungen der Parteien im Kaisersaal des Rathauses gegenüber.
+      </mp:alt>
+      <mp:caption/>
+      <mp:source>dpa-Bildfunk</mp:source>
+      <mp:data>https://www.ndr.de/nachrichten/hamburg/koalitionsverhandlungen230_v-ardgrosswidescreen.jpg</mp:data>
+      <mp:width>512</mp:width>
+      <mp:height>288</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Die Verhandlungsgruppen von Bündnis 90/Die Grünen (l) und SPD sitzen sich bei der Fortsetzung der
+        Koalitionsverhandlungen der Parteien im Kaisersaal des Rathauses gegenüber.
+      </mp:alt>
+      <mp:caption/>
+      <mp:source>dpa-Bildfunk</mp:source>
+      <mp:data>https://www.ndr.de/nachrichten/hamburg/koalitionsverhandlungen230_v-contentwidescreen.jpg</mp:data>
+      <mp:width>192</mp:width>
+      <mp:height>108</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Hamburgs Bürgermeister Peter Tschentscher (SPD, r.) und die Zweite Bürgermeisterin Katharina Fegebank
+        (Bündnis 90/Die Grünen) geben ein Statement nach dem ersten Tag der Koalitionsverhandlungen im Rathaus.
+      </mp:alt>
+      <mp:caption/>
+      <mp:source>picture alliance/dpa</mp:source>
+      <mp:data>https://www.ndr.de/nachrichten/hamburg/koalitionsverhandlungen228_v-contentgross.jpg</mp:data>
+      <mp:width>568</mp:width>
+      <mp:height>320</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Hamburgs Bürgermeister Peter Tschentscher (SPD, r.) und die Zweite Bürgermeisterin Katharina Fegebank
+        (Bündnis 90/Die Grünen) geben ein Statement nach dem ersten Tag der Koalitionsverhandlungen im Rathaus.
+      </mp:alt>
+      <mp:caption/>
+      <mp:source>picture alliance/dpa</mp:source>
+      <mp:data>https://www.ndr.de/nachrichten/hamburg/koalitionsverhandlungen228_v-dreispaltig.jpg</mp:data>
+      <mp:width>568</mp:width>
+      <mp:height>144</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Hamburgs Bürgermeister Peter Tschentscher (SPD, r.) und die Zweite Bürgermeisterin Katharina Fegebank
+        (Bündnis 90/Die Grünen) geben ein Statement nach dem ersten Tag der Koalitionsverhandlungen im Rathaus.
+      </mp:alt>
+      <mp:caption/>
+      <mp:source>picture alliance/dpa</mp:source>
+      <mp:data>https://www.ndr.de/nachrichten/hamburg/koalitionsverhandlungen228_v-zweispaltig.jpg</mp:data>
+      <mp:width>376</mp:width>
+      <mp:height>212</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Hamburgs Bürgermeister Peter Tschentscher (SPD, r.) und die Zweite Bürgermeisterin Katharina Fegebank
+        (Bündnis 90/Die Grünen) geben ein Statement nach dem ersten Tag der Koalitionsverhandlungen im Rathaus.
+      </mp:alt>
+      <mp:caption/>
+      <mp:source>picture alliance/dpa</mp:source>
+      <mp:data>https://www.ndr.de/nachrichten/hamburg/koalitionsverhandlungen228_v-einspaltig.jpg</mp:data>
+      <mp:width>184</mp:width>
+      <mp:height>104</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Hamburgs Bürgermeister Peter Tschentscher (SPD, r.) und die Zweite Bürgermeisterin Katharina Fegebank
+        (Bündnis 90/Die Grünen) geben ein Statement nach dem ersten Tag der Koalitionsverhandlungen im Rathaus.
+      </mp:alt>
+      <mp:caption/>
+      <mp:source>picture alliance/dpa</mp:source>
+      <mp:data>https://www.ndr.de/nachrichten/hamburg/koalitionsverhandlungen228_v-contentklein.jpg</mp:data>
+      <mp:width>256</mp:width>
+      <mp:height>144</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Hamburgs Bürgermeister Peter Tschentscher (SPD, r.) und die Zweite Bürgermeisterin Katharina Fegebank
+        (Bündnis 90/Die Grünen) geben ein Statement nach dem ersten Tag der Koalitionsverhandlungen im Rathaus.
+      </mp:alt>
+      <mp:caption/>
+      <mp:source>picture alliance/dpa</mp:source>
+      <mp:data>https://www.ndr.de/nachrichten/hamburg/koalitionsverhandlungen228_v-ardteaserwidescreen.jpg</mp:data>
+      <mp:width>256</mp:width>
+      <mp:height>144</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Hamburgs Bürgermeister Peter Tschentscher (SPD, r.) und die Zweite Bürgermeisterin Katharina Fegebank
+        (Bündnis 90/Die Grünen) geben ein Statement nach dem ersten Tag der Koalitionsverhandlungen im Rathaus.
+      </mp:alt>
+      <mp:caption/>
+      <mp:source>picture alliance/dpa</mp:source>
+      <mp:data>https://www.ndr.de/nachrichten/hamburg/koalitionsverhandlungen228_v-ardgrosswidescreen.jpg</mp:data>
+      <mp:width>512</mp:width>
+      <mp:height>288</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Hamburgs Bürgermeister Peter Tschentscher (SPD, r.) und die Zweite Bürgermeisterin Katharina Fegebank
+        (Bündnis 90/Die Grünen) geben ein Statement nach dem ersten Tag der Koalitionsverhandlungen im Rathaus.
+      </mp:alt>
+      <mp:caption/>
+      <mp:source>picture alliance/dpa</mp:source>
+      <mp:data>https://www.ndr.de/nachrichten/hamburg/koalitionsverhandlungen228_v-contentwidescreen.jpg</mp:data>
+      <mp:width>192</mp:width>
+      <mp:height>108</mp:height>
+    </mp:image>
+  </item>
+  <item rdf:about="https://www.ndr.de/nachrichten/hamburg/Corona-Hamburgs-Schulen-fahren-langsam-hoch,schulecorona102.html">
+    <title>Corona: Hamburgs Schulen fahren langsam hoch</title>
+    <link>https://www.ndr.de/nachrichten/hamburg/Corona-Hamburgs-Schulen-fahren-langsam-hoch,schulecorona102.html</link>
+    <description>Seit Wochen gibt es wegen Corona keinen Schulalltag. Für die ersten Hamburger Schülerinnen und Schüler
+      startete diese Woche der Unterricht wieder. Am Montag ziehen die nächsten nach.
+    </description>
+    <dc:type>Artikel</dc:type>
+    <dc:date>2020-05-03T17:01:04.751+02:00</dc:date>
+    <dc:format>text/html</dc:format>
+    <dc:identifier>schulecorona102</dc:identifier>
+    <dc:source/>
+    <dc:language>de</dc:language>
+    <dc:publisher>ndr.de</dc:publisher>
+    <dc:rights>ndr.de. Alle Rechte vorbehalten.</dc:rights>
+    <dc:subject/>
+    <dcterms:audience>all</dcterms:audience>
+    <dcterms:isFormatOf rdf:resource=""/>
+    <mp:keywords>hamburg, schule, corona, ties rabe, unterricht, gymnasium, grundschule, abstand</mp:keywords>
+    <mp:topline>Hamburg</mp:topline>
+    <mp:states/>
+    <mp:image>
+      <mp:alt>Ein Zettel mit der Aufschrit &quot;Immer ein Vietrklässler Abstand&quot; liegt auf dem Fußboden.</mp:alt>
+      <mp:caption/>
+      <mp:source>Screenshot NDR</mp:source>
+      <mp:data>https://www.ndr.de/fernsehen/screenshot864956_v-contentgross.jpg</mp:data>
+      <mp:width>568</mp:width>
+      <mp:height>320</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Ein Zettel mit der Aufschrit &quot;Immer ein Vietrklässler Abstand&quot; liegt auf dem Fußboden.</mp:alt>
+      <mp:caption/>
+      <mp:source>Screenshot NDR</mp:source>
+      <mp:data>https://www.ndr.de/fernsehen/screenshot864956_v-dreispaltig.jpg</mp:data>
+      <mp:width>568</mp:width>
+      <mp:height>144</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Ein Zettel mit der Aufschrit &quot;Immer ein Vietrklässler Abstand&quot; liegt auf dem Fußboden.</mp:alt>
+      <mp:caption/>
+      <mp:source>Screenshot NDR</mp:source>
+      <mp:data>https://www.ndr.de/fernsehen/screenshot864956_v-zweispaltig.jpg</mp:data>
+      <mp:width>376</mp:width>
+      <mp:height>212</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Ein Zettel mit der Aufschrit &quot;Immer ein Vietrklässler Abstand&quot; liegt auf dem Fußboden.</mp:alt>
+      <mp:caption/>
+      <mp:source>Screenshot NDR</mp:source>
+      <mp:data>https://www.ndr.de/fernsehen/screenshot864956_v-einspaltig.jpg</mp:data>
+      <mp:width>184</mp:width>
+      <mp:height>104</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Ein Zettel mit der Aufschrit &quot;Immer ein Vietrklässler Abstand&quot; liegt auf dem Fußboden.</mp:alt>
+      <mp:caption/>
+      <mp:source>Screenshot NDR</mp:source>
+      <mp:data>https://www.ndr.de/fernsehen/screenshot864956_v-contentklein.jpg</mp:data>
+      <mp:width>256</mp:width>
+      <mp:height>144</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Ein Zettel mit der Aufschrit &quot;Immer ein Vietrklässler Abstand&quot; liegt auf dem Fußboden.</mp:alt>
+      <mp:caption/>
+      <mp:source>Screenshot NDR</mp:source>
+      <mp:data>https://www.ndr.de/fernsehen/screenshot864956_v-ardteaserwidescreen.jpg</mp:data>
+      <mp:width>256</mp:width>
+      <mp:height>144</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Ein Zettel mit der Aufschrit &quot;Immer ein Vietrklässler Abstand&quot; liegt auf dem Fußboden.</mp:alt>
+      <mp:caption/>
+      <mp:source>Screenshot NDR</mp:source>
+      <mp:data>https://www.ndr.de/fernsehen/screenshot864956_v-ardgrosswidescreen.jpg</mp:data>
+      <mp:width>512</mp:width>
+      <mp:height>288</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Ein Zettel mit der Aufschrit &quot;Immer ein Vietrklässler Abstand&quot; liegt auf dem Fußboden.</mp:alt>
+      <mp:caption/>
+      <mp:source>Screenshot NDR</mp:source>
+      <mp:data>https://www.ndr.de/fernsehen/screenshot864956_v-contentwidescreen.jpg</mp:data>
+      <mp:width>192</mp:width>
+      <mp:height>108</mp:height>
+    </mp:image>
+  </item>
+  <item rdf:about="https://www.ndr.de/nachrichten/hamburg/75-Jahre-Kriegsende-Hamburg-Gedenken-am-KZ-Neuengamme,neuengamme344.html">
+    <title>Neuengamme-Befreiung: Gedenken nicht nur virtuell</title>
+    <link>
+      https://www.ndr.de/nachrichten/hamburg/75-Jahre-Kriegsende-Hamburg-Gedenken-am-KZ-Neuengamme,neuengamme344.html
+    </link>
+    <description>Vor 75 Jahren sind die Häftlinge des KZ Neuengamme befreit worden. Eine große Gedenkfeier wurde wegen
+      Corona abgesagt, stattdessen gab es ein kleineres Gedenken und eine Online-Aktion.
+    </description>
+    <dc:type>Artikel</dc:type>
+    <dc:date>2020-05-03T16:17:41.028+02:00</dc:date>
+    <dc:format>text/html</dc:format>
+    <dc:identifier>neuengamme344</dc:identifier>
+    <dc:source/>
+    <dc:language>de</dc:language>
+    <dc:publisher>ndr.de</dc:publisher>
+    <dc:rights>ndr.de. Alle Rechte vorbehalten.</dc:rights>
+    <dc:subject/>
+    <dcterms:audience>all</dcterms:audience>
+    <dcterms:isFormatOf rdf:resource=""/>
+    <mp:keywords>Hamburg, KZ Neuengamme, Gedenkstätte Neuengamme, Gedenkveranstaltung, Online, 75. Jahrestag,
+      Befreiung
+    </mp:keywords>
+    <mp:topline>Hamburg</mp:topline>
+    <mp:states/>
+    <mp:image>
+      <mp:alt>Carola Veit (SPD, l-r), Bürgerschaftspräsidentin, Peter Tschentscher (SPD), Erster Bürgermeister von
+        Hamburg, und Uta Kühl, Schatzmeisterin von Amicale Internationale, stehen vor dem Mahnmal des
+        Konzentrationslagers Neuengamme.
+      </mp:alt>
+      <mp:caption/>
+      <mp:source>dpa-Bildfunk</mp:source>
+      <mp:data>https://www.ndr.de/nachrichten/hamburg/neuengamme350_v-contentgross.jpg</mp:data>
+      <mp:width>568</mp:width>
+      <mp:height>320</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Carola Veit (SPD, l-r), Bürgerschaftspräsidentin, Peter Tschentscher (SPD), Erster Bürgermeister von
+        Hamburg, und Uta Kühl, Schatzmeisterin von Amicale Internationale, stehen vor dem Mahnmal des
+        Konzentrationslagers Neuengamme.
+      </mp:alt>
+      <mp:caption/>
+      <mp:source>dpa-Bildfunk</mp:source>
+      <mp:data>https://www.ndr.de/nachrichten/hamburg/neuengamme350_v-dreispaltig.jpg</mp:data>
+      <mp:width>568</mp:width>
+      <mp:height>144</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Carola Veit (SPD, l-r), Bürgerschaftspräsidentin, Peter Tschentscher (SPD), Erster Bürgermeister von
+        Hamburg, und Uta Kühl, Schatzmeisterin von Amicale Internationale, stehen vor dem Mahnmal des
+        Konzentrationslagers Neuengamme.
+      </mp:alt>
+      <mp:caption/>
+      <mp:source>dpa-Bildfunk</mp:source>
+      <mp:data>https://www.ndr.de/nachrichten/hamburg/neuengamme350_v-zweispaltig.jpg</mp:data>
+      <mp:width>376</mp:width>
+      <mp:height>212</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Carola Veit (SPD, l-r), Bürgerschaftspräsidentin, Peter Tschentscher (SPD), Erster Bürgermeister von
+        Hamburg, und Uta Kühl, Schatzmeisterin von Amicale Internationale, stehen vor dem Mahnmal des
+        Konzentrationslagers Neuengamme.
+      </mp:alt>
+      <mp:caption/>
+      <mp:source>dpa-Bildfunk</mp:source>
+      <mp:data>https://www.ndr.de/nachrichten/hamburg/neuengamme350_v-einspaltig.jpg</mp:data>
+      <mp:width>184</mp:width>
+      <mp:height>104</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Carola Veit (SPD, l-r), Bürgerschaftspräsidentin, Peter Tschentscher (SPD), Erster Bürgermeister von
+        Hamburg, und Uta Kühl, Schatzmeisterin von Amicale Internationale, stehen vor dem Mahnmal des
+        Konzentrationslagers Neuengamme.
+      </mp:alt>
+      <mp:caption/>
+      <mp:source>dpa-Bildfunk</mp:source>
+      <mp:data>https://www.ndr.de/nachrichten/hamburg/neuengamme350_v-contentklein.jpg</mp:data>
+      <mp:width>256</mp:width>
+      <mp:height>144</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Carola Veit (SPD, l-r), Bürgerschaftspräsidentin, Peter Tschentscher (SPD), Erster Bürgermeister von
+        Hamburg, und Uta Kühl, Schatzmeisterin von Amicale Internationale, stehen vor dem Mahnmal des
+        Konzentrationslagers Neuengamme.
+      </mp:alt>
+      <mp:caption/>
+      <mp:source>dpa-Bildfunk</mp:source>
+      <mp:data>https://www.ndr.de/nachrichten/hamburg/neuengamme350_v-ardteaserwidescreen.jpg</mp:data>
+      <mp:width>256</mp:width>
+      <mp:height>144</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Carola Veit (SPD, l-r), Bürgerschaftspräsidentin, Peter Tschentscher (SPD), Erster Bürgermeister von
+        Hamburg, und Uta Kühl, Schatzmeisterin von Amicale Internationale, stehen vor dem Mahnmal des
+        Konzentrationslagers Neuengamme.
+      </mp:alt>
+      <mp:caption/>
+      <mp:source>dpa-Bildfunk</mp:source>
+      <mp:data>https://www.ndr.de/nachrichten/hamburg/neuengamme350_v-ardgrosswidescreen.jpg</mp:data>
+      <mp:width>512</mp:width>
+      <mp:height>288</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Carola Veit (SPD, l-r), Bürgerschaftspräsidentin, Peter Tschentscher (SPD), Erster Bürgermeister von
+        Hamburg, und Uta Kühl, Schatzmeisterin von Amicale Internationale, stehen vor dem Mahnmal des
+        Konzentrationslagers Neuengamme.
+      </mp:alt>
+      <mp:caption/>
+      <mp:source>dpa-Bildfunk</mp:source>
+      <mp:data>https://www.ndr.de/nachrichten/hamburg/neuengamme350_v-contentwidescreen.jpg</mp:data>
+      <mp:width>192</mp:width>
+      <mp:height>108</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Carola Veit und Peter Tschentscher in stillem Gedenken im KZ Neuengamme.</mp:alt>
+      <mp:caption/>
+      <mp:source>Screenshot</mp:source>
+      <mp:data>https://www.ndr.de/nachrichten/hamburg/neuengamme348_v-contentgross.jpg</mp:data>
+      <mp:width>568</mp:width>
+      <mp:height>320</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Carola Veit und Peter Tschentscher in stillem Gedenken im KZ Neuengamme.</mp:alt>
+      <mp:caption/>
+      <mp:source>Screenshot</mp:source>
+      <mp:data>https://www.ndr.de/nachrichten/hamburg/neuengamme348_v-dreispaltig.jpg</mp:data>
+      <mp:width>568</mp:width>
+      <mp:height>144</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Carola Veit und Peter Tschentscher in stillem Gedenken im KZ Neuengamme.</mp:alt>
+      <mp:caption/>
+      <mp:source>Screenshot</mp:source>
+      <mp:data>https://www.ndr.de/nachrichten/hamburg/neuengamme348_v-zweispaltig.jpg</mp:data>
+      <mp:width>376</mp:width>
+      <mp:height>212</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Carola Veit und Peter Tschentscher in stillem Gedenken im KZ Neuengamme.</mp:alt>
+      <mp:caption/>
+      <mp:source>Screenshot</mp:source>
+      <mp:data>https://www.ndr.de/nachrichten/hamburg/neuengamme348_v-einspaltig.jpg</mp:data>
+      <mp:width>184</mp:width>
+      <mp:height>104</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Carola Veit und Peter Tschentscher in stillem Gedenken im KZ Neuengamme.</mp:alt>
+      <mp:caption/>
+      <mp:source>Screenshot</mp:source>
+      <mp:data>https://www.ndr.de/nachrichten/hamburg/neuengamme348_v-contentklein.jpg</mp:data>
+      <mp:width>256</mp:width>
+      <mp:height>144</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Carola Veit und Peter Tschentscher in stillem Gedenken im KZ Neuengamme.</mp:alt>
+      <mp:caption/>
+      <mp:source>Screenshot</mp:source>
+      <mp:data>https://www.ndr.de/nachrichten/hamburg/neuengamme348_v-ardteaserwidescreen.jpg</mp:data>
+      <mp:width>256</mp:width>
+      <mp:height>144</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Carola Veit und Peter Tschentscher in stillem Gedenken im KZ Neuengamme.</mp:alt>
+      <mp:caption/>
+      <mp:source>Screenshot</mp:source>
+      <mp:data>https://www.ndr.de/nachrichten/hamburg/neuengamme348_v-ardgrosswidescreen.jpg</mp:data>
+      <mp:width>512</mp:width>
+      <mp:height>288</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Carola Veit und Peter Tschentscher in stillem Gedenken im KZ Neuengamme.</mp:alt>
+      <mp:caption/>
+      <mp:source>Screenshot</mp:source>
+      <mp:data>https://www.ndr.de/nachrichten/hamburg/neuengamme348_v-contentwidescreen.jpg</mp:data>
+      <mp:width>192</mp:width>
+      <mp:height>108</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Ehemalige Häftlingsbaracke auf dem Gelände der Gedenkstätte in Neuengamme</mp:alt>
+      <mp:caption/>
+      <mp:source>Irene Altenmüller</mp:source>
+      <mp:data>https://www.ndr.de/geschichte/chronologie/neuengamme238_v-contentgross.jpg</mp:data>
+      <mp:width>568</mp:width>
+      <mp:height>320</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Ehemalige Häftlingsbaracke auf dem Gelände der Gedenkstätte in Neuengamme</mp:alt>
+      <mp:caption/>
+      <mp:source>Irene Altenmüller</mp:source>
+      <mp:data>https://www.ndr.de/geschichte/chronologie/neuengamme238_v-dreispaltig.jpg</mp:data>
+      <mp:width>568</mp:width>
+      <mp:height>144</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Ehemalige Häftlingsbaracke auf dem Gelände der Gedenkstätte in Neuengamme</mp:alt>
+      <mp:caption/>
+      <mp:source>Irene Altenmüller</mp:source>
+      <mp:data>https://www.ndr.de/geschichte/chronologie/neuengamme238_v-zweispaltig.jpg</mp:data>
+      <mp:width>376</mp:width>
+      <mp:height>212</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Ehemalige Häftlingsbaracke auf dem Gelände der Gedenkstätte in Neuengamme</mp:alt>
+      <mp:caption/>
+      <mp:source>Irene Altenmüller</mp:source>
+      <mp:data>https://www.ndr.de/geschichte/chronologie/neuengamme238_v-einspaltig.jpg</mp:data>
+      <mp:width>184</mp:width>
+      <mp:height>104</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Ehemalige Häftlingsbaracke auf dem Gelände der Gedenkstätte in Neuengamme</mp:alt>
+      <mp:caption/>
+      <mp:source>Irene Altenmüller</mp:source>
+      <mp:data>https://www.ndr.de/geschichte/chronologie/neuengamme238_v-contentklein.jpg</mp:data>
+      <mp:width>256</mp:width>
+      <mp:height>144</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Ehemalige Häftlingsbaracke auf dem Gelände der Gedenkstätte in Neuengamme</mp:alt>
+      <mp:caption/>
+      <mp:source>Irene Altenmüller</mp:source>
+      <mp:data>https://www.ndr.de/geschichte/chronologie/neuengamme238_v-ardteaserwidescreen.jpg</mp:data>
+      <mp:width>256</mp:width>
+      <mp:height>144</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Ehemalige Häftlingsbaracke auf dem Gelände der Gedenkstätte in Neuengamme</mp:alt>
+      <mp:caption/>
+      <mp:source>Irene Altenmüller</mp:source>
+      <mp:data>https://www.ndr.de/geschichte/chronologie/neuengamme238_v-ardgrosswidescreen.jpg</mp:data>
+      <mp:width>512</mp:width>
+      <mp:height>288</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Ehemalige Häftlingsbaracke auf dem Gelände der Gedenkstätte in Neuengamme</mp:alt>
+      <mp:caption/>
+      <mp:source>Irene Altenmüller</mp:source>
+      <mp:data>https://www.ndr.de/geschichte/chronologie/neuengamme238_v-contentwidescreen.jpg</mp:data>
+      <mp:width>192</mp:width>
+      <mp:height>108</mp:height>
+    </mp:image>
+  </item>
+  <item rdf:about="https://www.ndr.de/nachrichten/hamburg/Coronavirus-Nur-drei-neue-Faelle-in-Hamburg,coronazahlen200.html">
+    <title>Coronavirus: Nur drei neue Fälle in Hamburg</title>
+    <link>https://www.ndr.de/nachrichten/hamburg/Coronavirus-Nur-drei-neue-Faelle-in-Hamburg,coronazahlen200.html</link>
+    <description>In Hamburg ist die Zahl der bestätigten Corona-Fälle von Sonnabend auf Sonntag nur minimal gestiegen.
+      Die Gesundheitsbehörde meldete drei weitere Fälle. 3.700 Menschen sollen genesen sein.
+    </description>
+    <dc:type>Artikel</dc:type>
+    <dc:date>2020-05-03T14:14:46.582+02:00</dc:date>
+    <dc:format>text/html</dc:format>
+    <dc:identifier>coronazahlen200</dc:identifier>
+    <dc:source/>
+    <dc:language>de</dc:language>
+    <dc:publisher>ndr.de</dc:publisher>
+    <dc:rights>ndr.de. Alle Rechte vorbehalten.</dc:rights>
+    <dc:subject/>
+    <dcterms:audience>all</dcterms:audience>
+    <dcterms:isFormatOf rdf:resource=""/>
+    <mp:keywords>Corona, Coronavirus, Hamburg, Gesundheitsbehörde, Zahlen, Infizierte, Covid-19</mp:keywords>
+    <mp:topline>Hamburg</mp:topline>
+    <mp:states/>
+    <mp:image>
+      <mp:alt>Eine Person hält eine Probe in einem Labor.</mp:alt>
+      <mp:caption/>
+      <mp:source>picture alliance</mp:source>
+      <mp:data>https://www.n-joy.de/corona1892_v-contentgross.jpg</mp:data>
+      <mp:width>568</mp:width>
+      <mp:height>320</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Eine Person hält eine Probe in einem Labor.</mp:alt>
+      <mp:caption/>
+      <mp:source>picture alliance</mp:source>
+      <mp:data>https://www.n-joy.de/corona1892_v-dreispaltig.jpg</mp:data>
+      <mp:width>568</mp:width>
+      <mp:height>144</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Eine Person hält eine Probe in einem Labor.</mp:alt>
+      <mp:caption/>
+      <mp:source>picture alliance</mp:source>
+      <mp:data>https://www.n-joy.de/corona1892_v-zweispaltig.jpg</mp:data>
+      <mp:width>376</mp:width>
+      <mp:height>212</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Eine Person hält eine Probe in einem Labor.</mp:alt>
+      <mp:caption/>
+      <mp:source>picture alliance</mp:source>
+      <mp:data>https://www.n-joy.de/corona1892_v-einspaltig.jpg</mp:data>
+      <mp:width>184</mp:width>
+      <mp:height>104</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Eine Person hält eine Probe in einem Labor.</mp:alt>
+      <mp:caption/>
+      <mp:source>picture alliance</mp:source>
+      <mp:data>https://www.n-joy.de/corona1892_v-contentklein.jpg</mp:data>
+      <mp:width>256</mp:width>
+      <mp:height>144</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Eine Person hält eine Probe in einem Labor.</mp:alt>
+      <mp:caption/>
+      <mp:source>picture alliance</mp:source>
+      <mp:data>https://www.n-joy.de/corona1892_v-ardteaserwidescreen.jpg</mp:data>
+      <mp:width>256</mp:width>
+      <mp:height>144</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Eine Person hält eine Probe in einem Labor.</mp:alt>
+      <mp:caption/>
+      <mp:source>picture alliance</mp:source>
+      <mp:data>https://www.n-joy.de/corona1892_v-ardgrosswidescreen.jpg</mp:data>
+      <mp:width>512</mp:width>
+      <mp:height>288</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Eine Person hält eine Probe in einem Labor.</mp:alt>
+      <mp:caption/>
+      <mp:source>picture alliance</mp:source>
+      <mp:data>https://www.n-joy.de/corona1892_v-contentwidescreen.jpg</mp:data>
+      <mp:width>192</mp:width>
+      <mp:height>108</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Eine Person hält Laborproben.</mp:alt>
+      <mp:caption/>
+      <mp:source>picture alliance</mp:source>
+      <mp:data>https://www.n-joy.de/corona1894_v-contentgross.jpg</mp:data>
+      <mp:width>568</mp:width>
+      <mp:height>320</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Eine Person hält Laborproben.</mp:alt>
+      <mp:caption/>
+      <mp:source>picture alliance</mp:source>
+      <mp:data>https://www.n-joy.de/corona1894_v-dreispaltig.jpg</mp:data>
+      <mp:width>568</mp:width>
+      <mp:height>144</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Eine Person hält Laborproben.</mp:alt>
+      <mp:caption/>
+      <mp:source>picture alliance</mp:source>
+      <mp:data>https://www.n-joy.de/corona1894_v-zweispaltig.jpg</mp:data>
+      <mp:width>376</mp:width>
+      <mp:height>212</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Eine Person hält Laborproben.</mp:alt>
+      <mp:caption/>
+      <mp:source>picture alliance</mp:source>
+      <mp:data>https://www.n-joy.de/corona1894_v-einspaltig.jpg</mp:data>
+      <mp:width>184</mp:width>
+      <mp:height>104</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Eine Person hält Laborproben.</mp:alt>
+      <mp:caption/>
+      <mp:source>picture alliance</mp:source>
+      <mp:data>https://www.n-joy.de/corona1894_v-contentklein.jpg</mp:data>
+      <mp:width>256</mp:width>
+      <mp:height>144</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Eine Person hält Laborproben.</mp:alt>
+      <mp:caption/>
+      <mp:source>picture alliance</mp:source>
+      <mp:data>https://www.n-joy.de/corona1894_v-ardteaserwidescreen.jpg</mp:data>
+      <mp:width>256</mp:width>
+      <mp:height>144</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Eine Person hält Laborproben.</mp:alt>
+      <mp:caption/>
+      <mp:source>picture alliance</mp:source>
+      <mp:data>https://www.n-joy.de/corona1894_v-ardgrosswidescreen.jpg</mp:data>
+      <mp:width>512</mp:width>
+      <mp:height>288</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Eine Person hält Laborproben.</mp:alt>
+      <mp:caption/>
+      <mp:source>picture alliance</mp:source>
+      <mp:data>https://www.n-joy.de/corona1894_v-contentwidescreen.jpg</mp:data>
+      <mp:width>192</mp:width>
+      <mp:height>108</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Im Labor wird hellbaue Flüssigkeit pipettiert.</mp:alt>
+      <mp:caption>Das RKI geht davon aus, dass mehr als doppelt so viele Hamburgerinnen und Hamburger bereits genesen
+        sind als akut infiziert.
+      </mp:caption>
+      <mp:source>picture alliance</mp:source>
+      <mp:data>https://www.ndr.de/coronalabor100_v-contentgross.jpg</mp:data>
+      <mp:width>568</mp:width>
+      <mp:height>320</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Im Labor wird hellbaue Flüssigkeit pipettiert.</mp:alt>
+      <mp:caption>Das RKI geht davon aus, dass mehr als doppelt so viele Hamburgerinnen und Hamburger bereits genesen
+        sind als akut infiziert.
+      </mp:caption>
+      <mp:source>picture alliance</mp:source>
+      <mp:data>https://www.ndr.de/coronalabor100_v-dreispaltig.jpg</mp:data>
+      <mp:width>568</mp:width>
+      <mp:height>144</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Im Labor wird hellbaue Flüssigkeit pipettiert.</mp:alt>
+      <mp:caption>Das RKI geht davon aus, dass mehr als doppelt so viele Hamburgerinnen und Hamburger bereits genesen
+        sind als akut infiziert.
+      </mp:caption>
+      <mp:source>picture alliance</mp:source>
+      <mp:data>https://www.ndr.de/coronalabor100_v-zweispaltig.jpg</mp:data>
+      <mp:width>376</mp:width>
+      <mp:height>212</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Im Labor wird hellbaue Flüssigkeit pipettiert.</mp:alt>
+      <mp:caption>Das RKI geht davon aus, dass mehr als doppelt so viele Hamburgerinnen und Hamburger bereits genesen
+        sind als akut infiziert.
+      </mp:caption>
+      <mp:source>picture alliance</mp:source>
+      <mp:data>https://www.ndr.de/coronalabor100_v-einspaltig.jpg</mp:data>
+      <mp:width>184</mp:width>
+      <mp:height>104</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Im Labor wird hellbaue Flüssigkeit pipettiert.</mp:alt>
+      <mp:caption>Das RKI geht davon aus, dass mehr als doppelt so viele Hamburgerinnen und Hamburger bereits genesen
+        sind als akut infiziert.
+      </mp:caption>
+      <mp:source>picture alliance</mp:source>
+      <mp:data>https://www.ndr.de/coronalabor100_v-contentklein.jpg</mp:data>
+      <mp:width>256</mp:width>
+      <mp:height>144</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Im Labor wird hellbaue Flüssigkeit pipettiert.</mp:alt>
+      <mp:caption>Das RKI geht davon aus, dass mehr als doppelt so viele Hamburgerinnen und Hamburger bereits genesen
+        sind als akut infiziert.
+      </mp:caption>
+      <mp:source>picture alliance</mp:source>
+      <mp:data>https://www.ndr.de/coronalabor100_v-ardteaserwidescreen.jpg</mp:data>
+      <mp:width>256</mp:width>
+      <mp:height>144</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Im Labor wird hellbaue Flüssigkeit pipettiert.</mp:alt>
+      <mp:caption>Das RKI geht davon aus, dass mehr als doppelt so viele Hamburgerinnen und Hamburger bereits genesen
+        sind als akut infiziert.
+      </mp:caption>
+      <mp:source>picture alliance</mp:source>
+      <mp:data>https://www.ndr.de/coronalabor100_v-ardgrosswidescreen.jpg</mp:data>
+      <mp:width>512</mp:width>
+      <mp:height>288</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Im Labor wird hellbaue Flüssigkeit pipettiert.</mp:alt>
+      <mp:caption>Das RKI geht davon aus, dass mehr als doppelt so viele Hamburgerinnen und Hamburger bereits genesen
+        sind als akut infiziert.
+      </mp:caption>
+      <mp:source>picture alliance</mp:source>
+      <mp:data>https://www.ndr.de/coronalabor100_v-contentwidescreen.jpg</mp:data>
+      <mp:width>192</mp:width>
+      <mp:height>108</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Ein Virussymbol schwebt zwischen roten Lichreflexen.</mp:alt>
+      <mp:caption/>
+      <mp:source>picture alliance</mp:source>
+      <mp:data>https://www.n-joy.de/corona1888_v-contentgross.jpg</mp:data>
+      <mp:width>568</mp:width>
+      <mp:height>320</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Ein Virussymbol schwebt zwischen roten Lichreflexen.</mp:alt>
+      <mp:caption/>
+      <mp:source>picture alliance</mp:source>
+      <mp:data>https://www.n-joy.de/corona1888_v-dreispaltig.jpg</mp:data>
+      <mp:width>568</mp:width>
+      <mp:height>144</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Ein Virussymbol schwebt zwischen roten Lichreflexen.</mp:alt>
+      <mp:caption/>
+      <mp:source>picture alliance</mp:source>
+      <mp:data>https://www.n-joy.de/corona1888_v-zweispaltig.jpg</mp:data>
+      <mp:width>376</mp:width>
+      <mp:height>212</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Ein Virussymbol schwebt zwischen roten Lichreflexen.</mp:alt>
+      <mp:caption/>
+      <mp:source>picture alliance</mp:source>
+      <mp:data>https://www.n-joy.de/corona1888_v-einspaltig.jpg</mp:data>
+      <mp:width>184</mp:width>
+      <mp:height>104</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Ein Virussymbol schwebt zwischen roten Lichreflexen.</mp:alt>
+      <mp:caption/>
+      <mp:source>picture alliance</mp:source>
+      <mp:data>https://www.n-joy.de/corona1888_v-contentklein.jpg</mp:data>
+      <mp:width>256</mp:width>
+      <mp:height>144</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Ein Virussymbol schwebt zwischen roten Lichreflexen.</mp:alt>
+      <mp:caption/>
+      <mp:source>picture alliance</mp:source>
+      <mp:data>https://www.n-joy.de/corona1888_v-ardteaserwidescreen.jpg</mp:data>
+      <mp:width>256</mp:width>
+      <mp:height>144</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Ein Virussymbol schwebt zwischen roten Lichreflexen.</mp:alt>
+      <mp:caption/>
+      <mp:source>picture alliance</mp:source>
+      <mp:data>https://www.n-joy.de/corona1888_v-ardgrosswidescreen.jpg</mp:data>
+      <mp:width>512</mp:width>
+      <mp:height>288</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Ein Virussymbol schwebt zwischen roten Lichreflexen.</mp:alt>
+      <mp:caption/>
+      <mp:source>picture alliance</mp:source>
+      <mp:data>https://www.n-joy.de/corona1888_v-contentwidescreen.jpg</mp:data>
+      <mp:width>192</mp:width>
+      <mp:height>108</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Eine Labor-Mitarbeiterin mit Coronavirus-Teströhrchen.</mp:alt>
+      <mp:caption/>
+      <mp:source>picture alliance / dpa</mp:source>
+      <mp:data>https://www.ndr.de/nachrichten/hamburg/corona2672_v-contentgross.jpg</mp:data>
+      <mp:width>568</mp:width>
+      <mp:height>320</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Eine Labor-Mitarbeiterin mit Coronavirus-Teströhrchen.</mp:alt>
+      <mp:caption/>
+      <mp:source>picture alliance / dpa</mp:source>
+      <mp:data>https://www.ndr.de/nachrichten/hamburg/corona2672_v-dreispaltig.jpg</mp:data>
+      <mp:width>568</mp:width>
+      <mp:height>144</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Eine Labor-Mitarbeiterin mit Coronavirus-Teströhrchen.</mp:alt>
+      <mp:caption/>
+      <mp:source>picture alliance / dpa</mp:source>
+      <mp:data>https://www.ndr.de/nachrichten/hamburg/corona2672_v-zweispaltig.jpg</mp:data>
+      <mp:width>376</mp:width>
+      <mp:height>212</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Eine Labor-Mitarbeiterin mit Coronavirus-Teströhrchen.</mp:alt>
+      <mp:caption/>
+      <mp:source>picture alliance / dpa</mp:source>
+      <mp:data>https://www.ndr.de/nachrichten/hamburg/corona2672_v-einspaltig.jpg</mp:data>
+      <mp:width>184</mp:width>
+      <mp:height>104</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Eine Labor-Mitarbeiterin mit Coronavirus-Teströhrchen.</mp:alt>
+      <mp:caption/>
+      <mp:source>picture alliance / dpa</mp:source>
+      <mp:data>https://www.ndr.de/nachrichten/hamburg/corona2672_v-contentklein.jpg</mp:data>
+      <mp:width>256</mp:width>
+      <mp:height>144</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Eine Labor-Mitarbeiterin mit Coronavirus-Teströhrchen.</mp:alt>
+      <mp:caption/>
+      <mp:source>picture alliance / dpa</mp:source>
+      <mp:data>https://www.ndr.de/nachrichten/hamburg/corona2672_v-ardteaserwidescreen.jpg</mp:data>
+      <mp:width>256</mp:width>
+      <mp:height>144</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Eine Labor-Mitarbeiterin mit Coronavirus-Teströhrchen.</mp:alt>
+      <mp:caption/>
+      <mp:source>picture alliance / dpa</mp:source>
+      <mp:data>https://www.ndr.de/nachrichten/hamburg/corona2672_v-ardgrosswidescreen.jpg</mp:data>
+      <mp:width>512</mp:width>
+      <mp:height>288</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Eine Labor-Mitarbeiterin mit Coronavirus-Teströhrchen.</mp:alt>
+      <mp:caption/>
+      <mp:source>picture alliance / dpa</mp:source>
+      <mp:data>https://www.ndr.de/nachrichten/hamburg/corona2672_v-contentwidescreen.jpg</mp:data>
+      <mp:width>192</mp:width>
+      <mp:height>108</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Virensymbole fliegen um die Silhouette einer Person. (Bildmontage)</mp:alt>
+      <mp:caption/>
+      <mp:source>panthermedia</mp:source>
+      <mp:data>https://www.n-joy.de/corona1884_v-contentgross.jpg</mp:data>
+      <mp:width>568</mp:width>
+      <mp:height>320</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Virensymbole fliegen um die Silhouette einer Person. (Bildmontage)</mp:alt>
+      <mp:caption/>
+      <mp:source>panthermedia</mp:source>
+      <mp:data>https://www.n-joy.de/corona1884_v-dreispaltig.jpg</mp:data>
+      <mp:width>568</mp:width>
+      <mp:height>144</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Virensymbole fliegen um die Silhouette einer Person. (Bildmontage)</mp:alt>
+      <mp:caption/>
+      <mp:source>panthermedia</mp:source>
+      <mp:data>https://www.n-joy.de/corona1884_v-zweispaltig.jpg</mp:data>
+      <mp:width>376</mp:width>
+      <mp:height>212</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Virensymbole fliegen um die Silhouette einer Person. (Bildmontage)</mp:alt>
+      <mp:caption/>
+      <mp:source>panthermedia</mp:source>
+      <mp:data>https://www.n-joy.de/corona1884_v-einspaltig.jpg</mp:data>
+      <mp:width>184</mp:width>
+      <mp:height>104</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Virensymbole fliegen um die Silhouette einer Person. (Bildmontage)</mp:alt>
+      <mp:caption/>
+      <mp:source>panthermedia</mp:source>
+      <mp:data>https://www.n-joy.de/corona1884_v-contentklein.jpg</mp:data>
+      <mp:width>256</mp:width>
+      <mp:height>144</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Virensymbole fliegen um die Silhouette einer Person. (Bildmontage)</mp:alt>
+      <mp:caption/>
+      <mp:source>panthermedia</mp:source>
+      <mp:data>https://www.n-joy.de/corona1884_v-ardteaserwidescreen.jpg</mp:data>
+      <mp:width>256</mp:width>
+      <mp:height>144</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Virensymbole fliegen um die Silhouette einer Person. (Bildmontage)</mp:alt>
+      <mp:caption/>
+      <mp:source>panthermedia</mp:source>
+      <mp:data>https://www.n-joy.de/corona1884_v-ardgrosswidescreen.jpg</mp:data>
+      <mp:width>512</mp:width>
+      <mp:height>288</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Virensymbole fliegen um die Silhouette einer Person. (Bildmontage)</mp:alt>
+      <mp:caption/>
+      <mp:source>panthermedia</mp:source>
+      <mp:data>https://www.n-joy.de/corona1884_v-contentwidescreen.jpg</mp:data>
+      <mp:width>192</mp:width>
+      <mp:height>108</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Laborproben in Reagenzgläsern werden in einem Ständer gehalten.</mp:alt>
+      <mp:caption/>
+      <mp:source>imago images</mp:source>
+      <mp:data>https://www.ndr.de/home/corona428_v-contentgross.jpg</mp:data>
+      <mp:width>568</mp:width>
+      <mp:height>320</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Laborproben in Reagenzgläsern werden in einem Ständer gehalten.</mp:alt>
+      <mp:caption/>
+      <mp:source>imago images</mp:source>
+      <mp:data>https://www.ndr.de/home/corona428_v-dreispaltig.jpg</mp:data>
+      <mp:width>568</mp:width>
+      <mp:height>144</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Laborproben in Reagenzgläsern werden in einem Ständer gehalten.</mp:alt>
+      <mp:caption/>
+      <mp:source>imago images</mp:source>
+      <mp:data>https://www.ndr.de/home/corona428_v-zweispaltig.jpg</mp:data>
+      <mp:width>376</mp:width>
+      <mp:height>212</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Laborproben in Reagenzgläsern werden in einem Ständer gehalten.</mp:alt>
+      <mp:caption/>
+      <mp:source>imago images</mp:source>
+      <mp:data>https://www.ndr.de/home/corona428_v-einspaltig.jpg</mp:data>
+      <mp:width>184</mp:width>
+      <mp:height>104</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Laborproben in Reagenzgläsern werden in einem Ständer gehalten.</mp:alt>
+      <mp:caption/>
+      <mp:source>imago images</mp:source>
+      <mp:data>https://www.ndr.de/home/corona428_v-contentklein.jpg</mp:data>
+      <mp:width>256</mp:width>
+      <mp:height>144</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Laborproben in Reagenzgläsern werden in einem Ständer gehalten.</mp:alt>
+      <mp:caption/>
+      <mp:source>imago images</mp:source>
+      <mp:data>https://www.ndr.de/home/corona428_v-ardteaserwidescreen.jpg</mp:data>
+      <mp:width>256</mp:width>
+      <mp:height>144</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Laborproben in Reagenzgläsern werden in einem Ständer gehalten.</mp:alt>
+      <mp:caption/>
+      <mp:source>imago images</mp:source>
+      <mp:data>https://www.ndr.de/home/corona428_v-ardgrosswidescreen.jpg</mp:data>
+      <mp:width>512</mp:width>
+      <mp:height>288</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Laborproben in Reagenzgläsern werden in einem Ständer gehalten.</mp:alt>
+      <mp:caption/>
+      <mp:source>imago images</mp:source>
+      <mp:data>https://www.ndr.de/home/corona428_v-contentwidescreen.jpg</mp:data>
+      <mp:width>192</mp:width>
+      <mp:height>108</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Virensymbole fliegen um die Silhouette einer Person. (Bildmontage)</mp:alt>
+      <mp:caption/>
+      <mp:source>panthermedia</mp:source>
+      <mp:data>https://www.n-joy.de/corona1884_v-contentgross.jpg</mp:data>
+      <mp:width>568</mp:width>
+      <mp:height>320</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Virensymbole fliegen um die Silhouette einer Person. (Bildmontage)</mp:alt>
+      <mp:caption/>
+      <mp:source>panthermedia</mp:source>
+      <mp:data>https://www.n-joy.de/corona1884_v-dreispaltig.jpg</mp:data>
+      <mp:width>568</mp:width>
+      <mp:height>144</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Virensymbole fliegen um die Silhouette einer Person. (Bildmontage)</mp:alt>
+      <mp:caption/>
+      <mp:source>panthermedia</mp:source>
+      <mp:data>https://www.n-joy.de/corona1884_v-zweispaltig.jpg</mp:data>
+      <mp:width>376</mp:width>
+      <mp:height>212</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Virensymbole fliegen um die Silhouette einer Person. (Bildmontage)</mp:alt>
+      <mp:caption/>
+      <mp:source>panthermedia</mp:source>
+      <mp:data>https://www.n-joy.de/corona1884_v-einspaltig.jpg</mp:data>
+      <mp:width>184</mp:width>
+      <mp:height>104</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Virensymbole fliegen um die Silhouette einer Person. (Bildmontage)</mp:alt>
+      <mp:caption/>
+      <mp:source>panthermedia</mp:source>
+      <mp:data>https://www.n-joy.de/corona1884_v-contentklein.jpg</mp:data>
+      <mp:width>256</mp:width>
+      <mp:height>144</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Virensymbole fliegen um die Silhouette einer Person. (Bildmontage)</mp:alt>
+      <mp:caption/>
+      <mp:source>panthermedia</mp:source>
+      <mp:data>https://www.n-joy.de/corona1884_v-ardteaserwidescreen.jpg</mp:data>
+      <mp:width>256</mp:width>
+      <mp:height>144</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Virensymbole fliegen um die Silhouette einer Person. (Bildmontage)</mp:alt>
+      <mp:caption/>
+      <mp:source>panthermedia</mp:source>
+      <mp:data>https://www.n-joy.de/corona1884_v-ardgrosswidescreen.jpg</mp:data>
+      <mp:width>512</mp:width>
+      <mp:height>288</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Virensymbole fliegen um die Silhouette einer Person. (Bildmontage)</mp:alt>
+      <mp:caption/>
+      <mp:source>panthermedia</mp:source>
+      <mp:data>https://www.n-joy.de/corona1884_v-contentwidescreen.jpg</mp:data>
+      <mp:width>192</mp:width>
+      <mp:height>108</mp:height>
+    </mp:image>
+  </item>
+  <item rdf:about="https://www.ndr.de/nachrichten/hamburg/Hamburg-75-Jahre-Kriegsende,kriegsende526.html">
+    <title>Hamburg: 75 Jahre Kriegsende</title>
+    <link>https://www.ndr.de/nachrichten/hamburg/Hamburg-75-Jahre-Kriegsende,kriegsende526.html</link>
+    <description>Kriegsende vor 75 Jahren: Am 3. Mai 1945 kapituliert Hamburg - die Stadt wird an die Briten übergeben.
+      Trotz der Corona-Krise finden Gedenkfeiern statt - allerdings nur virtuell.
+    </description>
+    <dc:type>Artikel</dc:type>
+    <dc:date>2020-05-03T11:10:59.494+02:00</dc:date>
+    <dc:format>text/html</dc:format>
+    <dc:identifier>kriegsende526</dc:identifier>
+    <dc:source/>
+    <dc:language>de</dc:language>
+    <dc:publisher>ndr.de</dc:publisher>
+    <dc:rights>ndr.de. Alle Rechte vorbehalten.</dc:rights>
+    <dc:subject/>
+    <dcterms:audience>all</dcterms:audience>
+    <dcterms:isFormatOf rdf:resource=""/>
+    <mp:keywords>Kriegsende, 75 Jahre, Hamburg, KZ Neuengamme, Konzentrationslager, Juden, Feuersturm, Befreiung,
+      Alliierte
+    </mp:keywords>
+    <mp:topline>Hamburg</mp:topline>
+    <mp:states/>
+    <mp:image>
+      <mp:alt>Hamburg Rathausmarkt, 3. Mai 1945</mp:alt>
+      <mp:caption>Hamburg Rathausmarkt, 3. Mai 1945</mp:caption>
+      <mp:source>ARD Foto</mp:source>
+      <mp:data>https://www.ndr.de/fernsehen/programm/sendung43989_v-contentgross.jpg</mp:data>
+      <mp:width>568</mp:width>
+      <mp:height>320</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Hamburg Rathausmarkt, 3. Mai 1945</mp:alt>
+      <mp:caption>Hamburg Rathausmarkt, 3. Mai 1945</mp:caption>
+      <mp:source>ARD Foto</mp:source>
+      <mp:data>https://www.ndr.de/fernsehen/programm/sendung43989_v-dreispaltig.jpg</mp:data>
+      <mp:width>568</mp:width>
+      <mp:height>144</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Hamburg Rathausmarkt, 3. Mai 1945</mp:alt>
+      <mp:caption>Hamburg Rathausmarkt, 3. Mai 1945</mp:caption>
+      <mp:source>ARD Foto</mp:source>
+      <mp:data>https://www.ndr.de/fernsehen/programm/sendung43989_v-zweispaltig.jpg</mp:data>
+      <mp:width>376</mp:width>
+      <mp:height>212</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Hamburg Rathausmarkt, 3. Mai 1945</mp:alt>
+      <mp:caption>Hamburg Rathausmarkt, 3. Mai 1945</mp:caption>
+      <mp:source>ARD Foto</mp:source>
+      <mp:data>https://www.ndr.de/fernsehen/programm/sendung43989_v-einspaltig.jpg</mp:data>
+      <mp:width>184</mp:width>
+      <mp:height>104</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Hamburg Rathausmarkt, 3. Mai 1945</mp:alt>
+      <mp:caption>Hamburg Rathausmarkt, 3. Mai 1945</mp:caption>
+      <mp:source>ARD Foto</mp:source>
+      <mp:data>https://www.ndr.de/fernsehen/programm/sendung43989_v-contentklein.jpg</mp:data>
+      <mp:width>256</mp:width>
+      <mp:height>144</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Hamburg Rathausmarkt, 3. Mai 1945</mp:alt>
+      <mp:caption>Hamburg Rathausmarkt, 3. Mai 1945</mp:caption>
+      <mp:source>ARD Foto</mp:source>
+      <mp:data>https://www.ndr.de/fernsehen/programm/sendung43989_v-ardteaserwidescreen.jpg</mp:data>
+      <mp:width>256</mp:width>
+      <mp:height>144</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Hamburg Rathausmarkt, 3. Mai 1945</mp:alt>
+      <mp:caption>Hamburg Rathausmarkt, 3. Mai 1945</mp:caption>
+      <mp:source>ARD Foto</mp:source>
+      <mp:data>https://www.ndr.de/fernsehen/programm/sendung43989_v-ardgrosswidescreen.jpg</mp:data>
+      <mp:width>512</mp:width>
+      <mp:height>288</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Hamburg Rathausmarkt, 3. Mai 1945</mp:alt>
+      <mp:caption>Hamburg Rathausmarkt, 3. Mai 1945</mp:caption>
+      <mp:source>ARD Foto</mp:source>
+      <mp:data>https://www.ndr.de/fernsehen/programm/sendung43989_v-contentwidescreen.jpg</mp:data>
+      <mp:width>192</mp:width>
+      <mp:height>108</mp:height>
+    </mp:image>
+  </item>
+  <item rdf:about="https://www.ndr.de/mediathek/hamburgvideos100.html">
+    <title/>
+    <link>https://www.ndr.de/mediathek/hamburgvideos100.html</link>
+    <description/>
+    <dc:type/>
+    <dc:date>2020-05-03T13:16:03.352+02:00</dc:date>
+    <dc:format>text/html</dc:format>
+    <dc:identifier>hamburgvideos100</dc:identifier>
+    <dc:source/>
+    <dc:language>de</dc:language>
+    <dc:publisher>ndr.de</dc:publisher>
+    <dc:rights>ndr.de. Alle Rechte vorbehalten.</dc:rights>
+    <dc:subject/>
+    <dcterms:audience>all</dcterms:audience>
+    <dcterms:isFormatOf rdf:resource=""/>
+    <mp:keywords>Videos, Hamburg</mp:keywords>
+    <mp:topline>Mediathek</mp:topline>
+    <mp:states/>
+  </item>
+  <item rdf:about="https://www.ndr.de/nachrichten/hamburg/hamburgjournalstream100.html">
+    <title/>
+    <link>https://www.ndr.de/nachrichten/hamburg/hamburgjournalstream100.html</link>
+    <description/>
+    <dc:type/>
+    <dc:date>2018-01-31T19:43:42.341+01:00</dc:date>
+    <dc:format>text/html</dc:format>
+    <dc:identifier>hamburgjournalstream100</dc:identifier>
+    <dc:source/>
+    <dc:language>de</dc:language>
+    <dc:publisher>ndr.de</dc:publisher>
+    <dc:rights>ndr.de. Alle Rechte vorbehalten.</dc:rights>
+    <dc:subject/>
+    <dcterms:audience>all</dcterms:audience>
+    <dcterms:isFormatOf rdf:resource=""/>
+    <mp:keywords/>
+    <mp:topline>Hamburg</mp:topline>
+    <mp:states/>
+  </item>
+  <item rdf:about="https://www.ndr.de/nachrichten/hamburg/Auto-stoesst-auf-Kattwykbruecke-mit-Zug-zusammen,kattwykbruecke156.html">
+    <title>Auto stößt auf Kattwykbrücke mit Zug zusammen</title>
+    <link>
+      https://www.ndr.de/nachrichten/hamburg/Auto-stoesst-auf-Kattwykbruecke-mit-Zug-zusammen,kattwykbruecke156.html
+    </link>
+    <description>Schwerer Unfall auf der Hamburger Kattwykbrücke: Ein Autofahrer fuhr auf die Bahngleise und kollidierte
+      frontal mit einem Güterzug. Der 64-Jährige wurde nur leicht verletzt.
+    </description>
+    <dc:type>Artikel</dc:type>
+    <dc:date>2020-05-03T15:43:16.911+02:00</dc:date>
+    <dc:format>text/html</dc:format>
+    <dc:identifier>kattwykbruecke156</dc:identifier>
+    <dc:source/>
+    <dc:language>de</dc:language>
+    <dc:publisher>ndr.de</dc:publisher>
+    <dc:rights>ndr.de. Alle Rechte vorbehalten.</dc:rights>
+    <dc:subject/>
+    <dcterms:audience>all</dcterms:audience>
+    <dcterms:isFormatOf rdf:resource=""/>
+    <mp:keywords>hamburg Unfall Güterzug Auto Zug Kattwykbrücke Zusammenstoß</mp:keywords>
+    <mp:topline>Hamburg</mp:topline>
+    <mp:states/>
+    <mp:image>
+      <mp:alt>Ein Audi rammte auf der Kattwykbrücke die Hafenbahn</mp:alt>
+      <mp:caption/>
+      <mp:source>Blaulicht-News</mp:source>
+      <mp:data>https://www.ndr.de/nachrichten/hamburg/kattwykbruecke158_v-contentgross.jpg</mp:data>
+      <mp:width>568</mp:width>
+      <mp:height>320</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Ein Audi rammte auf der Kattwykbrücke die Hafenbahn</mp:alt>
+      <mp:caption/>
+      <mp:source>Blaulicht-News</mp:source>
+      <mp:data>https://www.ndr.de/nachrichten/hamburg/kattwykbruecke158_v-dreispaltig.jpg</mp:data>
+      <mp:width>568</mp:width>
+      <mp:height>144</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Ein Audi rammte auf der Kattwykbrücke die Hafenbahn</mp:alt>
+      <mp:caption/>
+      <mp:source>Blaulicht-News</mp:source>
+      <mp:data>https://www.ndr.de/nachrichten/hamburg/kattwykbruecke158_v-zweispaltig.jpg</mp:data>
+      <mp:width>376</mp:width>
+      <mp:height>212</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Ein Audi rammte auf der Kattwykbrücke die Hafenbahn</mp:alt>
+      <mp:caption/>
+      <mp:source>Blaulicht-News</mp:source>
+      <mp:data>https://www.ndr.de/nachrichten/hamburg/kattwykbruecke158_v-einspaltig.jpg</mp:data>
+      <mp:width>184</mp:width>
+      <mp:height>104</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Ein Audi rammte auf der Kattwykbrücke die Hafenbahn</mp:alt>
+      <mp:caption/>
+      <mp:source>Blaulicht-News</mp:source>
+      <mp:data>https://www.ndr.de/nachrichten/hamburg/kattwykbruecke158_v-contentklein.jpg</mp:data>
+      <mp:width>256</mp:width>
+      <mp:height>144</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Ein Audi rammte auf der Kattwykbrücke die Hafenbahn</mp:alt>
+      <mp:caption/>
+      <mp:source>Blaulicht-News</mp:source>
+      <mp:data>https://www.ndr.de/nachrichten/hamburg/kattwykbruecke158_v-ardteaserwidescreen.jpg</mp:data>
+      <mp:width>256</mp:width>
+      <mp:height>144</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Ein Audi rammte auf der Kattwykbrücke die Hafenbahn</mp:alt>
+      <mp:caption/>
+      <mp:source>Blaulicht-News</mp:source>
+      <mp:data>https://www.ndr.de/nachrichten/hamburg/kattwykbruecke158_v-ardgrosswidescreen.jpg</mp:data>
+      <mp:width>512</mp:width>
+      <mp:height>288</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Ein Audi rammte auf der Kattwykbrücke die Hafenbahn</mp:alt>
+      <mp:caption/>
+      <mp:source>Blaulicht-News</mp:source>
+      <mp:data>https://www.ndr.de/nachrichten/hamburg/kattwykbruecke158_v-contentwidescreen.jpg</mp:data>
+      <mp:width>192</mp:width>
+      <mp:height>108</mp:height>
+    </mp:image>
+  </item>
+  <item rdf:about="https://www.ndr.de/nachrichten/hamburg/Corona-Krise-bringt-Hamburgs-Clubs-ins-Wanken,coronakiez100.html">
+    <title>Corona-Krise bringt Hamburgs Clubs ins Wanken</title>
+    <link>https://www.ndr.de/nachrichten/hamburg/Corona-Krise-bringt-Hamburgs-Clubs-ins-Wanken,coronakiez100.html</link>
+    <description>Bürgermeister Peter Tschentscher will sich offenbar in Berlin für die Rettung der Hamburger Clubs und
+      Bars einsetzen. Es gelte, diese besondere Branche am Leben zu erhalten.
+    </description>
+    <dc:type>Artikel</dc:type>
+    <dc:date>2020-05-03T17:30:55.446+02:00</dc:date>
+    <dc:format>text/html</dc:format>
+    <dc:identifier>coronakiez100</dc:identifier>
+    <dc:source/>
+    <dc:language>de</dc:language>
+    <dc:publisher>ndr.de</dc:publisher>
+    <dc:rights>ndr.de. Alle Rechte vorbehalten.</dc:rights>
+    <dc:subject/>
+    <dcterms:audience>all</dcterms:audience>
+    <dcterms:isFormatOf rdf:resource=""/>
+    <mp:keywords>hamburg, tschentscher, corona, kiez, kneipen, clubs, bars, lockerung</mp:keywords>
+    <mp:topline>Hamburg</mp:topline>
+    <mp:states/>
+    <mp:image>
+      <mp:alt>Werbeschilder und Schilder von Lokalen auf St. Pauli.</mp:alt>
+      <mp:caption/>
+      <mp:source>Screenshot NDR</mp:source>
+      <mp:data>https://www.ndr.de/fernsehen/screenshot864440_v-contentgross.jpg</mp:data>
+      <mp:width>568</mp:width>
+      <mp:height>320</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Werbeschilder und Schilder von Lokalen auf St. Pauli.</mp:alt>
+      <mp:caption/>
+      <mp:source>Screenshot NDR</mp:source>
+      <mp:data>https://www.ndr.de/fernsehen/screenshot864440_v-dreispaltig.jpg</mp:data>
+      <mp:width>568</mp:width>
+      <mp:height>144</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Werbeschilder und Schilder von Lokalen auf St. Pauli.</mp:alt>
+      <mp:caption/>
+      <mp:source>Screenshot NDR</mp:source>
+      <mp:data>https://www.ndr.de/fernsehen/screenshot864440_v-zweispaltig.jpg</mp:data>
+      <mp:width>376</mp:width>
+      <mp:height>212</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Werbeschilder und Schilder von Lokalen auf St. Pauli.</mp:alt>
+      <mp:caption/>
+      <mp:source>Screenshot NDR</mp:source>
+      <mp:data>https://www.ndr.de/fernsehen/screenshot864440_v-einspaltig.jpg</mp:data>
+      <mp:width>184</mp:width>
+      <mp:height>104</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Werbeschilder und Schilder von Lokalen auf St. Pauli.</mp:alt>
+      <mp:caption/>
+      <mp:source>Screenshot NDR</mp:source>
+      <mp:data>https://www.ndr.de/fernsehen/screenshot864440_v-contentklein.jpg</mp:data>
+      <mp:width>256</mp:width>
+      <mp:height>144</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Werbeschilder und Schilder von Lokalen auf St. Pauli.</mp:alt>
+      <mp:caption/>
+      <mp:source>Screenshot NDR</mp:source>
+      <mp:data>https://www.ndr.de/fernsehen/screenshot864440_v-ardteaserwidescreen.jpg</mp:data>
+      <mp:width>256</mp:width>
+      <mp:height>144</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Werbeschilder und Schilder von Lokalen auf St. Pauli.</mp:alt>
+      <mp:caption/>
+      <mp:source>Screenshot NDR</mp:source>
+      <mp:data>https://www.ndr.de/fernsehen/screenshot864440_v-ardgrosswidescreen.jpg</mp:data>
+      <mp:width>512</mp:width>
+      <mp:height>288</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Werbeschilder und Schilder von Lokalen auf St. Pauli.</mp:alt>
+      <mp:caption/>
+      <mp:source>Screenshot NDR</mp:source>
+      <mp:data>https://www.ndr.de/fernsehen/screenshot864440_v-contentwidescreen.jpg</mp:data>
+      <mp:width>192</mp:width>
+      <mp:height>108</mp:height>
+    </mp:image>
+  </item>
+  <item rdf:about="https://www.ndr.de/nachrichten/hamburg/Online-Gottesdienst-aus-Lohbruegge-mit-Daniel-Kaiser-,gottesdienst646.html">
+    <title>Online-Gottesdienst aus Lohbrügge mit Daniel Kaiser</title>
+    <link>
+      https://www.ndr.de/nachrichten/hamburg/Online-Gottesdienst-aus-Lohbruegge-mit-Daniel-Kaiser-,gottesdienst646.html
+    </link>
+    <description>Mit einem Gottesdienst in Lohbrügge ist die Serie von Übertragungen aus Hamburger Kirchen während der
+      Corona-Pandemie fortgesetzt worden. Hier gibt es den Mitschnitt.
+    </description>
+    <dc:type>Artikel</dc:type>
+    <dc:date>2020-05-03T13:14:02.947+02:00</dc:date>
+    <dc:format>text/html</dc:format>
+    <dc:identifier>gottesdienst646</dc:identifier>
+    <dc:source/>
+    <dc:language>de</dc:language>
+    <dc:publisher>ndr.de</dc:publisher>
+    <dc:rights>ndr.de. Alle Rechte vorbehalten.</dc:rights>
+    <dc:subject/>
+    <dcterms:audience>all</dcterms:audience>
+    <dcterms:isFormatOf rdf:resource=""/>
+    <mp:keywords>Hamburg, Gottesdienst, Daniel Kaiser, Live, Livestream, Auferstehungskirche Lohbrügge, Jonas Goebel
+    </mp:keywords>
+    <mp:topline>Hamburg</mp:topline>
+    <mp:states/>
+    <mp:image>
+      <mp:alt>NDR 90,3 Redakteur Daniel Kaiser predigt in der evangelisch-lutherischen Auferstehungskirche im Stadtteil
+        Lohbrügge.
+      </mp:alt>
+      <mp:caption/>
+      <mp:source>Screenshot NDR</mp:source>
+      <mp:data>https://www.ndr.de/fernsehen/screenshot864826_v-contentgross.jpg</mp:data>
+      <mp:width>568</mp:width>
+      <mp:height>320</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>NDR 90,3 Redakteur Daniel Kaiser predigt in der evangelisch-lutherischen Auferstehungskirche im Stadtteil
+        Lohbrügge.
+      </mp:alt>
+      <mp:caption/>
+      <mp:source>Screenshot NDR</mp:source>
+      <mp:data>https://www.ndr.de/fernsehen/screenshot864826_v-dreispaltig.jpg</mp:data>
+      <mp:width>568</mp:width>
+      <mp:height>144</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>NDR 90,3 Redakteur Daniel Kaiser predigt in der evangelisch-lutherischen Auferstehungskirche im Stadtteil
+        Lohbrügge.
+      </mp:alt>
+      <mp:caption/>
+      <mp:source>Screenshot NDR</mp:source>
+      <mp:data>https://www.ndr.de/fernsehen/screenshot864826_v-zweispaltig.jpg</mp:data>
+      <mp:width>376</mp:width>
+      <mp:height>212</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>NDR 90,3 Redakteur Daniel Kaiser predigt in der evangelisch-lutherischen Auferstehungskirche im Stadtteil
+        Lohbrügge.
+      </mp:alt>
+      <mp:caption/>
+      <mp:source>Screenshot NDR</mp:source>
+      <mp:data>https://www.ndr.de/fernsehen/screenshot864826_v-einspaltig.jpg</mp:data>
+      <mp:width>184</mp:width>
+      <mp:height>104</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>NDR 90,3 Redakteur Daniel Kaiser predigt in der evangelisch-lutherischen Auferstehungskirche im Stadtteil
+        Lohbrügge.
+      </mp:alt>
+      <mp:caption/>
+      <mp:source>Screenshot NDR</mp:source>
+      <mp:data>https://www.ndr.de/fernsehen/screenshot864826_v-contentklein.jpg</mp:data>
+      <mp:width>256</mp:width>
+      <mp:height>144</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>NDR 90,3 Redakteur Daniel Kaiser predigt in der evangelisch-lutherischen Auferstehungskirche im Stadtteil
+        Lohbrügge.
+      </mp:alt>
+      <mp:caption/>
+      <mp:source>Screenshot NDR</mp:source>
+      <mp:data>https://www.ndr.de/fernsehen/screenshot864826_v-ardteaserwidescreen.jpg</mp:data>
+      <mp:width>256</mp:width>
+      <mp:height>144</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>NDR 90,3 Redakteur Daniel Kaiser predigt in der evangelisch-lutherischen Auferstehungskirche im Stadtteil
+        Lohbrügge.
+      </mp:alt>
+      <mp:caption/>
+      <mp:source>Screenshot NDR</mp:source>
+      <mp:data>https://www.ndr.de/fernsehen/screenshot864826_v-ardgrosswidescreen.jpg</mp:data>
+      <mp:width>512</mp:width>
+      <mp:height>288</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>NDR 90,3 Redakteur Daniel Kaiser predigt in der evangelisch-lutherischen Auferstehungskirche im Stadtteil
+        Lohbrügge.
+      </mp:alt>
+      <mp:caption/>
+      <mp:source>Screenshot NDR</mp:source>
+      <mp:data>https://www.ndr.de/fernsehen/screenshot864826_v-contentwidescreen.jpg</mp:data>
+      <mp:width>192</mp:width>
+      <mp:height>108</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Gottesdienst in der evangelisch-lutherischen Auferstehungskirche im Stadtteil Lohbrügge.</mp:alt>
+      <mp:caption/>
+      <mp:source>Screenshot NDR</mp:source>
+      <mp:data>https://www.ndr.de/fernsehen/screenshot864824_v-contentgross.jpg</mp:data>
+      <mp:width>568</mp:width>
+      <mp:height>320</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Gottesdienst in der evangelisch-lutherischen Auferstehungskirche im Stadtteil Lohbrügge.</mp:alt>
+      <mp:caption/>
+      <mp:source>Screenshot NDR</mp:source>
+      <mp:data>https://www.ndr.de/fernsehen/screenshot864824_v-dreispaltig.jpg</mp:data>
+      <mp:width>568</mp:width>
+      <mp:height>144</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Gottesdienst in der evangelisch-lutherischen Auferstehungskirche im Stadtteil Lohbrügge.</mp:alt>
+      <mp:caption/>
+      <mp:source>Screenshot NDR</mp:source>
+      <mp:data>https://www.ndr.de/fernsehen/screenshot864824_v-zweispaltig.jpg</mp:data>
+      <mp:width>376</mp:width>
+      <mp:height>212</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Gottesdienst in der evangelisch-lutherischen Auferstehungskirche im Stadtteil Lohbrügge.</mp:alt>
+      <mp:caption/>
+      <mp:source>Screenshot NDR</mp:source>
+      <mp:data>https://www.ndr.de/fernsehen/screenshot864824_v-einspaltig.jpg</mp:data>
+      <mp:width>184</mp:width>
+      <mp:height>104</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Gottesdienst in der evangelisch-lutherischen Auferstehungskirche im Stadtteil Lohbrügge.</mp:alt>
+      <mp:caption/>
+      <mp:source>Screenshot NDR</mp:source>
+      <mp:data>https://www.ndr.de/fernsehen/screenshot864824_v-contentklein.jpg</mp:data>
+      <mp:width>256</mp:width>
+      <mp:height>144</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Gottesdienst in der evangelisch-lutherischen Auferstehungskirche im Stadtteil Lohbrügge.</mp:alt>
+      <mp:caption/>
+      <mp:source>Screenshot NDR</mp:source>
+      <mp:data>https://www.ndr.de/fernsehen/screenshot864824_v-ardteaserwidescreen.jpg</mp:data>
+      <mp:width>256</mp:width>
+      <mp:height>144</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Gottesdienst in der evangelisch-lutherischen Auferstehungskirche im Stadtteil Lohbrügge.</mp:alt>
+      <mp:caption/>
+      <mp:source>Screenshot NDR</mp:source>
+      <mp:data>https://www.ndr.de/fernsehen/screenshot864824_v-ardgrosswidescreen.jpg</mp:data>
+      <mp:width>512</mp:width>
+      <mp:height>288</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Gottesdienst in der evangelisch-lutherischen Auferstehungskirche im Stadtteil Lohbrügge.</mp:alt>
+      <mp:caption/>
+      <mp:source>Screenshot NDR</mp:source>
+      <mp:data>https://www.ndr.de/fernsehen/screenshot864824_v-contentwidescreen.jpg</mp:data>
+      <mp:width>192</mp:width>
+      <mp:height>108</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Innenraum der Auferstehungskirche Lohbrügge</mp:alt>
+      <mp:caption/>
+      <mp:source>Auferstehungskirche Lohbrügge</mp:source>
+      <mp:data>https://www.ndr.de/nachrichten/hamburg/kirchelohbruegge100_v-contentgross.jpg</mp:data>
+      <mp:width>568</mp:width>
+      <mp:height>320</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Innenraum der Auferstehungskirche Lohbrügge</mp:alt>
+      <mp:caption/>
+      <mp:source>Auferstehungskirche Lohbrügge</mp:source>
+      <mp:data>https://www.ndr.de/nachrichten/hamburg/kirchelohbruegge100_v-dreispaltig.jpg</mp:data>
+      <mp:width>568</mp:width>
+      <mp:height>144</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Innenraum der Auferstehungskirche Lohbrügge</mp:alt>
+      <mp:caption/>
+      <mp:source>Auferstehungskirche Lohbrügge</mp:source>
+      <mp:data>https://www.ndr.de/nachrichten/hamburg/kirchelohbruegge100_v-zweispaltig.jpg</mp:data>
+      <mp:width>376</mp:width>
+      <mp:height>212</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Innenraum der Auferstehungskirche Lohbrügge</mp:alt>
+      <mp:caption/>
+      <mp:source>Auferstehungskirche Lohbrügge</mp:source>
+      <mp:data>https://www.ndr.de/nachrichten/hamburg/kirchelohbruegge100_v-einspaltig.jpg</mp:data>
+      <mp:width>184</mp:width>
+      <mp:height>104</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Innenraum der Auferstehungskirche Lohbrügge</mp:alt>
+      <mp:caption/>
+      <mp:source>Auferstehungskirche Lohbrügge</mp:source>
+      <mp:data>https://www.ndr.de/nachrichten/hamburg/kirchelohbruegge100_v-contentklein.jpg</mp:data>
+      <mp:width>256</mp:width>
+      <mp:height>144</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Innenraum der Auferstehungskirche Lohbrügge</mp:alt>
+      <mp:caption/>
+      <mp:source>Auferstehungskirche Lohbrügge</mp:source>
+      <mp:data>https://www.ndr.de/nachrichten/hamburg/kirchelohbruegge100_v-ardteaserwidescreen.jpg</mp:data>
+      <mp:width>256</mp:width>
+      <mp:height>144</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Innenraum der Auferstehungskirche Lohbrügge</mp:alt>
+      <mp:caption/>
+      <mp:source>Auferstehungskirche Lohbrügge</mp:source>
+      <mp:data>https://www.ndr.de/nachrichten/hamburg/kirchelohbruegge100_v-ardgrosswidescreen.jpg</mp:data>
+      <mp:width>512</mp:width>
+      <mp:height>288</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Innenraum der Auferstehungskirche Lohbrügge</mp:alt>
+      <mp:caption/>
+      <mp:source>Auferstehungskirche Lohbrügge</mp:source>
+      <mp:data>https://www.ndr.de/nachrichten/hamburg/kirchelohbruegge100_v-contentwidescreen.jpg</mp:data>
+      <mp:width>192</mp:width>
+      <mp:height>108</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Daniel Kaiser beim Gebet in der Flussschifferkirche.</mp:alt>
+      <mp:caption/>
+      <mp:source>NDR</mp:source>
+      <mp:data>https://www.ndr.de/903/screenshot847366_v-contentgross.jpg</mp:data>
+      <mp:width>568</mp:width>
+      <mp:height>320</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Daniel Kaiser beim Gebet in der Flussschifferkirche.</mp:alt>
+      <mp:caption/>
+      <mp:source>NDR</mp:source>
+      <mp:data>https://www.ndr.de/903/screenshot847366_v-dreispaltig.jpg</mp:data>
+      <mp:width>568</mp:width>
+      <mp:height>144</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Daniel Kaiser beim Gebet in der Flussschifferkirche.</mp:alt>
+      <mp:caption/>
+      <mp:source>NDR</mp:source>
+      <mp:data>https://www.ndr.de/903/screenshot847366_v-zweispaltig.jpg</mp:data>
+      <mp:width>376</mp:width>
+      <mp:height>212</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Daniel Kaiser beim Gebet in der Flussschifferkirche.</mp:alt>
+      <mp:caption/>
+      <mp:source>NDR</mp:source>
+      <mp:data>https://www.ndr.de/903/screenshot847366_v-einspaltig.jpg</mp:data>
+      <mp:width>184</mp:width>
+      <mp:height>104</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Daniel Kaiser beim Gebet in der Flussschifferkirche.</mp:alt>
+      <mp:caption/>
+      <mp:source>NDR</mp:source>
+      <mp:data>https://www.ndr.de/903/screenshot847366_v-contentklein.jpg</mp:data>
+      <mp:width>256</mp:width>
+      <mp:height>144</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Daniel Kaiser beim Gebet in der Flussschifferkirche.</mp:alt>
+      <mp:caption/>
+      <mp:source>NDR</mp:source>
+      <mp:data>https://www.ndr.de/903/screenshot847366_v-ardteaserwidescreen.jpg</mp:data>
+      <mp:width>256</mp:width>
+      <mp:height>144</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Daniel Kaiser beim Gebet in der Flussschifferkirche.</mp:alt>
+      <mp:caption/>
+      <mp:source>NDR</mp:source>
+      <mp:data>https://www.ndr.de/903/screenshot847366_v-ardgrosswidescreen.jpg</mp:data>
+      <mp:width>512</mp:width>
+      <mp:height>288</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Daniel Kaiser beim Gebet in der Flussschifferkirche.</mp:alt>
+      <mp:caption/>
+      <mp:source>NDR</mp:source>
+      <mp:data>https://www.ndr.de/903/screenshot847366_v-contentwidescreen.jpg</mp:data>
+      <mp:width>192</mp:width>
+      <mp:height>108</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Daniel Kaiser beim Gottesdient in der Hamburger Flussschifferkirche.</mp:alt>
+      <mp:caption/>
+      <mp:source>NDR</mp:source>
+      <mp:data>https://www.ndr.de/fernsehen/screenshot847364_v-contentgross.jpg</mp:data>
+      <mp:width>568</mp:width>
+      <mp:height>320</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Daniel Kaiser beim Gottesdient in der Hamburger Flussschifferkirche.</mp:alt>
+      <mp:caption/>
+      <mp:source>NDR</mp:source>
+      <mp:data>https://www.ndr.de/fernsehen/screenshot847364_v-dreispaltig.jpg</mp:data>
+      <mp:width>568</mp:width>
+      <mp:height>144</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Daniel Kaiser beim Gottesdient in der Hamburger Flussschifferkirche.</mp:alt>
+      <mp:caption/>
+      <mp:source>NDR</mp:source>
+      <mp:data>https://www.ndr.de/fernsehen/screenshot847364_v-zweispaltig.jpg</mp:data>
+      <mp:width>376</mp:width>
+      <mp:height>212</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Daniel Kaiser beim Gottesdient in der Hamburger Flussschifferkirche.</mp:alt>
+      <mp:caption/>
+      <mp:source>NDR</mp:source>
+      <mp:data>https://www.ndr.de/fernsehen/screenshot847364_v-einspaltig.jpg</mp:data>
+      <mp:width>184</mp:width>
+      <mp:height>104</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Daniel Kaiser beim Gottesdient in der Hamburger Flussschifferkirche.</mp:alt>
+      <mp:caption/>
+      <mp:source>NDR</mp:source>
+      <mp:data>https://www.ndr.de/fernsehen/screenshot847364_v-contentklein.jpg</mp:data>
+      <mp:width>256</mp:width>
+      <mp:height>144</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Daniel Kaiser beim Gottesdient in der Hamburger Flussschifferkirche.</mp:alt>
+      <mp:caption/>
+      <mp:source>NDR</mp:source>
+      <mp:data>https://www.ndr.de/fernsehen/screenshot847364_v-ardteaserwidescreen.jpg</mp:data>
+      <mp:width>256</mp:width>
+      <mp:height>144</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Daniel Kaiser beim Gottesdient in der Hamburger Flussschifferkirche.</mp:alt>
+      <mp:caption/>
+      <mp:source>NDR</mp:source>
+      <mp:data>https://www.ndr.de/fernsehen/screenshot847364_v-ardgrosswidescreen.jpg</mp:data>
+      <mp:width>512</mp:width>
+      <mp:height>288</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Daniel Kaiser beim Gottesdient in der Hamburger Flussschifferkirche.</mp:alt>
+      <mp:caption/>
+      <mp:source>NDR</mp:source>
+      <mp:data>https://www.ndr.de/fernsehen/screenshot847364_v-contentwidescreen.jpg</mp:data>
+      <mp:width>192</mp:width>
+      <mp:height>108</mp:height>
+    </mp:image>
+  </item>
+  <item rdf:about="https://www.ndr.de/nachrichten/hamburg/Corona-Friseursalons-oeffnen-wieder,friseur320.html">
+    <title>Corona: Friseursalons öffnen wieder</title>
+    <link>https://www.ndr.de/nachrichten/hamburg/Corona-Friseursalons-oeffnen-wieder,friseur320.html</link>
+    <description>Am Montag dürfen in Hamburg die Friseure wieder öffnen. Für das Handwerk gelten besondere Regeln.
+      Friseurmeister Henry Riehl erläutert, worauf sich die Kunden einstellen müssen.
+    </description>
+    <dc:type>Artikel</dc:type>
+    <dc:date>2020-05-02T16:02:16.872+02:00</dc:date>
+    <dc:format>text/html</dc:format>
+    <dc:identifier>friseur320</dc:identifier>
+    <dc:source/>
+    <dc:language>de</dc:language>
+    <dc:publisher>ndr.de</dc:publisher>
+    <dc:rights>ndr.de. Alle Rechte vorbehalten.</dc:rights>
+    <dc:subject/>
+    <dcterms:audience>all</dcterms:audience>
+    <dcterms:isFormatOf rdf:resource=""/>
+    <mp:keywords>Hamburg, hh, Friseur, Wiedereröffnung, Corona, Heny Riehl, Barmbek</mp:keywords>
+    <mp:topline>Hamburg</mp:topline>
+    <mp:states/>
+    <mp:image>
+      <mp:alt>Henry Riehl.</mp:alt>
+      <mp:caption/>
+      <mp:source>NDR</mp:source>
+      <mp:data>https://www.ndr.de/nachrichten/hamburg/friseur322_v-contentgross.jpg</mp:data>
+      <mp:width>568</mp:width>
+      <mp:height>320</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Henry Riehl.</mp:alt>
+      <mp:caption/>
+      <mp:source>NDR</mp:source>
+      <mp:data>https://www.ndr.de/nachrichten/hamburg/friseur322_v-dreispaltig.jpg</mp:data>
+      <mp:width>568</mp:width>
+      <mp:height>144</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Henry Riehl.</mp:alt>
+      <mp:caption/>
+      <mp:source>NDR</mp:source>
+      <mp:data>https://www.ndr.de/nachrichten/hamburg/friseur322_v-zweispaltig.jpg</mp:data>
+      <mp:width>376</mp:width>
+      <mp:height>212</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Henry Riehl.</mp:alt>
+      <mp:caption/>
+      <mp:source>NDR</mp:source>
+      <mp:data>https://www.ndr.de/nachrichten/hamburg/friseur322_v-einspaltig.jpg</mp:data>
+      <mp:width>184</mp:width>
+      <mp:height>104</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Henry Riehl.</mp:alt>
+      <mp:caption/>
+      <mp:source>NDR</mp:source>
+      <mp:data>https://www.ndr.de/nachrichten/hamburg/friseur322_v-contentklein.jpg</mp:data>
+      <mp:width>256</mp:width>
+      <mp:height>144</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Henry Riehl.</mp:alt>
+      <mp:caption/>
+      <mp:source>NDR</mp:source>
+      <mp:data>https://www.ndr.de/nachrichten/hamburg/friseur322_v-ardteaserwidescreen.jpg</mp:data>
+      <mp:width>256</mp:width>
+      <mp:height>144</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Henry Riehl.</mp:alt>
+      <mp:caption/>
+      <mp:source>NDR</mp:source>
+      <mp:data>https://www.ndr.de/nachrichten/hamburg/friseur322_v-ardgrosswidescreen.jpg</mp:data>
+      <mp:width>512</mp:width>
+      <mp:height>288</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Henry Riehl.</mp:alt>
+      <mp:caption/>
+      <mp:source>NDR</mp:source>
+      <mp:data>https://www.ndr.de/nachrichten/hamburg/friseur322_v-contentwidescreen.jpg</mp:data>
+      <mp:width>192</mp:width>
+      <mp:height>108</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Der Friseursalon von Henry Riehl in Hamburg Barmbek</mp:alt>
+      <mp:caption/>
+      <mp:source>Henry Riehl</mp:source>
+      <mp:data>https://www.ndr.de/903/friseur318_v-contentgross.jpg</mp:data>
+      <mp:width>568</mp:width>
+      <mp:height>320</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Der Friseursalon von Henry Riehl in Hamburg Barmbek</mp:alt>
+      <mp:caption/>
+      <mp:source>Henry Riehl</mp:source>
+      <mp:data>https://www.ndr.de/903/friseur318_v-dreispaltig.jpg</mp:data>
+      <mp:width>568</mp:width>
+      <mp:height>144</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Der Friseursalon von Henry Riehl in Hamburg Barmbek</mp:alt>
+      <mp:caption/>
+      <mp:source>Henry Riehl</mp:source>
+      <mp:data>https://www.ndr.de/903/friseur318_v-zweispaltig.jpg</mp:data>
+      <mp:width>376</mp:width>
+      <mp:height>212</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Der Friseursalon von Henry Riehl in Hamburg Barmbek</mp:alt>
+      <mp:caption/>
+      <mp:source>Henry Riehl</mp:source>
+      <mp:data>https://www.ndr.de/903/friseur318_v-einspaltig.jpg</mp:data>
+      <mp:width>184</mp:width>
+      <mp:height>104</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Der Friseursalon von Henry Riehl in Hamburg Barmbek</mp:alt>
+      <mp:caption/>
+      <mp:source>Henry Riehl</mp:source>
+      <mp:data>https://www.ndr.de/903/friseur318_v-contentklein.jpg</mp:data>
+      <mp:width>256</mp:width>
+      <mp:height>144</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Der Friseursalon von Henry Riehl in Hamburg Barmbek</mp:alt>
+      <mp:caption/>
+      <mp:source>Henry Riehl</mp:source>
+      <mp:data>https://www.ndr.de/903/friseur318_v-ardteaserwidescreen.jpg</mp:data>
+      <mp:width>256</mp:width>
+      <mp:height>144</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Der Friseursalon von Henry Riehl in Hamburg Barmbek</mp:alt>
+      <mp:caption/>
+      <mp:source>Henry Riehl</mp:source>
+      <mp:data>https://www.ndr.de/903/friseur318_v-ardgrosswidescreen.jpg</mp:data>
+      <mp:width>512</mp:width>
+      <mp:height>288</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Der Friseursalon von Henry Riehl in Hamburg Barmbek</mp:alt>
+      <mp:caption/>
+      <mp:source>Henry Riehl</mp:source>
+      <mp:data>https://www.ndr.de/903/friseur318_v-contentwidescreen.jpg</mp:data>
+      <mp:width>192</mp:width>
+      <mp:height>108</mp:height>
+    </mp:image>
+  </item>
+  <item rdf:about="https://www.ndr.de/nachrichten/hamburg/Corona-Hamburg-naeht-Schutzmasken-fuer-soziale-Einrichtungen,coronamasken100.html">
+    <title>Corona: &quot;Hamburg näht&quot; - Schutzmasken für soziale Einrichtungen</title>
+    <link>
+      https://www.ndr.de/nachrichten/hamburg/Corona-Hamburg-naeht-Schutzmasken-fuer-soziale-Einrichtungen,coronamasken100.html
+    </link>
+    <description>Der Arbeiter-Samariter-Bund bringt in Hamburg wegen der Corona-Pandemie Gesichtsmasken in soziale
+      Einrichtungen. Sie werden von Dutzenden ehrenamtlichen Näherinnen produziert.
+    </description>
+    <dc:type>Artikel</dc:type>
+    <dc:date>2020-05-02T21:22:10.984+02:00</dc:date>
+    <dc:format>text/html</dc:format>
+    <dc:identifier>coronamasken100</dc:identifier>
+    <dc:source/>
+    <dc:language>de</dc:language>
+    <dc:publisher>ndr.de</dc:publisher>
+    <dc:rights>ndr.de. Alle Rechte vorbehalten.</dc:rights>
+    <dc:subject/>
+    <dcterms:audience>all</dcterms:audience>
+    <dcterms:isFormatOf rdf:resource=""/>
+    <mp:keywords>Hamburg Corona Coronavirus ASB Masken Bodelschwingh-Haus Näherinnen</mp:keywords>
+    <mp:topline>Hamburg</mp:topline>
+    <mp:states/>
+    <mp:image>
+      <mp:alt>Ein Mann mit einem Mund-Nasen-Schutz.</mp:alt>
+      <mp:caption/>
+      <mp:source>NDR</mp:source>
+      <mp:data>https://www.ndr.de/fernsehen/screenshot864734_v-contentgross.jpg</mp:data>
+      <mp:width>568</mp:width>
+      <mp:height>320</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Ein Mann mit einem Mund-Nasen-Schutz.</mp:alt>
+      <mp:caption/>
+      <mp:source>NDR</mp:source>
+      <mp:data>https://www.ndr.de/fernsehen/screenshot864734_v-dreispaltig.jpg</mp:data>
+      <mp:width>568</mp:width>
+      <mp:height>144</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Ein Mann mit einem Mund-Nasen-Schutz.</mp:alt>
+      <mp:caption/>
+      <mp:source>NDR</mp:source>
+      <mp:data>https://www.ndr.de/fernsehen/screenshot864734_v-zweispaltig.jpg</mp:data>
+      <mp:width>376</mp:width>
+      <mp:height>212</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Ein Mann mit einem Mund-Nasen-Schutz.</mp:alt>
+      <mp:caption/>
+      <mp:source>NDR</mp:source>
+      <mp:data>https://www.ndr.de/fernsehen/screenshot864734_v-einspaltig.jpg</mp:data>
+      <mp:width>184</mp:width>
+      <mp:height>104</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Ein Mann mit einem Mund-Nasen-Schutz.</mp:alt>
+      <mp:caption/>
+      <mp:source>NDR</mp:source>
+      <mp:data>https://www.ndr.de/fernsehen/screenshot864734_v-contentklein.jpg</mp:data>
+      <mp:width>256</mp:width>
+      <mp:height>144</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Ein Mann mit einem Mund-Nasen-Schutz.</mp:alt>
+      <mp:caption/>
+      <mp:source>NDR</mp:source>
+      <mp:data>https://www.ndr.de/fernsehen/screenshot864734_v-ardteaserwidescreen.jpg</mp:data>
+      <mp:width>256</mp:width>
+      <mp:height>144</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Ein Mann mit einem Mund-Nasen-Schutz.</mp:alt>
+      <mp:caption/>
+      <mp:source>NDR</mp:source>
+      <mp:data>https://www.ndr.de/fernsehen/screenshot864734_v-ardgrosswidescreen.jpg</mp:data>
+      <mp:width>512</mp:width>
+      <mp:height>288</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Ein Mann mit einem Mund-Nasen-Schutz.</mp:alt>
+      <mp:caption/>
+      <mp:source>NDR</mp:source>
+      <mp:data>https://www.ndr.de/fernsehen/screenshot864734_v-contentwidescreen.jpg</mp:data>
+      <mp:width>192</mp:width>
+      <mp:height>108</mp:height>
+    </mp:image>
+  </item>
+  <item rdf:about="https://www.ndr.de/nachrichten/info/Tag-der-Pressefreiheit-Journalisten-unter-Druck,pressefreiheit278.html">
+    <title>Tag der Pressefreiheit: Journalisten unter Druck</title>
+    <link>https://www.ndr.de/nachrichten/info/Tag-der-Pressefreiheit-Journalisten-unter-Druck,pressefreiheit278.html
+    </link>
+    <description>Wie unabhängig können Medien berichten? Wie arbeiten Redaktionen, um fundiert und ausgewogen zu
+      informieren? Ein Themenschwerpunkt zum Tag der Pressefreiheit.
+    </description>
+    <dc:type>Artikel</dc:type>
+    <dc:date>2020-05-03T02:13:36.275+02:00</dc:date>
+    <dc:format>text/html</dc:format>
+    <dc:identifier>pressefreiheit278</dc:identifier>
+    <dc:source/>
+    <dc:language>de</dc:language>
+    <dc:publisher>ndr.de</dc:publisher>
+    <dc:rights>ndr.de. Alle Rechte vorbehalten.</dc:rights>
+    <dc:subject/>
+    <dcterms:audience>all</dcterms:audience>
+    <dcterms:isFormatOf rdf:resource=""/>
+    <mp:keywords>Tag der Pressefreiheit, Medien, Nachrichten, Journalismus</mp:keywords>
+    <mp:topline>NDR Info</mp:topline>
+    <mp:states/>
+    <mp:image>
+      <mp:alt>Ein Fotograf trägt ein T-Shirt mit einem Slogan für die Pressefreiheit</mp:alt>
+      <mp:caption/>
+      <mp:source>dpa picture alliance</mp:source>
+      <mp:data>https://www.ndr.de/nachrichten/info/pressefreiheit320_v-contentgross.jpg</mp:data>
+      <mp:width>568</mp:width>
+      <mp:height>320</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Ein Fotograf trägt ein T-Shirt mit einem Slogan für die Pressefreiheit</mp:alt>
+      <mp:caption/>
+      <mp:source>dpa picture alliance</mp:source>
+      <mp:data>https://www.ndr.de/nachrichten/info/pressefreiheit320_v-dreispaltig.jpg</mp:data>
+      <mp:width>568</mp:width>
+      <mp:height>144</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Ein Fotograf trägt ein T-Shirt mit einem Slogan für die Pressefreiheit</mp:alt>
+      <mp:caption/>
+      <mp:source>dpa picture alliance</mp:source>
+      <mp:data>https://www.ndr.de/nachrichten/info/pressefreiheit320_v-zweispaltig.jpg</mp:data>
+      <mp:width>376</mp:width>
+      <mp:height>212</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Ein Fotograf trägt ein T-Shirt mit einem Slogan für die Pressefreiheit</mp:alt>
+      <mp:caption/>
+      <mp:source>dpa picture alliance</mp:source>
+      <mp:data>https://www.ndr.de/nachrichten/info/pressefreiheit320_v-einspaltig.jpg</mp:data>
+      <mp:width>184</mp:width>
+      <mp:height>104</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Ein Fotograf trägt ein T-Shirt mit einem Slogan für die Pressefreiheit</mp:alt>
+      <mp:caption/>
+      <mp:source>dpa picture alliance</mp:source>
+      <mp:data>https://www.ndr.de/nachrichten/info/pressefreiheit320_v-contentklein.jpg</mp:data>
+      <mp:width>256</mp:width>
+      <mp:height>144</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Ein Fotograf trägt ein T-Shirt mit einem Slogan für die Pressefreiheit</mp:alt>
+      <mp:caption/>
+      <mp:source>dpa picture alliance</mp:source>
+      <mp:data>https://www.ndr.de/nachrichten/info/pressefreiheit320_v-ardteaserwidescreen.jpg</mp:data>
+      <mp:width>256</mp:width>
+      <mp:height>144</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Ein Fotograf trägt ein T-Shirt mit einem Slogan für die Pressefreiheit</mp:alt>
+      <mp:caption/>
+      <mp:source>dpa picture alliance</mp:source>
+      <mp:data>https://www.ndr.de/nachrichten/info/pressefreiheit320_v-ardgrosswidescreen.jpg</mp:data>
+      <mp:width>512</mp:width>
+      <mp:height>288</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Ein Fotograf trägt ein T-Shirt mit einem Slogan für die Pressefreiheit</mp:alt>
+      <mp:caption/>
+      <mp:source>dpa picture alliance</mp:source>
+      <mp:data>https://www.ndr.de/nachrichten/info/pressefreiheit320_v-contentwidescreen.jpg</mp:data>
+      <mp:width>192</mp:width>
+      <mp:height>108</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Mitarbeiter und Aktivisten von Reporter ohne Grenzen e.V. demonstrieren mit Plakaten mit der Aufschrift
+        «Keine Freiheit ohne Pressefreiheit»
+      </mp:alt>
+      <mp:caption/>
+      <mp:source>Picture Alliance</mp:source>
+      <mp:data>https://www.ndr.de/pressefreiheit274_v-contentgross.jpg</mp:data>
+      <mp:width>568</mp:width>
+      <mp:height>320</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Mitarbeiter und Aktivisten von Reporter ohne Grenzen e.V. demonstrieren mit Plakaten mit der Aufschrift
+        «Keine Freiheit ohne Pressefreiheit»
+      </mp:alt>
+      <mp:caption/>
+      <mp:source>Picture Alliance</mp:source>
+      <mp:data>https://www.ndr.de/pressefreiheit274_v-dreispaltig.jpg</mp:data>
+      <mp:width>568</mp:width>
+      <mp:height>144</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Mitarbeiter und Aktivisten von Reporter ohne Grenzen e.V. demonstrieren mit Plakaten mit der Aufschrift
+        «Keine Freiheit ohne Pressefreiheit»
+      </mp:alt>
+      <mp:caption/>
+      <mp:source>Picture Alliance</mp:source>
+      <mp:data>https://www.ndr.de/pressefreiheit274_v-zweispaltig.jpg</mp:data>
+      <mp:width>376</mp:width>
+      <mp:height>212</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Mitarbeiter und Aktivisten von Reporter ohne Grenzen e.V. demonstrieren mit Plakaten mit der Aufschrift
+        «Keine Freiheit ohne Pressefreiheit»
+      </mp:alt>
+      <mp:caption/>
+      <mp:source>Picture Alliance</mp:source>
+      <mp:data>https://www.ndr.de/pressefreiheit274_v-einspaltig.jpg</mp:data>
+      <mp:width>184</mp:width>
+      <mp:height>104</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Mitarbeiter und Aktivisten von Reporter ohne Grenzen e.V. demonstrieren mit Plakaten mit der Aufschrift
+        «Keine Freiheit ohne Pressefreiheit»
+      </mp:alt>
+      <mp:caption/>
+      <mp:source>Picture Alliance</mp:source>
+      <mp:data>https://www.ndr.de/pressefreiheit274_v-contentklein.jpg</mp:data>
+      <mp:width>256</mp:width>
+      <mp:height>144</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Mitarbeiter und Aktivisten von Reporter ohne Grenzen e.V. demonstrieren mit Plakaten mit der Aufschrift
+        «Keine Freiheit ohne Pressefreiheit»
+      </mp:alt>
+      <mp:caption/>
+      <mp:source>Picture Alliance</mp:source>
+      <mp:data>https://www.ndr.de/pressefreiheit274_v-ardteaserwidescreen.jpg</mp:data>
+      <mp:width>256</mp:width>
+      <mp:height>144</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Mitarbeiter und Aktivisten von Reporter ohne Grenzen e.V. demonstrieren mit Plakaten mit der Aufschrift
+        «Keine Freiheit ohne Pressefreiheit»
+      </mp:alt>
+      <mp:caption/>
+      <mp:source>Picture Alliance</mp:source>
+      <mp:data>https://www.ndr.de/pressefreiheit274_v-ardgrosswidescreen.jpg</mp:data>
+      <mp:width>512</mp:width>
+      <mp:height>288</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Mitarbeiter und Aktivisten von Reporter ohne Grenzen e.V. demonstrieren mit Plakaten mit der Aufschrift
+        «Keine Freiheit ohne Pressefreiheit»
+      </mp:alt>
+      <mp:caption/>
+      <mp:source>Picture Alliance</mp:source>
+      <mp:data>https://www.ndr.de/pressefreiheit274_v-contentwidescreen.jpg</mp:data>
+      <mp:width>192</mp:width>
+      <mp:height>108</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Gehobener Zeigefinger vor rotem Mund einer Frau.</mp:alt>
+      <mp:caption/>
+      <mp:source>photocase.de</mp:source>
+      <mp:data>https://www.ndr.de/home/hamburg/sprechverbot102_v-contentgross.jpg</mp:data>
+      <mp:width>568</mp:width>
+      <mp:height>320</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Gehobener Zeigefinger vor rotem Mund einer Frau.</mp:alt>
+      <mp:caption/>
+      <mp:source>photocase.de</mp:source>
+      <mp:data>https://www.ndr.de/home/hamburg/sprechverbot102_v-dreispaltig.jpg</mp:data>
+      <mp:width>568</mp:width>
+      <mp:height>144</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Gehobener Zeigefinger vor rotem Mund einer Frau.</mp:alt>
+      <mp:caption/>
+      <mp:source>photocase.de</mp:source>
+      <mp:data>https://www.ndr.de/home/hamburg/sprechverbot102_v-zweispaltig.jpg</mp:data>
+      <mp:width>376</mp:width>
+      <mp:height>212</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Gehobener Zeigefinger vor rotem Mund einer Frau.</mp:alt>
+      <mp:caption/>
+      <mp:source>photocase.de</mp:source>
+      <mp:data>https://www.ndr.de/home/hamburg/sprechverbot102_v-einspaltig.jpg</mp:data>
+      <mp:width>184</mp:width>
+      <mp:height>104</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Gehobener Zeigefinger vor rotem Mund einer Frau.</mp:alt>
+      <mp:caption/>
+      <mp:source>photocase.de</mp:source>
+      <mp:data>https://www.ndr.de/home/hamburg/sprechverbot102_v-contentklein.jpg</mp:data>
+      <mp:width>256</mp:width>
+      <mp:height>144</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Gehobener Zeigefinger vor rotem Mund einer Frau.</mp:alt>
+      <mp:caption/>
+      <mp:source>photocase.de</mp:source>
+      <mp:data>https://www.ndr.de/home/hamburg/sprechverbot102_v-ardteaserwidescreen.jpg</mp:data>
+      <mp:width>256</mp:width>
+      <mp:height>144</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Gehobener Zeigefinger vor rotem Mund einer Frau.</mp:alt>
+      <mp:caption/>
+      <mp:source>photocase.de</mp:source>
+      <mp:data>https://www.ndr.de/home/hamburg/sprechverbot102_v-ardgrosswidescreen.jpg</mp:data>
+      <mp:width>512</mp:width>
+      <mp:height>288</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Gehobener Zeigefinger vor rotem Mund einer Frau.</mp:alt>
+      <mp:caption/>
+      <mp:source>photocase.de</mp:source>
+      <mp:data>https://www.ndr.de/home/hamburg/sprechverbot102_v-contentwidescreen.jpg</mp:data>
+      <mp:width>192</mp:width>
+      <mp:height>108</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Ein Journalist und ein Polizist stehen sich bei einer Demonstration in Hongkong gegenüber.</mp:alt>
+      <mp:caption/>
+      <mp:source>dpa picture alliance</mp:source>
+      <mp:data>https://www.ndr.de/nachrichten/info/sendungen/das_forum/hongkong186_v-contentgross.jpg</mp:data>
+      <mp:width>568</mp:width>
+      <mp:height>320</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Ein Journalist und ein Polizist stehen sich bei einer Demonstration in Hongkong gegenüber.</mp:alt>
+      <mp:caption/>
+      <mp:source>dpa picture alliance</mp:source>
+      <mp:data>https://www.ndr.de/nachrichten/info/sendungen/das_forum/hongkong186_v-dreispaltig.jpg</mp:data>
+      <mp:width>568</mp:width>
+      <mp:height>144</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Ein Journalist und ein Polizist stehen sich bei einer Demonstration in Hongkong gegenüber.</mp:alt>
+      <mp:caption/>
+      <mp:source>dpa picture alliance</mp:source>
+      <mp:data>https://www.ndr.de/nachrichten/info/sendungen/das_forum/hongkong186_v-zweispaltig.jpg</mp:data>
+      <mp:width>376</mp:width>
+      <mp:height>212</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Ein Journalist und ein Polizist stehen sich bei einer Demonstration in Hongkong gegenüber.</mp:alt>
+      <mp:caption/>
+      <mp:source>dpa picture alliance</mp:source>
+      <mp:data>https://www.ndr.de/nachrichten/info/sendungen/das_forum/hongkong186_v-einspaltig.jpg</mp:data>
+      <mp:width>184</mp:width>
+      <mp:height>104</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Ein Journalist und ein Polizist stehen sich bei einer Demonstration in Hongkong gegenüber.</mp:alt>
+      <mp:caption/>
+      <mp:source>dpa picture alliance</mp:source>
+      <mp:data>https://www.ndr.de/nachrichten/info/sendungen/das_forum/hongkong186_v-contentklein.jpg</mp:data>
+      <mp:width>256</mp:width>
+      <mp:height>144</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Ein Journalist und ein Polizist stehen sich bei einer Demonstration in Hongkong gegenüber.</mp:alt>
+      <mp:caption/>
+      <mp:source>dpa picture alliance</mp:source>
+      <mp:data>https://www.ndr.de/nachrichten/info/sendungen/das_forum/hongkong186_v-ardteaserwidescreen.jpg</mp:data>
+      <mp:width>256</mp:width>
+      <mp:height>144</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Ein Journalist und ein Polizist stehen sich bei einer Demonstration in Hongkong gegenüber.</mp:alt>
+      <mp:caption/>
+      <mp:source>dpa picture alliance</mp:source>
+      <mp:data>https://www.ndr.de/nachrichten/info/sendungen/das_forum/hongkong186_v-ardgrosswidescreen.jpg</mp:data>
+      <mp:width>512</mp:width>
+      <mp:height>288</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Ein Journalist und ein Polizist stehen sich bei einer Demonstration in Hongkong gegenüber.</mp:alt>
+      <mp:caption/>
+      <mp:source>dpa picture alliance</mp:source>
+      <mp:data>https://www.ndr.de/nachrichten/info/sendungen/das_forum/hongkong186_v-contentwidescreen.jpg</mp:data>
+      <mp:width>192</mp:width>
+      <mp:height>108</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Demonstration für Pressefreiheit am 1. August 2015 in Berlin</mp:alt>
+      <mp:caption/>
+      <mp:source>Picture Alliance</mp:source>
+      <mp:data>https://www.ndr.de/ndr2/programm/pressefreiheit194_v-contentgross.jpg</mp:data>
+      <mp:width>568</mp:width>
+      <mp:height>320</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Demonstration für Pressefreiheit am 1. August 2015 in Berlin</mp:alt>
+      <mp:caption/>
+      <mp:source>Picture Alliance</mp:source>
+      <mp:data>https://www.ndr.de/ndr2/programm/pressefreiheit194_v-dreispaltig.jpg</mp:data>
+      <mp:width>568</mp:width>
+      <mp:height>144</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Demonstration für Pressefreiheit am 1. August 2015 in Berlin</mp:alt>
+      <mp:caption/>
+      <mp:source>Picture Alliance</mp:source>
+      <mp:data>https://www.ndr.de/ndr2/programm/pressefreiheit194_v-zweispaltig.jpg</mp:data>
+      <mp:width>376</mp:width>
+      <mp:height>212</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Demonstration für Pressefreiheit am 1. August 2015 in Berlin</mp:alt>
+      <mp:caption/>
+      <mp:source>Picture Alliance</mp:source>
+      <mp:data>https://www.ndr.de/ndr2/programm/pressefreiheit194_v-einspaltig.jpg</mp:data>
+      <mp:width>184</mp:width>
+      <mp:height>104</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Demonstration für Pressefreiheit am 1. August 2015 in Berlin</mp:alt>
+      <mp:caption/>
+      <mp:source>Picture Alliance</mp:source>
+      <mp:data>https://www.ndr.de/ndr2/programm/pressefreiheit194_v-contentklein.jpg</mp:data>
+      <mp:width>256</mp:width>
+      <mp:height>144</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Demonstration für Pressefreiheit am 1. August 2015 in Berlin</mp:alt>
+      <mp:caption/>
+      <mp:source>Picture Alliance</mp:source>
+      <mp:data>https://www.ndr.de/ndr2/programm/pressefreiheit194_v-ardteaserwidescreen.jpg</mp:data>
+      <mp:width>256</mp:width>
+      <mp:height>144</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Demonstration für Pressefreiheit am 1. August 2015 in Berlin</mp:alt>
+      <mp:caption/>
+      <mp:source>Picture Alliance</mp:source>
+      <mp:data>https://www.ndr.de/ndr2/programm/pressefreiheit194_v-ardgrosswidescreen.jpg</mp:data>
+      <mp:width>512</mp:width>
+      <mp:height>288</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Demonstration für Pressefreiheit am 1. August 2015 in Berlin</mp:alt>
+      <mp:caption/>
+      <mp:source>Picture Alliance</mp:source>
+      <mp:data>https://www.ndr.de/ndr2/programm/pressefreiheit194_v-contentwidescreen.jpg</mp:data>
+      <mp:width>192</mp:width>
+      <mp:height>108</mp:height>
+    </mp:image>
+  </item>
+  <item rdf:about="https://www.ndr.de/nachrichten/hamburg/Radfahrer-demonstrieren-fuer-mehr-Radwege,kurzehh334.html">
+    <title>Radfahrer demonstrieren für mehr Radwege</title>
+    <link>https://www.ndr.de/nachrichten/hamburg/Radfahrer-demonstrieren-fuer-mehr-Radwege,kurzehh334.html</link>
+    <description>An der Alster hat am Sonntag eine genehmigte Demonstration stattgefunden. Die Teilnehmerinnen und
+      Teilnehmer forderten von der Stadt, Fahrbahnen zu bestimmten Zeiten in Radwege zu verwandeln. Für die Demo sperrte
+      die Polizei den rechten Fahrstreifen der Straße &quot;An der Alster&quot;. | Sendedatum NDR 90,3: 03.05.2020 17:00
+    </description>
+    <dc:type>Artikel</dc:type>
+    <dc:date>2020-05-03T17:41:37.692+02:00</dc:date>
+    <dc:format>text/html</dc:format>
+    <dc:identifier>kurzehh334</dc:identifier>
+    <dc:source/>
+    <dc:language>de</dc:language>
+    <dc:publisher>ndr.de</dc:publisher>
+    <dc:rights>ndr.de. Alle Rechte vorbehalten.</dc:rights>
+    <dc:subject/>
+    <dcterms:audience>all</dcterms:audience>
+    <dcterms:isFormatOf rdf:resource=""/>
+    <mp:keywords>regionalmeldungen hamburg, Kurzmeldungen</mp:keywords>
+    <mp:topline>Hamburg</mp:topline>
+    <mp:states/>
+  </item>
+  <item rdf:about="https://www.ndr.de/nachrichten/hamburg/Mann-in-Billstedt-vor-seiner-Haustuer-ueberfallen,kurzehh364.html">
+    <title>Mann in Billstedt vor seiner Haustür überfallen</title>
+    <link>https://www.ndr.de/nachrichten/hamburg/Mann-in-Billstedt-vor-seiner-Haustuer-ueberfallen,kurzehh364.html
+    </link>
+    <description>In Billstedt haben am Sonntagmorgen drei Männer in der Archenholzstraße einen Mann vor seiner Haustür
+      überfallen und mit einem Messer verletzt. Die Polizei konnte wenig später zwei der mutmaßlichen Angreifer in einem
+      Auto vorläufig festnehmen. Die Ermittler gehen davon aus, dass sich Täter und Opfer kannten. Worum es bei dem
+      Streit ging, ist aber noch unklar. | Sendedatum NDR 90,3: 03.05.2020 16:00
+    </description>
+    <dc:type>Artikel</dc:type>
+    <dc:date>2020-05-03T17:42:42.313+02:00</dc:date>
+    <dc:format>text/html</dc:format>
+    <dc:identifier>kurzehh364</dc:identifier>
+    <dc:source/>
+    <dc:language>de</dc:language>
+    <dc:publisher>ndr.de</dc:publisher>
+    <dc:rights>ndr.de. Alle Rechte vorbehalten.</dc:rights>
+    <dc:subject/>
+    <dcterms:audience>all</dcterms:audience>
+    <dcterms:isFormatOf rdf:resource=""/>
+    <mp:keywords>regionalmeldungen hamburg, Kurzmeldungen</mp:keywords>
+    <mp:topline>Hamburg</mp:topline>
+    <mp:states/>
+  </item>
+  <item rdf:about="https://www.ndr.de/nachrichten/hamburg/Polizei-verhindert-offenbar-Massenschlaegerei,kurzehh342.html">
+    <title>Polizei verhindert offenbar Massenschlägerei</title>
+    <link>https://www.ndr.de/nachrichten/hamburg/Polizei-verhindert-offenbar-Massenschlaegerei,kurzehh342.html</link>
+    <description>Die Hamburger Polizei hat offenbar eine geplante Massenschlägerei unter Jugendlichen verhindert.
+      Die Jugendlichen hatten sich über die Foto-App Snapchat für Sonnabendnachmittag am U-Bahnhof Hammer
+      Kirche verabredet. Eine Hamburgerin hatte die Polizei informiert und so konnten Einsatzkräfte dann etwa 50
+      Personen im Alter zwischen 14 und 22 Jahren an den Bahnhöfen der Umgebung abfangen. Vier Jugendliche kamen in
+      Gewahrsam. Warum die Jugendlichen sich prügeln wollten, ist unklar. | Sendedatum NDR 90,3: 03.05.2020 14:00
+    </description>
+    <dc:type>Artikel</dc:type>
+    <dc:date>2020-05-03T17:09:02.414+02:00</dc:date>
+    <dc:format>text/html</dc:format>
+    <dc:identifier>kurzehh342</dc:identifier>
+    <dc:source/>
+    <dc:language>de</dc:language>
+    <dc:publisher>ndr.de</dc:publisher>
+    <dc:rights>ndr.de. Alle Rechte vorbehalten.</dc:rights>
+    <dc:subject/>
+    <dcterms:audience>all</dcterms:audience>
+    <dcterms:isFormatOf rdf:resource=""/>
+    <mp:keywords>regionalmeldungen hamburg, kurzmeldungen</mp:keywords>
+    <mp:topline>Hamburg</mp:topline>
+    <mp:states/>
+  </item>
+  <item rdf:about="https://www.ndr.de/nachrichten/hamburg/83-Jaehrige-mit-Covid-19-Infektion-im-UKE-gestorben,kurzehh330.html">
+    <title>83-Jährige mit Covid-19-Infektion im UKE gestorben</title>
+    <link>https://www.ndr.de/nachrichten/hamburg/83-Jaehrige-mit-Covid-19-Infektion-im-UKE-gestorben,kurzehh330.html
+    </link>
+    <description>Am Freitagabend ist eine 83-jährige Patientin des Universitätsklinikums Hamburg-Eppendorf (UKE) mit
+      einer weit fortgeschrittenen Krebserkrankung und einer Covid-19-Infektion gestorben. Die Patientin gehörte zu
+      denjenigen, die Anfang April in der Klinik positiv auf das Coronavirus getestet wurden, wie das UKE am Sonnabend
+      mitteilte. Weitere Untersuchungen sollen zeigen, ob Covid-19 ursächlich für den Tod der Frau war. | Sendedatum
+      Hamburg Journal: 02.05.2020 19:30
+    </description>
+    <dc:type>Artikel</dc:type>
+    <dc:date>2020-05-02T16:45:07.723+02:00</dc:date>
+    <dc:format>text/html</dc:format>
+    <dc:identifier>kurzehh330</dc:identifier>
+    <dc:source/>
+    <dc:language>de</dc:language>
+    <dc:publisher>ndr.de</dc:publisher>
+    <dc:rights>ndr.de. Alle Rechte vorbehalten.</dc:rights>
+    <dc:subject/>
+    <dcterms:audience>all</dcterms:audience>
+    <dcterms:isFormatOf rdf:resource=""/>
+    <mp:keywords>hamburg, kurzmeldungen, regionalmeldungen</mp:keywords>
+    <mp:topline>Hamburg</mp:topline>
+    <mp:states/>
+  </item>
+  <item rdf:about="https://www.ndr.de/nachrichten/hamburg/Impfgegner-protestieren-mit-Autokorso,kurzehh316.html">
+    <title>Impfgegner protestieren mit Autokorso</title>
+    <link>https://www.ndr.de/nachrichten/hamburg/Impfgegner-protestieren-mit-Autokorso,kurzehh316.html</link>
+    <description>Mit einem Autokorso durch die Hamburger Innenstadt haben am Sonnabendnachmittag Impfgegner
+      demonstriert. Ihr Protest richtete sich unter anderem gegen die Einschränkung von Grundrechten. Laut Polizei
+      beteiligten sich 15 Autos an der Aktion und fuhren zweimal vom Speersort quer durch die City. Zwischenfälle gab es
+      nicht. | Sendedatum NDR 90,3: 02.05.2020 17:00
+    </description>
+    <dc:type>Artikel</dc:type>
+    <dc:date>2020-05-02T16:30:11.163+02:00</dc:date>
+    <dc:format>text/html</dc:format>
+    <dc:identifier>kurzehh316</dc:identifier>
+    <dc:source/>
+    <dc:language>de</dc:language>
+    <dc:publisher>ndr.de</dc:publisher>
+    <dc:rights>ndr.de. Alle Rechte vorbehalten.</dc:rights>
+    <dc:subject/>
+    <dcterms:audience>all</dcterms:audience>
+    <dcterms:isFormatOf rdf:resource=""/>
+    <mp:keywords>regionalmeldungen hamburg kurzmeldungen</mp:keywords>
+    <mp:topline>Hamburg</mp:topline>
+    <mp:states/>
+  </item>
+  <item rdf:about="https://www.ndr.de/nachrichten/hamburg/Coronavirus-in-Hamburg-Informationen-und-Hintergruende,corona1546.html">
+    <title>Coronavirus in Hamburg: Informationen und Hintergründe</title>
+    <link>
+      https://www.ndr.de/nachrichten/hamburg/Coronavirus-in-Hamburg-Informationen-und-Hintergruende,corona1546.html
+    </link>
+    <description>Die Zahl der bestätigten Infektionen mit dem Coronavirus Sars-CoV-2 in Hamburg steigt weiter an. Hier
+      finden Sie Videos, Informationen und Hintergründe zu dem Thema.
+    </description>
+    <dc:type>Artikel</dc:type>
+    <dc:date>2020-05-03T18:50:35.953+02:00</dc:date>
+    <dc:format>text/html</dc:format>
+    <dc:identifier>corona1546</dc:identifier>
+    <dc:source/>
+    <dc:language>de</dc:language>
+    <dc:publisher>ndr.de</dc:publisher>
+    <dc:rights>ndr.de. Alle Rechte vorbehalten.</dc:rights>
+    <dc:subject/>
+    <dcterms:audience>all</dcterms:audience>
+    <dcterms:isFormatOf rdf:resource=""/>
+    <mp:keywords>Corona, Virus, Ausbreitung, Vorsichtsmaßnahmen, Hamburg, Informationen, Hintergründe, Ansprechpartner,
+      Kontaktadressen, FAQ, Fragen und Antworten, Hamburg Journal, Nachrichten, Ausbreitung, Pandemie
+    </mp:keywords>
+    <mp:topline>Coronavirus in Hamburg</mp:topline>
+    <mp:states/>
+    <mp:image>
+      <mp:alt>Ein Virus schwebt vor einer Menschenmenge (Fotomontage)</mp:alt>
+      <mp:caption>Um die Ausbreitung des Coronavirus zu verlangsamen, erleben Norddeutsche erhebliche Einschränkungen im
+        Alltag.
+      </mp:caption>
+      <mp:source>panthermedia, fotolia</mp:source>
+      <mp:data>https://www.ndr.de/coronavirus360_v-contentgross.jpg</mp:data>
+      <mp:width>568</mp:width>
+      <mp:height>320</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Ein Virus schwebt vor einer Menschenmenge (Fotomontage)</mp:alt>
+      <mp:caption>Um die Ausbreitung des Coronavirus zu verlangsamen, erleben Norddeutsche erhebliche Einschränkungen im
+        Alltag.
+      </mp:caption>
+      <mp:source>panthermedia, fotolia</mp:source>
+      <mp:data>https://www.ndr.de/coronavirus360_v-dreispaltig.jpg</mp:data>
+      <mp:width>568</mp:width>
+      <mp:height>144</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Ein Virus schwebt vor einer Menschenmenge (Fotomontage)</mp:alt>
+      <mp:caption>Um die Ausbreitung des Coronavirus zu verlangsamen, erleben Norddeutsche erhebliche Einschränkungen im
+        Alltag.
+      </mp:caption>
+      <mp:source>panthermedia, fotolia</mp:source>
+      <mp:data>https://www.ndr.de/coronavirus360_v-zweispaltig.jpg</mp:data>
+      <mp:width>376</mp:width>
+      <mp:height>212</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Ein Virus schwebt vor einer Menschenmenge (Fotomontage)</mp:alt>
+      <mp:caption>Um die Ausbreitung des Coronavirus zu verlangsamen, erleben Norddeutsche erhebliche Einschränkungen im
+        Alltag.
+      </mp:caption>
+      <mp:source>panthermedia, fotolia</mp:source>
+      <mp:data>https://www.ndr.de/coronavirus360_v-einspaltig.jpg</mp:data>
+      <mp:width>184</mp:width>
+      <mp:height>104</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Ein Virus schwebt vor einer Menschenmenge (Fotomontage)</mp:alt>
+      <mp:caption>Um die Ausbreitung des Coronavirus zu verlangsamen, erleben Norddeutsche erhebliche Einschränkungen im
+        Alltag.
+      </mp:caption>
+      <mp:source>panthermedia, fotolia</mp:source>
+      <mp:data>https://www.ndr.de/coronavirus360_v-contentklein.jpg</mp:data>
+      <mp:width>256</mp:width>
+      <mp:height>144</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Ein Virus schwebt vor einer Menschenmenge (Fotomontage)</mp:alt>
+      <mp:caption>Um die Ausbreitung des Coronavirus zu verlangsamen, erleben Norddeutsche erhebliche Einschränkungen im
+        Alltag.
+      </mp:caption>
+      <mp:source>panthermedia, fotolia</mp:source>
+      <mp:data>https://www.ndr.de/coronavirus360_v-ardteaserwidescreen.jpg</mp:data>
+      <mp:width>256</mp:width>
+      <mp:height>144</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Ein Virus schwebt vor einer Menschenmenge (Fotomontage)</mp:alt>
+      <mp:caption>Um die Ausbreitung des Coronavirus zu verlangsamen, erleben Norddeutsche erhebliche Einschränkungen im
+        Alltag.
+      </mp:caption>
+      <mp:source>panthermedia, fotolia</mp:source>
+      <mp:data>https://www.ndr.de/coronavirus360_v-ardgrosswidescreen.jpg</mp:data>
+      <mp:width>512</mp:width>
+      <mp:height>288</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Ein Virus schwebt vor einer Menschenmenge (Fotomontage)</mp:alt>
+      <mp:caption>Um die Ausbreitung des Coronavirus zu verlangsamen, erleben Norddeutsche erhebliche Einschränkungen im
+        Alltag.
+      </mp:caption>
+      <mp:source>panthermedia, fotolia</mp:source>
+      <mp:data>https://www.ndr.de/coronavirus360_v-contentwidescreen.jpg</mp:data>
+      <mp:width>192</mp:width>
+      <mp:height>108</mp:height>
+    </mp:image>
+  </item>
+  <item rdf:about="https://www.ndr.de/nachrichten/hamburg/Coronavirus-in-Hamburg-Hier-bekommen-Sie-Hilfe,coronaservice102.html">
+    <title>Coronavirus in Hamburg: Hier bekommen Sie Hilfe</title>
+    <link>https://www.ndr.de/nachrichten/hamburg/Coronavirus-in-Hamburg-Hier-bekommen-Sie-Hilfe,coronaservice102.html
+    </link>
+    <description>Sie wohnen in Hamburg und haben eine Frage zum Coronavirus? Wir haben Ihnen eine Liste mit relevanten
+      Informationen, Telefonnummern und Hilfemöglichkeiten zusammengestellt.
+    </description>
+    <dc:type>Artikel</dc:type>
+    <dc:date>2020-04-22T20:35:36.841+02:00</dc:date>
+    <dc:format>text/html</dc:format>
+    <dc:identifier>coronaservice102</dc:identifier>
+    <dc:source/>
+    <dc:language>de</dc:language>
+    <dc:publisher>ndr.de</dc:publisher>
+    <dc:rights>ndr.de. Alle Rechte vorbehalten.</dc:rights>
+    <dc:subject/>
+    <dcterms:audience>all</dcterms:audience>
+    <dcterms:isFormatOf rdf:resource=""/>
+    <mp:keywords>Hamburg, Coronavirus, Corona, Covi-19, Hotline, Hilfe, Service</mp:keywords>
+    <mp:topline>Hamburg</mp:topline>
+    <mp:states/>
+    <mp:image>
+      <mp:alt>&quot;FAQ&quot; steht auf einem iPad.</mp:alt>
+      <mp:caption/>
+      <mp:source>panthermedia, Fotolia</mp:source>
+      <mp:data>https://www.ndr.de/faqsprachen114_v-contentgross.jpg</mp:data>
+      <mp:width>568</mp:width>
+      <mp:height>320</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>&quot;FAQ&quot; steht auf einem iPad.</mp:alt>
+      <mp:caption/>
+      <mp:source>panthermedia, Fotolia</mp:source>
+      <mp:data>https://www.ndr.de/faqsprachen114_v-dreispaltig.jpg</mp:data>
+      <mp:width>568</mp:width>
+      <mp:height>144</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>&quot;FAQ&quot; steht auf einem iPad.</mp:alt>
+      <mp:caption/>
+      <mp:source>panthermedia, Fotolia</mp:source>
+      <mp:data>https://www.ndr.de/faqsprachen114_v-zweispaltig.jpg</mp:data>
+      <mp:width>376</mp:width>
+      <mp:height>212</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>&quot;FAQ&quot; steht auf einem iPad.</mp:alt>
+      <mp:caption/>
+      <mp:source>panthermedia, Fotolia</mp:source>
+      <mp:data>https://www.ndr.de/faqsprachen114_v-einspaltig.jpg</mp:data>
+      <mp:width>184</mp:width>
+      <mp:height>104</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>&quot;FAQ&quot; steht auf einem iPad.</mp:alt>
+      <mp:caption/>
+      <mp:source>panthermedia, Fotolia</mp:source>
+      <mp:data>https://www.ndr.de/faqsprachen114_v-contentklein.jpg</mp:data>
+      <mp:width>256</mp:width>
+      <mp:height>144</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>&quot;FAQ&quot; steht auf einem iPad.</mp:alt>
+      <mp:caption/>
+      <mp:source>panthermedia, Fotolia</mp:source>
+      <mp:data>https://www.ndr.de/faqsprachen114_v-ardteaserwidescreen.jpg</mp:data>
+      <mp:width>256</mp:width>
+      <mp:height>144</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>&quot;FAQ&quot; steht auf einem iPad.</mp:alt>
+      <mp:caption/>
+      <mp:source>panthermedia, Fotolia</mp:source>
+      <mp:data>https://www.ndr.de/faqsprachen114_v-ardgrosswidescreen.jpg</mp:data>
+      <mp:width>512</mp:width>
+      <mp:height>288</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>&quot;FAQ&quot; steht auf einem iPad.</mp:alt>
+      <mp:caption/>
+      <mp:source>panthermedia, Fotolia</mp:source>
+      <mp:data>https://www.ndr.de/faqsprachen114_v-contentwidescreen.jpg</mp:data>
+      <mp:width>192</mp:width>
+      <mp:height>108</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Darstellung von Viren neben der Form von Hamburg.</mp:alt>
+      <mp:caption/>
+      <mp:source>panthermedia</mp:source>
+      <mp:data>https://www.ndr.de/home/corona482_v-contentgross.jpg</mp:data>
+      <mp:width>568</mp:width>
+      <mp:height>320</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Darstellung von Viren neben der Form von Hamburg.</mp:alt>
+      <mp:caption/>
+      <mp:source>panthermedia</mp:source>
+      <mp:data>https://www.ndr.de/home/corona482_v-dreispaltig.jpg</mp:data>
+      <mp:width>568</mp:width>
+      <mp:height>144</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Darstellung von Viren neben der Form von Hamburg.</mp:alt>
+      <mp:caption/>
+      <mp:source>panthermedia</mp:source>
+      <mp:data>https://www.ndr.de/home/corona482_v-zweispaltig.jpg</mp:data>
+      <mp:width>376</mp:width>
+      <mp:height>212</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Darstellung von Viren neben der Form von Hamburg.</mp:alt>
+      <mp:caption/>
+      <mp:source>panthermedia</mp:source>
+      <mp:data>https://www.ndr.de/home/corona482_v-einspaltig.jpg</mp:data>
+      <mp:width>184</mp:width>
+      <mp:height>104</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Darstellung von Viren neben der Form von Hamburg.</mp:alt>
+      <mp:caption/>
+      <mp:source>panthermedia</mp:source>
+      <mp:data>https://www.ndr.de/home/corona482_v-contentklein.jpg</mp:data>
+      <mp:width>256</mp:width>
+      <mp:height>144</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Darstellung von Viren neben der Form von Hamburg.</mp:alt>
+      <mp:caption/>
+      <mp:source>panthermedia</mp:source>
+      <mp:data>https://www.ndr.de/home/corona482_v-ardteaserwidescreen.jpg</mp:data>
+      <mp:width>256</mp:width>
+      <mp:height>144</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Darstellung von Viren neben der Form von Hamburg.</mp:alt>
+      <mp:caption/>
+      <mp:source>panthermedia</mp:source>
+      <mp:data>https://www.ndr.de/home/corona482_v-ardgrosswidescreen.jpg</mp:data>
+      <mp:width>512</mp:width>
+      <mp:height>288</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Darstellung von Viren neben der Form von Hamburg.</mp:alt>
+      <mp:caption/>
+      <mp:source>panthermedia</mp:source>
+      <mp:data>https://www.ndr.de/home/corona482_v-contentwidescreen.jpg</mp:data>
+      <mp:width>192</mp:width>
+      <mp:height>108</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Coronaviren mit den Buchstaben FAQ.</mp:alt>
+      <mp:caption/>
+      <mp:source>picture alliance/dpa</mp:source>
+      <mp:data>https://www.ndr.de/nachrichten/hamburg/faqcorona102_v-contentgross.jpg</mp:data>
+      <mp:width>568</mp:width>
+      <mp:height>320</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Coronaviren mit den Buchstaben FAQ.</mp:alt>
+      <mp:caption/>
+      <mp:source>picture alliance/dpa</mp:source>
+      <mp:data>https://www.ndr.de/nachrichten/hamburg/faqcorona102_v-dreispaltig.jpg</mp:data>
+      <mp:width>568</mp:width>
+      <mp:height>144</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Coronaviren mit den Buchstaben FAQ.</mp:alt>
+      <mp:caption/>
+      <mp:source>picture alliance/dpa</mp:source>
+      <mp:data>https://www.ndr.de/nachrichten/hamburg/faqcorona102_v-zweispaltig.jpg</mp:data>
+      <mp:width>376</mp:width>
+      <mp:height>212</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Coronaviren mit den Buchstaben FAQ.</mp:alt>
+      <mp:caption/>
+      <mp:source>picture alliance/dpa</mp:source>
+      <mp:data>https://www.ndr.de/nachrichten/hamburg/faqcorona102_v-einspaltig.jpg</mp:data>
+      <mp:width>184</mp:width>
+      <mp:height>104</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Coronaviren mit den Buchstaben FAQ.</mp:alt>
+      <mp:caption/>
+      <mp:source>picture alliance/dpa</mp:source>
+      <mp:data>https://www.ndr.de/nachrichten/hamburg/faqcorona102_v-contentklein.jpg</mp:data>
+      <mp:width>256</mp:width>
+      <mp:height>144</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Coronaviren mit den Buchstaben FAQ.</mp:alt>
+      <mp:caption/>
+      <mp:source>picture alliance/dpa</mp:source>
+      <mp:data>https://www.ndr.de/nachrichten/hamburg/faqcorona102_v-ardteaserwidescreen.jpg</mp:data>
+      <mp:width>256</mp:width>
+      <mp:height>144</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Coronaviren mit den Buchstaben FAQ.</mp:alt>
+      <mp:caption/>
+      <mp:source>picture alliance/dpa</mp:source>
+      <mp:data>https://www.ndr.de/nachrichten/hamburg/faqcorona102_v-ardgrosswidescreen.jpg</mp:data>
+      <mp:width>512</mp:width>
+      <mp:height>288</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>Coronaviren mit den Buchstaben FAQ.</mp:alt>
+      <mp:caption/>
+      <mp:source>picture alliance/dpa</mp:source>
+      <mp:data>https://www.ndr.de/nachrichten/hamburg/faqcorona102_v-contentwidescreen.jpg</mp:data>
+      <mp:width>192</mp:width>
+      <mp:height>108</mp:height>
+    </mp:image>
+  </item>
+  <item rdf:about="https://www.ndr.de/nachrichten/hamburg/Coronavirus-in-Hamburg-Hilfe-in-sechs-Sprachen,coronahilfe106.html">
+    <title>Coronavirus in Hamburg: Hilfe in sechs Sprachen</title>
+    <link>https://www.ndr.de/nachrichten/hamburg/Coronavirus-in-Hamburg-Hilfe-in-sechs-Sprachen,coronahilfe106.html
+    </link>
+    <description>Coronavirus: Hier bekommen Sie Hilfe! فيروس كورونا: من هنا تحصل على المساعدة Ahsil ealaa almusaeadat
+      huna! Get help here! Uzyskaj pomoc tutaj! Buradan yardım alın! از اینجا کمک بگیرید
+    </description>
+    <dc:type>Artikel</dc:type>
+    <dc:date>2020-04-01T18:44:38.798+02:00</dc:date>
+    <dc:format>text/html</dc:format>
+    <dc:identifier>coronahilfe106</dc:identifier>
+    <dc:source/>
+    <dc:language>de</dc:language>
+    <dc:publisher>ndr.de</dc:publisher>
+    <dc:rights>ndr.de. Alle Rechte vorbehalten.</dc:rights>
+    <dc:subject/>
+    <dcterms:audience>all</dcterms:audience>
+    <dcterms:isFormatOf rdf:resource=""/>
+    <mp:keywords>hamburg, Hilfe, Notfallnummern, Servicehotline, Behörden, Englisch, Deutsch, Türkisch, Persisch,
+      Arabisch, polnisch
+    </mp:keywords>
+    <mp:topline>Hamburg</mp:topline>
+    <mp:states/>
+    <mp:image>
+      <mp:alt>&quot;Deutsch, Englisch, Türkisch Polnisch. Arabisch und Persisch&quot; steht auf einem iPad, auf dem auch
+        Symbole von Viren zu sehen sind.
+      </mp:alt>
+      <mp:caption/>
+      <mp:source>panthermedia, Fotolia</mp:source>
+      <mp:data>https://www.ndr.de/faqsprachen118_v-contentgross.jpg</mp:data>
+      <mp:width>568</mp:width>
+      <mp:height>320</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>&quot;Deutsch, Englisch, Türkisch Polnisch. Arabisch und Persisch&quot; steht auf einem iPad, auf dem auch
+        Symbole von Viren zu sehen sind.
+      </mp:alt>
+      <mp:caption/>
+      <mp:source>panthermedia, Fotolia</mp:source>
+      <mp:data>https://www.ndr.de/faqsprachen118_v-dreispaltig.jpg</mp:data>
+      <mp:width>568</mp:width>
+      <mp:height>144</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>&quot;Deutsch, Englisch, Türkisch Polnisch. Arabisch und Persisch&quot; steht auf einem iPad, auf dem auch
+        Symbole von Viren zu sehen sind.
+      </mp:alt>
+      <mp:caption/>
+      <mp:source>panthermedia, Fotolia</mp:source>
+      <mp:data>https://www.ndr.de/faqsprachen118_v-zweispaltig.jpg</mp:data>
+      <mp:width>376</mp:width>
+      <mp:height>212</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>&quot;Deutsch, Englisch, Türkisch Polnisch. Arabisch und Persisch&quot; steht auf einem iPad, auf dem auch
+        Symbole von Viren zu sehen sind.
+      </mp:alt>
+      <mp:caption/>
+      <mp:source>panthermedia, Fotolia</mp:source>
+      <mp:data>https://www.ndr.de/faqsprachen118_v-einspaltig.jpg</mp:data>
+      <mp:width>184</mp:width>
+      <mp:height>104</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>&quot;Deutsch, Englisch, Türkisch Polnisch. Arabisch und Persisch&quot; steht auf einem iPad, auf dem auch
+        Symbole von Viren zu sehen sind.
+      </mp:alt>
+      <mp:caption/>
+      <mp:source>panthermedia, Fotolia</mp:source>
+      <mp:data>https://www.ndr.de/faqsprachen118_v-contentklein.jpg</mp:data>
+      <mp:width>256</mp:width>
+      <mp:height>144</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>&quot;Deutsch, Englisch, Türkisch Polnisch. Arabisch und Persisch&quot; steht auf einem iPad, auf dem auch
+        Symbole von Viren zu sehen sind.
+      </mp:alt>
+      <mp:caption/>
+      <mp:source>panthermedia, Fotolia</mp:source>
+      <mp:data>https://www.ndr.de/faqsprachen118_v-ardteaserwidescreen.jpg</mp:data>
+      <mp:width>256</mp:width>
+      <mp:height>144</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>&quot;Deutsch, Englisch, Türkisch Polnisch. Arabisch und Persisch&quot; steht auf einem iPad, auf dem auch
+        Symbole von Viren zu sehen sind.
+      </mp:alt>
+      <mp:caption/>
+      <mp:source>panthermedia, Fotolia</mp:source>
+      <mp:data>https://www.ndr.de/faqsprachen118_v-ardgrosswidescreen.jpg</mp:data>
+      <mp:width>512</mp:width>
+      <mp:height>288</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>&quot;Deutsch, Englisch, Türkisch Polnisch. Arabisch und Persisch&quot; steht auf einem iPad, auf dem auch
+        Symbole von Viren zu sehen sind.
+      </mp:alt>
+      <mp:caption/>
+      <mp:source>panthermedia, Fotolia</mp:source>
+      <mp:data>https://www.ndr.de/faqsprachen118_v-contentwidescreen.jpg</mp:data>
+      <mp:width>192</mp:width>
+      <mp:height>108</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>&quot;Türkisch Polnisch. Arabisch, Persisch und Englisch&quot; steht auf einem iPad, auf dem auch Symbole
+        von Viren zu sehen sind.
+      </mp:alt>
+      <mp:caption/>
+      <mp:source>panthermedia, Fotolia</mp:source>
+      <mp:data>https://www.ndr.de/faqsprachen110_v-contentgross.jpg</mp:data>
+      <mp:width>568</mp:width>
+      <mp:height>320</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>&quot;Türkisch Polnisch. Arabisch, Persisch und Englisch&quot; steht auf einem iPad, auf dem auch Symbole
+        von Viren zu sehen sind.
+      </mp:alt>
+      <mp:caption/>
+      <mp:source>panthermedia, Fotolia</mp:source>
+      <mp:data>https://www.ndr.de/faqsprachen110_v-dreispaltig.jpg</mp:data>
+      <mp:width>568</mp:width>
+      <mp:height>144</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>&quot;Türkisch Polnisch. Arabisch, Persisch und Englisch&quot; steht auf einem iPad, auf dem auch Symbole
+        von Viren zu sehen sind.
+      </mp:alt>
+      <mp:caption/>
+      <mp:source>panthermedia, Fotolia</mp:source>
+      <mp:data>https://www.ndr.de/faqsprachen110_v-zweispaltig.jpg</mp:data>
+      <mp:width>376</mp:width>
+      <mp:height>212</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>&quot;Türkisch Polnisch. Arabisch, Persisch und Englisch&quot; steht auf einem iPad, auf dem auch Symbole
+        von Viren zu sehen sind.
+      </mp:alt>
+      <mp:caption/>
+      <mp:source>panthermedia, Fotolia</mp:source>
+      <mp:data>https://www.ndr.de/faqsprachen110_v-einspaltig.jpg</mp:data>
+      <mp:width>184</mp:width>
+      <mp:height>104</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>&quot;Türkisch Polnisch. Arabisch, Persisch und Englisch&quot; steht auf einem iPad, auf dem auch Symbole
+        von Viren zu sehen sind.
+      </mp:alt>
+      <mp:caption/>
+      <mp:source>panthermedia, Fotolia</mp:source>
+      <mp:data>https://www.ndr.de/faqsprachen110_v-contentklein.jpg</mp:data>
+      <mp:width>256</mp:width>
+      <mp:height>144</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>&quot;Türkisch Polnisch. Arabisch, Persisch und Englisch&quot; steht auf einem iPad, auf dem auch Symbole
+        von Viren zu sehen sind.
+      </mp:alt>
+      <mp:caption/>
+      <mp:source>panthermedia, Fotolia</mp:source>
+      <mp:data>https://www.ndr.de/faqsprachen110_v-ardteaserwidescreen.jpg</mp:data>
+      <mp:width>256</mp:width>
+      <mp:height>144</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>&quot;Türkisch Polnisch. Arabisch, Persisch und Englisch&quot; steht auf einem iPad, auf dem auch Symbole
+        von Viren zu sehen sind.
+      </mp:alt>
+      <mp:caption/>
+      <mp:source>panthermedia, Fotolia</mp:source>
+      <mp:data>https://www.ndr.de/faqsprachen110_v-ardgrosswidescreen.jpg</mp:data>
+      <mp:width>512</mp:width>
+      <mp:height>288</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>&quot;Türkisch Polnisch. Arabisch, Persisch und Englisch&quot; steht auf einem iPad, auf dem auch Symbole
+        von Viren zu sehen sind.
+      </mp:alt>
+      <mp:caption/>
+      <mp:source>panthermedia, Fotolia</mp:source>
+      <mp:data>https://www.ndr.de/faqsprachen110_v-contentwidescreen.jpg</mp:data>
+      <mp:width>192</mp:width>
+      <mp:height>108</mp:height>
+    </mp:image>
+  </item>
+  <item rdf:about="https://www.ndr.de/nachrichten/hamburg/360-Grad-Rundgang-durch-Hamburger-Rathaus,rathaustour100.html">
+    <title>360-Grad-Rundgang durch das Hamburger Rathaus</title>
+    <link>https://www.ndr.de/nachrichten/hamburg/360-Grad-Rundgang-durch-Hamburger-Rathaus,rathaustour100.html</link>
+    <description>Kommen Sie mit auf eine Tour durch das Hamburger Rathaus! Erkunden Sie in der 360-Grad-Ansicht jeden
+      Winkel und schauen Sie sich die Video-Führung an. Kurze Videos vermitteln Hintergrundwissen.
+    </description>
+    <dc:type>Artikel</dc:type>
+    <dc:date>2020-04-24T20:58:16.605+02:00</dc:date>
+    <dc:format>text/html</dc:format>
+    <dc:identifier>rathaustour100</dc:identifier>
+    <dc:source/>
+    <dc:language>de</dc:language>
+    <dc:publisher>ndr.de</dc:publisher>
+    <dc:rights>ndr.de. Alle Rechte vorbehalten.</dc:rights>
+    <dc:subject/>
+    <dcterms:audience>all</dcterms:audience>
+    <dcterms:isFormatOf rdf:resource=""/>
+    <mp:keywords>Rathaus, Rundgang, 360 Grad, Videotour, Hamburg, Bürgerschaft</mp:keywords>
+    <mp:topline>Hamburg</mp:topline>
+    <mp:states/>
+    <mp:image>
+      <mp:alt>360-Grad-Rundgang durch das Hamburger Rathaus.</mp:alt>
+      <mp:caption/>
+      <mp:source>picture alliance/Bildagentur-online</mp:source>
+      <mp:data>https://www.ndr.de/nachrichten/hamburg/rathausspezial100_v-contentgross.jpg</mp:data>
+      <mp:width>568</mp:width>
+      <mp:height>320</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>360-Grad-Rundgang durch das Hamburger Rathaus.</mp:alt>
+      <mp:caption/>
+      <mp:source>picture alliance/Bildagentur-online</mp:source>
+      <mp:data>https://www.ndr.de/nachrichten/hamburg/rathausspezial100_v-dreispaltig.jpg</mp:data>
+      <mp:width>568</mp:width>
+      <mp:height>144</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>360-Grad-Rundgang durch das Hamburger Rathaus.</mp:alt>
+      <mp:caption/>
+      <mp:source>picture alliance/Bildagentur-online</mp:source>
+      <mp:data>https://www.ndr.de/nachrichten/hamburg/rathausspezial100_v-zweispaltig.jpg</mp:data>
+      <mp:width>376</mp:width>
+      <mp:height>212</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>360-Grad-Rundgang durch das Hamburger Rathaus.</mp:alt>
+      <mp:caption/>
+      <mp:source>picture alliance/Bildagentur-online</mp:source>
+      <mp:data>https://www.ndr.de/nachrichten/hamburg/rathausspezial100_v-einspaltig.jpg</mp:data>
+      <mp:width>184</mp:width>
+      <mp:height>104</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>360-Grad-Rundgang durch das Hamburger Rathaus.</mp:alt>
+      <mp:caption/>
+      <mp:source>picture alliance/Bildagentur-online</mp:source>
+      <mp:data>https://www.ndr.de/nachrichten/hamburg/rathausspezial100_v-contentklein.jpg</mp:data>
+      <mp:width>256</mp:width>
+      <mp:height>144</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>360-Grad-Rundgang durch das Hamburger Rathaus.</mp:alt>
+      <mp:caption/>
+      <mp:source>picture alliance/Bildagentur-online</mp:source>
+      <mp:data>https://www.ndr.de/nachrichten/hamburg/rathausspezial100_v-ardteaserwidescreen.jpg</mp:data>
+      <mp:width>256</mp:width>
+      <mp:height>144</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>360-Grad-Rundgang durch das Hamburger Rathaus.</mp:alt>
+      <mp:caption/>
+      <mp:source>picture alliance/Bildagentur-online</mp:source>
+      <mp:data>https://www.ndr.de/nachrichten/hamburg/rathausspezial100_v-ardgrosswidescreen.jpg</mp:data>
+      <mp:width>512</mp:width>
+      <mp:height>288</mp:height>
+    </mp:image>
+    <mp:image>
+      <mp:alt>360-Grad-Rundgang durch das Hamburger Rathaus.</mp:alt>
+      <mp:caption/>
+      <mp:source>picture alliance/Bildagentur-online</mp:source>
+      <mp:data>https://www.ndr.de/nachrichten/hamburg/rathausspezial100_v-contentwidescreen.jpg</mp:data>
+      <mp:width>192</mp:width>
+      <mp:height>108</mp:height>
+    </mp:image>
+  </item>
+</rdf:RDF>

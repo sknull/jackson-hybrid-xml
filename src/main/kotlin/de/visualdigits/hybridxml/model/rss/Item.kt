@@ -36,4 +36,4 @@ class Item(
     val images: List<Image> = listOf(),
 
     val comments: MutableList<Comment> = mutableListOf(),
-) : BaseNode()
+) : BaseNode<Item>()

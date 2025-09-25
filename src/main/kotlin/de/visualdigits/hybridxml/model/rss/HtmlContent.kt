@@ -5,4 +5,4 @@ import de.visualdigits.hybridxml.model.polymorphic.PolymorphicNode
 
 class HtmlContent(
     var html: PolymorphicNode<*>? = null
-) : BaseNode()
+) : BaseNode<HtmlContent>()

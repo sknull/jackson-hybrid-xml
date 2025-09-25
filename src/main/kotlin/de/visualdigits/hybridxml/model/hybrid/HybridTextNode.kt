@@ -6,7 +6,7 @@ import de.visualdigits.hybridxml.model.BaseNode
 /**
  * Attribute of a bean which is represented by a sub tag containing a text.
  */
-abstract class HybridTextNode : BaseNode() {
+abstract class HybridTextNode : BaseNode<HybridTextNode>() {
 
     @JacksonXmlText
     lateinit var text: String

@@ -13,4 +13,4 @@ class Image(
     val data: String? = null,
     val width: Int? = null,
     val height: Int? = null
-) : BaseNode()
+) : BaseNode<Image>()

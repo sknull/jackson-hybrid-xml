@@ -1,7 +1,6 @@
 package de.visualdigits.hybridxml.model.html
 
 import de.visualdigits.hybridxml.model.polymorphic.PolymorphicNode
-import de.visualdigits.hybridxml.model.polymorphic.text.PolymorphicDefaultNode
 import org.jsoup.nodes.Element
 
 class Html(

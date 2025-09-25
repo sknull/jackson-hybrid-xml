@@ -81,11 +81,11 @@ class Demo(
 
 class Description(
     @field:JacksonXmlProperty(localName = "html") val html: PolymorphicNode<*>? = null
-) : BaseNode()
+) : BaseNode<Description>()
 
 class SubDemo(
     @field:JacksonXmlProperty(isAttribute = true) val foo: String? = null,
     @field:JacksonXmlProperty(isAttribute = true) val bar: String? = null,
     @field:JacksonXmlProperty(isAttribute = true) val baz: String? = null,
     val description: Description? = null
-) : BaseNode()
+) : BaseNode<SubDemo>()

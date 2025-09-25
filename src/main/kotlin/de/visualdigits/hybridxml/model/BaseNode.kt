@@ -10,10 +10,14 @@ import java.util.List
  * It takes care about calculating indent levels after the complete tree is read.
  * We need this to properly indent any polymorphic stuff within bean objects.
  */
-@JsonIgnoreProperties("level")
-abstract class BaseNode {
+@JsonIgnoreProperties("level", "baseNodeParent", "baseNodeChildren")
+abstract class BaseNode<T : BaseNode<T>> {
 
     protected var level: Int = 0
+
+    protected var baseNodeParent: BaseNode<*>? = null
+
+    protected var baseNodeChildren: MutableList<BaseNode<*>> = mutableListOf()
 
     /**
      * Calculate indent levels for all nodes not being polymorphic
@@ -29,7 +33,7 @@ abstract class BaseNode {
             }
             .mapNotNull { field ->
                 field.isAccessible = true
-                (field[this] as? BaseNode)
+                (field[this] as? BaseNode<*>)
             }.toMutableList()
 
         // process lists
@@ -52,7 +56,7 @@ abstract class BaseNode {
                 field.isAccessible = true
                 val list = field[this] as? List<*>
                 list?.mapNotNull { elem ->
-                    (elem as? BaseNode)
+                    (elem as? BaseNode<*>)
                 }
             }.flatten())
         baseNodes.forEach { bn -> bn.indent(level + 1) }

@@ -28,4 +28,4 @@ class Channel(
     val ttl: Int? = null,
     val itemRefs: List<String> = listOf(),
     @field:JacksonXmlElementWrapper(useWrapping = false) @JsonProperty("item") val items: List<Item> = listOf()
-) : BaseNode()
+) : BaseNode<Channel>()

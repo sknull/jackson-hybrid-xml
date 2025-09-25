@@ -24,7 +24,7 @@ import java.io.OutputStream
  * Base class for top level hybrid nodes which should have
  * serializer methods.
  */
-abstract class HybridRootNode<T : HybridRootNode<T>> : BaseNode() {
+abstract class HybridRootNode<T : HybridRootNode<T>> : BaseNode<T>() {
 
     companion object {
 
@@ -64,7 +64,7 @@ abstract class HybridRootNode<T : HybridRootNode<T>> : BaseNode() {
         /**
          * Deserializes the given input stream to an instance of the desired type.
          */
-        inline fun <reified T : BaseNode> readValue(
+        inline fun <reified T : BaseNode<T>> readValue(
             ins: InputStream,
             noinline createNodeFunction: ((label: String?, element: Element?, node: PolymorphicNode<*>?, children: List<PolymorphicNode<*>>, text: String?) -> PolymorphicNode<*>?)? = null
         ): T {
@@ -76,7 +76,7 @@ abstract class HybridRootNode<T : HybridRootNode<T>> : BaseNode() {
         /**
          * Deserializes the given file contents to an instance of the desired type.
          */
-        inline fun <reified T : BaseNode> readValue(
+        inline fun <reified T : BaseNode<T>> readValue(
             file: File,
             noinline createNodeFunction: ((label: String?, element: Element?, node: PolymorphicNode<*>?, children: List<PolymorphicNode<*>>, text: String?) -> PolymorphicNode<*>?)? = null
         ): T {
@@ -86,7 +86,7 @@ abstract class HybridRootNode<T : HybridRootNode<T>> : BaseNode() {
         /**
          * Deserializes the given raw xml to an instance of the desired type.
          */
-        inline fun <reified T : BaseNode> readValue(
+        inline fun <reified T : BaseNode<T>> readValue(
             rawXml: String,
             noinline createNodeFunction: ((label: String?, element: Element?, node: PolymorphicNode<*>?, children: List<PolymorphicNode<*>>, text: String?) -> PolymorphicNode<*>?)? = null
         ): T {

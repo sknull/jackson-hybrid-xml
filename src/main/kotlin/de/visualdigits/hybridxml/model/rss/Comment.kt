@@ -6,4 +6,4 @@ class Comment(
     val submitted: String? = null,
     val title: String? = null,
     val content: String? = null
-) : BaseNode()
+) : BaseNode<Comment>()

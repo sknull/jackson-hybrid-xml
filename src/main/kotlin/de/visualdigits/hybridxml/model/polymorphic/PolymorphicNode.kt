@@ -23,7 +23,7 @@ open class PolymorphicNode<T : PolymorphicNode<T>>(
     var parent: PolymorphicNode<*>? = null,
     @field:JacksonXmlElementWrapper(useWrapping = false) val children: MutableList<PolymorphicNode<*>> = mutableListOf(),
     var text: String? = null
-) : BaseNode() {
+) : BaseNode<T>() {
 
     override fun toString(): String {
         return label

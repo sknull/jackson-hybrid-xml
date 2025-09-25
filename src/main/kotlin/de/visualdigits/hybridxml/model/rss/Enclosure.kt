@@ -6,4 +6,4 @@ class Enclosure(
     val `type`: String? = null,
     val length: Int? = null,
     val url: String? = null
-) : BaseNode()
+) : BaseNode<Enclosure>()

@@ -1,0 +1,27 @@
+= Jackson Hybrid Xml
+:doctype: book
+:description: Documentation for jackson-hybrid-Xml
+:keywords: kotlin, polymorphic, jackson
+:icons: font
+:toc:
+:toc-title: Inhalt
+:toclevels: 10
+
+== Introduction
+
+The problem to work with XML which consists of the usual predefined beans but also contains polymorphic parts (such as HTML markup) is now long time with me in my professional career.
+
+Over the last decade I struggled with this in different approaches and in multiple JVM languages (Java, Scala and Kotlin) with mediocre success regarding maintainebility and understandibility of the code.
+
+Now I think I have found an elegant solution by combining the power of jackson-xml with the dom approach of jsoup.
+
+The tricky part was to find out how we can find the correct snippet of
+polymorphic markup within the XML and make jackson to deserialize this utilizing jsoup. This is done now with a simple heuristic which uses the
+current location of the parser and tricks out the jackson deserializer by
+consuming the current polymorphic node tree to find the end location.
+On the serialization side is much easier as we can simply bind the dedicated serializer to the PolymorphicNode class and convert the polymorphic node tree into a jsoup dom tree and let jsoup do the rest. For beauty of course we need to indent everything correctly and for this I use a little bit of reflection to calculate the indent levels for all nodes berfore serializing.
+Okay this makes it necessary that all involved nodes must be somehow derived from the BaseNode which holds the indentation.
+
+If you ask now for what the heck this hassle is needed I can answer this by giving just one example from the news industry:
+
+- News ML G2 is a format maintained by the IPTC group which is widely used within the news industry to transport news content from provider to provider

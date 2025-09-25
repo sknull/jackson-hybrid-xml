@@ -1,10 +1,10 @@
 package de.visualdigits.hybridxml.model.html
 
-import de.visualdigits.hybridxml.model.polymorphic.PolymorphicNode
+import de.visualdigits.hybridxml.model.BaseNode
 
 class Br(
     attributes: MutableMap<String, String?> = mutableMapOf(),
-    parent: PolymorphicNode<*>? = null
+    parent: BaseNode<*>? = null
 ) : HtmlNode<Br>(
     label = "br",
     attributes = attributes,

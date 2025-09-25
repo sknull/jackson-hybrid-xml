@@ -3,19 +3,25 @@ package de.visualdigits.hybridxml.module.hybrid
 import com.fasterxml.jackson.dataformat.xml.annotation.JacksonXmlProperty
 import com.fasterxml.jackson.dataformat.xml.annotation.JacksonXmlRootElement
 import de.visualdigits.hybridxml.model.BaseNode
+import de.visualdigits.hybridxml.model.html.B
 import de.visualdigits.hybridxml.model.html.Body
+import de.visualdigits.hybridxml.model.html.CData
+import de.visualdigits.hybridxml.model.html.Comment
 import de.visualdigits.hybridxml.model.html.Div
 import de.visualdigits.hybridxml.model.html.Head
 import de.visualdigits.hybridxml.model.html.Html
 import de.visualdigits.hybridxml.model.html.Html.Companion.createHtmlNode
+import de.visualdigits.hybridxml.model.html.Li
+import de.visualdigits.hybridxml.model.html.Text
 import de.visualdigits.hybridxml.model.html.Title
 import de.visualdigits.hybridxml.model.hybrid.HybridRootNode
 import de.visualdigits.hybridxml.model.polymorphic.PolymorphicNode
-import de.visualdigits.hybridxml.model.polymorphic.text.PolymorphicCDataNode
-import de.visualdigits.hybridxml.model.polymorphic.text.PolymorphicCommentNode
-import de.visualdigits.hybridxml.model.polymorphic.text.PolymorphicTextNode
 import org.jsoup.nodes.Element
 import org.junit.jupiter.api.Assertions.assertEquals
+import org.junit.jupiter.api.Assertions.assertFalse
+import org.junit.jupiter.api.Assertions.assertNotNull
+import org.junit.jupiter.api.Assertions.assertNull
+import org.junit.jupiter.api.Assertions.assertTrue
 import org.junit.jupiter.api.Test
 import java.io.File
 
@@ -31,21 +37,63 @@ class HybridNodeModelTest {
                 baz = "baz",
                 description = Description(Html(children = mutableListOf(
                     Head(children = mutableListOf(
-                        Title(children = mutableListOf(PolymorphicTextNode(text = "Hello World!")))
-                        )),
-                        Body(children = mutableListOf(
-                            PolymorphicCommentNode(text = "this is a comment"),
-                            Div(attributes = mutableMapOf(
-                                    "id" to "the-div",
-                                    "class" to "foo"
-                                ),
-                                children = mutableListOf(PolymorphicTextNode(text = "Hello World!")))
-                        )),
-                    PolymorphicCDataNode(text = "data data and mor data")
-                    ))
-                )
+                        Title(children = mutableListOf(Text(text = "Hello World!")))
+                    )),
+                    Body(children = mutableListOf(
+                        Comment(text = "this is a comment"),
+                        Div(attributes = mutableMapOf(
+                                "id" to "the-div",
+                                "class" to "foo"
+                            ),
+                            children = mutableListOf(Text(text = "Hello World!")))
+                    )),
+                    CData(text = "data data and mor data")
+                )))
             )
         )
+
+        val subDemo = demo.subDemo!!
+        val description = subDemo.description!!
+        val html = description.html!!
+        val body1 = html.firstChild<Body>()!!
+        val body2 = html.lastChild<Body>()!!
+        val head = body1.previousSibling()!!
+        val cdata = body1.nextSibling()!!
+
+        assertEquals(listOf(demo, subDemo, description), description.rootLine())
+        assertEquals(listOf(head, cdata), body1.siblings())
+        assertEquals(1, body1.indexOfInParent())
+        assertEquals(demo, description.rootNode())
+
+        assertTrue(subDemo.isChildOf(demo))
+        assertFalse(description.isChildOf(demo))
+
+        assertTrue(description.isInRootlineOf(demo))
+
+        assertFalse(description.isInRootlineOf(head))
+
+        assertEquals(body1, body2)
+
+        assertNotNull(html.firstChild<Head>())
+        assertNull(html.firstChild<B>())
+
+        assertNotNull(html.firstChild<CData>())
+        assertNull(html.firstChild<Li>())
+
+        assertEquals(Head::class.java, head.javaClass)
+        assertEquals(CData::class.java, cdata.javaClass)
+
+        assertTrue(head.isFirstChild())
+        assertFalse(body1.isFirstChild())
+
+        assertTrue(cdata.isLastChild())
+        assertFalse(body1.isLastChild())
+
+        assertTrue(head.hasChildren())
+        assertFalse(cdata.hasChildren())
+
+        assertTrue(head.hasSiblings())
+        assertFalse(demo.hasSiblings())
 
         val expected = File(ClassLoader.getSystemResource("hybridxml/expected_html.txt").toURI()).readText()
         val actual = demo.writeValueAsString()
@@ -66,6 +114,11 @@ class Demo(
     @field:JacksonXmlProperty(isAttribute = true) val name: String? = null,
     val subDemo: SubDemo? = null
 ) : HybridRootNode<Demo>() {
+
+    init {
+        indent() // do not do this when your tree is read with the deserializers as this would be to early
+                 // leading to improper indenting.
+    }
 
     companion object {
 

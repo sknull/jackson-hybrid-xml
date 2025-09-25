@@ -1,4 +1,4 @@
-package de.visualdigits.hybridxml.model.polymorphic.text
+package de.visualdigits.hybridxml.model.polymorphic
 
 enum class TagName(
     val label: String

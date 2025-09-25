@@ -90,7 +90,7 @@ abstract class HybridRootNode<T : HybridRootNode<T>> : BaseNode<T>() {
             rawXml: String,
             noinline createNodeFunction: ((label: String?, element: Element?, node: PolymorphicNode<*>?, children: List<PolymorphicNode<*>>, text: String?) -> PolymorphicNode<*>?)? = null
         ): T {
-            return xmlMapperBuilder()
+            val tree = xmlMapperBuilder()
                 .addModule(
                     SimpleModule()
                         .addDeserializer(
@@ -101,6 +101,9 @@ abstract class HybridRootNode<T : HybridRootNode<T>> : BaseNode<T>() {
                 .build()
                 .readValue<T>(rawXml, T::class.java)
                 .also { node -> node.postProcessXml()}
+            tree.indent()
+
+            return tree
         }
     }
 
@@ -122,6 +125,7 @@ abstract class HybridRootNode<T : HybridRootNode<T>> : BaseNode<T>() {
     ): String {
         val xml = writeValueAsString(indentOutput, indentAmount, writeXmlDeclaration, writeHtmlDeclaration)
         outs.use { o -> o.write(xml.toByteArray())}
+
         return xml
     }
 
@@ -143,6 +147,7 @@ abstract class HybridRootNode<T : HybridRootNode<T>> : BaseNode<T>() {
     ): String {
         val xml = writeValueAsString(indentOutput, indentAmount, writeXmlDeclaration, writeHtmlDeclaration)
         file.writeText(xml)
+
         return xml
     }
 
@@ -164,6 +169,7 @@ abstract class HybridRootNode<T : HybridRootNode<T>> : BaseNode<T>() {
         val indenter = ConfigurableSpacesIndenter(indentAmount)
         printer.indentObjectsWith(indenter)
         indent()
+
         return xmlMapperBuilder(indentOutput, writeXmlDeclaration)
             .addModule(SimpleModule()
                 .addSerializer(

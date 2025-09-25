@@ -1,9 +1,7 @@
 package de.visualdigits.hybridxml.model.polymorphic
 
 import com.fasterxml.jackson.annotation.JsonIgnore
-import com.fasterxml.jackson.dataformat.xml.annotation.JacksonXmlElementWrapper
 import de.visualdigits.hybridxml.model.BaseNode
-import de.visualdigits.hybridxml.model.polymorphic.text.PolymorphicTextNode
 import de.visualdigits.hybridxml.module.deserializer.PolymorphicNodeDeserializer.Companion.createNode
 import org.jsoup.nodes.Element
 
@@ -19,10 +17,13 @@ import org.jsoup.nodes.Element
 open class PolymorphicNode<T : PolymorphicNode<T>>(
     @JsonIgnore var label: String,
     @JsonIgnore val attributes: MutableMap<String, String?> = mutableMapOf(),
-    @JsonIgnore var parent: PolymorphicNode<*>? = null,
-    @field:JacksonXmlElementWrapper(useWrapping = false) val children: MutableList<PolymorphicNode<*>> = mutableListOf(),
+    parent: BaseNode<*>? = null,
+    children: MutableList<PolymorphicNode<*>> = mutableListOf(),
     var text: String? = null
-) : BaseNode<T>() {
+) : BaseNode<T>(
+    parent = parent,
+    children = children as MutableList<BaseNode<*>>
+) {
 
     override fun toString(): String {
         return label
@@ -34,13 +35,13 @@ open class PolymorphicNode<T : PolymorphicNode<T>>(
     fun clone(
         createNodeFunction: ((label: String?, element: Element?, node: PolymorphicNode<*>?, children: List<PolymorphicNode<*>>, text: String?) -> PolymorphicNode<*>?)? = null
     ): T {
-        val clonedChildren = this.children.map { c -> c.clone() }
+        val clonedChildren = this.children.mapNotNull { c -> (c as? PolymorphicNode)?.clone() }
 
         val node = createNodeFunction?.let { createNode ->
-            createNode(label, null, this, children, text)
-        }?:createNode(label = label, node = this, children = children.toMutableList(), text = text)
+            createNode(label, null, this, children as MutableList<PolymorphicNode<*>>, text)
+        }?:createNode(label = label, node = this, children = (children as MutableList<PolymorphicNode<*>>).toMutableList(), text = text)
 
-        if (node is PolymorphicTextNode) {
+        if (TagName.TEXT.label == label || TagName.CDATA.label == label || TagName.COMMENT.label == label) {
             node.text = text()
         }
         node.withChildren(*clonedChildren.toTypedArray())
@@ -48,14 +49,14 @@ open class PolymorphicNode<T : PolymorphicNode<T>>(
     }
 
     fun text(): String? {
-        return if (this is PolymorphicTextNode) text else null
+        return if (TagName.TEXT.label == label || TagName.CDATA.label == label || TagName.COMMENT.label == label) text else null
     }
 
     /**
      * Returns the raw text of this node and its children recursively.
      */
     fun rawText(): String? {
-        val text = (text() ?: "") + children.joinToString("") { it.rawText()?:"" }
+        val text = (text() ?: "") + children.joinToString("") { (it as? PolymorphicNode)?.rawText()?:"" }
         return if (text.isNotBlank()) text else null
     }
 
@@ -86,12 +87,18 @@ open class PolymorphicNode<T : PolymorphicNode<T>>(
     }
 
     override fun indent(parent: BaseNode<*>?, level: Int) {
-        this.baseNodeLevel = level
+        this.level = level
         children.forEach { child ->
-            child.baseNodeParent = this
+            child.parent = this
             child.indent(this, level + 1)
         }
-        baseNodeChildren.clear()
-        baseNodeChildren.addAll(children)
     }
-}
+
+    override fun rootLine(rootPath: MutableList<BaseNode<*>>): List<BaseNode<*>> {
+        // make sure we do not look up bbeyond the polymorphic boundary here and sonsider any nonpolymorphic node as terminator
+        if (parent != null && parent?.javaClass?.let { jc -> PolymorphicNode::class.java.isAssignableFrom(jc) }?:false) {
+            parent!!.rootLine(rootPath)
+        }
+        rootPath.add(this)
+        return rootPath
+    }}

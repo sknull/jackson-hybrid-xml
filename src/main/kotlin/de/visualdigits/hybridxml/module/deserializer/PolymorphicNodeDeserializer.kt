@@ -4,9 +4,7 @@ import com.fasterxml.jackson.core.JsonParser
 import com.fasterxml.jackson.databind.DeserializationContext
 import com.fasterxml.jackson.databind.JsonDeserializer
 import de.visualdigits.hybridxml.model.polymorphic.PolymorphicNode
-import de.visualdigits.hybridxml.model.polymorphic.text.PolymorphicCDataNode
-import de.visualdigits.hybridxml.model.polymorphic.text.PolymorphicCommentNode
-import de.visualdigits.hybridxml.model.polymorphic.text.PolymorphicTextNode
+import de.visualdigits.hybridxml.model.polymorphic.TagName
 import org.jsoup.Jsoup
 import org.jsoup.nodes.CDataNode
 import org.jsoup.nodes.Comment
@@ -99,16 +97,16 @@ class PolymorphicNodeDeserializer(
                     }?:createNode(label, jsoupNode, children = children.toMutableList())
                 }
 
-                is CDataNode -> {
-                    PolymorphicCDataNode(text = jsoupNode.text())
+                is CDataNode -> { // DO NOT MOVE DOWN - CDataNode is a subclass of TextNode
+                    PolymorphicNode(label = TagName.CDATA.label, text = jsoupNode.text())
                 }
 
                 is TextNode -> {
-                    PolymorphicTextNode(text = jsoupNode.text())
+                    PolymorphicNode(label = TagName.TEXT.label, text = jsoupNode.text())
                 }
 
                 is Comment -> {
-                    PolymorphicCommentNode(text = jsoupNode.data)
+                    PolymorphicNode(label = TagName.COMMENT.label, text = jsoupNode.data)
                 }
 
                 else -> {

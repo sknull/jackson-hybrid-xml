@@ -4,7 +4,7 @@ import com.fasterxml.jackson.core.JsonGenerator
 import com.fasterxml.jackson.databind.SerializerProvider
 import com.fasterxml.jackson.databind.ser.std.StdSerializer
 import de.visualdigits.hybridxml.model.polymorphic.PolymorphicNode
-import de.visualdigits.hybridxml.model.polymorphic.text.TagName
+import de.visualdigits.hybridxml.model.polymorphic.TagName
 import org.jsoup.nodes.CDataNode
 import org.jsoup.nodes.Comment
 import org.jsoup.nodes.Document
@@ -23,14 +23,15 @@ class PolymorphicNodeSerializer(
 ) : StdSerializer<PolymorphicNode<*>>(PolymorphicNode::class.java) {
 
     override fun serialize(node: PolymorphicNode<*>, gen: JsonGenerator, provider: SerializerProvider) {
-        convertToDocument(node)?.also { elem ->
+        val document = convertToDocument(node)
+        document?.also { elem ->
             val doc = Document("")
             doc.attr("xmlns", "http://www.w3.org/1999/xhtml")
             doc.appendChild(elem)
             val outputSettings = doc.outputSettings()
             outputSettings.indentAmount(indentAmount)
             outputSettings.syntax(Document.OutputSettings.Syntax.xml)
-            val indent = " ".repeat(indentAmount * node.currentLevel())
+            val indent = " ".repeat(indentAmount * node.level)
             val html = doc.html()
                 .split("\n").joinToString("\n") { line -> "$indent$line" }
                 .let { h ->
@@ -40,7 +41,7 @@ class PolymorphicNodeSerializer(
                         h
                     }
                 }
-            val indentAfter = " ".repeat(indentAmount * (max(node.currentLevel() - 1, 0)))
+            val indentAfter = " ".repeat(indentAmount * (max(node.level - 1, 0)))
             gen.writeRaw("\n$html\n$indentAfter")
         }
     }
@@ -51,7 +52,7 @@ class PolymorphicNodeSerializer(
     private fun convertToDocument(node: PolymorphicNode<*>): Node? {
 
         // first dive into the tree to make sure we have processed all children for the given node
-        val children = node.children.mapNotNull { child -> convertToDocument(child) }
+        val children = node.children.mapNotNull { child -> convertToDocument(child as PolymorphicNode) }
 
         // now process the given node using the children obtained above - this is the branch up from the recursion
         return when (node.label) {

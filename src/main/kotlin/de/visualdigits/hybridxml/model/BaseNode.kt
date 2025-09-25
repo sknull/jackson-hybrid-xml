@@ -12,11 +12,11 @@ import java.util.List
  */
 abstract class BaseNode<T : BaseNode<T>> {
 
-    @JsonIgnore var baseNodeLevel: Int = 0
+    @JsonIgnore protected var baseNodeLevel: Int = 0
 
-    @JsonIgnore var baseNodeParent: BaseNode<*>? = null
+    @JsonIgnore protected var baseNodeParent: BaseNode<*>? = null
 
-    @JsonIgnore val baseNodeChildren: MutableList<BaseNode<*>> = mutableListOf()
+    @JsonIgnore protected val baseNodeChildren: MutableList<BaseNode<*>> = mutableListOf()
 
     /**
      * Calculate indent levels for all nodes not being polymorphic

@@ -4,7 +4,7 @@
 :keywords: kotlin, polymorphic, jackson, xml, json
 :icons: font
 :toc:
-:toc-title: Inhalt
+:toc-title: Contents
 :toclevels: 10
 
 == Status

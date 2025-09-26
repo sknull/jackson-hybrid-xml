@@ -17,7 +17,11 @@ open class BaseNode<T : BaseNode<T>>(
 
     @JsonIgnore var level: Int = 0
 
-    private var indented: Boolean = false
+    @JsonIgnore private var indented: Boolean = false
+
+    override fun toString(): String {
+        return "${"  ".repeat(level)}${javaClass.simpleName}"
+    }
 
     /**
      * Calculate indent levels for all nodes not being polymorphic

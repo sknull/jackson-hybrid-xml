@@ -4,17 +4,21 @@ import com.fasterxml.jackson.annotation.JsonInclude
 import com.fasterxml.jackson.databind.DeserializationFeature
 import com.fasterxml.jackson.databind.MapperFeature
 import com.fasterxml.jackson.databind.SerializationFeature
+import com.fasterxml.jackson.databind.json.JsonMapper
 import com.fasterxml.jackson.databind.module.SimpleModule
 import com.fasterxml.jackson.dataformat.xml.XmlMapper
 import com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator
 import com.fasterxml.jackson.dataformat.xml.util.DefaultXmlPrettyPrinter
 import com.fasterxml.jackson.datatype.jsr310.JavaTimeModule
+import com.fasterxml.jackson.module.kotlin.jacksonMapperBuilder
 import com.fasterxml.jackson.module.kotlin.kotlinModule
 import de.visualdigits.hybridxml.model.BaseNode
 import de.visualdigits.hybridxml.model.polymorphic.PolymorphicNode
-import de.visualdigits.hybridxml.module.deserializer.PolymorphicNodeDeserializer
+import de.visualdigits.hybridxml.module.deserializer.PolymorphicJsonNodeDeserializer
+import de.visualdigits.hybridxml.module.deserializer.PolymorphicXmlNodeDeserializer
 import de.visualdigits.hybridxml.module.serializer.ConfigurableSpacesIndenter
-import de.visualdigits.hybridxml.module.serializer.PolymorphicNodeSerializer
+import de.visualdigits.hybridxml.module.serializer.PolymorphicJsonNodeSerializer
+import de.visualdigits.hybridxml.module.serializer.PolymorphicXmlNodeSerializer
 import org.jsoup.nodes.Element
 import java.io.File
 import java.io.InputStream
@@ -62,6 +66,31 @@ abstract class HybridRootNode<T : HybridRootNode<T>> : BaseNode<T>() {
         }
 
         /**
+         * Internal method to create the builder.
+         * Must be public to be usable within public inline methods below.
+         */
+        fun jsonMapperBuilder(indentOutput: Boolean = true): JsonMapper.Builder {
+            // The builder must be created on every call as otherwise the hybrid module would be not replaced
+            // on subsequent calls.
+            val jsonMapperBuilder = jacksonMapperBuilder()
+                .enable(MapperFeature.ACCEPT_CASE_INSENSITIVE_PROPERTIES)
+                .enable(DeserializationFeature.ACCEPT_SINGLE_VALUE_AS_ARRAY)
+                .disable(SerializationFeature.WRITE_DATES_AS_TIMESTAMPS) // ISODate
+                .disable(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES)
+                .serializationInclusion(JsonInclude.Include.NON_EMPTY)
+                .addModule(kotlinModule())
+                .addModule(JavaTimeModule())
+
+            if (indentOutput) {
+                jsonMapperBuilder.enable(SerializationFeature.INDENT_OUTPUT)
+            } else {
+                jsonMapperBuilder.disable(SerializationFeature.INDENT_OUTPUT)
+            }
+
+            return jsonMapperBuilder
+        }
+
+        /**
          * Deserializes the given input stream to an instance of the desired type.
          */
         inline fun <reified T : BaseNode<T>> readValue(
@@ -87,7 +116,7 @@ abstract class HybridRootNode<T : HybridRootNode<T>> : BaseNode<T>() {
          * Deserializes the given raw xml to an instance of the desired type.
          */
         inline fun <reified T : BaseNode<T>> readValue(
-            rawXml: String,
+            xml: String,
             noinline createNodeFunction: ((label: String?, element: Element?, node: PolymorphicNode<*>?, children: List<PolymorphicNode<*>>, text: String?) -> PolymorphicNode<*>?)? = null
         ): T {
             val tree = xmlMapperBuilder()
@@ -95,11 +124,56 @@ abstract class HybridRootNode<T : HybridRootNode<T>> : BaseNode<T>() {
                     SimpleModule()
                         .addDeserializer(
                             PolymorphicNode::class.java,
-                            PolymorphicNodeDeserializer(rawXml, createNodeFunction)
+                            PolymorphicXmlNodeDeserializer(xml, createNodeFunction)
                         )
                 )
                 .build()
-                .readValue<T>(rawXml, T::class.java)
+                .readValue<T>(xml, T::class.java)
+                .also { node -> node.postProcessXml()}
+            tree.indent()
+
+            return tree
+        }
+
+        /**
+         * Deserializes the given input stream to an instance of the desired type.
+         */
+        inline fun <reified T : BaseNode<T>> readJsonValue(
+            ins: InputStream,
+            noinline createNodeFunction: ((label: String?, element: Element?, node: PolymorphicNode<*>?, children: List<PolymorphicNode<*>>, text: String?) -> PolymorphicNode<*>?)? = null
+        ): T {
+            return ins.use { i ->
+                readJsonValue(String(i.readAllBytes()), createNodeFunction)
+            }
+        }
+
+        /**
+         * Deserializes the given file contents to an instance of the desired type.
+         */
+        inline fun <reified T : BaseNode<T>> readJsonValue(
+            file: File,
+            noinline createNodeFunction: ((label: String?, element: Element?, node: PolymorphicNode<*>?, children: List<PolymorphicNode<*>>, text: String?) -> PolymorphicNode<*>?)? = null
+        ): T {
+            return readJsonValue(file.readText(), createNodeFunction)
+        }
+
+        /**
+         * Deserializes the given raw xml to an instance of the desired type.
+         */
+        inline fun <reified T : BaseNode<T>> readJsonValue(
+            json: String,
+            noinline createNodeFunction: ((label: String?, element: Element?, node: PolymorphicNode<*>?, children: List<PolymorphicNode<*>>, text: String?) -> PolymorphicNode<*>?)? = null
+        ): T {
+            val tree = jsonMapperBuilder()
+                .addModule(
+                    SimpleModule()
+                        .addDeserializer(
+                            PolymorphicNode::class.java,
+                            PolymorphicJsonNodeDeserializer(createNodeFunction)
+                        )
+                )
+                .build()
+                .readValue<T>(json, T::class.java)
                 .also { node -> node.postProcessXml()}
             tree.indent()
 
@@ -114,7 +188,7 @@ abstract class HybridRootNode<T : HybridRootNode<T>> : BaseNode<T>() {
      * @param indentOutput Determines whether to indent the output or not.
      * @param writeXmlDeclaration Determines whether to write the xml declaration or not.
      *
-     * @return The desireialized instance as a string.
+     * @return The serialized instance as a string.
      */
     fun writeValue(
         outs: OutputStream,
@@ -136,7 +210,7 @@ abstract class HybridRootNode<T : HybridRootNode<T>> : BaseNode<T>() {
      * @param indentOutput Determines whether to indent the output or not.
      * @param writeXmlDeclaration Determines whether to write the xml declaration or not.
      *
-     * @return The desireialized instance as a string.
+     * @return The serialized instance as a string.
      */
     fun writeValue(
         file: File,
@@ -157,7 +231,7 @@ abstract class HybridRootNode<T : HybridRootNode<T>> : BaseNode<T>() {
      * @param indentOutput Determines whether to indent the output or not.
      * @param writeXmlDeclaration Determines whether to write the xml declaration or not.
      *
-     * @return The desireialized instance as a string.
+     * @return The serialized instance as a string.
      */
     open fun writeValueAsString(
         indentOutput: Boolean = true,
@@ -174,11 +248,68 @@ abstract class HybridRootNode<T : HybridRootNode<T>> : BaseNode<T>() {
             .addModule(SimpleModule()
                 .addSerializer(
                     PolymorphicNode::class.java,
-                    PolymorphicNodeSerializer(indentAmount, writeHtmlDeclaration)
+                    PolymorphicXmlNodeSerializer(indentAmount, writeHtmlDeclaration)
                 )
             )
             .build()
             .writer(printer)
+            .writeValueAsString(this)
+            .replace("\r\n", "\n")
+            .replace("\r", "\n")
+    }
+
+    /**
+     * Serializes this hybrid xml instance as a String.
+     *
+     * @param file The file to write to.
+     *
+     * @return The serialized instance as a string.
+     */
+    fun writeValueAsJson(
+        outs: OutputStream,
+        indentOutput: Boolean = true
+    ): String {
+        val json = writeValueAsJsonString(indentOutput)
+        outs.use { o -> o.write(json.toByteArray())}
+
+        return json
+    }
+
+    /**
+     * Serializes this hybrid xml instance as a String.
+     *
+     * @param file The file to write to.
+     *
+     * @return The serialized instance as a string.
+     */
+    fun writeValueAsJson(
+        file: File,
+        indentOutput: Boolean = true
+    ): String {
+        val json = writeValueAsJsonString(indentOutput)
+        file.writeText(json)
+
+        return json
+    }
+
+    /**
+     * Serializes this hybrid xml instance as a String.
+     *
+     * @return The serialized instance as a string.
+     */
+    open fun writeValueAsJsonString(
+        indentOutput: Boolean = true,
+    ): String {
+        indent()
+
+        return jsonMapperBuilder(indentOutput)
+            .addModule(SimpleModule()
+                .addSerializer(
+                    PolymorphicNode::class.java,
+                    PolymorphicJsonNodeSerializer()
+                )
+            )
+            .build()
             .writeValueAsString(this)
             .replace("\r\n", "\n")
             .replace("\r", "\n")

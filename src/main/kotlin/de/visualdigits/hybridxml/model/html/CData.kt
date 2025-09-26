@@ -10,4 +10,8 @@ class CData(
     label = TagName.CDATA.label,
     parent = parent,
     text = text
-)
+) {
+
+    override fun toString(): String = "<![CDATA[$text]]>"
+}
+

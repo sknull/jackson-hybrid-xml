@@ -2,9 +2,9 @@ package de.visualdigits.hybridxml.model.rss
 
 import com.fasterxml.jackson.dataformat.xml.annotation.JacksonXmlProperty
 import de.visualdigits.hybridxml.model.html.Html.Companion.createHtmlNode
+import de.visualdigits.hybridxml.model.html.Html.Companion.parseHtml
 import de.visualdigits.hybridxml.model.hybrid.HybridRootNode
 import de.visualdigits.hybridxml.model.polymorphic.PolymorphicNode
-import de.visualdigits.hybridxml.module.deserializer.PolymorphicNodeDeserializer.Companion.parseHtml
 import org.jsoup.nodes.Element
 
 class Rss(

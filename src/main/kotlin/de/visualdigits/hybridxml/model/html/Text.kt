@@ -10,4 +10,7 @@ class Text(
     label = TagName.TEXT.label,
     parent = parent,
     text = text
-)
+) {
+
+    override fun toString(): String = text?:""
+}

@@ -17,22 +17,22 @@ import kotlin.math.max
  * Dedicated serializer for polymorphic nodes which takes care on rendering the label as start object
  * or field name depending on the node type.
  */
-class PolymorphicNodeSerializer(
+class PolymorphicXmlNodeSerializer(
     private val indentAmount: Int = 2,
     private val writeHtmlDeclaration: Boolean = false
 ) : StdSerializer<PolymorphicNode<*>>(PolymorphicNode::class.java) {
 
     override fun serialize(node: PolymorphicNode<*>, gen: JsonGenerator, provider: SerializerProvider) {
-        val document = convertToDocument(node)
-        document?.also { elem ->
-            val doc = Document("")
-            doc.attr("xmlns", "http://www.w3.org/1999/xhtml")
-            doc.appendChild(elem)
-            val outputSettings = doc.outputSettings()
+        val rootElement = convertToDocument(node)
+        rootElement?.also { elem ->
+            val document = Document("")
+            document.attr("xmlns", "http://www.w3.org/1999/xhtml")
+            document.appendChild(elem)
+            val outputSettings = document.outputSettings()
             outputSettings.indentAmount(indentAmount)
             outputSettings.syntax(Document.OutputSettings.Syntax.xml)
             val indent = " ".repeat(indentAmount * node.level)
-            val html = doc.html()
+            val html = document.html()
                 .split("\n").joinToString("\n") { line -> "$indent$line" }
                 .let { h ->
                     if(writeHtmlDeclaration) {

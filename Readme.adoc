@@ -1,7 +1,7 @@
 = Jackson Hybrid Xml
 :doctype: book
 :description: Documentation for jackson-hybrid-Xml
-:keywords: kotlin, polymorphic, jackson
+:keywords: kotlin, polymorphic, jackson, xml, json
 :icons: font
 :toc:
 :toc-title: Inhalt
@@ -24,9 +24,10 @@ The tricky part was to find out how we can find the correct snippet of
 polymorphic markup within the XML and make jackson to deserialize this utilizing jsoup. This is done now with a simple heuristic which uses the
 current location of the parser and tricks out the jackson deserializer by
 consuming the current polymorphic node tree to find the end location.
+
 On the serialization side is much easier as we can simply bind the dedicated serializer to the PolymorphicNode class and convert the polymorphic node tree into a jsoup dom tree and let jsoup do the rest. For beauty of course we need to indent everything correctly and for this I use a little bit of reflection to calculate the indent levels for all nodes berfore serializing.
-Okay this makes it necessary that all involved nodes must be somehow derived from the BaseNode which holds the indentation.
+This makes it necessary that all involved nodes must be somehow derived from the BaseNode which holds the indentation.
 
-If you ask now for what the heck this hassle is needed I can answer this by giving just one example from the news industry:
+Similarly to the XML side we can implement dedicated deserializer and serializer for JSON which also delegate to jsoup doing the heavy lifting for us - and look ma' NO MIXINS!
 
-- News ML G2 is a format maintained by the IPTC group which is widely used within the news industry to transport news content from provider to provider
+So finally we can now convert hybrid XML to JSON and vice versa. This capability might come in handy when dealing with different interfaces. So we can use JSON for our micro service endpoints while we still can use our special XML format for transport via FTP (hej yes that is till used...).

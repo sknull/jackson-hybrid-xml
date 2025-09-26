@@ -10,4 +10,8 @@ class Comment(
     label = TagName.COMMENT.label,
     parent = parent,
     text = text
-)
+) {
+
+    override fun toString(): String = "<!--$text-->"
+}
+

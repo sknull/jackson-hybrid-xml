@@ -27,31 +27,31 @@ import java.io.File
 
 class HybridNodeModelTest {
 
+    private val demo = Demo(
+        name = "Hello World!",
+        subDemo = SubDemo(
+            foo = "foo",
+            bar = "bar",
+            baz = "baz",
+            description = Description(Html(children = mutableListOf(
+                Head(children = mutableListOf(
+                    Title(children = mutableListOf(Text(text = "Hello World!")))
+                )),
+                Body(children = mutableListOf(
+                    Comment(text = "this is a comment"),
+                    Div(attributes = mutableMapOf(
+                        "id" to "the-div",
+                        "class" to "foo"
+                    ),
+                        children = mutableListOf(Text(text = "Hello World!")))
+                )),
+                CData(text = "data data and mor data")
+            )))
+        )
+    )
+
     @Test
     fun testWriteXml() {
-        val demo = Demo(
-            name = "Hello World!",
-            subDemo = SubDemo(
-                foo = "foo",
-                bar = "bar",
-                baz = "baz",
-                description = Description(Html(children = mutableListOf(
-                    Head(children = mutableListOf(
-                        Title(children = mutableListOf(Text(text = "Hello World!")))
-                    )),
-                    Body(children = mutableListOf(
-                        Comment(text = "this is a comment"),
-                        Div(attributes = mutableMapOf(
-                                "id" to "the-div",
-                                "class" to "foo"
-                            ),
-                            children = mutableListOf(Text(text = "Hello World!")))
-                    )),
-                    CData(text = "data data and mor data")
-                )))
-            )
-        )
-
         val subDemo = demo.subDemo!!
         val description = subDemo.description!!
         val html = description.html!!
@@ -59,6 +59,10 @@ class HybridNodeModelTest {
         val body2 = html.lastChild<Body>()!!
         val head = body1.previousSibling()!!
         val cdata = body1.nextSibling()!!
+
+        assertEquals("foo", subDemo.foo)
+        assertEquals("bar", subDemo.bar)
+        assertEquals("baz", subDemo.baz)
 
         assertEquals(listOf(demo, subDemo, description), description.rootLine())
         assertEquals(listOf(head, cdata), body1.siblings())
@@ -95,17 +99,41 @@ class HybridNodeModelTest {
         assertTrue(head.hasSiblings())
         assertFalse(demo.hasSiblings())
 
-        val expected = File(ClassLoader.getSystemResource("hybridxml/expected_html.txt").toURI()).readText()
+        val expected = File(ClassLoader.getSystemResource("hybridxml/expected_xml.txt").toURI()).readText()
         val actual = demo.writeValueAsString()
         assertEquals(expected, actual)
     }
 
+    /**
+     * Tests that we can read xml and serialize it back to either xml and json.
+     */
     @Test
     fun testReadXml() {
-        val expected = File(ClassLoader.getSystemResource("hybridxml/expected_html.txt").toURI()).readText()
-        val demo = Demo.readValue(expected)
-        val actual = demo.writeValueAsString()
-        assertEquals(expected, actual)
+        val expectedXml = File(ClassLoader.getSystemResource("hybridxml/expected_xml.txt").toURI()).readText()
+        val expectedJson = File(ClassLoader.getSystemResource("hybridxml/expected_json.txt").toURI()).readText()
+        val demo = Demo.readValue(expectedXml)
+
+        val actualXml = demo.writeValueAsString()
+        assertEquals(expectedXml, actualXml)
+
+        val actualJson = demo.writeValueAsJsonString()
+        assertEquals(expectedJson, actualJson)
+    }
+
+    /**
+     * Tests that we can read json and serialize it back to either json and xml.
+     */
+    @Test
+    fun testReadJson() {
+        val expectedXml = File(ClassLoader.getSystemResource("hybridxml/expected_xml.txt").toURI()).readText()
+        val expectedJson = File(ClassLoader.getSystemResource("hybridxml/expected_json.txt").toURI()).readText()
+        val demo = Demo.readJsonValue(expectedJson)
+
+        val actualJson = demo.writeValueAsJsonString()
+        assertEquals(expectedJson, actualJson)
+
+        val actualXml = demo.writeValueAsString()
+        assertEquals(expectedXml, actualXml)
     }
 }
 
@@ -124,6 +152,12 @@ class Demo(
 
         fun readValue(rawXml: String): Demo {
             return readValue<Demo>(rawXml) { label: String?, element: Element?, node: PolymorphicNode<*>?, children: List<PolymorphicNode<*>>, text: String? ->
+                createHtmlNode(label = label, element = element, node = node, children = children.toMutableList(), text = text)
+            }
+        }
+
+        fun readJsonValue(rawXml: String): Demo {
+            return readJsonValue<Demo>(rawXml) { label: String?, element: Element?, node: PolymorphicNode<*>?, children: List<PolymorphicNode<*>>, text: String? ->
                 createHtmlNode(label = label, element = element, node = node, children = children.toMutableList(), text = text)
             }
         }

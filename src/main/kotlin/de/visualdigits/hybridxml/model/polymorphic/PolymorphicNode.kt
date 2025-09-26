@@ -2,7 +2,7 @@ package de.visualdigits.hybridxml.model.polymorphic
 
 import com.fasterxml.jackson.annotation.JsonIgnore
 import de.visualdigits.hybridxml.model.BaseNode
-import de.visualdigits.hybridxml.module.deserializer.PolymorphicNodeDeserializer.Companion.createNode
+import de.visualdigits.hybridxml.model.html.Html.Companion.createPolymorphicNode
 import org.jsoup.nodes.Element
 
 /**
@@ -18,7 +18,7 @@ open class PolymorphicNode<T : PolymorphicNode<T>>(
     @JsonIgnore var label: String,
     @JsonIgnore val attributes: MutableMap<String, String?> = mutableMapOf(),
     parent: BaseNode<*>? = null,
-    children: MutableList<PolymorphicNode<*>> = mutableListOf(),
+    @field:JsonIgnore(false) children: MutableList<PolymorphicNode<*>> = mutableListOf(),
     var text: String? = null
 ) : BaseNode<T>(
     parent = parent,
@@ -26,7 +26,14 @@ open class PolymorphicNode<T : PolymorphicNode<T>>(
 ) {
 
     override fun toString(): String {
-        return label
+        return when (label) {
+            TagName.TEXT.label -> text
+            TagName.CDATA.label -> "<![CDATA[$text]]>"
+            TagName.COMMENT.label -> "<!--$text-->"
+            else -> {
+                "<$label ${attributes.map { att -> "${att.key}${att.value?.let{ v -> "\"$v\""}?:""}}"}.joinToString(" ")}>"
+            }
+        }?:label
     }
 
     /**
@@ -39,7 +46,7 @@ open class PolymorphicNode<T : PolymorphicNode<T>>(
 
         val node = createNodeFunction?.let { createNode ->
             createNode(label, null, this, children as MutableList<PolymorphicNode<*>>, text)
-        }?:createNode(label = label, node = this, children = (children as MutableList<PolymorphicNode<*>>).toMutableList(), text = text)
+        }?:createPolymorphicNode(label = label, node = this, children = (children as MutableList<PolymorphicNode<*>>).toMutableList(), text = text)
 
         if (TagName.TEXT.label == label || TagName.CDATA.label == label || TagName.COMMENT.label == label) {
             node.text = text()
@@ -84,6 +91,27 @@ open class PolymorphicNode<T : PolymorphicNode<T>>(
     open fun withChildren(vararg children: PolymorphicNode<*>): T {
         children.forEach { child -> withChild(child) }
         return this as T
+    }
+
+    /**
+     * Returns the first child with the given tag name (if any).
+     */
+    fun firstChild(label: String? = null, attributes: Map<String, String?>? = null): PolymorphicNode<*>? {
+        return children(label, attributes).firstOrNull()
+    }
+
+    /**
+     * Returns the last child with the given tag name (if any).
+     */
+    fun lastChild(label: String? = null, attributes: Map<String, String?>? = null): PolymorphicNode<*>? {
+        return children(label, attributes).lastOrNull()
+    }
+
+    fun children(label: String? = null, attributes: Map<String, String?>? = null): List<PolymorphicNode<*>> {
+        return children.filter { child ->
+            (label?.let { l -> l == (child as PolymorphicNode<*>).label }?:true) &&
+                    (attributes?.all { att -> attributes.keys.contains(att.key) && att.value?.let { v -> v == attributes[att.key] }?:true }?:true)
+        } as List<PolymorphicNode<*>>
     }
 
     override fun indent(parent: BaseNode<*>?, level: Int) {

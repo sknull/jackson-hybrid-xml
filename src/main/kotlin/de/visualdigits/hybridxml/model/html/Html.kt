@@ -2,7 +2,14 @@ package de.visualdigits.hybridxml.model.html
 
 import de.visualdigits.hybridxml.model.BaseNode
 import de.visualdigits.hybridxml.model.polymorphic.PolymorphicNode
+import de.visualdigits.hybridxml.model.polymorphic.TagName
+import org.jsoup.Jsoup
+import org.jsoup.nodes.CDataNode
+import org.jsoup.nodes.Comment
 import org.jsoup.nodes.Element
+import org.jsoup.nodes.Node
+import org.jsoup.nodes.TextNode
+import org.jsoup.parser.Parser
 
 class Html(
     attributes: MutableMap<String, String?> = mutableMapOf(),
@@ -16,6 +23,94 @@ class Html(
 ) {
 
     companion object {
+
+        fun parseHtml(
+            html: String,
+            rootNodeName: String? = null,
+            createNodeFunction: ((label: String?, element: Element?, node: PolymorphicNode<*>?, children: List<PolymorphicNode<*>>, text: String?) -> PolymorphicNode<*>?)? = null
+        ): PolymorphicNode<*>? {
+            // parse by jsoup using the xml parser as we can assume we deal with xhtml
+            val jsoupNode = Jsoup.parse(html, "", Parser.xmlParser())
+            return parseHtml(jsoupNode, rootNodeName, createNodeFunction)
+        }
+
+        private fun parseHtml(
+            jsoupNode: Node,
+            rootNodeName: String? = null,
+            createNodeFunction: ((label: String?, element: Element?, node: PolymorphicNode<*>?, children: List<PolymorphicNode<*>>, text: String?) -> PolymorphicNode<*>?)? = null
+        ): PolymorphicNode<*>? {
+            // first dive into the tree to make sure we have processed all children for the given node
+            val children = jsoupNode.childNodes().mapNotNull { child -> parseHtml(child) }
+
+            // now process the given node using the children obtained above - this is the branch up from the recursion
+            return when (jsoupNode) {
+                is Element -> {
+                    var label = jsoupNode.tag().name.trimLineBreaks()
+                    // jsoup gives back the root node with special label, so replace it with the given rootNodeName (if any)
+                    if (label == "#root") {
+                        label = rootNodeName?:label
+                    }
+                    createNodeFunction?.let { createNode ->
+                        createNode(label, jsoupNode, null, children, null)
+                    }?:createPolymorphicNode(label, jsoupNode, children = children.toMutableList())
+                }
+
+                is CDataNode -> { // DO NOT MOVE DOWN - CDataNode is a subclass of TextNode
+                    val text = jsoupNode.text()
+                    if (text.isNotBlank()) {
+                        PolymorphicNode(label = TagName.CDATA.label, text = text.trimLineBreaks())
+                    } else {
+                        null
+                    }
+                }
+
+                is TextNode -> {
+                    val text = jsoupNode.text()
+                    if (text.isNotBlank()) {
+                        PolymorphicNode(label = TagName.TEXT.label, text = text.trimLineBreaks())
+                    } else {
+                        null
+                    }
+                }
+
+                is Comment -> {
+                    val text = jsoupNode.data
+                    if (text.isNotBlank()) {
+                        PolymorphicNode(label = TagName.COMMENT.label, text = text.trimLineBreaks())
+                    } else {
+                        null
+                    }
+                }
+
+                else -> {
+                    // jsoup also knows about other nodes but for now I keep it simple
+                    error("Unsupported node type '${jsoupNode::class}'")
+                }
+            }
+        }
+
+        /**
+         * Default node generator method which creates a PolymorphicNode having the desired label.
+         */
+        fun createPolymorphicNode(
+            label: String? = null,
+            element: Element? = null,
+            node: PolymorphicNode<*>? = null,
+            children: MutableList<PolymorphicNode<*>> = mutableListOf(),
+            text: String? = null
+        ): PolymorphicNode<*> {
+            return PolymorphicNode(
+                label = label?:error("No label given"),
+                attributes = element?.attributes()
+                    ?.associate { attribute -> Pair(attribute.key, attribute.value) }
+                    ?.toMutableMap()
+                    ?:node?.attributes
+                        ?.toMutableMap()
+                    ?:mutableMapOf(),
+                children = children,
+                text = text
+            ).also { h -> h.children.forEach { c -> c.parent = h } }
+        }
 
         /**
          * Convenience replacement for the default polymorphic node generator method
@@ -59,20 +154,28 @@ class Html(
                     null
                 }
             }?.also { h ->
-                h.attributes.putAll(createAttributes(element, node))
+                val attributes = element
+                    ?.attributes()
+                    ?.associate { attribute -> Pair(attribute.key, attribute.value) }
+                    ?.toMutableMap()
+                    ?: node?.attributes
+                    ?: mutableMapOf()
+                h.attributes.putAll(attributes)
                 h.withChildren(*children.toTypedArray())
                 h.children.forEach { c -> c.parent = h }
                 h.text = text
             }
         }
 
-        private fun createAttributes(element: Element?, node: PolymorphicNode<*>?): MutableMap<String, String?> {
-            return element
-                ?.attributes()
-                ?.associate { attribute -> Pair(attribute.key, attribute.value) }
-                ?.toMutableMap()
-                ?: node?.attributes
-                ?: mutableMapOf()
+        private fun String.trimLineBreaks(): String {
+            return this
+                .replace("\r", "")
+                .replace("\n", "")
+                .replace("\r\n", "")
+                .replace("\\r", "")
+                .replace("\\n", "")
+                .replace("\\r\\n", "")
+                .trim()
         }
     }
 }

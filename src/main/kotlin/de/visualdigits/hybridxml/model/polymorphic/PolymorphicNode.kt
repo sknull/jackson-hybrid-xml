@@ -39,6 +39,19 @@ open class PolymorphicNode<T : PolymorphicNode<T>>(
     /**
      * Returns a deep copy of this polymorphic node.
      */
+    override fun clone(
+    ): T {
+        val clonedChildren = this.children.map { c -> c.clone() }
+        return PolymorphicNode(
+            label = label,
+            attributes = attributes.toMutableMap(),
+            text = text
+        ).withChildren(*clonedChildren.toTypedArray<BaseNode<*>>()) as T
+    }
+
+    /**
+     * Returns a deep copy of this polymorphic node.
+     */
     fun clone(
         createNodeFunction: ((label: String?, element: Element?, node: PolymorphicNode<*>?, children: List<PolymorphicNode<*>>, text: String?) -> PolymorphicNode<*>?)? = null
     ): T {

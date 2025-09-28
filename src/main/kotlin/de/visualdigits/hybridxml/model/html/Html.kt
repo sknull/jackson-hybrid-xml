@@ -149,7 +149,7 @@ class Html(
                 "u" -> U()
                 "ul" -> Ul()
                 else -> if (label.isNotBlank()) {
-                    PolymorphicNode(label)
+                    HtmlNode(label)
                 } else {
                     null
                 }
@@ -158,7 +158,7 @@ class Html(
                     ?.attributes()
                     ?.associate { attribute -> Pair(attribute.key, attribute.value) }
                     ?.toMutableMap()
-                    ?: node?.attributes
+                    ?: node?.attributes?.toMutableMap()
                     ?: mutableMapOf()
                 h.attributes.putAll(attributes)
                 h.withChildren(*children.toTypedArray())

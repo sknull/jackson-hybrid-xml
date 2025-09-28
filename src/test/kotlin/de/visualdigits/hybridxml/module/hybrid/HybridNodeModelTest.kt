@@ -1,8 +1,5 @@
 package de.visualdigits.hybridxml.module.hybrid
 
-import com.fasterxml.jackson.dataformat.xml.annotation.JacksonXmlProperty
-import com.fasterxml.jackson.dataformat.xml.annotation.JacksonXmlRootElement
-import de.visualdigits.hybridxml.model.BaseNode
 import de.visualdigits.hybridxml.model.html.B
 import de.visualdigits.hybridxml.model.html.Body
 import de.visualdigits.hybridxml.model.html.CData
@@ -10,13 +7,12 @@ import de.visualdigits.hybridxml.model.html.Comment
 import de.visualdigits.hybridxml.model.html.Div
 import de.visualdigits.hybridxml.model.html.Head
 import de.visualdigits.hybridxml.model.html.Html
-import de.visualdigits.hybridxml.model.html.Html.Companion.createHtmlNode
 import de.visualdigits.hybridxml.model.html.Li
 import de.visualdigits.hybridxml.model.html.Text
 import de.visualdigits.hybridxml.model.html.Title
-import de.visualdigits.hybridxml.model.hybrid.HybridRootNode
-import de.visualdigits.hybridxml.model.polymorphic.PolymorphicNode
-import org.jsoup.nodes.Element
+import de.visualdigits.hybridxml.module.hybrid.model.Demo
+import de.visualdigits.hybridxml.module.hybrid.model.Description
+import de.visualdigits.hybridxml.module.hybrid.model.SubDemo
 import org.junit.jupiter.api.Assertions.assertEquals
 import org.junit.jupiter.api.Assertions.assertFalse
 import org.junit.jupiter.api.Assertions.assertNotNull
@@ -33,33 +29,43 @@ class HybridNodeModelTest {
             foo = "foo",
             bar = "bar",
             baz = "baz",
-            description = Description(Html(children = mutableListOf(
-                Head(children = mutableListOf(
-                    Title(children = mutableListOf(Text(text = "Hello World!")))
-                )),
-                Body(children = mutableListOf(
-                    Comment(text = "this is a comment"),
-                    Div(attributes = mutableMapOf(
-                        "id" to "the-div",
-                        "class" to "foo"
-                    ),
-                        children = mutableListOf(Text(text = "Hello World!")))
-                )),
-                CData(text = "data data and mor data")
-            )))
+            description = Description(
+                Html(
+                    children = mutableListOf(
+                        Head(
+                            children = mutableListOf(
+                                Title(children = mutableListOf(Text(text = "Hello World!")))
+                            )
+                        ),
+                        Body(
+                            children = mutableListOf(
+                                Comment(text = "this is a comment"),
+                                Div(
+                                    attributes = mutableMapOf(
+                                        "id" to "the-div",
+                                        "class" to "foo"
+                                    ),
+                                    children = mutableListOf(Text(text = "Hello World!"))
+                                )
+                            )
+                        ),
+                        CData(text = "data data and mor data")
+                    )
+                )
+            )
         )
     )
 
-    @Test
-    fun testWriteXml() {
-        val subDemo = demo.subDemo!!
-        val description = subDemo.description!!
-        val html = description.html!!
-        val body1 = html.firstChild<Body>()!!
-        val body2 = html.lastChild<Body>()!!
-        val head = body1.previousSibling()!!
-        val cdata = body1.nextSibling()!!
+    private val subDemo = demo.subDemo!!
+    private val description = subDemo.description!!
+    private val html = description.html!!
+    private val body1 = html.firstChild<Body>()!!
+    private val body2 = html.lastChild<Body>()!!
+    private val head = body1.previousSibling()!!
+    private val cdata = body1.nextSibling()!!
 
+    @Test
+    fun testBasicManipulations() {
         assertEquals("foo", subDemo.foo)
         assertEquals("bar", subDemo.bar)
         assertEquals("baz", subDemo.baz)
@@ -98,9 +104,27 @@ class HybridNodeModelTest {
 
         assertTrue(head.hasSiblings())
         assertFalse(demo.hasSiblings())
+    }
 
+    @Test
+    fun testWriteXml() {
         val expected = File(ClassLoader.getSystemResource("hybridxml/expected_xml.txt").toURI()).readText()
         val actual = demo.writeValueAsString()
+        assertEquals(expected, actual)
+    }
+
+    @Test
+    fun testClone() {
+        val expected = File(ClassLoader.getSystemResource("hybridxml/expected_html.txt").toURI()).readText()
+        val clone = description.clone()
+        val actual = clone.writeValueAsString()
+        assertEquals(expected, actual)
+    }
+
+    @Test
+    fun testWriteHtml() {
+        val expected = File(ClassLoader.getSystemResource("hybridxml/expected_html.txt").toURI()).readText()
+        val actual = html.writeValueAsString()
         assertEquals(expected, actual)
     }
 
@@ -137,40 +161,3 @@ class HybridNodeModelTest {
     }
 }
 
-@JacksonXmlRootElement(localName = "demo")
-class Demo(
-    @field:JacksonXmlProperty(isAttribute = true) val name: String? = null,
-    val subDemo: SubDemo? = null
-) : HybridRootNode<Demo>() {
-
-    init {
-        indent() // do not do this when your tree is read with the deserializers as this would be to early
-                 // leading to improper indenting.
-    }
-
-    companion object {
-
-        fun readValue(rawXml: String): Demo {
-            return readValue<Demo>(rawXml) { label: String?, element: Element?, node: PolymorphicNode<*>?, children: List<PolymorphicNode<*>>, text: String? ->
-                createHtmlNode(label = label, element = element, node = node, children = children.toMutableList(), text = text)
-            }
-        }
-
-        fun readJsonValue(rawXml: String): Demo {
-            return readJsonValue<Demo>(rawXml) { label: String?, element: Element?, node: PolymorphicNode<*>?, children: List<PolymorphicNode<*>>, text: String? ->
-                createHtmlNode(label = label, element = element, node = node, children = children.toMutableList(), text = text)
-            }
-        }
-    }
-}
-
-class Description(
-    @field:JacksonXmlProperty(localName = "html") val html: PolymorphicNode<*>? = null
-) : BaseNode<Description>()
-
-class SubDemo(
-    @field:JacksonXmlProperty(isAttribute = true) val foo: String? = null,
-    @field:JacksonXmlProperty(isAttribute = true) val bar: String? = null,
-    @field:JacksonXmlProperty(isAttribute = true) val baz: String? = null,
-    val description: Description? = null
-) : BaseNode<SubDemo>()

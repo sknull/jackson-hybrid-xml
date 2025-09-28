@@ -19,4 +19,19 @@ open class HtmlNode<T : HtmlNode<T>>(
     parent = parent,
     children = children as MutableList<PolymorphicNode<*>>,
     text = text
-)
+) {
+
+    /**
+     * Returns a deep copy of this polymorphic node.
+     */
+    override fun clone(
+    ): T {
+        val clonedChildren = this.children.map { c -> c.clone() }
+        return HtmlNode(
+            label = label,
+            attributes = attributes.toMutableMap(),
+            text = text
+        ).withChildren(*clonedChildren.toTypedArray<BaseNode<*>>()) as T
+    }
+
+}

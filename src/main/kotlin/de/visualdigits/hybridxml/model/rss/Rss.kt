@@ -1,9 +1,9 @@
 package de.visualdigits.hybridxml.model.rss
 
 import com.fasterxml.jackson.dataformat.xml.annotation.JacksonXmlProperty
+import de.visualdigits.hybridxml.model.BaseNode
 import de.visualdigits.hybridxml.model.html.Html.Companion.createHtmlNode
 import de.visualdigits.hybridxml.model.html.Html.Companion.parseHtml
-import de.visualdigits.hybridxml.model.hybrid.HybridRootNode
 import de.visualdigits.hybridxml.model.polymorphic.PolymorphicNode
 import org.jsoup.nodes.Element
 
@@ -13,7 +13,7 @@ class Rss(
     val about: String? = null,
     val image: Image? = null,
     val items: List<Item> = listOf()
-) : HybridRootNode<Rss>() {
+) : BaseNode<Rss>() {
 
     override fun postProcessXml() {
         channel?.items?.forEach { item ->

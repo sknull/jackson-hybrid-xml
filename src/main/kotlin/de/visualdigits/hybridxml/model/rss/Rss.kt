@@ -1,5 +1,6 @@
 package de.visualdigits.hybridxml.model.rss
 
+import com.fasterxml.jackson.dataformat.xml.annotation.JacksonXmlElementWrapper
 import com.fasterxml.jackson.dataformat.xml.annotation.JacksonXmlProperty
 import de.visualdigits.hybridxml.model.BaseNode
 import de.visualdigits.hybridxml.model.html.Html.Companion.createHtmlNode
@@ -12,7 +13,7 @@ class Rss(
     val channel: Channel? = null,
     val about: String? = null,
     val image: Image? = null,
-    val items: List<Item> = listOf()
+    @JacksonXmlElementWrapper(useWrapping = false) @JacksonXmlProperty(localName = "item") val items: List<Item> = listOf()
 ) : BaseNode<Rss>() {
 
     override fun postProcessXml() {

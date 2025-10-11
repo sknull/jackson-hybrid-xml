@@ -1,15 +1,16 @@
 package de.visualdigits.hybridxml.model.rss
 
 import de.visualdigits.hybridxml.model.BaseNode
+import java.time.OffsetDateTime
 
 class Item(
     val guid: Guid? = null,
     val identifier: String? = null,
     val id: String? = null,
 
-    val itemDate: String? = null,
-    val publishDate: String? = null,
-    val pubDate: String? = null,
+    val itemDate: OffsetDateTime? = null,
+    val publishDate: OffsetDateTime? = null,
+    val pubDate: OffsetDateTime? = null,
 
     val about: String? = null,
     val type: String? = null,

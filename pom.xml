@@ -24,9 +24,7 @@
 
     <version.jackson>2.17.2</version.jackson>
     <version.junit.jupiter>5.10.1</version.junit.jupiter>
-    <version.log4j>1.2.17</version.log4j>
     <version.mysql>8.0.30</version.mysql>
-    <version.slf4j>2.0.9</version.slf4j>
     <version.telegram>6.3.0</version.telegram>
     <version.tikxml>0.8.13</version.tikxml>
   </properties>
@@ -107,14 +105,19 @@
 
     <!-- logging -->
     <dependency>
-      <groupId>org.slf4j</groupId>
-      <artifactId>slf4j-reload4j</artifactId>
-      <version>${version.slf4j}</version>
+      <groupId>ch.qos.logback</groupId>
+      <artifactId>logback-classic</artifactId>
+      <version>1.5.13</version>
     </dependency>
     <dependency>
-      <groupId>log4j</groupId>
-      <artifactId>log4j</artifactId>
-      <version>${version.log4j}</version>
+      <groupId>ch.qos.logback</groupId>
+      <artifactId>logback-core</artifactId>
+      <version>1.5.13</version>
+    </dependency>
+    <dependency>
+      <groupId>org.slf4j</groupId>
+      <artifactId>slf4j-api</artifactId>
+      <version>2.0.17</version>
     </dependency>
 
     <!-- testing -->

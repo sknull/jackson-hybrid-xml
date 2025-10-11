@@ -5,10 +5,10 @@
     <link>https://www.heise.de/</link>
     <description>Nachrichten nicht nur aus der Welt der Computer</description>
     <language>de</language>
-    <lastBuildDate>Sun, 03 May 2020 19:52:00 +0200</lastBuildDate>
+    <lastBuildDate>2020-05-03T19:52:00+02:00</lastBuildDate>
     <item>
       <guid isPermaLink="true">https://techstage.de/-4713443</guid>
-      <pubDate>Sun, 03 May 2020 19:52:00 +0200</pubDate>
+      <pubDate>2020-05-03T19:52:00+02:00</pubDate>
       <content>
         <html>
           <p><a href="https://www.techstage.de/news/Samsung-Galaxy-A71-Das-bessere-A51-im-Test-4713443.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag"><img src="https://www.heise.de/scale/geometry/450/q80//imgs/18/2/8/8/8/5/4/8/A71_Dachbild-b7b874655b630416.jpeg" class="webfeedsFeaturedVisual" alt="" /></a></p>
@@ -25,7 +25,7 @@
     </item>
     <item>
       <guid isPermaLink="true">https://techstage.de/-4713439</guid>
-      <pubDate>Sun, 03 May 2020 19:20:00 +0200</pubDate>
+      <pubDate>2020-05-03T19:20:00+02:00</pubDate>
       <content>
         <html>
           <p><a href="https://www.techstage.de/news/Actioncams-von-30-bis-ueber-400-Euro-Was-ist-wirklich-noetig-4713439.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag"><img src="https://www.heise.de/scale/geometry/450/q80//imgs/18/2/8/8/8/5/7/7/acs_dach-65caa93ef544f983.jpeg" class="webfeedsFeaturedVisual" alt="" /></a></p>
@@ -42,7 +42,7 @@
     </item>
     <item>
       <guid isPermaLink="true">http://heise.de/-4713485</guid>
-      <pubDate>Sun, 03 May 2020 16:52:00 +0200</pubDate>
+      <pubDate>2020-05-03T16:52:00+02:00</pubDate>
       <content>
         <html>
           <p><a href="https://www.heise.de/newsticker/meldung/Experten-Smartphone-Verkaeufe-fielen-in-Corona-Krise-um-17-Prozent-4713485.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag"><img src="https://www.heise.de/scale/geometry/450/q80//imgs/18/2/8/8/8/5/5/9/shutterstock_1396636169-f1a1648a3b196426.jpeg" class="webfeedsFeaturedVisual" alt="" /></a></p>
@@ -59,7 +59,7 @@
     </item>
     <item>
       <guid isPermaLink="true">http://heise.de/-4713482</guid>
-      <pubDate>Sun, 03 May 2020 16:20:00 +0200</pubDate>
+      <pubDate>2020-05-03T16:20:00+02:00</pubDate>
       <content>
         <html>
           <p><a href="https://www.heise.de/newsticker/meldung/Brandenburg-Schneller-surfen-5G-Mobilfunk-breitet-sich-aus-4713482.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag"><img src="https://www.heise.de/scale/geometry/450/q80//imgs/18/2/8/8/8/5/5/6/shutterstock_1291282390-6ca5903a24851f42.jpeg" class="webfeedsFeaturedVisual" alt="" /></a></p>
@@ -76,7 +76,7 @@
     </item>
     <item>
       <guid isPermaLink="true">http://heise.de/-4407315</guid>
-      <pubDate>Sun, 03 May 2020 14:00:00 +0200</pubDate>
+      <pubDate>2020-05-03T14:00:00+02:00</pubDate>
       <content>
         <html>
           <p><a href="https://www.heise.de/ratgeber/Selbstgebautes-Platinen-Bohrsystem-mit-Raspberry-Pi-und-Arduino-vorgestellt-4407315.html?wt_mc=rss.red.ho.ho.rdf.beitrag_plus.beitrag_plus"><img src="https://www.heise.de/scale/geometry/450/q80//imgs/02/2/6/6/7/6/9/8/image-1523255346375621-c1b986e64d7e38c2.jpeg" class="webfeedsFeaturedVisual" alt="" /></a></p>
@@ -93,7 +93,7 @@
     </item>
     <item>
       <guid isPermaLink="true">http://heise.de/-4713428</guid>
-      <pubDate>Sun, 03 May 2020 13:49:00 +0200</pubDate>
+      <pubDate>2020-05-03T13:49:00+02:00</pubDate>
       <content>
         <html>
           <p><a href="https://www.heise.de/newsticker/meldung/Bericht-Xiaomi-Smartphones-spionieren-ihre-Benutzer-aus-4713428.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag"><img src="https://www.heise.de/scale/geometry/450/q80//imgs/18/2/8/8/8/5/1/4/shutterstock_273128801-354729d197388c56.jpeg" class="webfeedsFeaturedVisual" alt="" /></a></p>
@@ -110,7 +110,7 @@
     </item>
     <item>
       <guid isPermaLink="true">http://heise.de/-4713435</guid>
-      <pubDate>Sun, 03 May 2020 13:18:00 +0200</pubDate>
+      <pubDate>2020-05-03T13:18:00+02:00</pubDate>
       <content>
         <html>
           <p><a href="https://www.heise.de/newsticker/meldung/Das-Ruhrgebiet-wird-zur-Startup-Szene-4713435.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag"><img src="https://www.heise.de/scale/geometry/450/q80//imgs/18/2/8/8/8/5/2/1/shutterstock_790043191-d70e01b14250b411.jpeg" class="webfeedsFeaturedVisual" alt="" /></a></p>
@@ -127,7 +127,7 @@
     </item>
     <item>
       <guid isPermaLink="true">http://heise.de/-4713419</guid>
-      <pubDate>Sun, 03 May 2020 11:30:00 +0200</pubDate>
+      <pubDate>2020-05-03T11:30:00+02:00</pubDate>
       <content>
         <html>
           <p><a href="https://www.heise.de/newsticker/meldung/Mit-Tablet-und-Drohne-Winzer-machen-sich-digitale-Technik-zunutze-4713419.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag"><img src="https://www.heise.de/scale/geometry/450/q80//imgs/18/2/8/8/8/5/0/5/shutterstock_1720013638-50e3db4927d82eed.jpeg" class="webfeedsFeaturedVisual" alt="" /></a></p>
@@ -144,7 +144,7 @@
     </item>
     <item>
       <guid isPermaLink="true">http://heise.de/-4713414</guid>
-      <pubDate>Sun, 03 May 2020 11:12:00 +0200</pubDate>
+      <pubDate>2020-05-03T11:12:00+02:00</pubDate>
       <content>
         <html>
           <p><a href="https://www.heise.de/newsticker/meldung/Tag-der-Pressefreiheit-Europa-als-Schlachtfeld-der-freien-Meinungsaeusserung-4713414.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag"><img src="https://www.heise.de/scale/geometry/450/q80//imgs/18/2/8/8/8/5/0/0/shutterstock_424107595-1a5a100ad6a6b31d.jpeg" class="webfeedsFeaturedVisual" alt="" /></a></p>
@@ -161,7 +161,7 @@
     </item>
     <item>
       <guid isPermaLink="true">http://heise.de/-4590024</guid>
-      <pubDate>Sun, 03 May 2020 10:00:00 +0200</pubDate>
+      <pubDate>2020-05-03T10:00:00+02:00</pubDate>
       <content>
         <html>
           <p><a href="https://www.heise.de/tests/FIDO2-Sicherheitsschluessel-zum-Einloggen-mit-und-ohne-Passwort-4590024.html?wt_mc=rss.red.ho.ho.rdf.beitrag_plus.beitrag_plus"><img src="https://www.heise.de/scale/geometry/450/q80//imgs/02/2/7/9/1/0/7/7/image-1574147540958437-17c8f81cb18f3c8e.jpeg" class="webfeedsFeaturedVisual" alt="" /></a></p>
@@ -178,7 +178,7 @@
     </item>
     <item>
       <guid isPermaLink="true">http://heise.de/-4707011</guid>
-      <pubDate>Sun, 03 May 2020 08:05:00 +0200</pubDate>
+      <pubDate>2020-05-03T08:05:00+02:00</pubDate>
       <content>
         <html>
           <p><a href="https://www.heise.de/newsticker/meldung/Missing-Link-Es-braeuchte-einen-Aufstand-gegen-die-Smartphone-Epidemie-4707011.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag"><img src="https://www.heise.de/scale/geometry/450/q80//imgs/18/2/8/8/2/7/1/8/shutterstock_1389008027-f0207099fe04c2d7.jpeg" class="webfeedsFeaturedVisual" alt="" /></a></p>
@@ -195,7 +195,7 @@
     </item>
     <item>
       <guid isPermaLink="true">http://heise.de/-4713378</guid>
-      <pubDate>Sun, 03 May 2020 00:09:00 +0200</pubDate>
+      <pubDate>2020-05-03T00:09:00+02:00</pubDate>
       <content>
         <html>
           <p><a href="https://www.heise.de/newsticker/meldung/Was-war-Was-wird-Wenn-nicht-nur-die-Baeume-ausschlagen-4713378.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag"><img src="https://www.heise.de/scale/geometry/450/q80//imgs/18/2/8/8/8/4/6/4/Fritz_KampftagDerArbeiterklasse-76240e2d7f636765.jpeg" class="webfeedsFeaturedVisual" alt="" /></a></p>
@@ -212,7 +212,7 @@
     </item>
     <item>
       <guid isPermaLink="true">https://techstage.de/-4713141</guid>
-      <pubDate>Sat, 02 May 2020 18:06:00 +0200</pubDate>
+      <pubDate>2020-05-02T18:06:00+02:00</pubDate>
       <content>
         <html>
           <p><a href="https://www.techstage.de/news/Netgear-Nighthawk-RAX80-Router-mit-Wifi-6-im-Test-4713141.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag"><img src="https://www.heise.de/scale/geometry/450/q80//imgs/18/2/8/8/8/4/0/8/Netgear_RAX80_ho-94676b69d55dfeb6.png" class="webfeedsFeaturedVisual" alt="" /></a></p>
@@ -229,7 +229,7 @@
     </item>
     <item>
       <guid isPermaLink="true">http://heise.de/-4713372</guid>
-      <pubDate>Sat, 02 May 2020 17:43:00 +0200</pubDate>
+      <pubDate>2020-05-02T17:43:00+02:00</pubDate>
       <content>
         <html>
           <p><a href="https://www.heise.de/newsticker/meldung/Mail-vom-falschen-Chef-4713372.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag"><img src="https://www.heise.de/scale/geometry/450/q80//imgs/18/2/8/8/8/4/5/8/shutterstock_1038184249-c02c548e22980eec.jpeg" class="webfeedsFeaturedVisual" alt="" /></a></p>
@@ -246,7 +246,7 @@
     </item>
     <item>
       <guid isPermaLink="true">http://heise.de/-4713366</guid>
-      <pubDate>Sat, 02 May 2020 16:22:00 +0200</pubDate>
+      <pubDate>2020-05-02T16:22:00+02:00</pubDate>
       <content>
         <html>
           <p><a href="https://www.heise.de/newsticker/meldung/Wirtschaft-fordert-Lockerungen-bei-Datenschutzverordnung-wegen-Coronakrise-4713366.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag"><img src="https://www.heise.de/scale/geometry/450/q80//imgs/18/2/8/8/8/4/5/2/shutterstock_1132528373-35b67f8e2d0067ab.jpeg" class="webfeedsFeaturedVisual" alt="" /></a></p>
@@ -263,7 +263,7 @@
     </item>
     <item>
       <guid isPermaLink="true">http://heise.de/-4713352</guid>
-      <pubDate>Sat, 02 May 2020 15:40:00 +0200</pubDate>
+      <pubDate>2020-05-02T15:40:00+02:00</pubDate>
       <content>
         <html>
           <p><a href="https://www.heise.de/newsticker/meldung/Boeing-treibt-25-Milliarden-Dollar-auf-keine-Staatshilfen-4713352.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag"><img src="https://www.heise.de/scale/geometry/450/q80//imgs/18/2/8/8/8/4/3/8/179451196_f42bb27104-f49a76fddbaac8ad.jpeg" class="webfeedsFeaturedVisual" alt="" /></a></p>
@@ -280,7 +280,7 @@
     </item>
     <item>
       <guid isPermaLink="true">http://heise.de/-4713355</guid>
-      <pubDate>Sat, 02 May 2020 15:05:00 +0200</pubDate>
+      <pubDate>2020-05-02T15:05:00+02:00</pubDate>
       <content>
         <html>
           <p><a href="https://www.heise.de/newsticker/meldung/Corona-Lagebild-Hessen-verwirft-Entscheidung-fuer-Palantir-Software-4713355.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag"><img src="https://www.heise.de/scale/geometry/450/q80//imgs/18/2/8/8/8/4/4/1/shutterstock_1411294787-5d2f0944107a7aea.jpeg" class="webfeedsFeaturedVisual" alt="" /></a></p>
@@ -297,7 +297,7 @@
     </item>
     <item>
       <guid isPermaLink="true">http://heise.de/-4713335</guid>
-      <pubDate>Sat, 02 May 2020 14:01:00 +0200</pubDate>
+      <pubDate>2020-05-02T14:01:00+02:00</pubDate>
       <content>
         <html>
           <p><a href="https://www.heise.de/newsticker/meldung/Schneller-5G-Mobilfunk-Empfang-auf-dem-hoechsten-Berg-der-Erde-4713335.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag"><img src="https://www.heise.de/scale/geometry/450/q80//imgs/18/2/8/8/8/4/2/1/xBildschirmfoto_2020-05-02_um_13-58c1c034290e4564.jpeg" class="webfeedsFeaturedVisual" alt="" /></a></p>
@@ -314,7 +314,7 @@
     </item>
     <item>
       <guid isPermaLink="true">http://heise.de/-4699500</guid>
-      <pubDate>Sat, 02 May 2020 14:00:00 +0200</pubDate>
+      <pubDate>2020-05-02T14:00:00+02:00</pubDate>
       <content>
         <html>
           <p><a href="https://www.heise.de/ratgeber/Der-richtige-Lichtschalter-fuers-Smart-Home-4699500.html?wt_mc=rss.red.ho.ho.rdf.beitrag_plus.beitrag_plus"><img src="https://www.heise.de/scale/geometry/450/q80//imgs/02/2/8/7/6/0/9/6/Titelbild-Lichtschalter-Smart-Home-eccfa71b668b1677.jpeg" class="webfeedsFeaturedVisual" alt="" /></a></p>
@@ -331,7 +331,7 @@
     </item>
     <item>
       <guid isPermaLink="true">http://heise.de/-4713291</guid>
-      <pubDate>Sat, 02 May 2020 12:50:00 +0200</pubDate>
+      <pubDate>2020-05-02T12:50:00+02:00</pubDate>
       <content>
         <html>
           <p><a href="https://www.heise.de/newsticker/meldung/GPS-Der-magische-Kompass-mit-eingebauer-Ungenauigkeit-4713291.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag"><img src="https://www.heise.de/scale/geometry/450/q80//imgs/18/2/8/8/8/3/7/7/Cockpit_GPS_Pilot_Flugzeug_Cessna-46d665eb869249b5.jpeg" class="webfeedsFeaturedVisual" alt="" /></a></p>
@@ -348,7 +348,7 @@
     </item>
     <item>
       <guid isPermaLink="true">http://heise.de/-4713293</guid>
-      <pubDate>Sat, 02 May 2020 11:58:00 +0200</pubDate>
+      <pubDate>2020-05-02T11:58:00+02:00</pubDate>
       <content>
         <html>
           <p><a href="https://www.heise.de/newsticker/meldung/Politiker-fordern-Videokonferenz-Systeme-fuer-Schulen-und-Pflegeheime-4713293.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag"><img src="https://www.heise.de/scale/geometry/450/q80//imgs/18/2/8/8/8/3/7/9/shutterstock_1390309433-d32b36e5f5ad3e20.jpeg" class="webfeedsFeaturedVisual" alt="" /></a></p>
@@ -365,7 +365,7 @@
     </item>
     <item>
       <guid isPermaLink="true">http://heise.de/-4713289</guid>
-      <pubDate>Sat, 02 May 2020 11:24:00 +0200</pubDate>
+      <pubDate>2020-05-02T11:24:00+02:00</pubDate>
       <content>
         <html>
           <p><a href="https://www.heise.de/newsticker/meldung/Paketzustellung-Kunden-muessen-wegen-Schutzmassnahmen-laenger-warten-4713289.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag"><img src="https://www.heise.de/scale/geometry/450/q80//imgs/18/2/8/8/8/3/7/5/shutterstock_375286210-b86694076c0c4b33-343d7bb7197bd75b.jpeg" class="webfeedsFeaturedVisual" alt="" /></a></p>
@@ -382,7 +382,7 @@
     </item>
     <item>
       <guid isPermaLink="true">http://heise.de/-4713241</guid>
-      <pubDate>Sat, 02 May 2020 10:45:00 +0200</pubDate>
+      <pubDate>2020-05-02T10:45:00+02:00</pubDate>
       <content>
         <html>
           <p><a href="https://www.heise.de/developer/artikel/PowerShell-7-Mehrere-Zufallszahlen-erzeugen-4713241.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag"><img src="https://www.heise.de/scale/geometry/450/q80//imgs/18/2/8/8/8/3/5/0/shutterstock_1156249783-4b012b552050a914.jpeg" class="webfeedsFeaturedVisual" alt="" /></a></p>
@@ -399,7 +399,7 @@
     </item>
     <item>
       <guid isPermaLink="true">http://heise.de/-4713255</guid>
-      <pubDate>Sat, 02 May 2020 10:24:00 +0200</pubDate>
+      <pubDate>2020-05-02T10:24:00+02:00</pubDate>
       <content>
         <html>
           <p><a href="https://www.heise.de/newsticker/meldung/Corona-Immunitaet-Bundesdatenschutzbeauftragter-lehnt-Impfpass-App-ab-4713255.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag"><img src="https://www.heise.de/scale/geometry/450/q80//imgs/18/2/8/8/8/3/4/1/Coronavirus-5eacb283301c6c18.jpeg" class="webfeedsFeaturedVisual" alt="" /></a></p>
@@ -416,7 +416,7 @@
     </item>
     <item>
       <guid isPermaLink="true">http://heise.de/-4712093</guid>
-      <pubDate>Sat, 02 May 2020 10:00:00 +0200</pubDate>
+      <pubDate>2020-05-02T10:00:00+02:00</pubDate>
       <content>
         <html>
           <p><a href="https://www.heise.de/tests/Fitness-Apps-fuer-Apple-Watch-und-iPhone-Loslegen-4712093.html?wt_mc=rss.red.ho.ho.rdf.beitrag_plus.beitrag_plus"><img src="https://www.heise.de/scale/geometry/450/q80//imgs/02/2/8/8/7/2/5/2/image-1585221104264281-ebbe9b52d1fe69a2.jpeg" class="webfeedsFeaturedVisual" alt="" /></a></p>
@@ -433,7 +433,7 @@
     </item>
     <item>
       <guid isPermaLink="true">http://heise.de/-4712182</guid>
-      <pubDate>Sat, 02 May 2020 08:39:00 +0200</pubDate>
+      <pubDate>2020-05-02T08:39:00+02:00</pubDate>
       <content>
         <html>
           <p><a href="https://www.heise.de/foto/meldung/Fantastische-Welten-Die-Bilder-des-Tages-KW-18-4712182.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag"><img src="https://www.heise.de/scale/geometry/450/q80//imgs/18/2/8/8/7/3/3/8/0501_Ein-sonniger-Tag-a2c4a2abee9b0816.jpeg" class="webfeedsFeaturedVisual" alt="" /></a></p>
@@ -449,7 +449,7 @@
     </item>
     <item>
       <guid isPermaLink="true">http://heise.de/-4712727</guid>
-      <pubDate>Sat, 02 May 2020 07:56:00 +0200</pubDate>
+      <pubDate>2020-05-02T07:56:00+02:00</pubDate>
       <content>
         <html>
           <p><a href="https://www.heise.de/ix/meldung/Videokonferenzen-Hilfestellungen-zum-datenschutzkonformen-Betrieb-4712727.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag"><img src="https://www.heise.de/scale/geometry/450/q80//imgs/18/2/8/8/7/8/1/5/rgb_ct0810Videofon1_64385-akr-A-083dbb4b3b96ef75.jpeg" class="webfeedsFeaturedVisual" alt="" /></a></p>
@@ -466,7 +466,7 @@
     </item>
     <item>
       <guid isPermaLink="true">https://techstage.de/-4712443</guid>
-      <pubDate>Fri, 01 May 2020 19:22:00 +0200</pubDate>
+      <pubDate>2020-05-01T19:22:00+02:00</pubDate>
       <content>
         <html>
           <p><a href="https://www.techstage.de/news/Fitbit-Charge-4-im-Test-Fitness-Tracker-mit-GPS-4712443.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag"><img src="https://www.heise.de/scale/geometry/450/q80//imgs/18/2/8/8/8/2/4/1/Fitbit_Charge_4_ho-b273e699b265d84d.png" class="webfeedsFeaturedVisual" alt="" /></a></p>
@@ -483,7 +483,7 @@
     </item>
     <item>
       <guid isPermaLink="true">https://techstage.de/-4712546</guid>
-      <pubDate>Fri, 01 May 2020 19:17:00 +0200</pubDate>
+      <pubDate>2020-05-01T19:17:00+02:00</pubDate>
       <content>
         <html>
           <p><a href="https://www.techstage.de/news/iPhone-SE-2020-Zubehoer-Gut-muss-nicht-teuer-sein-4712546.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag"><img src="https://www.heise.de/scale/geometry/450/q80//imgs/18/2/8/8/8/2/3/7/iphone_se_zubehoer_DB-0d0d9b95ab48983a.jpeg" class="webfeedsFeaturedVisual" alt="" /></a></p>
@@ -500,7 +500,7 @@
     </item>
     <item>
       <guid isPermaLink="true">http://heise.de/-4713193</guid>
-      <pubDate>Fri, 01 May 2020 18:04:00 +0200</pubDate>
+      <pubDate>2020-05-01T18:04:00+02:00</pubDate>
       <content>
         <html>
           <p><a href="https://www.heise.de/newsticker/meldung/Corona-Pandemie-Bahn-braucht-acht-bis-zehn-Milliarden-Euro-4713193.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag"><img src="https://www.heise.de/scale/geometry/450/q80//imgs/18/2/8/8/8/2/7/9/bahn-d80f34649c4b7777.jpeg" class="webfeedsFeaturedVisual" alt="" /></a></p>
@@ -517,7 +517,7 @@
     </item>
     <item>
       <guid isPermaLink="true">http://heise.de/-4713190</guid>
-      <pubDate>Fri, 01 May 2020 17:56:00 +0200</pubDate>
+      <pubDate>2020-05-01T17:56:00+02:00</pubDate>
       <content>
         <html>
           <p><a href="https://www.heise.de/newsticker/meldung/NASA-beauftragt-Bezos-und-Musk-Unternehmen-mit-Mondlandefaehre-4713190.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag"><img src="https://www.heise.de/scale/geometry/450/q80//imgs/18/2/8/8/8/2/7/6/nasa-dynetics-moon-artemis-lunar-lander-design-eb6693b1a1ae5542.jpeg" class="webfeedsFeaturedVisual" alt="" /></a></p>
@@ -534,7 +534,7 @@
     </item>
     <item>
       <guid isPermaLink="true">http://heise.de/-4713180</guid>
-      <pubDate>Fri, 01 May 2020 17:38:00 +0200</pubDate>
+      <pubDate>2020-05-01T17:38:00+02:00</pubDate>
       <content>
         <html>
           <p><a href="https://www.heise.de/newsticker/meldung/BMW-startet-Software-Upgrade-per-Download-fuer-500-000-Fahrzeuge-4713180.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag"><img src="https://www.heise.de/scale/geometry/450/q80//imgs/18/2/8/8/8/2/6/7/shutterstock_1024271563-03dd7aadfa38c878.jpeg" class="webfeedsFeaturedVisual" alt="" /></a></p>
@@ -551,7 +551,7 @@
     </item>
     <item>
       <guid isPermaLink="true">http://heise.de/-4713172</guid>
-      <pubDate>Fri, 01 May 2020 16:12:00 +0200</pubDate>
+      <pubDate>2020-05-01T16:12:00+02:00</pubDate>
       <content>
         <html>
           <p><a href="https://www.heise.de/newsticker/meldung/Staatshilfe-Gespraeche-bei-Lufthansa-Piloten-bieten-Gehaltsverzicht-4713172.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag"><img src="https://www.heise.de/scale/geometry/450/q80//imgs/18/2/8/8/8/2/5/9/Lufthansa-aba79b67874df5a5.jpeg" class="webfeedsFeaturedVisual" alt="" /></a></p>
@@ -568,7 +568,7 @@
     </item>
     <item>
       <guid isPermaLink="true">http://heise.de/-4713167</guid>
-      <pubDate>Fri, 01 May 2020 16:10:00 +0200</pubDate>
+      <pubDate>2020-05-01T16:10:00+02:00</pubDate>
       <content>
         <html>
           <p><a href="https://www.heise.de/newsticker/meldung/Raspberry-Pi-Kamera-mit-12-Megapixeln-und-Objektivanschluss-4713167.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag"><img src="https://www.heise.de/scale/geometry/450/q80//imgs/18/2/8/8/8/2/5/4/FULL-KIT-1-scaled-5e5dd37f10de808b.jpeg" class="webfeedsFeaturedVisual" alt="" /></a></p>
@@ -585,7 +585,7 @@
     </item>
     <item>
       <guid isPermaLink="true">http://heise.de/-4713108</guid>
-      <pubDate>Fri, 01 May 2020 15:23:00 +0200</pubDate>
+      <pubDate>2020-05-01T15:23:00+02:00</pubDate>
       <content>
         <html>
           <p><a href="https://www.heise.de/newsticker/meldung/Nach-anhaltender-Kritik-ICANN-stoppt-Verkauf-der-org-Registry-an-Ethos-Capital-4713108.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag"><img src="https://www.heise.de/scale/geometry/450/q80//imgs/18/2/8/8/8/1/9/5/shutterstock_1089991652-90df5c594447fdc1-221f6d69bdd54147.jpeg" class="webfeedsFeaturedVisual" alt="" /></a></p>
@@ -602,7 +602,7 @@
     </item>
     <item>
       <guid isPermaLink="true">http://heise.de/-4708890</guid>
-      <pubDate>Fri, 01 May 2020 14:00:00 +0200</pubDate>
+      <pubDate>2020-05-01T14:00:00+02:00</pubDate>
       <content>
         <html>
           <p><a href="https://www.heise.de/ratgeber/Den-400fach-CD-Wechsler-Sony-CDP-CX450-flott-machen-4708890.html?wt_mc=rss.red.ho.ho.rdf.beitrag_plus.beitrag_plus"><img src="https://www.heise.de/scale/geometry/450/q80//imgs/02/2/8/8/4/3/6/9/image-1581672544443685-56a73938a881b8f9.jpeg" class="webfeedsFeaturedVisual" alt="" /></a></p>
@@ -619,7 +619,7 @@
     </item>
     <item>
       <guid isPermaLink="true">http://heise.de/-4713156</guid>
-      <pubDate>Fri, 01 May 2020 13:59:00 +0200</pubDate>
+      <pubDate>2020-05-01T13:59:00+02:00</pubDate>
       <content>
         <html>
           <p><a href="https://www.heise.de/newsticker/meldung/GVU-Insolvenz-Die-Piratenjaeger-sind-pleite-4713156.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag"><img src="https://www.heise.de/scale/geometry/450/q80//imgs/18/2/8/8/8/2/4/3/shutterstock_1715549293-156621ced14375c9.jpeg" class="webfeedsFeaturedVisual" alt="" /></a></p>
@@ -636,7 +636,7 @@
     </item>
     <item>
       <guid isPermaLink="true">http://heise.de/-4713133</guid>
-      <pubDate>Fri, 01 May 2020 13:31:00 +0200</pubDate>
+      <pubDate>2020-05-01T13:31:00+02:00</pubDate>
       <content>
         <html>
           <p><a href="https://www.heise.de/newsticker/meldung/Microsoft-veroeffentlicht-PowerToys-0-17-4713133.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag"><img src="https://www.heise.de/scale/geometry/450/q80//imgs/18/2/8/8/8/2/2/0/powertoys-1_1-1-30-275d03f2510824f0.jpeg" class="webfeedsFeaturedVisual" alt="" /></a></p>
@@ -653,7 +653,7 @@
     </item>
     <item>
       <guid isPermaLink="true">http://heise.de/-4713128</guid>
-      <pubDate>Fri, 01 May 2020 12:55:00 +0200</pubDate>
+      <pubDate>2020-05-01T12:55:00+02:00</pubDate>
       <content>
         <html>
           <p><a href="https://www.heise.de/newsticker/meldung/Twitter-mit-Quartalsverlust-in-Corona-Krise-4713128.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag"><img src="https://www.heise.de/scale/geometry/450/q80//imgs/18/2/8/8/8/2/1/5/shutterstock_1451740445-494df388e2367458.jpeg" class="webfeedsFeaturedVisual" alt="" /></a></p>
@@ -670,7 +670,7 @@
     </item>
     <item>
       <guid isPermaLink="true">http://heise.de/-4713114</guid>
-      <pubDate>Fri, 01 May 2020 12:02:00 +0200</pubDate>
+      <pubDate>2020-05-01T12:02:00+02:00</pubDate>
       <content>
         <html>
           <p><a href="https://www.heise.de/newsticker/meldung/Corona-Tracing-Apps-Freiwilligkeit-bedeutet-nicht-Freiwilligkeit-4713114.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag"><img src="https://www.heise.de/scale/geometry/450/q80//imgs/18/2/8/8/8/2/0/1/Corona-App-2035bab4ff6fe555.jpeg" class="webfeedsFeaturedVisual" alt="" /></a></p>
@@ -687,7 +687,7 @@
     </item>
     <item>
       <guid isPermaLink="true">http://heise.de/-4712610</guid>
-      <pubDate>Fri, 01 May 2020 11:47:00 +0200</pubDate>
+      <pubDate>2020-05-01T11:47:00+02:00</pubDate>
       <content>
         <html>
           <p><a href="https://www.heise.de/newsticker/meldung/TGIQF-Das-XCOM-Quiz-4712610.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag"><img src="https://www.heise.de/scale/geometry/450/q80//imgs/18/2/8/8/7/7/0/3/X-Com_TGIQF2-a2d904015fe5413f.jpeg" class="webfeedsFeaturedVisual" alt="" /></a></p>
@@ -704,7 +704,7 @@
     </item>
     <item>
       <guid isPermaLink="true">http://heise.de/-4682406</guid>
-      <pubDate>Fri, 01 May 2020 10:00:00 +0200</pubDate>
+      <pubDate>2020-05-01T10:00:00+02:00</pubDate>
       <content>
         <html>
           <p><a href="https://www.heise.de/hintergrund/Steuerrecht-IT-Fachleute-als-Freiberufler-oder-gewerbliche-Selbststaendige-4682406.html?wt_mc=rss.red.ho.ho.rdf.beitrag_plus.beitrag_plus"><img src="https://www.heise.de/scale/geometry/450/q80//imgs/02/2/8/6/1/6/5/9/ct0720recht_fre_thorsten_huebner_v2_107437_psz_-a0932a4cd4ed1741.jpeg" class="webfeedsFeaturedVisual" alt="" /></a></p>
@@ -721,7 +721,7 @@
     </item>
     <item>
       <guid isPermaLink="true">http://heise.de/-4712666</guid>
-      <pubDate>Fri, 01 May 2020 09:31:00 +0200</pubDate>
+      <pubDate>2020-05-01T09:31:00+02:00</pubDate>
       <content>
         <html>
           <p><a href="https://www.heise.de/ix/meldung/Genauer-Blick-aufs-Update-Was-Ubuntu-20-04-fuer-Server-bringt-4712666.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag"><img src="https://www.heise.de/scale/geometry/450/q80//imgs/18/2/8/8/7/7/5/8/focal_fossa-f9290a8daf604142.png" class="webfeedsFeaturedVisual" alt="" /></a></p>
@@ -738,7 +738,7 @@
     </item>
     <item>
       <guid isPermaLink="true">http://heise.de/-4712393</guid>
-      <pubDate>Fri, 01 May 2020 09:15:00 +0200</pubDate>
+      <pubDate>2020-05-01T09:15:00+02:00</pubDate>
       <content>
         <html>
           <p><a href="https://www.heise.de/newsticker/meldung/USA-Gesetze-duerfen-nicht-hinter-Paywall-versteckt-werden-4712393.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag"><img src="https://www.heise.de/scale/geometry/450/q80//imgs/18/2/8/8/7/5/1/7/Recht_USA-d693a2def82a7240.jpeg" class="webfeedsFeaturedVisual" alt="" /></a></p>
@@ -755,7 +755,7 @@
     </item>
     <item>
       <guid isPermaLink="true">http://heise.de/-4712708</guid>
-      <pubDate>Fri, 01 May 2020 09:00:00 +0200</pubDate>
+      <pubDate>2020-05-01T09:00:00+02:00</pubDate>
       <content>
         <html>
           <p><a href="https://www.heise.de/newsticker/meldung/IEA-Energieverbrauch-und-CO2-Ausstoss-sinken-weltweit-drastisch-4712708.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag"><img src="https://www.heise.de/scale/geometry/450/q80//imgs/18/2/8/8/7/7/9/6/shutterstock_722347258-d5a32c59369be01f.jpeg" class="webfeedsFeaturedVisual" alt="" /></a></p>
@@ -772,7 +772,7 @@
     </item>
     <item>
       <guid isPermaLink="true">http://heise.de/-4709283</guid>
-      <pubDate>Fri, 01 May 2020 08:47:00 +0200</pubDate>
+      <pubDate>2020-05-01T08:47:00+02:00</pubDate>
       <content>
         <html>
           <p><a href="https://www.heise.de/newsticker/meldung/Die-Highlights-bei-Netflix-Disney-und-Amazon-Prime-Video-im-Mai-2020-4709283.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag"><img src="https://www.heise.de/scale/geometry/450/q80//imgs/18/2/8/8/4/7/2/3/amazon-netflix-disney_-vorschau-aufmacher-2020-05-334e5065d182a29c.jpeg" class="webfeedsFeaturedVisual" alt="" /></a></p>
@@ -789,7 +789,7 @@
     </item>
     <item>
       <guid isPermaLink="true">http://heise.de/-4712560</guid>
-      <pubDate>Fri, 01 May 2020 08:30:00 +0200</pubDate>
+      <pubDate>2020-05-01T08:30:00+02:00</pubDate>
       <content>
         <html>
           <p><a href="https://www.heise.de/newsticker/meldung/Digitalwirtschaft-erwartet-Wachstumsschub-nach-Corona-Schock-4712560.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag"><img src="https://www.heise.de/scale/geometry/450/q80//imgs/18/2/8/8/7/6/5/7/shutterstock_735743386-6d528112ec61442d.jpeg" class="webfeedsFeaturedVisual" alt="" /></a></p>
@@ -806,7 +806,7 @@
     </item>
     <item>
       <guid isPermaLink="true">http://heise.de/-4712669</guid>
-      <pubDate>Fri, 01 May 2020 08:07:00 +0200</pubDate>
+      <pubDate>2020-05-01T08:07:00+02:00</pubDate>
       <content>
         <html>
           <p><a href="https://www.heise.de/ct/artikel/Retrogaming-Rundschau-Original-Emulation-FPGA-c-t-uplink-32-5-4712669.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag"><img src="https://www.heise.de/scale/geometry/450/q80//imgs/18/2/8/8/8/1/0/9/uplink_retro_snap2-9e0399e3f8fddde6.jpeg" class="webfeedsFeaturedVisual" alt="" /></a></p>
@@ -823,7 +823,7 @@
     </item>
     <item>
       <guid isPermaLink="true">http://heise.de/-4712676</guid>
-      <pubDate>Fri, 01 May 2020 08:00:00 +0200</pubDate>
+      <pubDate>2020-05-01T08:00:00+02:00</pubDate>
       <content>
         <html>
           <p><a href="https://www.heise.de/newsticker/meldung/Corona-Pandemie-Die-Mathematik-hinter-den-Reproduktionszahlen-R-4712676.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag"><img src="https://www.heise.de/scale/geometry/450/q80//imgs/18/2/8/8/7/7/6/8/Unbenannt-2-b416dbb94fabe31d.jpeg" class="webfeedsFeaturedVisual" alt="" /></a></p>
@@ -840,7 +840,7 @@
     </item>
     <item>
       <guid isPermaLink="true">http://heise.de/-4712565</guid>
-      <pubDate>Fri, 01 May 2020 07:33:00 +0200</pubDate>
+      <pubDate>2020-05-01T07:33:00+02:00</pubDate>
       <content>
         <html>
           <p><a href="https://www.heise.de/newsticker/meldung/Google-kuendigt-neue-Regeln-fuer-den-Chrome-Web-Store-an-4712565.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag"><img src="https://www.heise.de/scale/geometry/450/q80//imgs/18/2/8/8/7/6/6/2/shutterstock_517582159-23f8669d11b557a5.jpeg" class="webfeedsFeaturedVisual" alt="" /></a></p>
@@ -856,7 +856,7 @@
     </item>
     <item>
       <guid isPermaLink="true">http://heise.de/-4713058</guid>
-      <pubDate>Fri, 01 May 2020 04:07:00 +0200</pubDate>
+      <pubDate>2020-05-01T04:07:00+02:00</pubDate>
       <content>
         <html>
           <p><a href="https://www.heise.de/mac-and-i/meldung/Apple-trotzt-Coronakrise-mit-Abo-Diensten-und-Wearables-4713058.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag"><img src="https://www.heise.de/scale/geometry/450/q80//imgs/18/2/8/8/8/1/4/5/shutterstock_1301039230-d0467d95c284e706.jpeg" class="webfeedsFeaturedVisual" alt="" /></a></p>
@@ -873,7 +873,7 @@
     </item>
     <item>
       <guid isPermaLink="true">http://heise.de/-4713047</guid>
-      <pubDate>Fri, 01 May 2020 00:03:00 +0200</pubDate>
+      <pubDate>2020-05-01T00:03:00+02:00</pubDate>
       <content>
         <html>
           <p><a href="https://www.heise.de/newsticker/meldung/Amazon-Chef-warnt-Aktionaere-Setzen-Sie-sich-4713047.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag"><img src="https://www.heise.de/scale/geometry/450/q80//imgs/18/2/8/8/8/1/3/4/Jeff_Bezos_2019-dfc1fa2b95df8037.jpeg" class="webfeedsFeaturedVisual" alt="" /></a></p>
@@ -890,7 +890,7 @@
     </item>
     <item>
       <guid isPermaLink="true">http://heise.de/-4703868</guid>
-      <pubDate>Thu, 30 Apr 2020 20:00:00 +0200</pubDate>
+      <pubDate>2020-04-30T20:00:00+02:00</pubDate>
       <content>
         <html>
           <p><a href="https://www.heise.de/ratgeber/Fotografie-Mehrfachbelichtung-fuer-effektvolle-Naturaufnahmen-4703868.html?wt_mc=rss.red.ho.ho.rdf.beitrag_plus.beitrag_plus"><img src="https://www.heise.de/scale/geometry/450/q80//imgs/02/2/8/8/0/0/1/0/000_Mehrfachbelichtung-eb39dd0353965440.jpeg" class="webfeedsFeaturedVisual" alt="" /></a></p>
@@ -907,7 +907,7 @@
     </item>
     <item>
       <guid isPermaLink="true">https://techstage.de/-4712698</guid>
-      <pubDate>Thu, 30 Apr 2020 19:50:00 +0200</pubDate>
+      <pubDate>2020-04-30T19:50:00+02:00</pubDate>
       <content>
         <html>
           <p><a href="https://www.techstage.de/news/Honor-9X-Pro-im-Test-Kampfansage-mit-256-GByte-Speicher-4712698.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag"><img src="https://www.heise.de/scale/geometry/450/q80//imgs/18/2/8/8/7/8/3/9/9XP_Dachbild-76665170edf1c659.jpeg" class="webfeedsFeaturedVisual" alt="" /></a></p>
@@ -924,7 +924,7 @@
     </item>
     <item>
       <guid isPermaLink="true">http://heise.de/-4712689</guid>
-      <pubDate>Thu, 30 Apr 2020 19:17:00 +0200</pubDate>
+      <pubDate>2020-04-30T19:17:00+02:00</pubDate>
       <content>
         <html>
           <p><a href="https://www.heise.de/newsticker/meldung/AGESA-1-0-0-5-BIOS-Updates-fuer-AMDs-Ryzen-Prozessoren-4712689.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag"><img src="https://www.heise.de/scale/geometry/450/q80//imgs/18/2/8/8/7/7/8/1/Ryzen_Aufmacher_ct-f89da3ec46276153.jpeg" class="webfeedsFeaturedVisual" alt="" /></a></p>
@@ -941,7 +941,7 @@
     </item>
     <item>
       <guid isPermaLink="true">http://heise.de/-4712447</guid>
-      <pubDate>Thu, 30 Apr 2020 18:55:00 +0200</pubDate>
+      <pubDate>2020-04-30T18:55:00+02:00</pubDate>
       <content>
         <html>
           <p><a href="https://www.heise.de/newsticker/meldung/Kurz-informiert-NINA-Face-ID-Diesel-Skandal-Kurzarbeit-4712447.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag"><img src="https://www.heise.de/scale/geometry/450/q80//imgs/18/2/8/8/7/5/6/2/Einzelbild-a7fd841768968826.jpeg" class="webfeedsFeaturedVisual" alt="" /></a></p>
@@ -958,7 +958,7 @@
     </item>
     <item>
       <guid isPermaLink="true">https://techstage.de/-4711777</guid>
-      <pubDate>Thu, 30 Apr 2020 18:45:00 +0200</pubDate>
+      <pubDate>2020-04-30T18:45:00+02:00</pubDate>
       <content>
         <html>
           <p><a href="https://www.techstage.de/news/Smarte-Tuerschloesser-Beschlaege-mit-Fingerabdruckscanner-Co-4711777.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag"><img src="https://www.heise.de/scale/geometry/450/q80//imgs/18/2/8/8/7/8/0/2/smarte-tuer-169-1e7e1b477d266e17.jpeg" class="webfeedsFeaturedVisual" alt="" /></a></p>
@@ -975,7 +975,7 @@
     </item>
     <item>
       <guid isPermaLink="true">http://heise.de/-4712716</guid>
-      <pubDate>Thu, 30 Apr 2020 18:45:00 +0200</pubDate>
+      <pubDate>2020-04-30T18:45:00+02:00</pubDate>
       <content>
         <html>
           <p><a href="https://www.heise.de/mac-and-i/meldung/Google-Sicherheitsforscher-Apples-zentrales-Bild-Framework-schlecht-abgesichert-4712716.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag"><img src="https://www.heise.de/scale/geometry/450/q80//imgs/18/2/8/8/7/8/0/4/shutterstock_582843328-55bde4d45c529567.jpeg" class="webfeedsFeaturedVisual" alt="" /></a></p>
@@ -992,7 +992,7 @@
     </item>
     <item>
       <guid isPermaLink="true">http://heise.de/-4712956</guid>
-      <pubDate>Thu, 30 Apr 2020 18:44:00 +0200</pubDate>
+      <pubDate>2020-04-30T18:44:00+02:00</pubDate>
       <content>
         <html>
           <p><a href="https://www.heise.de/newsticker/meldung/Ueberwachung-BKA-und-Interpol-weiten-Einsatz-von-Gesichtserkennung-deutlich-aus-4712956.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag"><img src="https://www.heise.de/scale/geometry/450/q80//imgs/18/2/8/8/8/0/4/3/shutterstock_617131424-28becec2db3ab03a.jpeg" class="webfeedsFeaturedVisual" alt="" /></a></p>
@@ -1009,7 +1009,7 @@
     </item>
     <item>
       <guid isPermaLink="true">http://heise.de/-4712594</guid>
-      <pubDate>Thu, 30 Apr 2020 18:06:00 +0200</pubDate>
+      <pubDate>2020-04-30T18:06:00+02:00</pubDate>
       <content>
         <html>
           <p><a href="https://www.heise.de/newsticker/meldung/Folding-home-Team-Heise-Falter-in-Top-100-mit-den-zehntmeisten-Punkten-pro-Tag-4712594.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag"><img src="https://www.heise.de/scale/geometry/450/q80//imgs/18/2/8/8/7/6/8/7/08_1-480c3d4c43710c2f.jpeg" class="webfeedsFeaturedVisual" alt="" /></a></p>
@@ -1026,7 +1026,7 @@
     </item>
     <item>
       <guid isPermaLink="true">http://heise.de/-4712436</guid>
-      <pubDate>Thu, 30 Apr 2020 18:00:00 +0200</pubDate>
+      <pubDate>2020-04-30T18:00:00+02:00</pubDate>
       <content>
         <html>
           <p><a href="https://www.heise.de/tests/Sparfuchs-Edition-Apples-iPhone-SE-2020-im-Test-4712436.html?wt_mc=rss.red.ho.ho.rdf.beitrag_plus.beitrag_plus"><img src="https://www.heise.de/scale/geometry/450/q80//imgs/02/2/8/8/7/5/5/1/Bildschirmfoto_2020-04-30_um_13-7d4710cbe717bc02.png" class="webfeedsFeaturedVisual" alt="" /></a></p>
@@ -1043,7 +1043,7 @@
     </item>
     <item>
       <guid isPermaLink="true">http://heise.de/-4712753</guid>
-      <pubDate>Thu, 30 Apr 2020 17:51:00 +0200</pubDate>
+      <pubDate>2020-04-30T17:51:00+02:00</pubDate>
       <content>
         <html>
           <p><a href="https://www.heise.de/newsticker/meldung/Metall-auf-Metall-BGH-bleibt-im-Sampling-Streit-auf-EU-Linie-4712753.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag"><img src="https://www.heise.de/scale/geometry/450/q80//imgs/18/2/8/8/7/8/4/1/shutterstock_242921476-5973e8c442811c87.jpeg" class="webfeedsFeaturedVisual" alt="" /></a></p>
@@ -1060,7 +1060,7 @@
     </item>
     <item>
       <guid isPermaLink="true">http://heise.de/-4712641</guid>
-      <pubDate>Thu, 30 Apr 2020 17:39:00 +0200</pubDate>
+      <pubDate>2020-04-30T17:39:00+02:00</pubDate>
       <content>
         <html>
           <p><a href="https://www.heise.de/newsticker/meldung/Corona-Hilfe-vom-Staat-Milliardenkredit-fuer-Media-Saturn-Mutter-Ceconomy-4712641.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag"><img src="https://www.heise.de/scale/geometry/450/q80//imgs/18/2/8/8/7/7/3/4/Saturn-Fahnen-fa6f969927be19fb.jpeg" class="webfeedsFeaturedVisual" alt="" /></a></p>
@@ -1077,7 +1077,7 @@
     </item>
     <item>
       <guid isPermaLink="true">http://heise.de/-4712682</guid>
-      <pubDate>Thu, 30 Apr 2020 17:38:00 +0200</pubDate>
+      <pubDate>2020-04-30T17:38:00+02:00</pubDate>
       <content>
         <html>
           <p><a href="https://www.heise.de/newsticker/meldung/Fernseher-Traditionsmarke-Loewe-produziert-wieder-in-Kronach-4712682.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag"><img src="https://www.heise.de/scale/geometry/450/q80//imgs/18/2/8/8/7/7/7/4/UDxRW-NU-47a95569a0dbfe9a.png" class="webfeedsFeaturedVisual" alt="" /></a></p>
@@ -1094,7 +1094,7 @@
     </item>
     <item>
       <guid isPermaLink="true">http://heise.de/-4711911</guid>
-      <pubDate>Thu, 30 Apr 2020 09:27:00 +0200</pubDate>
+      <pubDate>2020-04-30T09:27:00+02:00</pubDate>
       <content>
         <html>
           <p><a href="https://www.heise.de/newsticker/meldung/Assassin-s-Creed-Valhalla-Die-Wikinger-kommen-4711911.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag"><img src="https://www.heise.de/scale/geometry/450/q80//imgs/18/2/8/8/7/0/7/2/ACV_screen_Announce_Iconic_England_Female_Eivor_200430_5pm_CET_Paris_Time_S-985f35d1a1d513be.jpeg" class="webfeedsFeaturedVisual" alt="" /></a></p>
@@ -1111,7 +1111,7 @@
     </item>
     <item>
       <guid isPermaLink="true">http://heise.de/-4706550</guid>
-      <pubDate>Thu, 30 Apr 2020 17:00:00 +0200</pubDate>
+      <pubDate>2020-04-30T17:00:00+02:00</pubDate>
       <content>
         <html>
           <p><a href="https://www.heise.de/ratgeber/Online-Fotogalerien-mit-der-kostenlosen-Web-Anwendung-Piwigo-erstellen-4706550.html?wt_mc=rss.red.ho.ho.rdf.beitrag_plus.beitrag_plus"><img src="https://www.heise.de/scale/geometry/450/q80//imgs/02/2/8/8/2/3/9/0/aufmacher_05-fdcaf2c814d745bb.jpeg" class="webfeedsFeaturedVisual" alt="" /></a></p>
@@ -1128,7 +1128,7 @@
     </item>
     <item>
       <guid isPermaLink="true">http://heise.de/-4712623</guid>
-      <pubDate>Thu, 30 Apr 2020 16:20:00 +0200</pubDate>
+      <pubDate>2020-04-30T16:20:00+02:00</pubDate>
       <content>
         <html>
           <p><a href="https://www.heise.de/ix/meldung/Windows-10-mit-Googles-G-Suite-verwalten-und-ueberwachen-4712623.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag"><img src="https://www.heise.de/scale/geometry/450/q80//imgs/18/2/8/8/7/7/1/6/g_suite_update-ca49ee58ad952342.png" class="webfeedsFeaturedVisual" alt="" /></a></p>
@@ -1145,7 +1145,7 @@
     </item>
     <item>
       <guid isPermaLink="true">http://heise.de/-4712509</guid>
-      <pubDate>Thu, 30 Apr 2020 15:37:00 +0200</pubDate>
+      <pubDate>2020-04-30T15:37:00+02:00</pubDate>
       <content>
         <html>
           <p><a href="https://www.heise.de/newsticker/meldung/Zoom-korrigiert-runter-Nicht-300-Millionen-Nutzer-sondern-Teilnehmer-4712509.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag"><img src="https://www.heise.de/scale/geometry/450/q80//imgs/18/2/8/8/7/6/2/0/shutterstock_1697045347-cfb643f4a5bf7d34.jpeg" class="webfeedsFeaturedVisual" alt="" /></a></p>
@@ -1162,7 +1162,7 @@
     </item>
     <item>
       <guid isPermaLink="true">http://heise.de/-4712627</guid>
-      <pubDate>Thu, 30 Apr 2020 15:21:00 +0200</pubDate>
+      <pubDate>2020-04-30T15:21:00+02:00</pubDate>
       <content>
         <html>
           <p><a href="https://www.heise.de/news/Verkehrsminister-Scheuer-fuer-Fiebermessungen-an-Flughaefen-4712627.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag"><img src="https://www.heise.de/scale/geometry/450/q80//imgs/18/2/8/8/7/7/2/0/024-a56e129426a22e7b-aa8d6cb1b1719af5.jpeg" class="webfeedsFeaturedVisual" alt="" /></a></p>

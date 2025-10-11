@@ -14,6 +14,7 @@ import com.fasterxml.jackson.datatype.jsr310.JavaTimeModule
 import com.fasterxml.jackson.module.kotlin.jacksonMapperBuilder
 import com.fasterxml.jackson.module.kotlin.kotlinModule
 import de.visualdigits.hybridxml.model.polymorphic.PolymorphicNode
+import de.visualdigits.hybridxml.module.deserializer.OffsetDateTimeDeserializer
 import de.visualdigits.hybridxml.module.deserializer.PolymorphicJsonNodeDeserializer
 import de.visualdigits.hybridxml.module.deserializer.PolymorphicXmlNodeDeserializer
 import de.visualdigits.hybridxml.module.serializer.ConfigurableSpacesIndenter
@@ -25,6 +26,8 @@ import java.io.InputStream
 import java.io.OutputStream
 import java.lang.reflect.ParameterizedType
 import java.lang.reflect.WildcardType
+import java.net.URI
+import java.time.OffsetDateTime
 
 /**
  * Base node for all nodes to be handled with this jackson module.
@@ -55,7 +58,7 @@ open class BaseNode<T : BaseNode<T>>(
                 .disable(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES)
                 .serializationInclusion(JsonInclude.Include.NON_EMPTY)
                 .addModule(kotlinModule())
-                .addModule(JavaTimeModule())
+                .addModule(JavaTimeModule().addDeserializer(OffsetDateTime::class.java, OffsetDateTimeDeserializer()))
                 .disable(ToXmlGenerator.Feature.WRITE_XML_DECLARATION)
                 .defaultUseWrapper(false)
 
@@ -119,6 +122,17 @@ open class BaseNode<T : BaseNode<T>>(
             noinline createNodeFunction: ((label: String?, element: Element?, node: PolymorphicNode<*>?, children: List<PolymorphicNode<*>>, text: String?) -> PolymorphicNode<*>?)? = null
         ): T {
             return readValue(file.readText(), createNodeFunction)
+        }
+
+        /**
+         * Deserializes the given url contents to an instance of the desired type.
+         */
+        inline fun <reified T : BaseNode<T>> readValue(
+            uri: URI,
+            noinline createNodeFunction: ((label: String?, element: Element?, node: PolymorphicNode<*>?, children: List<PolymorphicNode<*>>, text: String?) -> PolymorphicNode<*>?)? = null
+        ): T {
+            val rss = uri.toURL().readText()
+            return readValue(rss, createNodeFunction)
         }
 
         /**

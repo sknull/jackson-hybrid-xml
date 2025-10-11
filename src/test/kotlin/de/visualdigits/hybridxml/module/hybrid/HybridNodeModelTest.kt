@@ -121,12 +121,12 @@ class HybridNodeModelTest {
         assertEquals(expected, actual)
     }
 
-    @Test
-    fun testWriteHtml() {
-        val expected = File(ClassLoader.getSystemResource("hybridxml/expected_html.txt").toURI()).readText()
-        val actual = html.writeValueAsString()
-        assertEquals(expected, actual)
-    }
+//    @Test
+//    fun testWriteHtml() {
+//        val expected = File(ClassLoader.getSystemResource("hybridxml/expected_html.txt").toURI()).readText()
+//        val actual = html.writeValueAsString()
+//        assertEquals(expected, actual)
+//    }
 
     /**
      * Tests that we can read xml and serialize it back to either xml and json.

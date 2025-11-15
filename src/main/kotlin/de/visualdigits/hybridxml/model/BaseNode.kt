@@ -20,6 +20,7 @@ import de.visualdigits.hybridxml.module.deserializer.PolymorphicXmlNodeDeseriali
 import de.visualdigits.hybridxml.module.serializer.ConfigurableSpacesIndenter
 import de.visualdigits.hybridxml.module.serializer.PolymorphicJsonNodeSerializer
 import de.visualdigits.hybridxml.module.serializer.PolymorphicXmlNodeSerializer
+import org.apache.commons.text.StringEscapeUtils
 import org.jsoup.nodes.Element
 import java.io.File
 import java.io.InputStream
@@ -271,18 +272,18 @@ open class BaseNode<T : BaseNode<T>>(
         printer.indentObjectsWith(indenter)
         indent()
 
-        return xmlMapperBuilder(indentOutput, writeXmlDeclaration)
-            .addModule(SimpleModule()
-                .addSerializer(
-                    PolymorphicNode::class.java,
-                    PolymorphicXmlNodeSerializer(indentAmount, writeHtmlDeclaration)
-                )
+        val serializer = PolymorphicXmlNodeSerializer(indentAmount, writeHtmlDeclaration)
+        val xml = xmlMapperBuilder(indentOutput, writeXmlDeclaration)
+            .addModule(
+                SimpleModule()
+                    .addSerializer(PolymorphicNode::class.java, serializer)
             )
             .build()
             .writer(printer)
             .writeValueAsString(this)
             .replace("\r\n", "\n")
             .replace("\r", "\n")
+        return if (serializer.needsPreprocessing) StringEscapeUtils.unescapeXml(xml) else xml
     }
 
     /**
@@ -326,6 +327,7 @@ open class BaseNode<T : BaseNode<T>>(
      */
     open fun writeValueAsJsonString(
         indentOutput: Boolean = true,
+        dropRootNode: Boolean = false
     ): String {
         indent()
 
@@ -333,7 +335,7 @@ open class BaseNode<T : BaseNode<T>>(
             .addModule(SimpleModule()
                 .addSerializer(
                     PolymorphicNode::class.java,
-                    PolymorphicJsonNodeSerializer()
+                    PolymorphicJsonNodeSerializer(dropRootNode)
                 )
             )
             .build()

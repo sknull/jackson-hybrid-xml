@@ -1,6 +1,9 @@
-package de.visualdigits.hybridxml.model.rss
+package de.visualdigits.hybridxml.model.newsfeed.rss
 
+import com.fasterxml.jackson.dataformat.xml.annotation.JacksonXmlElementWrapper
+import com.fasterxml.jackson.dataformat.xml.annotation.JacksonXmlProperty
 import de.visualdigits.hybridxml.model.BaseNode
+import de.visualdigits.hybridxml.model.newsfeed.atom.Text
 import java.time.OffsetDateTime
 
 class Item(
@@ -8,9 +11,8 @@ class Item(
     val identifier: String? = null,
     val id: String? = null,
 
-    val itemDate: OffsetDateTime? = null,
-    val publishDate: OffsetDateTime? = null,
-    val pubDate: OffsetDateTime? = null,
+    val date: OffsetDateTime? = null, // first publish date time
+    val pubDate: OffsetDateTime? = null, // update date time or first publish date time when date is empty
 
     val about: String? = null,
     val type: String? = null,
@@ -30,7 +32,7 @@ class Item(
     val title: String? = null,
     val link: String? = null,
     val description: String? = null,
-    val category: String? = null,
+    @field:JacksonXmlElementWrapper(useWrapping = false) @JacksonXmlProperty(localName = "category") val categories: List<Text> = listOf(),
     val isPermaLink: Boolean? = null,
     val enclosure: Enclosure? = null,
     val images: List<Image> = listOf(),

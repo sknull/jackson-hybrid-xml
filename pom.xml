@@ -68,7 +68,17 @@
     <dependency>
       <groupId>org.jsoup</groupId>
       <artifactId>jsoup</artifactId>
-      <version>1.18.1</version>
+      <version>1.21.2</version>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.commons</groupId>
+      <artifactId>commons-text</artifactId>
+      <version>1.14.0</version>
+    </dependency>
+    <dependency>
+      <groupId>io.github.cdimascio</groupId>
+      <artifactId>essence</artifactId>
+      <version>0.13.0</version>
     </dependency>
 
     <!-- jackson -->
@@ -263,4 +273,39 @@
       </plugin>
     </plugins>
   </build>
+
+  <profiles>
+    <profile>
+      <id>github</id>
+      <repositories>
+        <repository>
+          <id>github</id>
+          <name>GitHub sknull Apache Maven Packages</name>
+          <url>https://maven.pkg.github.com/sknull/jaudiotagger</url>
+          <releases>
+            <enabled>true</enabled>
+          </releases>
+          <snapshots>
+            <enabled>true</enabled>
+          </snapshots>
+        </repository>
+        <repository>
+          <id>central</id>
+          <url>https://repo1.maven.org/maven2</url>
+          <releases>
+            <enabled>true</enabled>
+          </releases>
+          <snapshots>
+            <enabled>true</enabled>
+          </snapshots>
+        </repository>
+      </repositories>
+    </profile>
+  </profiles>
+
+  <scm>
+    <connection>scm:git@github.com:sknull/jackson-hybrid-xml.git</connection>
+    <developerConnection>scm:git@github.com:sknull/jackson-hybrid-xml.git</developerConnection>
+    <url>https://github.com/sknull/jackson-hybrid-xml</url>
+  </scm>
 </project>

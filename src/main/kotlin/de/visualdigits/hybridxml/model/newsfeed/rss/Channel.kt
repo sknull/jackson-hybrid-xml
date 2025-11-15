@@ -1,4 +1,4 @@
-package de.visualdigits.hybridxml.model.rss
+package de.visualdigits.hybridxml.model.newsfeed.rss
 
 import com.fasterxml.jackson.annotation.JsonProperty
 import com.fasterxml.jackson.dataformat.xml.annotation.JacksonXmlElementWrapper
@@ -29,5 +29,5 @@ class Channel(
     val docs: String? = null,
     val ttl: Int? = null,
     val itemRefs: List<String> = listOf(),
-    @field:JacksonXmlElementWrapper(useWrapping = false) @JsonProperty("item") val items: List<Item> = listOf()
+    @field:JacksonXmlElementWrapper(useWrapping = false) @JsonProperty("item") val items: List<Item>? = null
 ) : BaseNode<Channel>()

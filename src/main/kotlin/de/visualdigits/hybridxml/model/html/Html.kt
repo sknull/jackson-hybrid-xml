@@ -24,6 +24,25 @@ class Html(
 
     companion object {
 
+        /**
+         * Converts this node tree back to a jsoup tree
+         */
+        fun convertToDocument(node: PolymorphicNode<*>): Node? {
+
+            // first dive into the tree to make sure we have processed all children for the given node
+            val children = node.children.mapNotNull { child -> convertToDocument(child as PolymorphicNode) }
+
+            // now process the given node using the children obtained above - this is the branch up from the recursion
+            return when (node.label) {
+                TagName.CDATA.label -> node.text?.let{ t -> CDataNode(t) }
+                TagName.TEXT.label -> node.text?.let{ t -> TextNode(t) }
+                TagName.COMMENT.label -> node.text?.let{ t -> Comment(t) }
+                else -> Element(node.label).appendChildren(children)
+            }?.also { elem ->
+                node.attributes.forEach { (k, v) -> elem.attr(k, v?:"") }
+            }
+        }
+
         fun parseHtml(
             html: String,
             rootNodeName: String? = null,

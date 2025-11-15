@@ -8,10 +8,9 @@
         </head>
         <body>
           <!--this is a comment-->
-          <div id="the-div" class="foo">
-            Hello World!
-          </div>
-        </body><![CDATA[data data and mor data]]>
+          <div id="the-div" class="foo">Hello World!</div>
+        </body>
+        <![CDATA[data data and mor data]]>
       </html>
     </description>
   </subDemo>

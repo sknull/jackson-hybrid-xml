@@ -3,7 +3,6 @@ package de.visualdigits.hybridxml.module.serializer
 import com.fasterxml.jackson.core.JsonGenerator
 import com.fasterxml.jackson.databind.SerializerProvider
 import com.fasterxml.jackson.databind.ser.std.StdSerializer
-import de.visualdigits.hybridxml.model.html.Html
 import de.visualdigits.hybridxml.model.html.Html.Companion.convertToDocument
 import de.visualdigits.hybridxml.model.polymorphic.PolymorphicNode
 import org.jsoup.nodes.Document

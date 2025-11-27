@@ -188,13 +188,12 @@ class Html(
 
         private fun String.trimLineBreaks(): String {
             return this
+                .replace("\r\n", "")
                 .replace("\r", "")
                 .replace("\n", "")
-                .replace("\r\n", "")
+                .replace("\\r\\n", "")
                 .replace("\\r", "")
                 .replace("\\n", "")
-                .replace("\\r\\n", "")
-                .trim()
         }
     }
 }

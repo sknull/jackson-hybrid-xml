@@ -25,7 +25,7 @@ class OffsetDateTimeDeserializer() : JsonDeserializer<OffsetDateTime>() {
 
     private fun parseDateTimeWithWeekday(text: String): OffsetDateTime? {
         return try {
-            val temporal = DateTimeFormatter.ofPattern("EEE, dd MMM YYYY HH:mm:ss Z", Locale.US).parse(text)
+            val temporal = DateTimeFormatter.ofPattern("EEE, d MMM YYYY HH:mm:ss Z", Locale.US).parse(text)
             val offset = ZoneOffset.from(temporal)
             val localTime = temporal.query(TemporalQueries.localTime())
             val year = temporal[WeekFields.SUNDAY_START.weekBasedYear()]

@@ -1,10 +1,11 @@
-package de.visualdigits.hybridxml.model.namespaces
+package de.visualdigits.hybridxml.module.common
 
 import com.fasterxml.jackson.core.ObjectCodec
 import com.fasterxml.jackson.core.io.IOContext
 import com.fasterxml.jackson.dataformat.xml.XmlNameProcessor
 import com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator
 import com.fasterxml.jackson.dataformat.xml.util.StaxUtil
+import de.visualdigits.hybridxml.module.namespaces.serializer.NamespaceAwarePrettyPrinter
 import javax.xml.stream.XMLStreamException
 import javax.xml.stream.XMLStreamWriter
 

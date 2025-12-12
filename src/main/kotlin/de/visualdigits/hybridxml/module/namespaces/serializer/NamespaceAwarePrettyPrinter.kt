@@ -1,7 +1,8 @@
-package de.visualdigits.hybridxml.model.namespaces
+package de.visualdigits.hybridxml.module.namespaces.serializer
 
 import com.fasterxml.jackson.core.JsonGenerator
 import com.fasterxml.jackson.dataformat.xml.util.DefaultXmlPrettyPrinter
+import de.visualdigits.hybridxml.module.common.ToXmlGenerator
 
 class NamespaceAwarePrettyPrinter(): DefaultXmlPrettyPrinter() {
 

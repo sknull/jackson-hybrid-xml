@@ -1,4 +1,4 @@
-package de.visualdigits.hybridxml.model.namespaces
+package de.visualdigits.hybridxml.module.namespaces.serializer
 
 import com.fasterxml.jackson.core.JsonGenerator
 import com.fasterxml.jackson.databind.JsonMappingException
@@ -6,6 +6,9 @@ import com.fasterxml.jackson.databind.SerializerProvider
 import com.fasterxml.jackson.databind.ser.BeanPropertyWriter
 import com.fasterxml.jackson.databind.ser.std.BeanSerializerBase
 import com.fasterxml.jackson.dataformat.xml.ser.XmlBeanSerializer
+import de.visualdigits.hybridxml.model.namespaces.XmlNamespaces
+import de.visualdigits.hybridxml.model.namespaces.XmlSchema
+import de.visualdigits.hybridxml.module.common.ToXmlGenerator
 import kotlin.reflect.full.findAnnotations
 
 class XmlNamespacesSerializer(

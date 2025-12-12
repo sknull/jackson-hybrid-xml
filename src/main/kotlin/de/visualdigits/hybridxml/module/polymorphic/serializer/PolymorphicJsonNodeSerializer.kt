@@ -1,9 +1,9 @@
-package de.visualdigits.hybridxml.module.serializer
+package de.visualdigits.hybridxml.module.polymorphic.serializer
 
 import com.fasterxml.jackson.core.JsonGenerator
 import com.fasterxml.jackson.databind.SerializerProvider
 import com.fasterxml.jackson.databind.ser.std.StdSerializer
-import de.visualdigits.hybridxml.model.html.Html.Companion.convertToDocument
+import de.visualdigits.hybridxml.model.html.Html
 import de.visualdigits.hybridxml.model.polymorphic.PolymorphicNode
 import org.jsoup.nodes.Document
 
@@ -17,7 +17,7 @@ class PolymorphicJsonNodeSerializer(
 
     override fun serialize(node: PolymorphicNode<*>, gen: JsonGenerator, provider: SerializerProvider) {
         val polymorphicNode = (if (dropRootNode) node.children.first() else node) as PolymorphicNode<*>
-        val rootElement = convertToDocument(polymorphicNode)
+        val rootElement = Html.convertToDocument(polymorphicNode)
         rootElement?.also { elem ->
             val document = Document("")
             document.appendChild(elem)

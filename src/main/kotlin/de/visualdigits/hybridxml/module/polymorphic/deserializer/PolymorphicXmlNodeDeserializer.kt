@@ -1,4 +1,4 @@
-package de.visualdigits.hybridxml.module.deserializer
+package de.visualdigits.hybridxml.module.polymorphic.deserializer
 
 import com.fasterxml.jackson.core.JsonParser
 import com.fasterxml.jackson.databind.DeserializationContext

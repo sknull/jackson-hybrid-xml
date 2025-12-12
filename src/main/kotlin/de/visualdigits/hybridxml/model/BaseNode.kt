@@ -12,16 +12,15 @@ import com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator
 import com.fasterxml.jackson.datatype.jsr310.JavaTimeModule
 import com.fasterxml.jackson.module.kotlin.jacksonMapperBuilder
 import com.fasterxml.jackson.module.kotlin.kotlinModule
-import de.visualdigits.hybridxml.model.namespaces.NamespaceAwarePrettyPrinter
-import de.visualdigits.hybridxml.model.namespaces.XmlFactory
-import de.visualdigits.hybridxml.model.namespaces.XmlNamespacesSerializerModifier
 import de.visualdigits.hybridxml.model.polymorphic.PolymorphicNode
-import de.visualdigits.hybridxml.module.deserializer.OffsetDateTimeDeserializer
-import de.visualdigits.hybridxml.module.deserializer.PolymorphicJsonNodeDeserializer
-import de.visualdigits.hybridxml.module.deserializer.PolymorphicXmlNodeDeserializer
-import de.visualdigits.hybridxml.module.serializer.ConfigurableSpacesIndenter
-import de.visualdigits.hybridxml.module.serializer.PolymorphicJsonNodeSerializer
-import de.visualdigits.hybridxml.module.serializer.PolymorphicXmlNodeSerializer
+import de.visualdigits.hybridxml.module.common.XmlFactory
+import de.visualdigits.hybridxml.module.common.XmlNodeSerializerModifier
+import de.visualdigits.hybridxml.module.namespaces.serializer.NamespaceAwarePrettyPrinter
+import de.visualdigits.hybridxml.module.polymorphic.deserializer.OffsetDateTimeDeserializer
+import de.visualdigits.hybridxml.module.polymorphic.deserializer.PolymorphicJsonNodeDeserializer
+import de.visualdigits.hybridxml.module.polymorphic.deserializer.PolymorphicXmlNodeDeserializer
+import de.visualdigits.hybridxml.module.polymorphic.serializer.ConfigurableSpacesIndenter
+import de.visualdigits.hybridxml.module.polymorphic.serializer.PolymorphicJsonNodeSerializer
 import org.apache.commons.text.StringEscapeUtils
 import org.jsoup.nodes.Element
 import java.io.File
@@ -275,20 +274,14 @@ open class BaseNode<T : BaseNode<T>>(
         printer.indentObjectsWith(indenter)
         indent()
 
-        val serializer = PolymorphicXmlNodeSerializer(indentAmount, writeHtmlDeclaration)
+        val modifier = XmlNodeSerializerModifier(indentAmount, writeHtmlDeclaration)
         val xml = xmlMapperBuilder(indentOutput, writeXmlDeclaration)
-            .addModule(
-                SimpleModule()
-                    .addSerializer(PolymorphicNode::class.java, serializer)
-            )
-            .addModule(
-                SimpleModule().setSerializerModifier(XmlNamespacesSerializerModifier())
-            )
+            .addModule(SimpleModule().setSerializerModifier(modifier))
             .build()
             .writeValueAsString(this)
             .replace("\r\n", "\n")
             .replace("\r", "\n")
-        return if (serializer.needsPreprocessing) StringEscapeUtils.unescapeXml(xml) else xml
+        return if (modifier.polymorphicXmlNodeSerializer?.needsPreprocessing == true) StringEscapeUtils.unescapeXml(xml) else xml
     }
 
     /**

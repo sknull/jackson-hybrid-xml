@@ -1,4 +1,4 @@
-package de.visualdigits.hybridxml.module.serializer
+package de.visualdigits.hybridxml.module.polymorphic.serializer
 
 import com.fasterxml.jackson.core.JsonGenerator
 import com.fasterxml.jackson.dataformat.xml.util.DefaultXmlPrettyPrinter

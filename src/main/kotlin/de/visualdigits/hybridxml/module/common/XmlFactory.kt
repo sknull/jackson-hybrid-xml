@@ -1,4 +1,4 @@
-package de.visualdigits.hybridxml.model.namespaces
+package de.visualdigits.hybridxml.module.common
 
 import com.fasterxml.jackson.core.PrettyPrinter
 import com.fasterxml.jackson.core.io.IOContext

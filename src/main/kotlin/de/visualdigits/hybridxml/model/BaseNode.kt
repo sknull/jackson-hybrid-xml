@@ -9,10 +9,12 @@ import com.fasterxml.jackson.databind.json.JsonMapper
 import com.fasterxml.jackson.databind.module.SimpleModule
 import com.fasterxml.jackson.dataformat.xml.XmlMapper
 import com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator
-import com.fasterxml.jackson.dataformat.xml.util.DefaultXmlPrettyPrinter
 import com.fasterxml.jackson.datatype.jsr310.JavaTimeModule
 import com.fasterxml.jackson.module.kotlin.jacksonMapperBuilder
 import com.fasterxml.jackson.module.kotlin.kotlinModule
+import de.visualdigits.hybridxml.model.namespaces.NamespaceAwarePrettyPrinter
+import de.visualdigits.hybridxml.model.namespaces.XmlFactory
+import de.visualdigits.hybridxml.model.namespaces.XmlNamespacesSerializerModifier
 import de.visualdigits.hybridxml.model.polymorphic.PolymorphicNode
 import de.visualdigits.hybridxml.module.deserializer.OffsetDateTimeDeserializer
 import de.visualdigits.hybridxml.module.deserializer.PolymorphicJsonNodeDeserializer
@@ -45,6 +47,8 @@ open class BaseNode<T : BaseNode<T>>(
 
     companion object {
 
+        val printer = NamespaceAwarePrettyPrinter()
+
         /**
          * Internal method to create the builder.
          * Must be public to be usable within public inline methods below.
@@ -52,12 +56,12 @@ open class BaseNode<T : BaseNode<T>>(
         fun xmlMapperBuilder(indentOutput: Boolean = true, writeXmlDeclaration: Boolean = true): XmlMapper.Builder {
             // The builder must be created on every call as otherwise the hybrid module would be not replaced
             // on subsequent calls.
-            val xmlMapperBuilder = XmlMapper.builder()
+            val xmlMapperBuilder = XmlMapper.builder(XmlFactory(printer))
                 .enable(MapperFeature.ACCEPT_CASE_INSENSITIVE_PROPERTIES)
                 .enable(DeserializationFeature.ACCEPT_SINGLE_VALUE_AS_ARRAY)
                 .disable(SerializationFeature.WRITE_DATES_AS_TIMESTAMPS) // ISODate
                 .disable(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES)
-                .serializationInclusion(JsonInclude.Include.NON_EMPTY)
+                .defaultPropertyInclusion(JsonInclude.Value.construct(JsonInclude.Include.NON_EMPTY, JsonInclude.Include.NON_EMPTY))
                 .addModule(kotlinModule())
                 .addModule(JavaTimeModule().addDeserializer(OffsetDateTime::class.java, OffsetDateTimeDeserializer()))
                 .disable(ToXmlGenerator.Feature.WRITE_XML_DECLARATION)
@@ -90,7 +94,7 @@ open class BaseNode<T : BaseNode<T>>(
                 .enable(DeserializationFeature.ACCEPT_SINGLE_VALUE_AS_ARRAY)
                 .disable(SerializationFeature.WRITE_DATES_AS_TIMESTAMPS) // ISODate
                 .disable(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES)
-                .serializationInclusion(JsonInclude.Include.NON_EMPTY)
+                .defaultPropertyInclusion(JsonInclude.Value.construct(JsonInclude.Include.NON_EMPTY, JsonInclude.Include.NON_EMPTY))
                 .addModule(kotlinModule())
                 .addModule(JavaTimeModule())
 
@@ -267,7 +271,6 @@ open class BaseNode<T : BaseNode<T>>(
         writeXmlDeclaration: Boolean = true,
         writeHtmlDeclaration: Boolean = false
     ): String {
-        val printer = DefaultXmlPrettyPrinter()
         val indenter = ConfigurableSpacesIndenter(indentAmount)
         printer.indentObjectsWith(indenter)
         indent()
@@ -278,8 +281,10 @@ open class BaseNode<T : BaseNode<T>>(
                 SimpleModule()
                     .addSerializer(PolymorphicNode::class.java, serializer)
             )
+            .addModule(
+                SimpleModule().setSerializerModifier(XmlNamespacesSerializerModifier())
+            )
             .build()
-            .writer(printer)
             .writeValueAsString(this)
             .replace("\r\n", "\n")
             .replace("\r", "\n")

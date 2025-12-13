@@ -5,7 +5,7 @@ import com.fasterxml.jackson.databind.JsonSerializer
 import com.fasterxml.jackson.databind.SerializationConfig
 import com.fasterxml.jackson.databind.ser.BeanSerializerModifier
 import com.fasterxml.jackson.databind.ser.std.BeanSerializerBase
-import de.visualdigits.hybridxml.model.BaseNode
+import de.visualdigits.hybridxml.model.objectnode.ObjectNode
 import de.visualdigits.hybridxml.model.polymorphic.PolymorphicNode
 import de.visualdigits.hybridxml.module.namespaces.serializer.XmlNamespacesSerializer
 import de.visualdigits.hybridxml.module.polymorphic.serializer.PolymorphicXmlNodeSerializer
@@ -30,7 +30,7 @@ class XmlNodeSerializerModifier(
                 writeHtmlDeclaration
             )
             JsonSerializerWrapper<Any>(this.polymorphicXmlNodeSerializer!!)
-        } else if (BaseNode::class.java.isAssignableFrom(beanDesc.beanClass)) {
+        } else if (ObjectNode::class.java.isAssignableFrom(beanDesc.beanClass)) {
             JsonSerializerWrapper<Any>(
                 XmlNamespacesSerializer(
                     serializer as BeanSerializerBase

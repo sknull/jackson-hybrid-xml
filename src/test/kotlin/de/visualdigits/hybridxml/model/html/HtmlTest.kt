@@ -1,6 +1,5 @@
 package de.visualdigits.hybridxml.model.html
 
-import org.junit.jupiter.api.Assertions.*
 import org.junit.jupiter.api.Test
 
 class HtmlTest {
@@ -25,6 +24,6 @@ class HtmlTest {
 <p>Die Landesverbände in Schleswig-Holstein, Niedersachsen und Hamburg sagen auf Anfrage, dass in ihren Bundesländern bisher keine Gespräche mit der AfD geführt wurden - der Landesverband in Mecklenburg-Vorpommern war nicht erreichbar. Dort ist die AfD nach aktuellen Umfragen stärkste politische Kraft - in weniger als einem Jahr wird ein neuer Landtag gewählt.</p></div>
 """
         val html = Html.parseHtml(htmlRaw)
-        println(html?.writeValueAsString(indentOutput = true, writeXmlDeclaration = false))
+        println(html?.writeXmlValue(indentOutput = true, writeXmlDeclaration = false))
     }
 }

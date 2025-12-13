@@ -1,11 +1,11 @@
 package de.visualdigits.hybridxml.model.html
 
-import de.visualdigits.hybridxml.model.BaseNode
+import de.visualdigits.hybridxml.model.polymorphic.PolymorphicNode
 import de.visualdigits.hybridxml.model.polymorphic.Inline
 
 class B(
     attributes: MutableMap<String, String?> = mutableMapOf(),
-    parent: BaseNode<*>? = null,
+    parent: PolymorphicNode<*>? = null,
     children: MutableList<HtmlNode<*>> = mutableListOf()
 ) : HtmlNode<B>(
     label = "b",

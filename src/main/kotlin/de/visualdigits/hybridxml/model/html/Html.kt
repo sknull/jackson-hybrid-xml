@@ -1,19 +1,15 @@
 package de.visualdigits.hybridxml.model.html
 
-import de.visualdigits.hybridxml.model.BaseNode
 import de.visualdigits.hybridxml.model.polymorphic.PolymorphicNode
 import de.visualdigits.hybridxml.model.polymorphic.TagName
 import org.jsoup.Jsoup
-import org.jsoup.nodes.CDataNode
+import org.jsoup.nodes.*
 import org.jsoup.nodes.Comment
-import org.jsoup.nodes.Element
-import org.jsoup.nodes.Node
-import org.jsoup.nodes.TextNode
 import org.jsoup.parser.Parser
 
 class Html(
     attributes: MutableMap<String, String?> = mutableMapOf(),
-    parent: BaseNode<*>? = null,
+    parent: PolymorphicNode<*>? = null,
     children: MutableList<HtmlNode<*>> = mutableListOf()
 ) : HtmlNode<Html>(
     label = "html",
@@ -30,7 +26,7 @@ class Html(
         fun convertToDocument(node: PolymorphicNode<*>): Node? {
 
             // first dive into the tree to make sure we have processed all children for the given node
-            val children = node.children.mapNotNull { child -> convertToDocument(child as PolymorphicNode) }
+            val children = node.children.mapNotNull { child -> convertToDocument(child) }
 
             // now process the given node using the children obtained above - this is the branch up from the recursion
             return when (node.label) {

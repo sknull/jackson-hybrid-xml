@@ -1,6 +1,5 @@
 package de.visualdigits.hybridxml.model.html
 
-import de.visualdigits.hybridxml.model.BaseNode
 import de.visualdigits.hybridxml.model.polymorphic.PolymorphicNode
 
 /**
@@ -10,7 +9,7 @@ import de.visualdigits.hybridxml.model.polymorphic.PolymorphicNode
 open class HtmlNode<T : HtmlNode<T>>(
     label: String,
     attributes: MutableMap<String, String?> = mutableMapOf(),
-    parent: BaseNode<*>? = null,
+    parent: PolymorphicNode<*>? = null,
     children: MutableList<HtmlNode<*>> = mutableListOf(),
     text: String? = null
 ) : PolymorphicNode<T>(
@@ -24,14 +23,13 @@ open class HtmlNode<T : HtmlNode<T>>(
     /**
      * Returns a deep copy of this polymorphic node.
      */
-    override fun clone(
-    ): T {
+    override fun clone(): T {
         val clonedChildren = this.children.map { c -> c.clone() }
         return HtmlNode(
             label = label,
             attributes = attributes.toMutableMap(),
             text = text
-        ).withChildren(*clonedChildren.toTypedArray<BaseNode<*>>()) as T
+        ).withChildren(*clonedChildren.toTypedArray<PolymorphicNode<*>>()) as T
     }
 
 }

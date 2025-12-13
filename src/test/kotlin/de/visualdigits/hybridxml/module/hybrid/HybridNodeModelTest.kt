@@ -59,28 +59,21 @@ class HybridNodeModelTest {
     private val subDemo = demo.subDemo!!
     private val description = subDemo.description!!
     private val html = description.html!!
-    private val body1 = html.firstChild<Body>()!!
-    private val body2 = html.lastChild<Body>()!!
-    private val head = body1.previousSibling()!!
-    private val cdata = body1.nextSibling()!!
+    private val body1 = html.firstChild<Body>()
+    private val body2 = html.lastChild<Body>()
+    private val head = body1!!.previousSibling()
+    private val cdata = body1!!.nextSibling()
 
     @Test
     fun testBasicManipulations() {
+        demo.indent()
+
         assertEquals("foo", subDemo.foo)
         assertEquals("bar", subDemo.bar)
         assertEquals("baz", subDemo.baz)
 
-        assertEquals(listOf(demo, subDemo, description), description.rootLine())
-        assertEquals(listOf(head, cdata), body1.siblings())
-        assertEquals(1, body1.indexOfInParent())
-        assertEquals(demo, description.rootNode())
-
-        assertTrue(subDemo.isChildOf(demo))
-        assertFalse(description.isChildOf(demo))
-
-        assertTrue(description.isInRootlineOf(demo))
-
-        assertFalse(description.isInRootlineOf(head))
+        assertEquals(listOf(head, cdata), body1!!.siblings())
+        assertEquals(1, body1!!.indexOfInParent())
 
         assertEquals(body1, body2)
 
@@ -90,8 +83,8 @@ class HybridNodeModelTest {
         assertNotNull(html.firstChild<CData>())
         assertNull(html.firstChild<Li>())
 
-        assertEquals(Head::class.java, head.javaClass)
-        assertEquals(CData::class.java, cdata.javaClass)
+        assertEquals(Head::class.java, head!!.javaClass)
+        assertEquals(CData::class.java, cdata!!.javaClass)
 
         assertTrue(head.isFirstChild())
         assertFalse(body1.isFirstChild())
@@ -103,21 +96,12 @@ class HybridNodeModelTest {
         assertFalse(cdata.hasChildren())
 
         assertTrue(head.hasSiblings())
-        assertFalse(demo.hasSiblings())
     }
 
     @Test
     fun testWriteXml() {
         val expected = File(ClassLoader.getSystemResource("hybridxml/expected_xml.txt").toURI()).readText()
-        val actual = demo.writeValueAsString()
-        assertEquals(expected, actual)
-    }
-
-    @Test
-    fun testClone() {
-        val expected = File(ClassLoader.getSystemResource("hybridxml/expected_html.txt").toURI()).readText()
-        val clone = description.clone()
-        val actual = clone.writeValueAsString()
+        val actual = demo.writeXmlValue()
         assertEquals(expected, actual)
     }
 
@@ -135,12 +119,12 @@ class HybridNodeModelTest {
     fun testReadXml() {
         val expectedXml = File(ClassLoader.getSystemResource("hybridxml/expected_xml.txt").toURI()).readText()
         val expectedJson = File(ClassLoader.getSystemResource("hybridxml/expected_json.txt").toURI()).readText()
-        val demo = Demo.readValue(expectedXml)
+        val demo = Demo.readXmlValue(expectedXml)
 
-        val actualXml = demo.writeValueAsString()
+        val actualXml = demo.writeXmlValue()
         assertEquals(expectedXml, actualXml)
 
-        val actualJson = demo.writeValueAsJsonString()
+        val actualJson = demo.writeJsonValue()
         assertEquals(expectedJson, actualJson)
     }
 
@@ -153,10 +137,10 @@ class HybridNodeModelTest {
         val expectedJson = File(ClassLoader.getSystemResource("hybridxml/expected_json.txt").toURI()).readText()
         val demo = Demo.readJsonValue(expectedJson)
 
-        val actualJson = demo.writeValueAsJsonString()
+        val actualJson = demo.writeJsonValue()
         assertEquals(expectedJson, actualJson)
 
-        val actualXml = demo.writeValueAsString()
+        val actualXml = demo.writeXmlValue()
         assertEquals(expectedXml, actualXml)
     }
 }

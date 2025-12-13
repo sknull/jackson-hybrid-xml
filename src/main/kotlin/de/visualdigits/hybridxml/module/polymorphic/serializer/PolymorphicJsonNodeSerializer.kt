@@ -16,7 +16,7 @@ class PolymorphicJsonNodeSerializer(
 ) : StdSerializer<PolymorphicNode<*>>(PolymorphicNode::class.java) {
 
     override fun serialize(node: PolymorphicNode<*>, gen: JsonGenerator, provider: SerializerProvider) {
-        val polymorphicNode = (if (dropRootNode) node.children.first() else node) as PolymorphicNode<*>
+        val polymorphicNode = if (dropRootNode) node.children.first() else node
         val rootElement = Html.convertToDocument(polymorphicNode)
         rootElement?.also { elem ->
             val document = Document("")

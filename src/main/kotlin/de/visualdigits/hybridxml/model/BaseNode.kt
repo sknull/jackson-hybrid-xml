@@ -147,7 +147,7 @@ abstract class BaseNode {
 
     abstract fun indent(parent: BaseNode? = null, level: Int = 0)
 
-    fun postProcessTree() {
+    open fun postProcessTree() {
         // nothing to do
     }
 }
